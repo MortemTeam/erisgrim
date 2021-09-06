@@ -2813,5 +2813,6 @@
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
 #include "MORTEM\grain_by_sanity\grain.dm"
+#include "MORTEM\grim_hud\hud.dm"
 #include "MORTEM\grim_light\light.dm"
 // END_INCLUDE
