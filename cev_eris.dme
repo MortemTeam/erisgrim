@@ -2817,5 +2817,6 @@
 #include "MORTEM\grain_by_sanity\grain.dm"
 #include "MORTEM\grim_hud\hud.dm"
 #include "MORTEM\grim_light\light.dm"
+#include "MORTEM\optimize_light\light.dm"
 #include "MORTEM\smooth_animation\door.dm"
 // END_INCLUDE
