@@ -9,8 +9,8 @@
 /proc/turbulence()
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		spawn(0)
-			H.Weaken(TURBULENCE / 2)
-			shake_camera(H, TURBULENCE * 1 SECONDS, 3)
+			H.Weaken(TURBULENCE)
+			shake_camera(H, TURBULENCE * 1 SECONDS, 2)
 			playsound(H, 'MORTEM/crash_event/crash.mp3', 66, 1)
 
 /proc/light_flicking()
