@@ -1,6 +1,8 @@
-#define GRIM_RED   "#550000"
-#define GRIM_GREEN "#005500"
-#define GRIM_BLUE  "#000055"
+#define GRIM_RED    "#550000"
+#define GRIM_GREEN  "#005500"
+#define GRIM_BLUE   "#000055"
+#define GRIM_ORANGE "#663300"
+#define GRIM_YELLOW "#666600"
 
 /atom/set_light(l_range, l_power, l_color=COLOR_LIGHTING_MAINT_DARK)
 	if(l_range > 0 && l_range < MINIMUM_USEFUL_LIGHT_RANGE)
@@ -8,7 +10,7 @@
 
 	if(l_range != null) light_range = l_range
 	if(l_power != null) light_power = l_power
-	light_color = l_color
+	if(l_color != COLOR_LIGHTING_MAINT_DARK) light_color = l_color
 
 	update_light()
 
@@ -36,6 +38,28 @@ obj/machinery/light/set_blue()
 		return
 
 	if(!(stat & (BROKEN|MAINT)) && update_state & UPDATE_ALLGOOD)
-		var/color = list(0 = GRIM_RED, 1 = GRIM_BLUE, 2 = GRIM_GREEN)[charging]
+		var/color
+		switch(charging)
+			if(0)
+				color = GRIM_RED
+			if(1)
+				color = GRIM_BLUE
+			if(2)
+				color = GRIM_GREEN
 		set_light(l_range, l_power, color)
 		return
+
+/obj/item/device/lighting/glowstick/flare
+	light_color = GRIM_RED
+
+/obj/item/device/lighting/glowstick/red
+	light_color = GRIM_RED
+
+/obj/item/device/lighting/glowstick/blue
+	light_color = GRIM_BLUE
+
+/obj/item/device/lighting/glowstick/orange
+	light_color = GRIM_ORANGE
+
+/obj/item/device/lighting/glowstick/yellow
+	light_color = GRIM_YELLOW
