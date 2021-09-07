@@ -1,7 +1,7 @@
 #define TURBULENCE 30
 #define FLICK_LIGHT 10 MINUTES
 #define APC_EXPLODING 5 MINUTES
-#define EXPLODE_COUNT 40 SECONDS
+#define EXPLODE_COUNT 40
 
 /proc/announce()
 	command_announcement.Announce("Ship's propulsion functions are affected, keep calm and prepare to landing.", "Distress Signal")
@@ -11,22 +11,24 @@
 		spawn(0)
 			H.Weaken(TURBULENCE)
 			shake_camera(H, TURBULENCE * 1 SECONDS, 2)
-			playsound(H, 'MORTEM/crash_event/crash.mp3', 66, 1)
+			playsound(H, 'MORTEM/crash_event/crash.mp3', 100, 1)
 
 /proc/light_flicking()
 	var/start_time = world.time
 
 	var/list_of_light = list()
 	for(var/obj/machinery/light/L in SSmachines.processing.Copy())
-		L.set_red()
-		list_of_light += L
+		if(L.z in list(1,2,3,4,5))
+			L.set_red()
+			list_of_light += L
 
 	while(start_time + FLICK_LIGHT > world.time)
 		for(var/obj/machinery/light/L as() in list_of_light)
-			if(prob(10))
+			if(prob(50))
 				L.on = !L.on
+				L.switchcount = 0
 				L.update()
-		sleep(1 SECONDS)
+		sleep(5 SECONDS)
 
 	for(var/obj/machinery/light/L as() in list_of_light)
 		L.reset_color()
@@ -34,6 +36,19 @@
 		L.update()
 
 /proc/explode_apc()
+	var/start_time = world.time
+	var/sleep_time = APC_EXPLODING / EXPLODE_COUNT
+
+	var/list_of_apc = list()
+	for(var/obj/machinery/power/apc/A in SSmachines.processing.Copy())
+		if(A.z in list(1,2,3,4,5))
+			list_of_apc += A
+
+	while(start_time + APC_EXPLODING > world.time)
+		var/obj/machinery/power/apc/A = pick(list_of_apc)
+		explosion(A, 0, 1, 3)
+		sleep(sleep_time)
+
 
 /datum/controller/subsystem/ticker
 	round_start_events = list(
