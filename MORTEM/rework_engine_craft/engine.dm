@@ -12,8 +12,8 @@
 		/obj/item/stock_parts/capacitor/super = 5
 	)
 
-/obj/machinery/atmospherics/unary/engine
-	price_tag = rand(35000, 50000)
+/obj/machinery/atmospherics/unary/engine/get_item_cost()
+	return rand(35000, 50000)
 
 /datum/nano_module/program/trade/ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = NANOUI_FOCUS, state = GLOB.default_state)
 	var/list/data = ui_data()
