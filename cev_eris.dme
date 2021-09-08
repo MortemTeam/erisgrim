@@ -2813,6 +2813,7 @@
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
 #include "MORTEM\crash_event\event.dm"
+#include "MORTEM\endgame_condition\endgame.dm"
 #include "MORTEM\fire_only_on_LCM\fire.dm"
 #include "MORTEM\grain_by_sanity\grain.dm"
 #include "MORTEM\grim_hud\hud.dm"
