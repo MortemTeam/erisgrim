@@ -59,6 +59,7 @@
 	)
 
 /datum/controller/subsystem/ticker/setup()
+	to_chat(world, "<span class='boldannounce'>Starting game...</span>")
 	var/init_start = world.timeofday
 	//Create and announce mode
 
@@ -115,7 +116,8 @@
 
 	// no, block the main thread.
 	GLOB.storyteller.set_up()
-
+	to_chat(world, "<FONT color='blue'><B>Enjoy the game!</B></FONT>")
+	//SEND_SOUND(world, sound('sound/AI/welcome.ogg')) // Skie
 	//Holiday Round-start stuff	~Carn
 	Holiday_Game_Start()
 
