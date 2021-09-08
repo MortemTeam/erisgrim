@@ -2818,6 +2818,7 @@
 #include "MORTEM\grim_hud\hud.dm"
 #include "MORTEM\grim_light\light.dm"
 #include "MORTEM\optimize_light\light.dm"
+#include "MORTEM\rework_engine_craft\engine.dm"
 #include "MORTEM\rework_sanity\sanity.dm"
 #include "MORTEM\smooth_animation\door.dm"
 // END_INCLUDE
