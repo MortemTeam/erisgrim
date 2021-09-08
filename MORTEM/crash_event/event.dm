@@ -8,10 +8,11 @@
 
 /proc/turbulence()
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
-		spawn(0)
-			H.Weaken(TURBULENCE)
-			shake_camera(H, TURBULENCE * 1 SECONDS, 2)
-			playsound(H, 'MORTEM/crash_event/crash.mp3', 100, 1)
+		if(H.z in list(1,2,3,4,5))
+			spawn(0)
+				H.Weaken(TURBULENCE)
+				shake_camera(H, TURBULENCE * 1 SECONDS, 2)
+				playsound(H, 'MORTEM/crash_event/crash.mp3', 100, 1)
 
 /proc/light_flicking()
 	var/start_time = world.time
