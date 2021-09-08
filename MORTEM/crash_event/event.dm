@@ -1,7 +1,7 @@
-#define TURBULENCE 30
-#define FLICK_LIGHT 10 MINUTES
+#define TURBULENCE 35
+#define FLICK_LIGHT 5 MINUTES
 #define APC_EXPLODING 5 MINUTES
-#define EXPLODE_COUNT 40
+#define EXPLODE_COUNT 20
 
 /proc/announce()
 	command_announcement.Announce("Ship's propulsion functions are affected, keep calm and prepare to landing.", "Distress Signal")
@@ -25,15 +25,15 @@
 	while(start_time + FLICK_LIGHT > world.time)
 		for(var/obj/machinery/light/L as() in list_of_light)
 			if(prob(50))
-				L.on = !L.on
-				L.switchcount = 0
-				L.update()
+				L.flick_light(3)
+				do_sparks(1, 0, L)
+
 		sleep(5 SECONDS)
 
 	for(var/obj/machinery/light/L as() in list_of_light)
-		L.reset_color()
 		L.on = TRUE
-		L.update()
+		L.reset_color()
+
 
 /proc/explode_apc()
 	var/start_time = world.time
@@ -58,7 +58,7 @@
 		CALLBACK(GLOBAL_PROC, /proc/explode_apc),
 	)
 
-datum/controller/subsystem/ticker/setup()
+/datum/controller/subsystem/ticker/setup()
 	var/init_start = world.timeofday
 	//Create and announce mode
 
