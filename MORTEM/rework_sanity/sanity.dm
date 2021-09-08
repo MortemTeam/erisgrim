@@ -1,9 +1,9 @@
-#define CONTEMPLATION 3
+#define CONTEMPLATION 2
 
 /mob/living/carbon/human/proc/check_nude()
-	return !(suit && unifrom)
+	return !(wear_suit  && w_uniform)
 
-/datum/sanity/proc/handle_view()
+/datum/sanity/handle_view()
 	. = 0
 	if(sanity_invulnerability)//Sorry, but that needed to be added here :C
 		for(var/mob/living/L in view(owner.client ? owner.client : owner))
@@ -25,4 +25,4 @@
 					. += SANITY_DAMAGE_VIEW(0.1, vig, get_dist(owner, A))
 
 			if(!owner.stats.getPerk(PERK_NIHILIST) && H.stat != DEAD && H.gender != owner.gender && H.check_nude())
-				. += CONTEMPLATION * (check_nude? 1.5 : 1)
+				. += CONTEMPLATION * (owner.check_nude()? 1.5 : 1)
