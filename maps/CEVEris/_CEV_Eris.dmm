@@ -18483,13 +18483,16 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/barracks)
 "aTO" = (
-/obj/structure/reagent_dispensers/watertank,
 /obj/machinery/atmospherics/unary/vent_pump/on{
 	dir = 8
 	},
 /obj/machinery/alarm{
 	dir = 8;
 	pixel_x = 24
+	},
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/barracks)
@@ -33501,6 +33504,11 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 8
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12;
+	pixel_y = 2
 	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/hydroponics)
@@ -76239,8 +76247,8 @@
 	},
 /obj/item/clothing/accessory/stethoscope,
 /obj/item/clothing/mask/muzzle,
-/obj/item/cane,
-/obj/item/cane,
+/obj/item/tool/cane,
+/obj/item/tool/cane,
 /obj/item/bodybag/cryobag{
 	pixel_x = 5
 	},
@@ -289267,7 +289275,7 @@ dKW
 dKY
 doR
 abF
-aae
+dZw
 dZw
 dZw
 dZw
@@ -289469,7 +289477,7 @@ dKX
 doR
 doR
 abF
-aae
+dZw
 dZx
 dZx
 dZx
@@ -289671,7 +289679,7 @@ doD
 doD
 abF
 abF
-aae
+dZw
 dZx
 dZx
 dZx
@@ -289873,7 +289881,7 @@ abF
 abF
 abF
 abF
-aae
+dZw
 dZy
 dZx
 dZx
@@ -290075,7 +290083,7 @@ abF
 abF
 abF
 abF
-aae
+dZw
 dZx
 dZx
 dZx
@@ -290277,7 +290285,7 @@ abF
 abF
 abF
 abF
-aae
+dZw
 dZx
 dZx
 dZx
@@ -290479,7 +290487,7 @@ doD
 abF
 abF
 abF
-aae
+dZw
 dZw
 dZw
 dZw
