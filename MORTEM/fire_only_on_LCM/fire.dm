@@ -16,12 +16,6 @@
 		return FALSE //As long as we're not clicking a hud object, we drop the click
 	return TRUE
 
-/datum/click_handler/fullauto/proc/shooting_loop()
-	if(target)
-		owner.mob.face_atom(target)
-		do_fire()
-		spawn(reciever.burst_delay) shooting_loop()
-
 /datum/click_handler/fullauto/MouseDown(object, location, control, params)
 	if(!findtext(params, "left=1"))
 		return FALSE
@@ -33,15 +27,4 @@
 	if(object)
 		target = object
 		shooting_loop()
-	return TRUE
-
-/datum/click_handler/fullauto/MouseDrag(over_object, src_location, over_location, src_control, over_control, params)
-	src_location = resolve_world_target(src_location)
-	if(src_location)
-		target = src_location
-		return FALSE
-	return TRUE
-
-/datum/click_handler/fullauto/MouseUp(object, location, control, params)
-	stop_firing()
 	return TRUE
