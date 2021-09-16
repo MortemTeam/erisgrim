@@ -25,9 +25,10 @@
 
 	while(start_time + FLICK_LIGHT > world.time)
 		for(var/obj/machinery/light/L as() in list_of_light)
-			if(prob(50))
+			for(var/x in viewers(world.view, L))
 				L.flick_light(3)
 				do_sparks(1, 0, L)
+				break
 
 		sleep(5 SECONDS)
 
