@@ -49,7 +49,7 @@ SUBSYSTEM_DEF(daynight)
 	var/lum_g = lightlevel * GetGreenPart(sky_color) / 255
 	var/lum_b = lightlevel * GetBluePart (sky_color) / 255
 
-	for(var/turf/T in world.z[3])
+	for(var/turf/T in block(locate(1,1,3),locate(world.maxx,world.maxy,3)))
 		if(istype(T.loc, /area/space))
 			if(!T.lighting_corners_initialised)
 				T.generate_missing_corners()
