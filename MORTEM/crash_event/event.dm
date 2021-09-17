@@ -25,7 +25,7 @@
 
 	while(start_time + FLICK_LIGHT > world.time)
 		for(var/obj/machinery/light/L as() in list_of_light)
-			for(var/x in viewers(world.view, L))
+			for(var/mob/living/carbon/human/H in viewers(world.view, L))
 				L.flick_light(3)
 				do_sparks(1, 0, L)
 				break
