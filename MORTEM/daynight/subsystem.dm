@@ -4,29 +4,30 @@ SUBSYSTEM_DEF(daynight)
 	flags = SS_BACKGROUND|SS_POST_FIRE_TIMING|SS_NO_INIT
 	wait = 10 MINUTES
 
-	var/hours = 0
+	var/sky_color = COLOR_DEEP_SKY_BLUE
+	var/hours = 11
 	var/lum_by_hours = list(
 		0 = 0,
 		1 = 0,
 		2 = 0,
 		3 = 0,
-		4 = 1.7,
-		5 = 3.4,
-		6 = 5.1,
-		7 = 6.8,
-		8 = 8.5,
-		9 = 10.2,
-		10 = 11.9,
-		11 = 13.6,
-		12 = 15.3,
-		13 = 13.6,
-		14 = 11.9,
-		15 = 10.2,
-		16 = 8.5,
-		17 = 6.8,
-		18 = 5.1,
-		19 = 3.4,
-		20 = 1.7,
+		4 = 0.1,
+		5 = 0.2,
+		6 = 0.3,
+		7 = 0.4,
+		8 = 0.5,
+		9 = 0.6,
+		10 = 0.7,
+		11 = 0.8,
+		12 = 0.9,
+		13 = 0.8,
+		14 = 0.7,
+		15 = 0.6,
+		16 = 0.5,
+		17 = 0.4,
+		18 = 0.3,
+		19 = 0.2,
+		20 = 0.1,
 		21 = 0,
 		22 = 0,
 		23 = 0,
@@ -40,5 +41,20 @@ SUBSYSTEM_DEF(daynight)
 	if(hours >= 24)
 		hours = 0
 
-/datum/controller/subsystem/daynight/proc/get_lumcount()
-	return lum_by_hours[hours]
+	var/lightlevel = lum_by_hours[hours]
+	if(!lightlevel)
+		return 0
+
+	var/lum_r = lightlevel * GetRedPart  (sky_color) / 255
+	var/lum_g = lightlevel * GetGreenPart(sky_color) / 255
+	var/lum_b = lightlevel * GetBluePart (sky_color) / 255
+
+	for(var/turf/T in world.z[3])
+		if(istype(T.loc, /area/space))
+			if(!T.lighting_corners_initialised)
+				T.generate_missing_corners()
+
+			for(var/datum/lighting_corner/LC as() in T.get_corners())
+				if(LC.active)
+					LC.update_lumcount(lum_r, lum_g, lum_b)
+		CHECK_TICK
