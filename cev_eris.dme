@@ -2825,5 +2825,6 @@
 #include "MORTEM\planetary_event\earthquake.dm"
 #include "MORTEM\rework_engine_craft\engine.dm"
 #include "MORTEM\rework_sanity\sanity.dm"
+#include "MORTEM\skyblocks\blocks.dm"
 #include "MORTEM\smooth_animation\door.dm"
 // END_INCLUDE
