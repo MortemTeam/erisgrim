@@ -7,39 +7,39 @@ SUBSYSTEM_DEF(daynight)
 	var/sky_color = COLOR_DEEP_SKY_BLUE
 	var/hours = 11
 	var/lum_by_hours = list(
-		0 = 0,
-		1 = 0,
-		2 = 0,
-		3 = 0,
-		4 = 0.1,
-		5 = 0.2,
-		6 = 0.3,
-		7 = 0.4,
-		8 = 0.5,
-		9 = 0.6,
-		10 = 0.7,
-		11 = 0.8,
-		12 = 0.9,
-		13 = 0.8,
-		14 = 0.7,
-		15 = 0.6,
-		16 = 0.5,
-		17 = 0.4,
-		18 = 0.3,
-		19 = 0.2,
-		20 = 0.1,
-		21 = 0,
-		22 = 0,
-		23 = 0,
-	)
+		0,   //1
+		0,   //2
+		0,   //3
+		0.1, //4
+		0.2, //5
+		0.3, //6
+		0.4, //7
+		0.5, //8
+		0.6, //9
+		0.7, //10
+		0.8, //11
+		0.9, //12
+		0.8, //13
+		0.7, //14
+		0.6, //15
+		0.5, //16
+		0.4, //17
+		0.3, //18
+		0.2, //19
+		0.1, //20
+		0,   //21
+		0,   //22
+		0,   //23
+		0    //24
+ 	)
 
 /datum/controller/subsystem/daynight/stat_entry()
 	..(hours)
 
 /datum/controller/subsystem/daynight/fire(resumed = 0)
 	hours += 1
-	if(hours >= 24)
-		hours = 0
+	if(hours > 24)
+		hours = 1
 
 	var/lightlevel = lum_by_hours[hours]
 	if(!lightlevel)
