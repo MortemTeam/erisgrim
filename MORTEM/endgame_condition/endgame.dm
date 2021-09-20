@@ -34,7 +34,7 @@
 
 	var/out = input("You really want escape? (This will end the round)", "End Round", "No") in list("Yes", "No")
 	if(out == "Yes")
-		SSvote.start_vote(/datum/poll/votemap)
+		SSticker.ship_was_nuked = TRUE //SSvote.start_vote(/datum/poll/votemap)
 		for(var/mob/living/carbon/human/H in GLOB.player_list)
 			if(H.z in list(1,2,3,4,5))
 				spawn(0)

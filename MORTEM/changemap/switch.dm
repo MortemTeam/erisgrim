@@ -37,16 +37,3 @@ ADMIN_VERB_ADD(/datum/admins/proc/changemap, R_ADMIN, TRUE)
 	var/datum/map_template/M = SSmapping.map_templates[input("Select map:","Change map",MT) as null|anything in MT]
 	if(M)
 		change_map(M)
-
-/datum/controller/subsystem/mapping
-	var/datum/map_template/default/using_map
-
-/datum/controller/subsystem/mapping/Initialize(start_timeofday)
-	..()
-	var/path = text2path(copytext(file2text("data/use_map"),1,-1))
-	if(path)
-		using_map = path
-	else
-		using_map = /datum/map_template/default/beach
-
-	using_map = new using_map
