@@ -30,7 +30,7 @@
 
 /obj/machinery/computer/helm/attack_hand(mob/user)
 	if(linked.get_total_thrust() < 50)
-		return to_chat(user, "Too little engine power for takeoff!")
+		return to_chat(user, SPAN_NOTICE("Too little engine power for takeoff!"))
 
 	var/out = input("You really want escape? (This will end the round)", "End Round", "No") in list("Yes", "No")
 	if(out == "Yes")
@@ -48,3 +48,6 @@
 
 		for(var/Z in list(1,2,3,4,5))
 			toggle_move_stars(Z)
+
+/obj/machinery/computer/shuttle_control/attack_hand(user as mob)
+	to_chat(user, SPAN_NOTICE("Unable to calibrate the navigator..."))

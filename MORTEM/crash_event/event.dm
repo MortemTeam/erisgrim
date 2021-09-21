@@ -24,11 +24,9 @@
 			list_of_light += L
 
 	while(start_time + FLICK_LIGHT > world.time)
-		for(var/obj/machinery/light/L as() in list_of_light)
-			for(var/mob/living/carbon/human/H in viewers(world.view, L))
-				L.flick_light(3)
-				do_sparks(1, 0, L)
-				break
+		var/obj/machinery/light/L = pick(list_of_light)
+		L.flick_light(5)
+		do_sparks(1, 0, L)
 
 		sleep(5 SECONDS)
 
@@ -57,7 +55,7 @@
 		CALLBACK(GLOBAL_PROC, /proc/announce),
 		CALLBACK(GLOBAL_PROC, /proc/turbulence),
 		CALLBACK(GLOBAL_PROC, /proc/light_flicking),
-		CALLBACK(GLOBAL_PROC, /proc/explode_apc),
+		//CALLBACK(GLOBAL_PROC, /proc/explode_apc),
 	)
 
 /datum/controller/subsystem/ticker/setup()
