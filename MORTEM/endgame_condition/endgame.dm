@@ -34,9 +34,10 @@
 
 	var/out = input("You really want escape? (This will end the round)", "End Round", "No") in list("Yes", "No")
 	if(out == "Yes")
+		var/eris_floor = list(1,2,3,4,5)
 		SSticker.ship_was_nuked = TRUE //SSvote.start_vote(/datum/poll/votemap)
 		for(var/mob/living/carbon/human/H in GLOB.player_list)
-			if(H.z in list(1,2,3,4,5))
+			if(H.z in eris_floor)
 				spawn(0)
 					shake_camera(H, TURBULENCE, 2)
 					playsound(H, 'MORTEM/endgame_condition/takeoff.mp3', 100, 1)
@@ -46,8 +47,8 @@
 		for(var/turf/simulated/T in locate(/area/space) in world)
 			T.ChangeTurf(/turf/space)
 
-		for(var/Z in list(1,2,3,4,5))
-			toggle_move_stars(Z)
+		for(var/Z in eris_floor)
+			toggle_move_stars(Z, NORTH)
 
 /obj/machinery/computer/shuttle_control/attack_hand(user as mob)
 	to_chat(user, SPAN_NOTICE("Unable to calibrate the navigator..."))
