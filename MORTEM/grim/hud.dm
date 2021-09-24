@@ -1,5 +1,5 @@
 /datum/hud/human
-	icon = 'MORTEM/grim_hud/icons.dmi'
+	icon = 'MORTEM/grim/icons.dmi'
 
 	HUDneed = list(
 //status
@@ -53,7 +53,7 @@
 	)
 
 /obj/screen/grab
-	icon = 'MORTEM/grim_hud/icons.dmi'
+	icon = 'MORTEM/grim/icons.dmi'
 
 /obj/screen/sanity/on_update_icon()
 	var/mob/living/carbon/human/H = parentmob

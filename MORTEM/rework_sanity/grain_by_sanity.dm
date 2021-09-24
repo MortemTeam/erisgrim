@@ -5,7 +5,7 @@
 	..()
 	film_grain = new()
 	film_grain.name = "Film Grain"
-	film_grain.icon = 'MORTEM/grain_by_sanity/static.dmi'
+	film_grain.icon = 'MORTEM/rework_sanity/static.dmi'
 	film_grain.screen_loc = ui_entire_screen
 	film_grain.alpha = 110
 	film_grain.layer = FULLSCREEN_LAYER

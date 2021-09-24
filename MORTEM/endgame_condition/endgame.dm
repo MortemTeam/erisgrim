@@ -49,9 +49,3 @@
 
 		for(var/Z in eris_floor)
 			toggle_move_stars(Z, NORTH)
-
-/obj/machinery/computer/shuttle_control/attack_hand(user as mob)
-	to_chat(user, SPAN_NOTICE("Unable to calibrate the navigator..."))
-
-/obj/machinery/teleport/attack_hand(user as mob)
-	to_chat(user, SPAN_NOTICE("Unable to calibrate teleporter..."))
