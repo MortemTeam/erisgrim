@@ -1,6 +1,6 @@
 // Technomancers
 /obj/item/computer_hardware/hard_drive/portable/design/playtoys
-	disk_name = "WetSkrell RL-34 Playtoys"
+	disk_name = "W.T. RL-34 Playtoys"
 	icon_state = "purple"
 	rarity_value = 10
 	spawn_tags = SPAWN_TAG_DESIGN_COMMON
