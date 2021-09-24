@@ -1,2 +1,2 @@
 /obj/structure/catwalk
-	plane = 62
+	plane = FLOOR_PLANE
