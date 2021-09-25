@@ -92167,7 +92167,9 @@
 /turf/simulated/wall/r_wall,
 /area/eris/neotheology/storage)
 "vjD" = (
-/obj/structure/closet/wall_mounted/emcloset/escape_pods,
+/obj/structure/closet/wall_mounted/emcloset/escape_pods{
+	pixel_y = 32
+	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section2deck1port)
 "vjH" = (
