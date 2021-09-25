@@ -17502,7 +17502,7 @@
 	},
 /area/shuttle/mining/station)
 "gTM" = (
-/obj/effect/shuttle_landmark/skipjack/southeast,
+/obj/effect/shuttle_landmark/merc/northeast,
 /turf/simulated/floor/exoplanet/snow,
 /area/space)
 "gTT" = (
@@ -61664,10 +61664,6 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck5port)
-"pmR" = (
-/obj/effect/shuttle_landmark/merc/northeast,
-/turf/simulated/floor/exoplanet/snow,
-/area/space)
 "pmU" = (
 /obj/structure/railing{
 	dir = 8
@@ -91407,10 +91403,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/eschangara)
-"vaO" = (
-/obj/effect/shuttle_landmark/merc/southwest,
-/turf/simulated/floor/exoplanet/snow,
-/area/space)
 "vaS" = (
 /obj/machinery/atmospherics/unary/vent_pump/high_volume{
 	dir = 8;
@@ -240311,7 +240303,7 @@ wgp
 wgp
 wgp
 wgp
-vaO
+wgp
 wgp
 wgp
 wgp
@@ -269204,7 +269196,7 @@ wgp
 wgp
 wgp
 wgp
-pmR
+wgp
 wgp
 wgp
 wgp
@@ -275591,7 +275583,7 @@ wgp
 wgp
 wgp
 wgp
-gTM
+wgp
 wgp
 wgp
 wgp
@@ -275848,7 +275840,7 @@ wgp
 wgp
 wgp
 wgp
-wgp
+gTM
 wgp
 wgp
 wgp
