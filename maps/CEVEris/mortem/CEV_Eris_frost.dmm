@@ -3160,12 +3160,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/engineering/telecommonitor)
-"bSn" = (
-/obj/machinery/door/firedoor,
-/obj/structure/low_wall,
-/obj/item/material/shard,
-/turf/simulated/floor/plating/under,
-/area/eris/crew_quarters/sleep)
 "bSt" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "2,17"
@@ -5244,13 +5238,6 @@
 "dvW" = (
 /turf/simulated/open,
 /area/eris/hallway/main/section4)
-"dwp" = (
-/obj/machinery/door/firedoor,
-/obj/structure/low_wall,
-/obj/item/material/shard,
-/obj/item/material/shard,
-/turf/simulated/floor/plating/under,
-/area/eris/crew_quarters/sleep)
 "dwG" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
@@ -57057,7 +57044,7 @@
 /area/turret_protected/ai)
 "oue" = (
 /obj/machinery/door/firedoor,
-/obj/structure/low_wall,
+/obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating/under,
 /area/eris/crew_quarters/sleep)
 "ouo" = (
@@ -133027,7 +133014,7 @@ uud
 uud
 uud
 csA
-dwp
+oue
 neL
 jFg
 jla
@@ -133631,7 +133618,7 @@ oCC
 csA
 csA
 eBR
-keK
+lZO
 gfQ
 neL
 kWf
@@ -133935,9 +133922,9 @@ oCC
 oCC
 hcv
 oue
-bSn
 oue
-bSn
+oue
+oue
 hcv
 hcv
 hcv
@@ -191008,7 +190995,7 @@ aeQ
 ykt
 ykt
 ykt
-keK
+lZO
 tDg
 snA
 wVi
@@ -191021,7 +191008,7 @@ wVi
 wVi
 urc
 kLq
-keK
+lZO
 ykt
 ykt
 vEy
@@ -191310,7 +191297,7 @@ lRJ
 lRJ
 ykt
 ykt
-keK
+lZO
 vEB
 sHV
 sHV
@@ -191323,7 +191310,7 @@ sHV
 sHV
 sHV
 vEB
-keK
+lZO
 ykt
 ykt
 vEy
@@ -191612,7 +191599,7 @@ qjx
 lRJ
 ykt
 ykt
-keK
+lZO
 luc
 oQQ
 sqa
@@ -191625,7 +191612,7 @@ sqa
 sqa
 iam
 luc
-keK
+lZO
 ykt
 ykt
 vEy
