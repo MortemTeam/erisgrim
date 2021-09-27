@@ -632,13 +632,6 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/security/main)
-"amK" = (
-/obj/structure/cable/green{
-	d2 = 2;
-	icon_state = "0-2"
-	},
-/turf/simulated/floor/exoplanet/barren,
-/area/space)
 "anL" = (
 /obj/structure/girder,
 /obj/effect/decal/cleanable/rubble,
@@ -12387,9 +12380,6 @@
 	},
 /turf/simulated/floor/carpet/bcarpet,
 /area/eris/command/meeting_room)
-"fWC" = (
-/turf/simulated/floor/exoplanet/barren,
-/area/eris/maintenance/section3deck5port)
 "fWW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
@@ -25599,7 +25589,6 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5starboard)
 "ixt" = (
@@ -32645,24 +32634,6 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/engineering/engine_room)
-"jMn" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5starboard)
 "jMr" = (
 /turf/simulated/floor/plating/under,
 /area/space)
@@ -38706,11 +38677,6 @@
 	},
 /turf/simulated/open,
 /area/eris/engineering/atmos)
-"kWX" = (
-/obj/machinery/door/firedoor,
-/obj/structure/low_wall,
-/turf/simulated/floor/plating,
-/area/eris/maintenance/section3deck5starboard)
 "kWY" = (
 /obj/machinery/door/airlock/maintenance_common{
 	name = "Service Maintenance";
@@ -48763,11 +48729,6 @@
 	},
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/maintenance/section3deck1central)
-"mPT" = (
-/obj/structure/catwalk,
-/obj/item/stack/material/steel,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5port)
 "mPZ" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4;
@@ -57917,9 +57878,8 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5port)
 "oBP" = (
-/obj/structure/girder,
 /obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/plating/under,
+/turf/simulated/wall/r_wall,
 /area/eris/maintenance/section3deck5starboard)
 "oBQ" = (
 /obj/item/stack/material/steel,
@@ -59322,13 +59282,6 @@
 /obj/effect/floor_decal/fact_plaque/rnd2,
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/mixing)
-"oPo" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/item/stack/material/steel,
-/turf/simulated/floor/plating/under,
-/area/eris/neotheology/bioreactor)
 "oPp" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
@@ -68517,10 +68470,6 @@
 "qCE" = (
 /turf/simulated/wall,
 /area/eris/rnd/lab)
-"qCR" = (
-/obj/item/stack/material/steel,
-/turf/simulated/floor/exoplanet/barren,
-/area/eris/maintenance/section3deck5port)
 "qCV" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/open,
@@ -74318,11 +74267,6 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/rnd/server)
-"rHh" = (
-/obj/item/stack/material/steel,
-/obj/structure/girder,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5port)
 "rHk" = (
 /obj/machinery/door/airlock/external{
 	frequency = 1331;
@@ -74975,24 +74919,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/blue,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck3central)
-"rOF" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/item/material/shard,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5starboard)
 "rOJ" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -80552,9 +80478,6 @@
 /obj/machinery/meter,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck5port)
-"sTE" = (
-/turf/simulated/floor/plating/under,
-/area/eris/neotheology/bioreactor)
 "sTM" = (
 /obj/structure/lattice,
 /turf/simulated/open,
@@ -81015,10 +80938,6 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/maintenance/section2deck1port)
-"sXy" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating/under,
-/area/eris/neotheology/bioreactor)
 "sXE" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
@@ -89194,10 +89113,6 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/section3starboard)
-"uDo" = (
-/obj/item/stack/material/steel,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5port)
 "uDp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -90741,11 +90656,6 @@
 	opacity = 0
 	},
 /area/shuttle/mining/station)
-"uUx" = (
-/obj/structure/girder,
-/obj/item/stack/material/steel,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5port)
 "uUy" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
@@ -91366,8 +91276,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 5
 	},
-/obj/item/stack/material/steel,
-/obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5starboard)
 "vaF" = (
@@ -91430,25 +91338,6 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/crew_quarters/barquarters)
-"vbe" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/item/material/shard,
-/obj/item/material/shard,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section3deck5starboard)
 "vbf" = (
 /turf/simulated/open,
 /area/eris/engineering/atmos)
@@ -127038,7 +126927,7 @@ csA
 csA
 jpE
 csA
-nIV
+crY
 fWd
 eHJ
 rBq
@@ -127340,7 +127229,7 @@ opL
 opL
 opL
 csA
-nIV
+crY
 aRn
 lmw
 trt
@@ -127642,8 +127531,8 @@ naD
 naD
 opL
 csA
-adM
-nIV
+crY
+crY
 crY
 crY
 csS
@@ -127921,10 +127810,10 @@ rst
 xLv
 xLv
 xLv
-uUx
+opL
 rgs
 rgs
-htZ
+rgs
 rgs
 neD
 lcE
@@ -128827,7 +128716,7 @@ rst
 prG
 prG
 oCC
-nzJ
+opL
 twW
 neD
 neD
@@ -129129,7 +129018,7 @@ rst
 csA
 csA
 jpE
-htZ
+opL
 vyf
 neD
 mZY
@@ -130640,8 +130529,8 @@ prG
 prG
 prG
 csA
-nzJ
-uDo
+opL
+neD
 mZY
 oQA
 oqB
@@ -130942,8 +130831,8 @@ nLO
 fDD
 prG
 csA
-fWC
-htZ
+opL
+neD
 mZY
 jjA
 wZt
@@ -131244,8 +131133,8 @@ uoL
 ogH
 uNZ
 csA
-qCR
-htZ
+opL
+neD
 mZY
 mZY
 mZY
@@ -131547,7 +131436,7 @@ dJx
 prG
 csA
 opL
-htZ
+neD
 ufW
 wRL
 xWN
@@ -131848,8 +131737,8 @@ csA
 csA
 csA
 jpE
-nzJ
-mPT
+opL
+neD
 ufW
 wRL
 hXQ
@@ -134262,8 +134151,8 @@ fZj
 rBl
 csA
 csA
-sXy
-oPo
+ufU
+gmr
 ufU
 nCa
 ivF
@@ -134866,8 +134755,8 @@ rgG
 vli
 csA
 jpE
-sXy
-oPo
+ufU
+gmr
 ufU
 xCf
 txL
@@ -135168,7 +135057,7 @@ wrr
 rBl
 csA
 csA
-sTE
+ufU
 gmr
 ufU
 wCq
@@ -135493,7 +135382,7 @@ ppq
 kbK
 uUq
 noT
-htZ
+opL
 csA
 opL
 opL
@@ -135795,7 +135684,7 @@ naD
 oZp
 twW
 noT
-rHh
+opL
 abF
 nzJ
 vqd
@@ -136097,7 +135986,7 @@ naD
 jQU
 neD
 noT
-nzJ
+opL
 abF
 opL
 opL
@@ -136679,7 +136568,7 @@ hPz
 prG
 csA
 csA
-dyJ
+hYA
 fqK
 fqK
 fqK
@@ -137607,7 +137496,7 @@ tqK
 fyE
 xoy
 ygZ
-toq
+hYA
 jpE
 csA
 oCC
@@ -137887,7 +137776,7 @@ wnm
 sXS
 csA
 oBQ
-dyJ
+hYA
 nvX
 lkc
 nvX
@@ -137909,7 +137798,7 @@ tqK
 oua
 qEr
 fDV
-dyJ
+hYA
 nXT
 oCC
 tbl
@@ -139116,7 +139005,7 @@ csA
 hYA
 hYA
 hYA
-jMn
+qlT
 hYA
 csA
 csA
@@ -139417,9 +139306,9 @@ csA
 csA
 csA
 csA
-kWX
-rOF
-dyJ
+nmO
+qlT
+hYA
 csA
 csA
 csA
@@ -139719,9 +139608,9 @@ csA
 csA
 eBR
 csA
-kWX
-jMn
-nnS
+nmO
+qlT
+hYA
 eBR
 csA
 csA
@@ -140022,8 +139911,8 @@ csA
 csA
 csA
 oBP
-jMn
-nnS
+qlT
+hYA
 jpE
 csA
 csA
@@ -140323,9 +140212,9 @@ csA
 csA
 csA
 csA
-nnS
-vbe
-dyJ
+hYA
+qlT
+hYA
 csA
 csA
 csA
@@ -140625,9 +140514,9 @@ csA
 csA
 csA
 jpE
-nnS
-rOF
-kfP
+hYA
+qlT
+oBP
 csA
 csA
 csA
@@ -140927,9 +140816,9 @@ csA
 csA
 csA
 eBR
-dyJ
-jMn
-bMH
+hYA
+qlT
+hYA
 csA
 csA
 csA
@@ -141229,8 +141118,8 @@ csA
 csA
 csA
 csA
-dyJ
-jMn
+hYA
+qlT
 hYA
 csA
 pVY
@@ -141835,7 +141724,7 @@ csA
 csA
 nmO
 qlT
-kWX
+nmO
 csA
 csA
 csA
@@ -142137,7 +142026,7 @@ csA
 csA
 nmO
 qlT
-kWX
+nmO
 csA
 csA
 csA
@@ -142742,7 +142631,7 @@ hYA
 hYA
 qlT
 hYA
-dyJ
+hYA
 csA
 csA
 csA
@@ -143045,7 +142934,7 @@ gDc
 fmt
 vaE
 oBP
-amK
+csA
 csA
 csA
 csA
@@ -143346,7 +143235,7 @@ jme
 gDc
 nGH
 ixs
-nnS
+hYA
 csA
 csA
 csA
@@ -143647,9 +143536,9 @@ sVl
 sVl
 sVl
 sVl
-jMn
-nnS
-jpE
+qlT
+hYA
+csA
 csA
 csA
 csA
@@ -143949,8 +143838,8 @@ xQE
 vQK
 xAR
 sVl
-jMn
-nnS
+qlT
+hYA
 csA
 csA
 qAG
@@ -144251,8 +144140,8 @@ xQE
 vQK
 xAR
 sVl
-sfF
-kfP
+qlT
+oBP
 csA
 csA
 csA
@@ -144553,8 +144442,8 @@ sVl
 sVl
 sVl
 sVl
-jMn
-dyJ
+qlT
+hYA
 csA
 csA
 csA
@@ -144855,8 +144744,8 @@ sVl
 jme
 gDc
 toq
-jMn
-dyJ
+qlT
+hYA
 csA
 csA
 csA
@@ -145156,9 +145045,9 @@ qUA
 sVl
 gDc
 toq
-kfP
-jMn
-kqn
+toq
+qlT
+hYA
 csA
 csA
 csA
