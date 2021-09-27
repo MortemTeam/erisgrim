@@ -29,3 +29,23 @@
 			state += "light"
 
 	film_grain.icon_state = state
+
+/mob/living/silicon
+	var/obj/screen/film_grain
+
+/mob/living/silicon/New()
+	..()
+	film_grain = new()
+	film_grain.name = "Film Grain"
+	film_grain.icon = 'MORTEM/rework_sanity/static.dmi'
+	film_grain.icon_state = "[rand(1, 9)] moderate"
+	film_grain.screen_loc = ui_entire_screen
+	film_grain.alpha = 110
+	film_grain.layer = FULLSCREEN_LAYER
+	film_grain.plane = FULLSCREEN_PLANE
+	film_grain.mouse_opacity = 0
+
+/mob/living/silicon/show_HUD()
+	..()
+	if(client)
+		client.screen += film_grain
