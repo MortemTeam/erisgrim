@@ -64399,10 +64399,6 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/engine_room)
-"pNp" = (
-/obj/structure/catwalk,
-/turf/simulated/open,
-/area/eris/maintenance/section2deck4starboard)
 "pNz" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/door/firedoor,
@@ -90104,7 +90100,7 @@
 "uOn" = (
 /obj/structure/catwalk,
 /obj/item/material/shard,
-/turf/simulated/open,
+/turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck4starboard)
 "uOr" = (
 /obj/structure/closet/secure_closet/personal/miner,
@@ -207260,7 +207256,7 @@ ykt
 ddL
 ykt
 iwt
-pNp
+wUF
 fcQ
 nji
 fcQ
@@ -207562,9 +207558,9 @@ ykt
 jGI
 ykt
 iwt
-pNp
+wUF
 uOn
-pNp
+wUF
 uas
 hbx
 rRo
