@@ -478,7 +478,7 @@
 "aeS" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck5port)
@@ -3528,11 +3528,11 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/crew_quarters/sleep/cryo)
 "bWz" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck3port)
 "bWF" = (
@@ -4956,7 +4956,7 @@
 "dgB" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck2port)
@@ -5290,7 +5290,7 @@
 "dAa" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck2starboard)
@@ -5409,6 +5409,14 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
+"dFZ" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/section4deck4port)
 "dGY" = (
 /obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/plating,
@@ -5432,6 +5440,13 @@
 "dJx" = (
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5port)
+"dNn" = (
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck2port)
 "dNv" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -5506,7 +5521,7 @@
 "dWd" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck1central)
@@ -6458,6 +6473,13 @@
 	},
 /turf/simulated/floor/tiled/steel/danger,
 /area/eris/quartermaster/miningdock)
+"ePw" = (
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck1central)
 "ePA" = (
 /obj/structure/table/reinforced,
 /obj/item/storage/toolbox/mechanical,
@@ -6960,6 +6982,13 @@
 /obj/structure/low_wall,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section3deck4port)
+"eVb" = (
+/obj/spawner/tank,
+/obj/structure/table/rack,
+/obj/spawner/pack/tech_loot,
+/obj/spawner/pack/tech_loot,
+/turf/simulated/floor/tiled/techmaint_panels,
+/area/eris/maintenance/section3deck2starboard)
 "eVe" = (
 /obj/structure/extinguisher_cabinet{
 	pixel_y = 27
@@ -16572,6 +16601,9 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
+/obj/structure/railing{
+	dir = 8
+	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
 "gMm" = (
@@ -18104,7 +18136,7 @@
 "hbo" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section4deck1central)
@@ -24395,7 +24427,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
-/turf/simulated/floor/plating/under,
+/turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck1central)
 "ilE" = (
 /obj/structure/table/standard,
@@ -24600,6 +24632,9 @@
 /obj/structure/disposalpipe/segment{
 	dir = 1;
 	icon_state = "pipe-c"
+	},
+/obj/structure/railing{
+	dir = 8
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
@@ -31941,14 +31976,14 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck5port)
 "jFM" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck4port)
@@ -36683,6 +36718,8 @@
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
 	},
+/obj/spawner/material/resources/rare/low_chance,
+/obj/structure/table/rack,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section4deck2port)
 "kCC" = (
@@ -42033,7 +42070,7 @@
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/engineering/atmos)
@@ -45269,7 +45306,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section1deck1central)
 "mjG" = (
-/obj/spawner/mob/roaches/cluster,
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -46051,16 +46087,16 @@
 /area/eris/crew_quarters/fitness)
 "mqj" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Atmospherics Maintenance";
-	req_access = list(24)
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Atmospherics Maintenance";
+	req_access = list(24)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck5port)
@@ -51854,10 +51890,6 @@
 /turf/simulated/floor/bluegrid,
 /area/eris/command/tcommsat/computer)
 "ntI" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -51868,6 +51900,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck3port)
@@ -52060,7 +52096,6 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck5starboard)
 "nwk" = (
-/obj/spawner/material/resources/rare/low_chance,
 /obj/effect/floor_decal/rust,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section4deck2port)
@@ -54387,10 +54422,12 @@
 /turf/simulated/floor/tiled/white/bluecorner,
 /area/eris/security/checkpoint/medical)
 "nTn" = (
-/obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
-/turf/simulated/floor/plating,
-/area/eris/engineering/construction)
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/section4deck4port)
 "nTr" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/multi_tile/metal{
@@ -61692,10 +61729,6 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
 "pnB" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
 /obj/structure/cable/green{
 	d1 = 4;
 	d2 = 8;
@@ -61706,6 +61739,10 @@
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck3port)
@@ -64003,7 +64040,7 @@
 	d2 = 2;
 	icon_state = "1-2"
 	},
-/turf/simulated/floor/plating/under,
+/turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck1central)
 "pKt" = (
 /obj/structure/disposalpipe/segment{
@@ -74422,6 +74459,13 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5port)
+"rJy" = (
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck2port)
 "rJE" = (
 /obj/structure/cable/green{
 	d2 = 2;
@@ -80339,8 +80383,6 @@
 "sSu" = (
 /obj/structure/multiz/ladder/up,
 /obj/effect/floor_decal/rust,
-/obj/spawner/flora/low_chance,
-/obj/spawner/gun/cheap/low_chance,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section4deck2port)
 "sSx" = (
@@ -81499,7 +81541,6 @@
 /turf/simulated/open,
 /area/eris/security/main)
 "tdO" = (
-/obj/spawner/junk/low_chance,
 /obj/effect/floor_decal/rust,
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 4
@@ -83536,7 +83577,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/maintenance/section4deck2port)
@@ -92344,15 +92385,15 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/eris/maintenance/section1deck5central)
 "vmD" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/cable/green{
 	d1 = 1;
 	d2 = 2;
 	icon_state = "1-2"
+	},
+/obj/machinery/door/airlock/maintenance_engineering{
+	name = "Engineering Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck3port)
@@ -93411,6 +93452,13 @@
 	},
 /turf/simulated/floor/plating,
 /area/eris/maintenance/substation/section4)
+"vxK" = (
+/obj/structure/catwalk,
+/obj/machinery/light/small{
+	dir = 1
+	},
+/turf/simulated/open,
+/area/eris/maintenance/section4deck1central)
 "vxQ" = (
 /obj/spawner/flora/low_chance,
 /turf/simulated/floor/tiled/techmaint,
@@ -105496,7 +105544,7 @@
 	},
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck1central)
@@ -107322,7 +107370,7 @@
 "yfw" = (
 /obj/machinery/door/airlock/maintenance_engineering{
 	name = "Engineering Maintenance";
-	req_access = list(10)
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck3port)
@@ -185518,7 +185566,7 @@ inY
 inY
 ceK
 ceK
-aYF
+nTn
 ceK
 ceK
 jcg
@@ -185824,13 +185872,13 @@ nLc
 oPB
 ceK
 cyx
-aYF
+nTn
 nrx
 jcg
 gIC
 lBZ
 jcg
-aYF
+nTn
 cyx
 ceK
 ceK
@@ -185840,7 +185888,7 @@ ceK
 ceK
 ceK
 ceK
-aYF
+nTn
 ceK
 ceK
 ceK
@@ -186134,7 +186182,7 @@ aHW
 ceK
 ceK
 cyx
-aYF
+nTn
 cyx
 aKS
 cyx
@@ -186146,7 +186194,7 @@ cyx
 aKS
 cyx
 lBZ
-aYF
+nTn
 cyx
 ceK
 cyx
@@ -186444,7 +186492,7 @@ ceK
 ceK
 ceK
 ceK
-aYF
+nTn
 ceK
 ceK
 ceK
@@ -186751,9 +186799,9 @@ ceK
 uag
 lPX
 ceK
-aYF
+nTn
 ceK
-aYF
+nTn
 aHW
 aHW
 ceK
@@ -187059,7 +187107,7 @@ cyx
 lBZ
 cyx
 ceK
-mna
+ceK
 ddL
 ykt
 ykt
@@ -187338,7 +187386,7 @@ ceK
 ceK
 ceK
 ceK
-aYF
+nTn
 ceK
 ceK
 ceK
@@ -187361,7 +187409,7 @@ tpu
 kQO
 kDy
 xGb
-mna
+ceK
 ddL
 ykt
 ykt
@@ -187663,7 +187711,7 @@ czd
 jUB
 fuU
 uoU
-mna
+ceK
 ddL
 ddL
 ykt
@@ -187965,8 +188013,8 @@ ceK
 jUB
 fuU
 ceK
-mna
-mna
+ceK
+ceK
 ddL
 ykt
 ykt
@@ -188266,9 +188314,9 @@ mna
 aHW
 jUB
 fuU
-aYF
-mna
-mna
+nTn
+cyx
+ceK
 ddL
 ykt
 ykt
@@ -188555,9 +188603,9 @@ brP
 bTJ
 aPB
 aPB
-sNh
-sNh
-sNh
+aPB
+aPB
+aPB
 aPB
 aPB
 nPe
@@ -188569,8 +188617,8 @@ aHW
 uwh
 wVt
 ceK
-mna
-mna
+cyx
+ceK
 ddL
 ykt
 ykt
@@ -188871,8 +188919,8 @@ ceK
 oYI
 aBt
 ceK
-mna
-mna
+cyx
+ceK
 ddL
 ykt
 ykt
@@ -189467,7 +189515,7 @@ hWt
 aLr
 aPB
 xDA
-oxA
+dFZ
 ncV
 tzk
 tzk
@@ -189771,9 +189819,9 @@ aPB
 iPD
 aTj
 aTj
-nTn
-nTn
-nTn
+aTj
+aTj
+aTj
 aTj
 aTj
 ceK
@@ -191890,7 +191938,7 @@ aTj
 aTj
 aTj
 tEO
-aYF
+nTn
 tEO
 ceK
 abF
@@ -192487,7 +192535,7 @@ nGM
 aPB
 aPC
 aSk
-aYF
+nTn
 cyx
 aHW
 oBt
@@ -194279,7 +194327,7 @@ ykt
 ceK
 iRg
 jGn
-aYF
+nTn
 cyx
 cyx
 rDz
@@ -194307,7 +194355,7 @@ ceK
 rVk
 aTX
 aYi
-aYF
+nTn
 bwh
 ceK
 ddL
@@ -318098,8 +318146,8 @@ mFL
 nUJ
 pcm
 pcm
-abF
-rVT
+dOi
+dOi
 mjG
 iVq
 dOi
@@ -318400,11 +318448,11 @@ pXl
 nUJ
 vGF
 pcm
-abF
-rVT
+dgP
+dNn
 tdO
 nwk
-dAn
+rJy
 dgP
 tyg
 ijE
@@ -318702,7 +318750,7 @@ nUJ
 nUJ
 jkX
 pcm
-jnD
+uhk
 jnD
 kCB
 dOi
@@ -319003,8 +319051,8 @@ rRN
 rRN
 qnv
 vbb
-vbb
-rEd
+eVb
+uhk
 jnD
 rps
 jnD
@@ -376085,7 +376133,7 @@ ykt
 abF
 abF
 dXH
-hAQ
+vxK
 hAQ
 hAQ
 hAQ
@@ -376380,10 +376428,10 @@ kWY
 dVk
 dVk
 dVk
-jGK
-jGK
+mTv
+mTv
 lxO
-ykt
+dXH
 dXH
 dXH
 dXH
@@ -376684,9 +376732,9 @@ pkB
 eUD
 pKs
 ily
-lxO
-ykt
-dXH
+ePw
+eEy
+eEy
 pDm
 eEy
 eEy
@@ -376987,7 +377035,7 @@ lqf
 ind
 gMi
 lxO
-dhM
+dXH
 dXH
 dXH
 dXH
@@ -378499,7 +378547,7 @@ lxO
 lxO
 lxO
 lxO
-ykt
+abF
 dXH
 dXH
 dXH
@@ -378801,7 +378849,7 @@ dVk
 mTv
 gim
 lxO
-ykt
+abF
 abF
 abF
 abF
