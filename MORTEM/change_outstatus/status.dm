@@ -3,7 +3,7 @@
 	var/links = list(
 		"Discord" = config.discordurl,
 		"Wiki"    = config.wikiurl,
-		"Git"     = config.githuburl,
+		"Git"     = config.githuburl
 	)
 
 	var/pure_links = list()
