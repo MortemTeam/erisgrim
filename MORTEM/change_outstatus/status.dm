@@ -3,7 +3,6 @@
 	var/links = list(
 		"Discord" = config.discordurl,
 		"Wiki"    = config.wikiurl,
-		"Git"     = config.githuburl
 	)
 
 	var/pure_links = list()
@@ -15,8 +14,8 @@
 	if(config && config.server_name)
 		out += "<b>[config.server_name]</b><br>"
 
-	out += "Features: " + jointext(features, ", ") + "<br>"
-	out += "Links: " + jointext(pure_links, ", ") + "<br>"
+	out += "<b>Features:</b> " + jointext(features, ", ") + "<br>"
+	out += "<b>Links:</b> " + jointext(pure_links, ", ") + "<br>"
 
 	out += "\[by <b>Mortem</b>"
 
