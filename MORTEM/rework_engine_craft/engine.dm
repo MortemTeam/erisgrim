@@ -1,10 +1,24 @@
-/obj/item/electronics/circuitboard/unary_atmos/engine
+/datum/technology/bluespace_extended
+	unlocks_designs = list(
+		/datum/design/research/item/belt_holding,
+		/datum/design/research/item/pouch_holding,
+		/datum/design/research/item/trashbag_holding,
+		/datum/design/research/item/oresatchel_holding,
+		/datum/design/research/circuit/gas_thruster
+	)
+
+/datum/design/research/circuit/gas_thruster
+	name = "Gas Thruster"
+	build_path = /obj/item/electronics/circuitboard/engine
+	sort_string = "FAHAH"
+	category = CAT_MISC
+
+/obj/item/electronics/circuitboard/engine
 	name = T_BOARD("gas thruster")
 	icon_state = "mcontroller"
-	build_path = /obj/machinery/atmospherics/unary/engine/
-	origin_tech = list(TECH_POWER = 6, TECH_BLUESPACE = 5, TECH_ENGINEERING = 4)
+	build_path = /obj/machinery/atmospherics/unary/engine
 	req_components = list(
-		/obj/item/stack/cable_coil = 100,
+		/obj/item/stack/cable_coil = 15,
 		/obj/item/stock_parts/matter_bin/super = 5,
 		/obj/item/stock_parts/micro_laser/ultra = 5,
 		/obj/item/stock_parts/manipulator/pico = 5,
