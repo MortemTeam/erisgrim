@@ -8,7 +8,7 @@
 
 	var/pure_links = list()
 	for(var/K in links)
-		pure_links += "<a href='[links[K]]'>[K]</a> "
+		pure_links += "<a href='[links[K]]'>[K]</a>"
 
 	var/features = list("MRP", "No Xenos", "ERP", "Админка за актив!")
 
