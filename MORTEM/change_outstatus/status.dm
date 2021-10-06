@@ -17,7 +17,7 @@
 	out += "<b>Features:</b> " + jointext(features, ", ") + "<br>"
 	out += "<b>Links:</b> " + jointext(pure_links, ", ") + "<br>"
 
-	out += "\[by Mortem"
+	out += "\[Mortem"
 
 	/* does this help? I do not know */
 	if(status != out)
