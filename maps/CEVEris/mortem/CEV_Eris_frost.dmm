@@ -1353,10 +1353,6 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section4deck4central)
-"aRX" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section1deck5central)
 "aRY" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -8677,10 +8673,6 @@
 	},
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/hallway/side/bridgehallway)
-"fmP" = (
-/obj/structure/girder,
-/turf/simulated/floor/plating/under,
-/area/eris/security/maintpost)
 "fmR" = (
 /obj/structure/railing,
 /turf/simulated/open,
@@ -18998,10 +18990,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/research)
-"hka" = (
-/obj/item/stack/material/steel,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section2deck5port)
 "hkc" = (
 /obj/machinery/power/sensor{
 	long_range = 1;
@@ -76374,10 +76362,6 @@
 	},
 /turf/simulated/open,
 /area/eris/engineering/engine_room)
-"sdH" = (
-/obj/effect/decal/cleanable/rubble,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section2deck5starboard)
 "sdI" = (
 /obj/structure/table/standard,
 /obj/item/stock_parts/subspace/analyzer,
@@ -78234,10 +78218,6 @@
 	},
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/medbay)
-"sxI" = (
-/obj/item/stack/rods,
-/turf/simulated/floor/exoplanet/barren,
-/area/eris/maintenance/section2deck5port)
 "sxJ" = (
 /obj/machinery/firealarm{
 	dir = 4;
@@ -78286,7 +78266,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck4central)
 "sym" = (
-/obj/item/modular_computer/console/preset/civilian/professional{
+/obj/item/modular_computer/console/preset/trade{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
@@ -105285,12 +105265,6 @@
 	},
 /turf/simulated/open,
 /area/eris/hallway/main/section4)
-"xKf" = (
-/obj/structure/low_wall,
-/obj/item/material/shard,
-/obj/item/material/shard,
-/turf/simulated/floor/plating,
-/area/eris/maintenance/section1deck5central)
 "xKh" = (
 /obj/structure/reagent_dispensers/virusfood{
 	pixel_y = 32
@@ -136891,15 +136865,15 @@ uud
 oCC
 oCC
 csA
-dJx
+prG
 pLM
 wKF
 prG
 prG
-dJx
-sxI
-hiu
-uNZ
+prG
+prG
+prG
+prG
 prG
 sXS
 sXS
@@ -137193,10 +137167,10 @@ ckI
 jpE
 csA
 csA
-hka
+prG
 bhd
 dJx
-uNZ
+prG
 csA
 csA
 csA
@@ -137495,10 +137469,10 @@ foC
 csA
 csA
 aXO
-hiu
+prG
 bhd
 nxf
-uNZ
+prG
 csA
 csA
 jpE
@@ -137797,11 +137771,11 @@ foC
 csA
 nXg
 jpE
-hiu
+prG
 bhd
 wKF
 prG
-dJx
+prG
 csA
 oCC
 sXS
@@ -138099,11 +138073,11 @@ keT
 oCC
 csA
 csA
-uNZ
+prG
 rMQ
 dYv
 wKF
-uNZ
+prG
 csA
 csA
 sXS
@@ -141417,7 +141391,7 @@ wDV
 wDV
 wDV
 mVf
-aRX
+uud
 abF
 abF
 njB
@@ -142021,7 +141995,7 @@ sIf
 nXw
 wDV
 xCN
-iMg
+reD
 csA
 csA
 njB
@@ -142323,7 +142297,7 @@ map
 fAE
 wDV
 mVf
-xKf
+reD
 csA
 njB
 njB
@@ -142625,7 +142599,7 @@ xoQ
 wDV
 wDV
 xCN
-iMg
+reD
 csA
 njB
 ofl
@@ -143521,13 +143495,13 @@ uud
 csA
 csA
 jpE
-ive
+uud
 mVf
 sFG
 wDV
 wDV
 wDV
-fmP
+wDV
 uud
 mVf
 mVf
@@ -143823,9 +143797,9 @@ oeR
 oeR
 oeR
 csA
-aRX
-aRX
-rto
+uud
+uud
+uud
 uud
 csA
 csA
@@ -144133,8 +144107,8 @@ csA
 jpE
 csA
 uud
-aRX
-aRX
+uud
+uud
 csA
 csA
 njB
@@ -144155,7 +144129,7 @@ oiq
 pVA
 wsi
 xGc
-liI
+gAW
 csA
 csA
 csA
@@ -144457,7 +144431,7 @@ oiq
 oBp
 vdF
 xFT
-liI
+gAW
 csA
 eBR
 csA
@@ -144759,7 +144733,7 @@ oiq
 pVA
 kGN
 uIw
-liI
+gAW
 csA
 csA
 csA
@@ -145661,11 +145635,11 @@ csA
 csA
 csA
 jpE
-bMg
+njB
 njB
 njB
 fBA
-bMg
+njB
 csA
 csA
 csA
@@ -145963,11 +145937,11 @@ csA
 csA
 csA
 csA
-bMg
+njB
 xyB
 fZH
 jxb
-bMg
+njB
 jpE
 csA
 csA
@@ -146269,7 +146243,7 @@ njB
 hQo
 njB
 qrT
-sdH
+njB
 csA
 csA
 csA
