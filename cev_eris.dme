@@ -2814,6 +2814,7 @@
 #include "MORTEM\disable_gravity\gravity.dm"
 #include "MORTEM\disable_other_maps\disabler.dm"
 #include "MORTEM\disks\toys.dm"
+#include "MORTEM\endgame_condition\disable_crew_transfer.dm"
 #include "MORTEM\endgame_condition\disable_shuttles.dm"
 #include "MORTEM\endgame_condition\disable_teleporters.dm"
 #include "MORTEM\endgame_condition\endgame.dm"
