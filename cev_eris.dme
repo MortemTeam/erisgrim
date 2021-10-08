@@ -2808,6 +2808,7 @@
 #include "maps\submaps\planetary_ruins\radshrine\radshrine.dm"
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
+#include "MORTEM\add_nt_suitunit\suit_storage.dm"
 #include "MORTEM\base_turfs\shuttle.dm"
 #include "MORTEM\change_outstatus\status.dm"
 #include "MORTEM\crash_event\event.dm"
