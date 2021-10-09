@@ -1,21 +1,23 @@
+/obj/screen/film_grain
+	name = "Film Grain"
+	icon = 'MORTEM/rework_sanity/static.dmi'
+	screen_loc = ui_entire_screen
+	alpha = 110
+	layer = FULLSCREEN_LAYER
+	plane = FULLSCREEN_PLANE
+	mouse_opacity = 0
+
 /datum/sanity
-	var/obj/screen/film_grain
+	var/obj/screen/film_grain/grain
 
 /datum/sanity/New(mob/living/carbon/human/H)
 	..()
-	film_grain = new()
-	film_grain.name = "Film Grain"
-	film_grain.icon = 'MORTEM/rework_sanity/static.dmi'
-	film_grain.screen_loc = ui_entire_screen
-	film_grain.alpha = 110
-	film_grain.layer = FULLSCREEN_LAYER
-	film_grain.plane = FULLSCREEN_PLANE
-	film_grain.mouse_opacity = 0
+	grain = new()
 
 /mob/living/carbon/human/show_HUD()
 	..()
 	if(client)
-		client.screen += sanity.film_grain
+		client.screen += sanity.grain
 
 /datum/sanity/updateLevel(new_level)
 	..()
@@ -28,24 +30,17 @@
 		if(60 to INFINITY)
 			state = ""
 
-	film_grain.icon_state = state
+	grain.icon_state = state
 
 /mob/living/silicon
-	var/obj/screen/film_grain
+	var/obj/screen/film_grain/grain
 
 /mob/living/silicon/New()
 	..()
-	film_grain = new()
-	film_grain.name = "Film Grain"
-	film_grain.icon = 'MORTEM/rework_sanity/static.dmi'
-	film_grain.icon_state = "[rand(1, 9)] moderate"
-	film_grain.screen_loc = ui_entire_screen
-	film_grain.alpha = 110
-	film_grain.layer = FULLSCREEN_LAYER
-	film_grain.plane = FULLSCREEN_PLANE
-	film_grain.mouse_opacity = 0
+	grain = new()
+	grain.icon_state = "[rand(1, 9)] moderate"
 
 /mob/living/silicon/show_HUD()
 	..()
 	if(client)
-		client.screen += film_grain
+		client.screen += grain
