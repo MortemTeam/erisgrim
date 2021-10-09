@@ -1,5 +1,5 @@
 /datum/storyevent/infestation/massive
-	weight = 777
+	weight = 0
 
 	id = "massive_infestation"
 	name = "massive_infestation"
