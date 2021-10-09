@@ -2824,6 +2824,7 @@
 #include "MORTEM\grim\light.dm"
 #include "MORTEM\guns\lcm_fire.dm"
 #include "MORTEM\massive_infestation\infestation.dm"
+#include "MORTEM\mouth_underwear\underwear.dm"
 #include "MORTEM\new_roles\omni.dm"
 #include "MORTEM\planet\atmosphere.dm"
 #include "MORTEM\planet\earthquake.dm"
