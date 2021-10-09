@@ -21,12 +21,12 @@
 	..()
 	var/state = "[rand(1, 9)] "
 	switch(new_level)
-		if(-INFINITY to 33)
-			state += "heavy"
-		if(33 to 66)
+		if(-INFINITY to 30)
 			state += "moderate"
-		if(66 to INFINITY)
+		if(30 to 60)
 			state += "light"
+		if(60 to INFINITY)
+			state = ""
 
 	film_grain.icon_state = state
 
