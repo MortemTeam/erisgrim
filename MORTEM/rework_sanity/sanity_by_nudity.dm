@@ -1,7 +1,7 @@
 #define CONTEMPLATION 2
 
 /mob/living/carbon/human/proc/check_nude()
-	return !(wear_suit  && w_uniform)
+	return !(wear_suit && w_uniform)
 
 /datum/sanity/handle_view()
 	. = 0
