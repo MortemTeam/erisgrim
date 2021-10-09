@@ -9,7 +9,7 @@
 	for(var/K in links)
 		pure_links += "<a href='[links[K]]'>[K]</a>"
 
-	var/features = list("MRP", "No Xenos", "ERP", "Админка за актив!")
+	var/features = list("MRP", "No Xenos", "ERP Allowed")
 
 	if(config && config.server_name)
 		out += "<b>[config.server_name]</b><br>"
