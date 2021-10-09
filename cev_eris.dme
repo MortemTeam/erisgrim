@@ -2814,6 +2814,7 @@
 #include "MORTEM\crash_event\event.dm"
 #include "MORTEM\disable_gravity\gravity.dm"
 #include "MORTEM\disable_other_maps\disabler.dm"
+#include "MORTEM\disable_stuffbreak_by_roach\roach.dm"
 #include "MORTEM\disks\toys.dm"
 #include "MORTEM\endgame_condition\disable_crew_transfer.dm"
 #include "MORTEM\endgame_condition\disable_shuttles.dm"
