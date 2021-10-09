@@ -29,7 +29,7 @@
 		if(EVENT_LEVEL_MODERATE)
 			num_areas = 777
 		if(EVENT_LEVEL_MAJOR)
-			num_areas = 6677
+			num_areas = 999
 
 	choose_area()
 	choose_mobs()
