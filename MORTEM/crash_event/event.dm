@@ -28,7 +28,7 @@
 		L.flick_light(5)
 		do_sparks(1, 0, L)
 
-		sleep(5 SECONDS)
+		sleep(1 SECONDS)
 
 	for(var/obj/machinery/light/L as() in list_of_light)
 		L.on = TRUE
