@@ -1,5 +1,5 @@
 /datum/click_handler/Click(var/atom/target, location, control, params)
-	if(!findtext(params, "left=1"))
+	if(!findtext(params, "left=1") || owner.mob.in_throw_mode)
 		return FALSE
 
 	if(!isHUDobj(target))
@@ -17,7 +17,7 @@
 	return TRUE
 
 /datum/click_handler/fullauto/MouseDown(object, location, control, params)
-	if(!findtext(params, "left=1"))
+	if(!findtext(params, "left=1") || owner.mob.in_throw_mode)
 		return FALSE
 
 	if(!isturf(owner.mob.loc)) // This stops from firing full auto weapons inside closets or in /obj/effect/dummy/chameleon chameleon projector
