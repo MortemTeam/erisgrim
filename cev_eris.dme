@@ -2819,6 +2819,7 @@
 #include "MORTEM\endgame_condition\disable_shuttles.dm"
 #include "MORTEM\endgame_condition\disable_teleporters.dm"
 #include "MORTEM\endgame_condition\endgame.dm"
+#include "MORTEM\fix_layers\planes.dm"
 #include "MORTEM\generate_ore\generate.dm"
 #include "MORTEM\grim\hud.dm"
 #include "MORTEM\grim\light.dm"
@@ -2832,5 +2833,4 @@
 #include "MORTEM\rework_sanity\sanity_by_nudity.dm"
 #include "MORTEM\skyblocks\blocks.dm"
 #include "MORTEM\smooth_animation\firedoor.dm"
-#include "MORTEM\turfs\catwalk_plane.dm"
 // END_INCLUDE
