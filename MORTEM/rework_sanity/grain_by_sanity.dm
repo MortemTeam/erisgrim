@@ -21,7 +21,26 @@
 
 /datum/sanity/updateLevel(new_level)
 	..()
+
+	var/datum/stat_holder/S = owner.stats
+	var/light_grain_perks = list(
+		PERK_SURVIVOR, PERK_VAGABOND,  // Jobs
+		PERK_NIHILIST, PERK_LOWBORN,   // Fates
+		PERK_HOLY_LIGHT,               // Aura
+	)
+
 	var/state = "[rand(1, 9)] "
+	for(var/perk in S.perks ? light_grain_perks : list())
+		if(S.getPerk(perk))
+			switch(new_level)
+				if(-INFINITY to 30)
+					state += "light"
+				if(30 to INFINITY)
+					state = ""
+
+			grain.icon_state = state
+			return
+
 	switch(new_level)
 		if(-INFINITY to 30)
 			state += "moderate"
@@ -31,16 +50,3 @@
 			state = ""
 
 	grain.icon_state = state
-
-/mob/living/silicon
-	var/obj/screen/film_grain/grain
-
-/mob/living/silicon/New()
-	..()
-	grain = new()
-	grain.icon_state = "[rand(1, 9)] moderate"
-
-/mob/living/silicon/show_HUD()
-	..()
-	if(client)
-		client.screen += grain
