@@ -19,5 +19,5 @@
 /datum/event/earthquake/start()
 	for(var/mob/M in SSmobs.mob_list)
 		if(M.client)
-			shake_camera(M, 30, 1)
+			shake_camera(M, 10 SECONDS, 1)
 			playsound(M, 'sound/effects/alert.ogg', 100, 1, 0.5)
