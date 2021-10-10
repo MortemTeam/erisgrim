@@ -2814,7 +2814,6 @@
 #include "MORTEM\crash_event\event.dm"
 #include "MORTEM\disable_gravity\gravity.dm"
 #include "MORTEM\disable_other_maps\disabler.dm"
-#include "MORTEM\disable_stuffbreak_by_roach\roach.dm"
 #include "MORTEM\disks\toys.dm"
 #include "MORTEM\endgame_condition\disable_crew_transfer.dm"
 #include "MORTEM\endgame_condition\disable_shuttles.dm"
@@ -2826,7 +2825,6 @@
 #include "MORTEM\guns\lcm_fire.dm"
 #include "MORTEM\massive_infestation\infestation.dm"
 #include "MORTEM\mouth_underwear\underwear.dm"
-#include "MORTEM\new_roles\omni.dm"
 #include "MORTEM\planet\atmosphere.dm"
 #include "MORTEM\planet\earthquake.dm"
 #include "MORTEM\rework_engine_craft\engine.dm"
@@ -2834,4 +2832,5 @@
 #include "MORTEM\rework_sanity\sanity_by_nudity.dm"
 #include "MORTEM\skyblocks\blocks.dm"
 #include "MORTEM\smooth_animation\firedoor.dm"
+#include "MORTEM\turfs\catwalk_plane.dm"
 // END_INCLUDE
