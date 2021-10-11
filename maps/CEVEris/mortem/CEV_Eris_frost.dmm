@@ -915,6 +915,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/drone_fabrication)
+"aHE" = (
+/obj/spawner/pack/gun_loot/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "aHL" = (
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/tiled/steel,
@@ -2126,6 +2130,12 @@
 "biL" = (
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/security/range)
+"biN" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "bjk" = (
 /obj/structure/cable{
 	d1 = 1;
@@ -2917,13 +2927,6 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck5port)
-"bLl" = (
-/obj/structure/railing,
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "bMg" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/under,
@@ -19301,10 +19304,6 @@
 /obj/spawner/flora/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck5central)
-"hlZ" = (
-/obj/spawner/traps/low_chance,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section4deck1central)
 "hmg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -23878,6 +23877,24 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
+"igi" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "igC" = (
 /obj/spawner/pack/machine/low_chance,
 /turf/simulated/floor/tiled/techmaint,
@@ -32201,6 +32218,10 @@
 /obj/item/pen,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/engineering/breakroom)
+"jHg" = (
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck1central)
 "jHj" = (
 /obj/spawner/gun/cheap/low_chance,
 /turf/simulated/floor/tiled/steel,
@@ -42947,10 +42968,6 @@
 	},
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/anomal)
-"lLE" = (
-/obj/spawner/pack/gun_loot/low_chance,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "lMc" = (
 /obj/structure/table/standard,
 /obj/item/paper_bin,
@@ -43878,29 +43895,6 @@
 /obj/spawner/pack/machine,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/eris/maintenance/section3deck4central)
-"lUw" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "lUB" = (
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating/under,
@@ -48192,24 +48186,6 @@
 	oxygen = 0
 	},
 /area/eris/engineering/engine_room)
-"mJk" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/catwalk,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "mJo" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /obj/item/device/radio/intercom{
@@ -50237,6 +50213,13 @@
 	},
 /turf/simulated/wall,
 /area/eris/maintenance/section1deck5central)
+"ndr" = (
+/obj/structure/railing,
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "nds" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -60256,12 +60239,6 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck3port)
-"oWB" = (
-/obj/structure/catwalk,
-/obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/spawner/traps/low_chance,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "oWJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/glass{
@@ -68251,10 +68228,6 @@
 "qyw" = (
 /obj/structure/catwalk,
 /turf/simulated/open,
-/area/eris/engineering/engine_room)
-"qyD" = (
-/obj/effect/window_lwall_spawn/smartspawn,
-/turf/simulated/floor/plating/under,
 /area/eris/engineering/engine_room)
 "qyI" = (
 /obj/structure/reagent_dispensers/fueltank,
@@ -107339,6 +107312,29 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
+"ycX" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "ycY" = (
 /obj/structure/railing{
 	dir = 8
@@ -107578,12 +107574,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/prison)
 "yfw" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(12)
-	},
-/turf/simulated/floor/tiled/techmaint_cargo,
-/area/eris/maintenance/section4deck3port)
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/plating/under,
+/area/eris/engineering/engine_room)
 "yfx" = (
 /obj/structure/disposalpipe/down{
 	dir = 8
@@ -188808,8 +188801,8 @@ ykt
 ykt
 brP
 brP
-qyD
-qyD
+yfw
+yfw
 brP
 bTJ
 aPB
@@ -245874,7 +245867,7 @@ csA
 bYB
 bMV
 bWj
-yfw
+wiT
 bWj
 bWj
 bWj
@@ -376062,13 +376055,13 @@ doQ
 eEy
 eEy
 eEy
-hlZ
+jHg
 eEy
 aPn
 aPn
 eEy
 eEy
-hlZ
+jHg
 dvy
 eEy
 dXH
@@ -376962,7 +376955,7 @@ sVD
 cEQ
 cIq
 eEz
-oWB
+biN
 eEz
 eEz
 eEz
@@ -377566,7 +377559,7 @@ cEu
 dWQ
 dvu
 dWQ
-lLE
+aHE
 dvu
 dvu
 dWQ
@@ -379072,8 +379065,8 @@ mng
 iBF
 iBF
 eEy
-lUw
-bLl
+ycX
+ndr
 eEy
 dXH
 dXH
@@ -379374,7 +379367,7 @@ tRa
 wjC
 iBF
 eEy
-mJk
+igi
 cHg
 dvw
 dXH
