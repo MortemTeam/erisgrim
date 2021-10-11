@@ -53344,8 +53344,9 @@
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/eris/rnd/xenobiology)
 "nIx" = (
-/turf/simulated/open,
-/area/eris/maintenance/section4deck2port)
+/obj/effect/decal/cleanable/rubble,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck5starboard)
 "nIB" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/command{
@@ -78754,10 +78755,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/obj/structure/railing{
-	dir = 4
-	},
-/turf/simulated/floor/plating/under,
+/turf/simulated/wall/r_wall,
 /area/eris/maintenance/section4deck2port)
 "sDO" = (
 /obj/structure/table/woodentable,
@@ -133516,7 +133514,7 @@ xLv
 xLv
 xLv
 inY
-xLv
+inY
 inY
 inY
 sJT
@@ -133818,7 +133816,7 @@ xLv
 xLv
 xLv
 xLv
-xLv
+inY
 inY
 inY
 ctJ
@@ -134424,7 +134422,7 @@ xLv
 xLv
 inY
 inY
-xLv
+inY
 ctJ
 fCI
 vnD
@@ -134723,10 +134721,10 @@ xLv
 xLv
 xLv
 xLv
-xLv
 inY
 inY
-xLv
+inY
+inY
 ctJ
 qPh
 mxX
@@ -135024,11 +135022,11 @@ xLv
 xLv
 xLv
 xLv
-xLv
 inY
 inY
-xLv
-xLv
+inY
+inY
+inY
 ctJ
 mNJ
 nyG
@@ -135325,12 +135323,12 @@ xLv
 xLv
 xLv
 xLv
-xLv
 inY
 inY
 inY
-xLv
-xLv
+inY
+inY
+inY
 ctJ
 vfF
 mxX
@@ -135626,7 +135624,7 @@ xLv
 xLv
 xLv
 xLv
-xLv
+inY
 xsH
 xsH
 aRH
@@ -135927,7 +135925,7 @@ xLv
 xLv
 xLv
 xLv
-xLv
+inY
 inY
 xsH
 biL
@@ -136228,8 +136226,8 @@ xLv
 xLv
 xLv
 xLv
-xLv
-xLv
+inY
+inY
 inY
 xsH
 biL
@@ -136538,7 +136536,7 @@ biL
 biL
 biL
 aRH
-csA
+inY
 ctJ
 fps
 odi
@@ -145313,9 +145311,9 @@ koO
 lXM
 nPw
 qsV
-xHT
-omV
-inY
+rqh
+csA
+csA
 inY
 inY
 inY
@@ -145615,8 +145613,8 @@ uZj
 uZj
 kZI
 vCZ
-xHT
-inY
+rqh
+csA
 inY
 inY
 inY
@@ -147440,7 +147438,7 @@ xLv
 xLv
 inY
 inY
-njB
+bMg
 qTp
 qTp
 qTp
@@ -147762,7 +147760,7 @@ tua
 wUx
 jNv
 njB
-csA
+inY
 inY
 inY
 inY
@@ -148057,13 +148055,13 @@ xLv
 xLv
 xLv
 xLv
-xLv
 inY
-njB
-njB
+inY
+nIx
+nIx
 dsJ
-njB
-njB
+nIx
+bMg
 inY
 inY
 inY
@@ -148359,10 +148357,10 @@ xLv
 xLv
 xLv
 xLv
-xLv
 inY
 inY
-njB
+inY
+bMg
 bMg
 wDD
 inY
@@ -148661,7 +148659,7 @@ xLv
 xLv
 xLv
 xLv
-xLv
+inY
 inY
 inY
 inY
@@ -312111,7 +312109,7 @@ dOi
 dOi
 dAn
 dAn
-dfP
+sDN
 dOi
 abF
 abF
@@ -312412,7 +312410,7 @@ sqD
 dOi
 uxS
 rVT
-nIx
+qgF
 dfP
 dOi
 abF
