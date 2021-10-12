@@ -8107,15 +8107,13 @@
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/research)
 "fga" = (
-/obj/structure/bed/chair/custom/bar_special{
-	dir = 4
-	},
 /obj/machinery/alarm{
 	pixel_y = 26
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 6
 	},
+/obj/structure/table/bar_special,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
 "fgh" = (
@@ -21509,15 +21507,13 @@
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
 "hIN" = (
-/obj/structure/bed/chair/custom/bar_special{
-	dir = 8
-	},
 /obj/machinery/firealarm{
 	pixel_y = 28
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/structure/cyberplant,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
 "hJd" = (
@@ -46023,12 +46019,14 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/maintenance/section2deck3starboard)
 "moI" = (
-/obj/structure/table/bar_special,
 /obj/item/device/radio/intercom{
 	pixel_y = 24
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
+	},
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 8
 	},
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
@@ -56226,6 +56224,15 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/fo)
+"ojK" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/machinery/camera/network/third_section{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/eris/crew_quarters/bar)
 "ojL" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -70116,6 +70123,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/meo/quarters)
+"qTF" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/eris/maintenance/section3deck4port)
 "qTS" = (
 /turf/simulated/wall/r_wall,
 /area/eris/maintenance/section3deck4port)
@@ -84223,8 +84235,9 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/barracks)
 "tFn" = (
-/obj/structure/cyberplant,
-/turf/simulated/floor/tiled/steel/bar_light,
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
 /area/eris/crew_quarters/bar)
 "tFo" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
@@ -193936,7 +193949,7 @@ lGd
 lGd
 lGd
 lGd
-tAw
+qTF
 hvi
 oYw
 oYw
@@ -194238,7 +194251,7 @@ lGd
 lGd
 lGd
 lGd
-tAw
+qTF
 mmf
 oYw
 eID
@@ -194540,7 +194553,7 @@ lGd
 lGd
 lGd
 lGd
-tAw
+qTF
 ykX
 oYw
 rBm
@@ -194835,8 +194848,8 @@ tiw
 tiw
 tiw
 tiw
-slx
-slx
+tFn
+tFn
 icV
 icV
 icV
@@ -195137,8 +195150,8 @@ oEA
 tiw
 jVJ
 tiw
-axY
-tFn
+iVt
+fss
 icV
 fnh
 fnh
@@ -195440,7 +195453,7 @@ tiw
 tiw
 tiw
 fga
-fbk
+ojK
 icV
 wNy
 sAh
