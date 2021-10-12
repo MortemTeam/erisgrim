@@ -1,6 +1,6 @@
 // Returns the lowest turf available on a given Z-level
 var/global/list/base_turf_by_z = list(
-	"1" = /turf/space,
+	"1" = /turf/simulated/floor/exoplanet/barren,
 	"2" = /turf/simulated/open,  // Ship levels.
 	"3" = /turf/simulated/open,
 	"4" = /turf/simulated/open,
