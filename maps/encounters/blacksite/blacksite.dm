@@ -1,6 +1,8 @@
+/*
 #include "blacksite_small.dmm"
 #include "blacksite_medium.dmm"
 #include "blacksite_large.dmm"
+*/
 
 /////
 // Map data
