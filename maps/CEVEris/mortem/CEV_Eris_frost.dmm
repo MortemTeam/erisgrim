@@ -916,9 +916,9 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/drone_fabrication)
 "aHE" = (
-/obj/structure/cyberplant,
-/turf/simulated/floor/tiled/steel,
-/area/eris/storage/tech)
+/obj/spawner/scrap/dense/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "aHL" = (
 /obj/structure/multiz/stairs/active/bottom,
 /turf/simulated/floor/tiled/steel,
@@ -4353,9 +4353,9 @@
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/crew_quarters/pubeva)
 "cEt" = (
-/obj/spawner/mob/spiders/cluster/low_chance,
-/turf/simulated/floor/tiled/dark/gray_platform,
-/area/eris/maintenance/oldbridge)
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel,
+/area/eris/storage/tech)
 "cEu" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -4423,7 +4423,7 @@
 /area/eris/crew_quarters/sleep)
 "cHH" = (
 /obj/structure/railing,
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "cIf" = (
@@ -4482,6 +4482,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "cLQ" = (
@@ -4529,26 +4530,9 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/main/section4)
 "cQV" = (
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/structure/cable/green{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/spawner/junk/low_chance,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
+/obj/spawner/scrap/dense/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck3port)
 "cRS" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -5035,7 +5019,7 @@
 /area/eris/maintenance/oldbridge)
 "dhc" = (
 /obj/effect/decal/cleanable/dirt,
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/maintenance/oldbridge)
 "dhf" = (
@@ -5581,6 +5565,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "dWQ" = (
@@ -9727,7 +9712,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "fwV" = (
@@ -13127,7 +13112,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/blue{
 	dir = 1
 	},
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck3port)
 "gen" = (
@@ -15658,6 +15643,10 @@
 /obj/item/pen,
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/security/lobby)
+"gCz" = (
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/eris/maintenance/oldbridge)
 "gCD" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/steel/monofloor{
@@ -38515,10 +38504,9 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/virology)
 "kTt" = (
-/obj/effect/decal/cleanable/dirt,
-/obj/spawner/junk/low_chance,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section4deck1central)
+/obj/spawner/scrap/dense/low_chance,
+/turf/simulated/floor/tiled/dark/gray_platform,
+/area/eris/maintenance/oldbridge)
 "kTy" = (
 /obj/structure/cable/green{
 	d1 = 2;
@@ -41263,7 +41251,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/spawner/junk,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "lvG" = (
@@ -46066,6 +46054,27 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/engineering/atmos)
+"moT" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/spawner/scrap/dense/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "moV" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "11,10"
@@ -47553,6 +47562,7 @@
 	icon_state = "1-2"
 	},
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "mCN" = (
@@ -50208,7 +50218,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "nds" = (
@@ -70342,6 +70352,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "qVK" = (
@@ -76502,6 +76513,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "sdC" = (
@@ -85682,7 +85694,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/spawner/junk,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "tVd" = (
@@ -87745,6 +87757,20 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/maintenance/section3deck2starboard)
+"upn" = (
+/obj/structure/disposalpipe/segment,
+/obj/structure/railing{
+	dir = 8
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/spawner/pack/gun_loot/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "upp" = (
 /obj/effect/decal/cleanable/dirt,
 /obj/spawner/pack/machine,
@@ -88702,7 +88728,7 @@
 /area/eris/hallway/side/atmosphericshallway)
 "uxS" = (
 /obj/structure/railing,
-/obj/spawner/junk,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "uxW" = (
@@ -90252,20 +90278,6 @@
 /obj/structure/girder,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5port)
-"uOc" = (
-/obj/structure/disposalpipe/segment,
-/obj/structure/railing{
-	dir = 8
-	},
-/obj/structure/cable/green{
-	d1 = 1;
-	d2 = 2;
-	icon_state = "1-2"
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/spawner/pack/gun_loot/low_chance,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck1central)
 "uOk" = (
 /obj/structure/multiz/ladder/up,
 /turf/simulated/floor/tiled/techmaint,
@@ -99233,6 +99245,11 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/maintenance/section2deck1port)
+"wzY" = (
+/obj/effect/decal/cleanable/dirt,
+/obj/spawner/junk/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck1central)
 "wAa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 9
@@ -107178,7 +107195,7 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/hallway/side/bridgehallway)
 "ybx" = (
-/obj/spawner/junk,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "yby" = (
@@ -107335,7 +107352,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/junk/low_chance,
+/obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "ycY" = (
@@ -253752,7 +253769,7 @@ bXl
 bYB
 loC
 swy
-bPB
+cQV
 bYB
 bYq
 bWj
@@ -254057,7 +254074,7 @@ bMW
 bWj
 bYB
 xTI
-bPB
+cQV
 bXq
 abF
 ykt
@@ -255564,7 +255581,7 @@ bKT
 bYB
 bMV
 bXL
-bPB
+cQV
 bYB
 bYq
 bWj
@@ -256760,7 +256777,7 @@ ibE
 iXV
 jZW
 bAR
-aHE
+cEt
 buz
 bwb
 bAR
@@ -318684,7 +318701,7 @@ dAX
 dfK
 dzd
 wwQ
-dgI
+kTt
 dhA
 dBV
 dXI
@@ -320798,7 +320815,7 @@ dAX
 dhQ
 dzd
 qZE
-cEt
+gCz
 dhA
 dBV
 dXI
@@ -375144,7 +375161,7 @@ smM
 eEy
 kJo
 qVG
-dvu
+aHE
 doQ
 phk
 mog
@@ -375446,7 +375463,7 @@ obq
 eEz
 ubM
 qVG
-dvu
+aHE
 doQ
 hsk
 fVl
@@ -377262,7 +377279,7 @@ cIC
 dWO
 dWO
 dWO
-uOc
+upn
 dWO
 mCL
 dvB
@@ -377559,14 +377576,14 @@ eEy
 dDL
 eEy
 cEu
-dWQ
 dvu
-dvu
-dvu
-dvu
-dvu
-dvu
-dvu
+aHE
+aHE
+aHE
+aHE
+aHE
+aHE
+aHE
 dXH
 wzK
 dXH
@@ -377861,8 +377878,8 @@ uAG
 rVg
 dUv
 nff
-dWQ
 dvu
+aHE
 dXH
 dXH
 dXH
@@ -378163,8 +378180,8 @@ mAh
 xRq
 vYZ
 cmw
-dWQ
 dvu
+aHE
 dXH
 abF
 ykt
@@ -378465,7 +378482,7 @@ lJh
 dDL
 eEy
 cEu
-dWQ
+dvu
 fwR
 dXH
 dXH
@@ -378766,7 +378783,7 @@ toi
 eEy
 ris
 eEy
-cQV
+moT
 cHH
 eEy
 ris
@@ -380580,7 +380597,7 @@ veB
 xGE
 hmg
 cHg
-kTt
+wzY
 dXH
 dXH
 dXH
