@@ -53,6 +53,6 @@
 		for (var/mob/living/carbon/superior_animal/roach/fuhrer/F in range(src,8))
 			F.distress_call()
 
-	if(prob(3))
+	if(prob(1))
 		visible_message(SPAN_DANGER("\the [src] hacks up a tape!"))
 		new /obj/item/music_tape(get_turf(src))
