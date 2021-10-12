@@ -24,6 +24,6 @@
 	temperature = T20C - 193
 
 /decl/xgm_gas/nitrogen
-	tile_icon = 'MORTEM/planet/weather.dmi'
+	tile_icon = 'MORTEM/planet_simulation/weather.dmi'
 	tile_overlay = "snowfall_med"
 	overlay_limit = 90

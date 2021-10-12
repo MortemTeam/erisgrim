@@ -40,7 +40,7 @@
 			if(H.z in eris_floor)
 				spawn(0)
 					shake_camera(H, TURBULENCE, 2)
-					playsound(H, 'MORTEM/endgame_condition/takeoff.mp3', 100, 1)
+					playsound(H, 'MORTEM/add_endgame_condition/takeoff.mp3', 100, 1)
 
 		sleep(TURBULENCE / 2)
 
