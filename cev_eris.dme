@@ -2832,6 +2832,7 @@
 #include "MORTEM\changing\planes.dm"
 #include "MORTEM\changing\shuttle_base_turfs.dm"
 #include "MORTEM\changing\status.dm"
+#include "MORTEM\disabling\breakdowns.dm"
 #include "MORTEM\disabling\gravity.dm"
 #include "MORTEM\disabling\other_maps.dm"
 #include "MORTEM\planet_simulation\atmosphere.dm"
