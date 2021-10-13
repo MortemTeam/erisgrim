@@ -20,11 +20,9 @@
 	build_path = /obj/machinery/atmospherics/unary/engine
 	req_components = list(
 		/obj/item/stack/cable_coil = 10,
-		/obj/item/stock_parts/matter_bin/super = 3,
 		/obj/item/stock_parts/micro_laser/ultra = 3,
-		/obj/item/stock_parts/manipulator/pico = 3,
-		/obj/item/stock_parts/scanning_module/phasic = 3,
-		/obj/item/stock_parts/capacitor/super = 3
+		/obj/item/stock_parts/capacitor/super = 3,
+		/obj/item/stock_parts/subspace/ansible = 1
 	)
 
 /obj/machinery/atmospherics/unary/engine
