@@ -39,7 +39,10 @@
 	var/turf/T = get_turf(src)
 	T.assume_gas("plasma", 1 * 10, T20C)
 
-	to_chat(user, SPAN_NOTICE("You've blown dust in the wind."))
+	user.visible_message(
+		SPAN_DANGER("[user] blown dust in the wind."),
+		SPAN_NOTICE("You've blown dust in the wind.")
+	)
 	use(1)
 
 /obj/item/stack/material/plasma/attackby(obj/item/I, mob/user)
@@ -49,6 +52,11 @@
 
 	var/turf/T = get_turf(src)
 	T.assume_gas("plasma", amount * 10, 200 + T20C)
+
+	user.visible_message(
+		SPAN_DANGER("Fire covers a handful of sand."),
+		SPAN_NOTICE("Fire covers a handful of sand.")
+	)
 
 	use(amount)
 
