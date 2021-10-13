@@ -19,12 +19,12 @@
 	board_type = "machine"
 	build_path = /obj/machinery/atmospherics/unary/engine
 	req_components = list(
-		/obj/item/stack/cable_coil = 15,
-		/obj/item/stock_parts/matter_bin/super = 5,
-		/obj/item/stock_parts/micro_laser/ultra = 5,
-		/obj/item/stock_parts/manipulator/pico = 5,
-		/obj/item/stock_parts/scanning_module/phasic = 5,
-		/obj/item/stock_parts/capacitor/super = 5
+		/obj/item/stack/cable_coil = 10,
+		/obj/item/stock_parts/matter_bin/super = 3,
+		/obj/item/stock_parts/micro_laser/ultra = 3,
+		/obj/item/stock_parts/manipulator/pico = 3,
+		/obj/item/stock_parts/scanning_module/phasic = 3,
+		/obj/item/stock_parts/capacitor/super = 3
 	)
 
 /obj/machinery/atmospherics/unary/engine
@@ -38,16 +38,6 @@
 
 /obj/machinery/atmospherics/unary/engine/get_item_cost()
 	return rand(35000, 50000)
-
-/datum/nano_module/program/trade/ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = NANOUI_FOCUS, state = GLOB.default_state)
-	var/list/data = ui_data()
-
-	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
-	if (!ui)
-		ui = new(user, src, ui_key, "trade.tmpl", name, 750, 700, state = state)
-		//ui.set_auto_update(1)
-		ui.set_initial_data(data)
-		ui.open()
 
 /datum/trade_station/station_zarya
 	assortiment = list(
