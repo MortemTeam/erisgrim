@@ -7,7 +7,7 @@
 	text = "Признаю поражение, желаю закончить игру!"
 
 /datum/vote_choice/evac/on_win()
-	world.Reboot("You fail")
+	world.Reboot("You lose)")
 
 /datum/vote_choice/noevac
 	text = "Хуй там, мы играем дальше!"
