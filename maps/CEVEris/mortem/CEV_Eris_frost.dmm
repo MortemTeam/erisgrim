@@ -5571,10 +5571,6 @@
 "dWQ" = (
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
-"dXb" = (
-/obj/structure/low_wall,
-/turf/simulated/floor/plating,
-/area/eris/maintenance/section2deck4port)
 "dXf" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -6218,11 +6214,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/rnd/xenobiology)
-"eMf" = (
-/obj/item/material/shard,
-/obj/structure/low_wall,
-/turf/simulated/floor/plating,
-/area/eris/maintenance/section2deck4port)
 "eMg" = (
 /obj/structure/disposalpipe/segment{
 	dir = 8;
@@ -194512,7 +194503,7 @@ lRJ
 lRJ
 ykt
 ykt
-eMf
+lkR
 lje
 xFl
 jta
@@ -194814,7 +194805,7 @@ lRJ
 ykt
 ykt
 ykt
-dXb
+lkR
 wlM
 gNa
 jta
@@ -195116,7 +195107,7 @@ ykt
 ykt
 ykt
 ykt
-eMf
+lkR
 tHy
 pid
 jta
@@ -207496,7 +207487,7 @@ dhM
 ykt
 ddL
 ykt
-iwt
+mUg
 wUF
 fcQ
 nji
@@ -207798,7 +207789,7 @@ ykt
 ykt
 jGI
 ykt
-iwt
+mUg
 wUF
 uOn
 wUF
