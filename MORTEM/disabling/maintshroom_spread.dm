@@ -1,4 +1,4 @@
 
-/obj/effect/plant/Process()
+/obj/effect/plant/life()
 	die_off()
 	return PROCESS_KILL
