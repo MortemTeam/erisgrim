@@ -2822,6 +2822,7 @@
 #include "MORTEM\add_grim\light.dm"
 #include "MORTEM\add_mouth_underwear\underwear.dm"
 #include "MORTEM\add_smooth_animation\firedoor.dm"
+#include "MORTEM\adding\airwalls_techcloset.dm"
 #include "MORTEM\adding\massive_infestation.dm"
 #include "MORTEM\adding\nt_suit_storage.dm"
 #include "MORTEM\adding\skyblocks.dm"
