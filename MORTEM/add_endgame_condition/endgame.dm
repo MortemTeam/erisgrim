@@ -29,7 +29,7 @@
 				CHECK_TICK
 
 /obj/machinery/computer/helm/attack_hand(mob/user)
-	if(linked.get_total_thrust() < 100)
+	if(linked.get_total_thrust() < 200)
 		return to_chat(user, SPAN_NOTICE("Too little engine power for takeoff!"))
 
 	var/out = input("You really want escape? (This will end the round)", "End Round", "No") in list("Yes", "No")
