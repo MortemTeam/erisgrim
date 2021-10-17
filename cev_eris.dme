@@ -2832,7 +2832,7 @@
 #include "MORTEM\changing\engine_craft.dm"
 #include "MORTEM\changing\generate_ore.dm"
 #include "MORTEM\changing\lcm_fire.dm"
-#include "MORTEM\changing\planes.dm"
+#include "MORTEM\changing\planes+layers.dm"
 #include "MORTEM\changing\shuttle_base_turfs.dm"
 #include "MORTEM\changing\status.dm"
 #include "MORTEM\changing\surrender.dm"
