@@ -18938,6 +18938,7 @@
 /turf/simulated/floor/tiled/dark/cargo,
 /area/eris/crew_quarters/hydroponics)
 "hja" = (
+/obj/item/stack/material/steel,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
 "hje" = (
@@ -20927,7 +20928,6 @@
 /obj/machinery/status_display{
 	pixel_y = 32
 	},
-/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/right)
 "hDZ" = (
@@ -22224,7 +22224,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck4port)
 "hQT" = (
-/obj/machinery/atmospherics/valve/open,
+/obj/machinery/atmospherics/valve,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/left)
 "hQW" = (
@@ -32852,7 +32852,6 @@
 	dir = 8;
 	name = "Plasma Suplly (General)"
 	},
-/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/left)
 "jNq" = (
@@ -42392,6 +42391,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 10
 	},
+/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
 "lFN" = (
@@ -62145,6 +62145,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 6
 	},
+/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/left)
 "pqh" = (
@@ -65556,14 +65557,6 @@
 /obj/item/clothing/mask/gas,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/quartermaster/misc)
-"pXT" = (
-/obj/machinery/atmospherics/binary/passive_gate{
-	dir = 1;
-	name = "Oxygen Suplly  (Chamber)"
-	},
-/obj/item/material/shard,
-/turf/simulated/floor/tiled/steel/techfloor_grid,
-/area/eris/engineering/propulsion/right)
 "pXV" = (
 /obj/machinery/button/remote/blast_door{
 	dir = 1;
@@ -74524,7 +74517,6 @@
 	dir = 1;
 	name = "Plasma Suplly (Chamber)"
 	},
-/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/left)
 "rIj" = (
@@ -75575,7 +75567,6 @@
 "rTP" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/yellow,
 /obj/machinery/meter,
-/obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/right)
 "rTS" = (
@@ -87718,6 +87709,7 @@
 /obj/structure/extinguisher_cabinet{
 	pixel_x = 26
 	},
+/obj/item/stack/material/steel,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
 "uoU" = (
@@ -96386,9 +96378,7 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/security/inspectors_office)
 "vXr" = (
-/obj/machinery/atmospherics/valve/open,
-/obj/item/material/shard,
-/obj/item/stack/material/steel,
+/obj/machinery/atmospherics/valve,
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/engineering/propulsion/right)
 "vXs" = (
@@ -97153,7 +97143,6 @@
 /area/eris/maintenance/section4deck3port)
 "wdT" = (
 /obj/machinery/atmospherics/pipe/manifold4w/visible/yellow,
-/obj/item/stack/material/steel,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/right)
 "wee" = (
@@ -373968,7 +373957,7 @@ hfT
 jMO
 ohP
 jNl
-gDD
+ojz
 sbI
 xQf
 xQf
@@ -387254,7 +387243,7 @@ nIK
 hja
 mBO
 lFK
-pXT
+mJO
 ixq
 slT
 xiz
