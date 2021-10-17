@@ -23,6 +23,10 @@
 	nitrogen = MOLES_N2ATMOS * 5
 	temperature = T20C - 193
 
+/turf/simulated/floor/exoplanet/chlorine_sand
+	nitrogen = MOLES_N2ATMOS * 5
+	temperature = T20C - 193
+
 /decl/xgm_gas/nitrogen
 	tile_icon = 'MORTEM/planet_simulation/weather.dmi'
 	tile_overlay = "snowfall_med"
