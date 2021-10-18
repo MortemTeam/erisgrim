@@ -214,11 +214,6 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/disposal)
-"abx" = (
-/obj/effect/window_lwall_spawn/smartspawn,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/plating,
-/area/eris/hallway/side/eschangara)
 "abE" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 9
@@ -378,6 +373,11 @@
 "adq" = (
 /turf/simulated/wall/r_wall,
 /area/eris/engineering/wastingroom)
+"adt" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/hallway/main/section3)
 "adu" = (
 /obj/structure/catwalk,
 /obj/structure/sign/atmos_co2{
@@ -547,6 +547,11 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck5port)
+"afZ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/clothingstorage)
 "agc" = (
 /obj/spawner/contraband,
 /turf/simulated/floor/plating/under,
@@ -632,6 +637,11 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/security/main)
+"ajM" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/breakroom)
 "ald" = (
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
@@ -911,6 +921,12 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/drone_fabrication)
+"aFM" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/hallway/side/bridgehallway)
 "aHE" = (
 /obj/spawner/scrap/dense/low_chance,
 /turf/simulated/floor/plating/under,
@@ -2428,6 +2444,12 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/drone_fabrication)
+"bwY" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/visible/red,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/engine_room)
 "bwZ" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -2637,8 +2659,8 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/hallway/main/section4)
 "bCS" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/main/section4)
 "bCW" = (
@@ -2960,8 +2982,8 @@
 /turf/simulated/floor/exoplanet/chlorine_sand,
 /area/eris/maintenance/section3deck5starboard)
 "bMS" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/cryo)
 "bMV" = (
@@ -4058,6 +4080,11 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section4deck2starboard)
+"cuq" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/medical/genetics)
 "cvd" = (
 /obj/machinery/door/firedoor,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -4180,7 +4207,7 @@
 /area/eris/maintenance/section4deck2starboard)
 "cyF" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/security/prison)
 "cyH" = (
@@ -5724,6 +5751,11 @@
 /obj/item/material/shard,
 /turf/simulated/floor/exoplanet/chlorine_sand,
 /area/space)
+"eCN" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/rnd/research)
 "eDr" = (
 /obj/structure/table/standard,
 /obj/item/storage/firstaid/regular,
@@ -5757,7 +5789,7 @@
 /area/eris/crew_quarters/sleep)
 "eFY" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/plasma,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/captain)
 "eGk" = (
@@ -5824,7 +5856,7 @@
 /area/eris/maintenance/section3deck2starboard)
 "eHa" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/morguehallway)
 "eHl" = (
@@ -9200,7 +9232,7 @@
 /area/eris/security/checkpoint/science)
 "frX" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/neotheology/office)
 "frZ" = (
@@ -10004,6 +10036,11 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck4central)
+"fzX" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/quartermaster/storage)
 "fzY" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment,
@@ -12544,7 +12581,7 @@
 "fYj" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "fYp" = (
@@ -15779,10 +15816,9 @@
 	name = "AI Upload Foyer"
 	})
 "gEn" = (
-/obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/engineering/propulsion/right)
+/area/eris/security/range)
 "gEu" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /turf/simulated/wall,
@@ -20075,8 +20111,8 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/rnd/lab)
 "hvE" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos/storage)
 "hvL" = (
@@ -25142,10 +25178,9 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/security/checkpoint/supply)
 "irA" = (
-/obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/maintenance/disposal)
+/area/eris/maintenance/section1deck5central)
 "irB" = (
 /obj/machinery/light,
 /turf/simulated/floor/tiled/steel,
@@ -25971,9 +26006,9 @@
 /area/eris/quartermaster/misc)
 "iAn" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/engineering/propulsion/left)
+/area/eris/crew_quarters/sleep)
 "iAo" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -26787,7 +26822,7 @@
 /area/eris/engineering/gravity_generator)
 "iHE" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/foyer)
 "iHF" = (
@@ -27430,8 +27465,8 @@
 /turf/simulated/floor/bluegrid,
 /area/turret_protected/ai)
 "iOm" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/hull,
 /area/eris/engineering/breakroom)
 "iOJ" = (
@@ -27666,6 +27701,11 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/main/section2)
+"iPZ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/security/inspectors_office)
 "iQq" = (
 /turf/simulated/floor/tiled/steel,
 /area/eris/command/teleporter)
@@ -30879,7 +30919,7 @@
 /area/eris/quartermaster/misc)
 "jvH" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/bridge)
 "jvP" = (
@@ -33164,7 +33204,7 @@
 /area/eris/neotheology/churchcorridor)
 "jQn" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/bridgebar)
 "jQo" = (
@@ -33855,7 +33895,7 @@
 	id = "shieldroom";
 	name = "Shield Generator Screen"
 	},
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/shield_generator)
 "jXA" = (
@@ -34309,7 +34349,8 @@
 /turf/simulated/open,
 /area/shuttle/mining/station)
 "kcm" = (
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eris/engineering/gravity_generator)
 "kco" = (
@@ -35105,7 +35146,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "klj" = (
@@ -35187,7 +35228,7 @@
 "kmn" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/red,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "kmp" = (
@@ -37272,7 +37313,7 @@
 /area/eris/maintenance/section2deck4central)
 "kHP" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/rnd/docking)
 "kHV" = (
@@ -39019,7 +39060,7 @@
 "kYU" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/green,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "kYV" = (
@@ -39463,7 +39504,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/eris/medical/surgery)
 "ldQ" = (
 /obj/machinery/firealarm{
@@ -40010,11 +40051,10 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/security/main)
 "ljX" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/engineering/propulsion/right)
+/area/eris/hallway/side/section3starboard)
 "lkc" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -40426,6 +40466,11 @@
 	},
 /turf/simulated/floor/carpet/purcarpet,
 /area/eris/command/meo/quarters)
+"lnC" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/command/exultant/quarters)
 "lnE" = (
 /obj/machinery/light,
 /obj/item/material/shard,
@@ -40581,6 +40626,11 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapelritualroom)
+"lpD" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/hallway/side/bridgehallway)
 "lpJ" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/research{
@@ -40778,7 +40828,7 @@
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/plasma,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/rnd/mixing)
 "lrG" = (
@@ -42259,6 +42309,11 @@
 /obj/landmark/join/late/cryo/starboard,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck2starboard)
+"lEv" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/command/meeting_room)
 "lEz" = (
 /obj/structure/flora/pottedplant{
 	icon_state = "plant-01"
@@ -42319,7 +42374,7 @@
 /area/shuttle/mining/station)
 "lFi" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/techstorage)
 "lFl" = (
@@ -42576,7 +42631,7 @@
 /area/eris/maintenance/section1deck3central)
 "lIi" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/plasma,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/rnd/mixing)
 "lIp" = (
@@ -42611,8 +42666,9 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/propulsion/left)
 "lID" = (
@@ -45622,7 +45678,7 @@
 /area/eris/crew_quarters/fitness)
 "mlv" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/main/section1)
 "mlz" = (
@@ -46211,7 +46267,7 @@
 /area/eris/maintenance/section3deck4central)
 "mqn" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/courtroom)
 "mqp" = (
@@ -47810,7 +47866,8 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/hallway/side/section3starboard)
 "mFK" = (
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eris/rnd/storage)
 "mFL" = (
@@ -49970,7 +50027,7 @@
 "nbI" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/visible/black,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/engine_room)
 "nbK" = (
@@ -50196,7 +50253,7 @@
 /area/eris/maintenance/section4deck1central)
 "nds" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/eschangarb)
 "ndz" = (
@@ -50652,6 +50709,11 @@
 	icon_state = "10,12"
 	},
 /area/shuttle/research/station)
+"nhK" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/pubeva)
 "nhL" = (
 /obj/machinery/autolathe/loaded,
 /turf/simulated/floor/tiled/steel/gray_platform,
@@ -53891,6 +53953,11 @@
 "nMb" = (
 /turf/simulated/wall,
 /area/eris/hallway/side/eschangara)
+"nMd" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/eris/maintenance/section1deck3central)
 "nMe" = (
 /obj/machinery/light/small{
 	dir = 4
@@ -54765,7 +54832,7 @@
 /area/eris/maintenance/section2deck2starboard)
 "nWp" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/atmosphericshallway)
 "nWq" = (
@@ -56484,6 +56551,13 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4port)
+"omC" = (
+/obj/machinery/atmospherics/pipe/simple/heat_exchanging,
+/turf/simulated/floor/hull{
+	flooring_override = "hullcenter18";
+	icon_state = "hullcenter18"
+	},
+/area/space)
 "omD" = (
 /turf/simulated/floor/plating/under,
 /area/eris/engineering/engine_room)
@@ -57174,7 +57248,7 @@
 /area/turret_protected/ai)
 "oue" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating/under,
 /area/eris/crew_quarters/sleep)
 "ouo" = (
@@ -57576,6 +57650,11 @@
 /obj/effect/decal/cleanable/rubble,
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/eris/security/barracks)
+"oyJ" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/hallway/main/section2)
 "oyK" = (
 /obj/structure/closet/wall_mounted/firecloset{
 	pixel_x = 32
@@ -57943,10 +58022,13 @@
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
 "oBi" = (
-/obj/structure/lattice,
-/obj/machinery/atmospherics/pipe/simple/visible/red,
-/turf/simulated/open,
-/area/space)
+/obj/machinery/atmospherics/pipe/simple/visible/green{
+	dir = 4
+	},
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/atmos)
 "oBj" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black{
 	dir = 4
@@ -59007,7 +59089,7 @@
 /area/eris/maintenance/section2deck5port)
 "oKE" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/medical/surgery)
 "oKG" = (
@@ -64121,7 +64203,7 @@
 /area/eris/security/exerooms)
 "pJV" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/medical/chemistry)
 "pJY" = (
@@ -66384,13 +66466,13 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/section3starboard)
 "qgX" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
-/obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/maintenance/disposal)
+/area/eris/engineering/atmos)
 "qhe" = (
 /obj/structure/table/standard,
 /obj/machinery/recharger,
@@ -67452,7 +67534,7 @@
 /area/eris/engineering/shield_generator)
 "qpJ" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/turret_protected/ai_upload_foyer{
 	name = "AI Upload Foyer"
@@ -68795,6 +68877,12 @@
 /obj/machinery/autolathe,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/security/warden)
+"qET" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/visible/green,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/engine_room)
 "qEW" = (
 /obj/structure/cable/green{
 	d2 = 4;
@@ -72636,7 +72724,7 @@
 /area/eris/quartermaster/hangarsupply)
 "rqh" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/commander)
 "rqi" = (
@@ -74804,11 +74892,6 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck3port)
-"rKW" = (
-/obj/effect/window_lwall_spawn/smartspawn,
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/hull,
-/area/eris/command/exultant)
 "rLa" = (
 /obj/structure/table/standard,
 /obj/item/clothing/glasses/powered/science,
@@ -75071,7 +75154,7 @@
 /area/eris/hallway/side/bridgehallway)
 "rOb" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/command/exultant)
 "rOd" = (
@@ -75394,6 +75477,11 @@
 /obj/item/pen,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/security/inspectors_office)
+"rRU" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating,
+/area/eris/maintenance/section4deck3port)
 "rRX" = (
 /obj/item/modular_computer/console/preset/command{
 	dir = 1
@@ -75901,6 +75989,11 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/dark/panels,
 /area/eris/maintenance/oldbridge)
+"rXU" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/command/fo)
 "rXX" = (
 /obj/structure/bed/padded,
 /obj/item/bedsheet,
@@ -76301,11 +76394,11 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/security/lobby)
 "sbb" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/atmospherics/pipe/simple/visible/cyan{
 	dir = 4
 	},
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "sbe" = (
@@ -78258,13 +78351,10 @@
 /turf/simulated/open,
 /area/eris/quartermaster/misc)
 "svN" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow{
-	dir = 4
-	},
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/engineering/propulsion/right)
+/area/eris/security/prisoncells)
 "svT" = (
 /turf/simulated/floor/tiled/dark/danger,
 /area/turret_protected/ai)
@@ -79581,7 +79671,7 @@
 /area/eris/neotheology/chapelritualroom)
 "sJx" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/space)
 "sJE" = (
@@ -80489,7 +80579,7 @@
 "sRV" = (
 /obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "sRY" = (
@@ -83973,8 +84063,8 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/toilet/medbay)
 "tBj" = (
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/atmos)
 "tBn" = (
@@ -85182,7 +85272,8 @@
 /turf/simulated/floor/plating/under,
 /area/eris/crew_quarters/sleep)
 "tQD" = (
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eris/crew_quarters/librarybackroom)
 "tQF" = (
@@ -87616,7 +87707,7 @@
 /area/space)
 "uog" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/security/exerooms)
 "uoj" = (
@@ -90280,7 +90371,7 @@
 /area/eris/maintenance/section3deck3starboard)
 "uOm" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/crew_quarters/hydroponics/garden)
 "uOn" = (
@@ -90730,7 +90821,7 @@
 	id = "scannerroom";
 	name = "Long Range Scanner Screen"
 	},
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/engineering/long_range_scanner)
 "uSM" = (
@@ -91080,7 +91171,7 @@
 "uWB" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/medical/virology)
 "uWE" = (
@@ -92395,7 +92486,7 @@
 /area/eris/maintenance/section3deck3port)
 "vli" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/crew_quarters/toilet/medbay)
 "vly" = (
@@ -95280,6 +95371,11 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
+"vNV" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/engeva)
 "vOc" = (
 /turf/simulated/shuttle/wall/mining{
 	icon_state = "2,4"
@@ -96042,7 +96138,7 @@
 /area/eris/command/fo)
 "vUt" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/medical/psych)
 "vUz" = (
@@ -99492,7 +99588,7 @@
 /area/eris/quartermaster/misc)
 "wCo" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/hallway/side/eschangara)
 "wCq" = (
@@ -99954,6 +100050,11 @@
 /obj/item/device/radio/beacon,
 /turf/simulated/floor/tiled/steel/panels,
 /area/eris/engineering/post)
+"wHk" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/command/mbo/quarters)
 "wHn" = (
 /obj/structure/table/rack/shelf,
 /obj/spawner/pouch,
@@ -100613,11 +100714,10 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section2deck1starboard)
 "wOM" = (
-/obj/machinery/atmospherics/pipe/simple/visible/yellow,
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
-/area/eris/engineering/propulsion/left)
+/area/eris/medical/virology)
 "wOO" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -103077,6 +103177,11 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck5port)
+"xmu" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/engineering/engine_room)
 "xmC" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -103734,6 +103839,7 @@
 /area/eris/command/captain)
 "xsz" = (
 /obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section2deck3starboard)
 "xsH" = (
@@ -103844,6 +103950,11 @@
 	},
 /turf/simulated/floor/reinforced,
 /area/eris/rnd/podbay)
+"xtt" = (
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/crew_quarters/library)
 "xtA" = (
 /obj/structure/disposalpipe/segment{
 	dir = 4
@@ -104770,8 +104881,8 @@
 /area/eris/command/meo/quarters)
 "xBH" = (
 /obj/machinery/door/firedoor,
-/obj/effect/window_lwall_spawn/smartspawn,
 /obj/structure/disposalpipe/segment,
+/obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section2deck3port)
 "xBL" = (
@@ -105451,8 +105562,10 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck2starboard)
 "xJR" = (
-/turf/simulated/floor/hull,
-/area/eris/engineering/engine_room)
+/obj/machinery/door/firedoor,
+/obj/effect/window_lwall_spawn/smartspawnplasma,
+/turf/simulated/floor/plating,
+/area/eris/neotheology/chapelritualroom)
 "xJV" = (
 /obj/structure/catwalk,
 /obj/structure/cable/green{
@@ -128709,19 +128822,19 @@ yll
 tHU
 csS
 csS
-igh
+tBj
 klh
-igh
-rxD
+tBj
+oBi
 csS
 klh
-igh
-rxD
+tBj
+oBi
 csS
 klh
-igh
-rxD
-igh
+tBj
+oBi
+tBj
 csS
 yll
 crY
@@ -129326,7 +129439,7 @@ yer
 pZA
 rmD
 tkh
-igh
+tBj
 yll
 qbA
 adM
@@ -131140,7 +131253,7 @@ wWW
 kTI
 pqv
 tkh
-igh
+tBj
 oCC
 acx
 eos
@@ -132275,7 +132388,7 @@ idT
 vdL
 pSV
 pgo
-lZO
+iAn
 yll
 yll
 yll
@@ -132577,7 +132690,7 @@ rEu
 rJY
 mGk
 eQm
-lZO
+iAn
 oCC
 oCC
 oCC
@@ -132879,7 +132992,7 @@ szk
 qjI
 neL
 neL
-lZO
+iAn
 yll
 yll
 yll
@@ -133777,7 +133890,7 @@ oCC
 yll
 yll
 eBR
-lZO
+iAn
 gfQ
 neL
 kWf
@@ -134160,7 +134273,7 @@ tbx
 pIY
 mlg
 nQI
-igh
+tBj
 oCC
 acx
 aei
@@ -135658,14 +135771,14 @@ opL
 opL
 yll
 csS
-igh
+tBj
 klh
-igh
+tBj
 klh
-igh
+tBj
 sbb
 tBj
-eQa
+qgX
 csS
 jgg
 ahy
@@ -138075,16 +138188,16 @@ tbl
 jVS
 tbl
 tbl
-abx
-abx
-abx
+wCo
+wCo
+wCo
 tbl
-abx
-abx
-abx
+wCo
+wCo
+wCo
 tbl
-abx
-abx
+wCo
+wCo
 tbl
 yll
 yll
@@ -138371,7 +138484,7 @@ lUn
 hYA
 yll
 yll
-abx
+wCo
 nzH
 utx
 hqU
@@ -138387,7 +138500,7 @@ eZh
 aak
 aap
 aaw
-abx
+wCo
 yll
 yll
 yll
@@ -138591,7 +138704,7 @@ ulY
 aTr
 bNv
 aTr
-aSC
+gEn
 yll
 ctJ
 ctJ
@@ -138673,7 +138786,7 @@ wik
 hYA
 yll
 yll
-abx
+wCo
 ucc
 jHy
 aap
@@ -138689,7 +138802,7 @@ aah
 aan
 aaV
 vTU
-abx
+wCo
 yll
 yll
 yll
@@ -138981,7 +139094,7 @@ tbl
 waG
 tbl
 tbl
-abx
+wCo
 tbl
 lcU
 goz
@@ -139279,9 +139392,9 @@ yll
 yll
 yll
 yll
-abx
+wCo
 oBD
-abx
+wCo
 yll
 yll
 tbl
@@ -139586,7 +139699,7 @@ sLM
 icQ
 tlj
 yll
-abx
+wCo
 aap
 ghi
 tbl
@@ -139888,7 +140001,7 @@ jSz
 yaH
 sRY
 yll
-abx
+wCo
 jZd
 ppy
 tbl
@@ -141096,7 +141209,7 @@ jSz
 tsE
 voB
 yll
-abx
+wCo
 aap
 ghi
 mak
@@ -141398,7 +141511,7 @@ jSz
 tsE
 hrz
 yll
-abx
+wCo
 aap
 ghi
 lcU
@@ -142002,7 +142115,7 @@ jdU
 iQA
 lFY
 yll
-abx
+wCo
 aap
 ghi
 acR
@@ -142304,7 +142417,7 @@ huN
 vfH
 jwD
 yll
-abx
+wCo
 xCb
 mOd
 hAT
@@ -143428,7 +143541,7 @@ rYI
 aSZ
 aSZ
 abF
-reD
+irA
 qHy
 mVf
 ijJ
@@ -144728,8 +144841,8 @@ mWt
 acR
 ras
 acR
-irA
-qgX
+pvQ
+kSk
 wuO
 vQd
 acR
@@ -144992,7 +145105,7 @@ yll
 jpE
 yll
 yll
-rQq
+ljX
 iFA
 iWy
 jqx
@@ -145294,7 +145407,7 @@ yll
 yll
 yll
 yll
-rQq
+ljX
 iFA
 nzB
 sVl
@@ -146502,7 +146615,7 @@ yll
 yll
 yll
 yll
-rQq
+ljX
 iFA
 bSF
 sVl
@@ -146804,7 +146917,7 @@ yll
 yll
 yll
 yll
-rQq
+ljX
 iFA
 bSF
 sxZ
@@ -147710,7 +147823,7 @@ yll
 yll
 yll
 yll
-rQq
+ljX
 iFA
 bSF
 uGG
@@ -148012,7 +148125,7 @@ inY
 inY
 inY
 yll
-rQq
+ljX
 iFA
 bSF
 uGG
@@ -148314,7 +148427,7 @@ inY
 inY
 inY
 inY
-rQq
+ljX
 iFA
 bSF
 uGG
@@ -189673,9 +189786,9 @@ mvZ
 abF
 abF
 mfm
-oOo
+wOM
 mfm
-oOo
+wOM
 mfm
 vEy
 vEy
@@ -189974,11 +190087,11 @@ ykt
 mvZ
 abF
 abF
-oOo
+wOM
 lvp
 tqe
 lvp
-oOo
+wOM
 abF
 abF
 vEy
@@ -190276,12 +190389,12 @@ ykt
 mvZ
 abF
 abF
-oOo
+wOM
 lkZ
 lvp
 lkZ
-oOo
-ykt
+wOM
+abF
 ykt
 vEy
 oMu
@@ -190578,12 +190691,12 @@ gMq
 abF
 abF
 abF
-oOo
+wOM
 vBk
 mbN
 hcu
-oOo
-ykt
+wOM
+abF
 ykt
 vEy
 pqB
@@ -190875,7 +190988,7 @@ vEy
 vEy
 abF
 ykt
-ykt
+abF
 lPD
 uMB
 uMB
@@ -190884,8 +190997,8 @@ uWB
 ocn
 sVa
 lkZ
-oOo
-ykt
+wOM
+abF
 ykt
 vEy
 mff
@@ -190895,7 +191008,7 @@ jta
 lkR
 ykt
 ykt
-ykt
+abF
 iiM
 rYU
 grl
@@ -191154,7 +191267,7 @@ aeQ
 ykt
 ykt
 abF
-lZO
+iAn
 tDg
 snA
 wVi
@@ -191167,7 +191280,7 @@ wVi
 wVi
 urc
 kLq
-lZO
+iAn
 abF
 ykt
 vEy
@@ -191176,8 +191289,8 @@ vpr
 jta
 vEy
 abF
-ykt
-ykt
+abF
+abF
 mfm
 mfm
 mfm
@@ -191197,7 +191310,7 @@ huf
 vEy
 vEy
 vEy
-ykt
+abF
 iiM
 ldQ
 ttv
@@ -191456,7 +191569,7 @@ lRJ
 lRJ
 ykt
 abF
-lZO
+iAn
 vEB
 sHV
 sHV
@@ -191469,7 +191582,7 @@ sHV
 sHV
 sHV
 vEB
-lZO
+iAn
 abF
 ykt
 vEy
@@ -191479,8 +191592,8 @@ huf
 vEy
 abF
 ykt
-ykt
-oOo
+abF
+wOM
 gGO
 oWS
 rhK
@@ -191499,8 +191612,8 @@ gwn
 rov
 wjo
 vEy
-ykt
-szJ
+abF
+xJR
 ttv
 ttv
 hQW
@@ -191758,7 +191871,7 @@ qjx
 lRJ
 ykt
 abF
-lZO
+iAn
 luc
 oQQ
 sqa
@@ -191771,7 +191884,7 @@ sqa
 sqa
 iam
 luc
-lZO
+iAn
 abF
 ykt
 vEy
@@ -191780,9 +191893,9 @@ mnp
 mnp
 vEy
 abF
-ykt
-ykt
-oOo
+abF
+abF
+wOM
 mkM
 tKw
 tAv
@@ -191801,8 +191914,8 @@ hHI
 nsa
 mxi
 vEy
-ykt
-szJ
+abF
+xJR
 jRX
 ttv
 kxs
@@ -192083,7 +192196,7 @@ vEy
 vEy
 abF
 ykt
-ykt
+abF
 mfm
 oOo
 oOo
@@ -192103,8 +192216,8 @@ nFI
 vEy
 vEy
 vEy
-ykt
-szJ
+abF
+xJR
 lBH
 ttv
 hQW
@@ -192384,9 +192497,9 @@ ykt
 abF
 abF
 abF
-ykt
-ykt
-oOo
+abF
+abF
+wOM
 gGO
 mzg
 hFc
@@ -192405,8 +192518,8 @@ jup
 vEy
 ykt
 ykt
-ykt
-szJ
+abF
+xJR
 lBH
 ttv
 hQW
@@ -192687,8 +192800,8 @@ abF
 abF
 abF
 ykt
-ykt
-oOo
+abF
+wOM
 mkM
 tKw
 tAv
@@ -192707,8 +192820,8 @@ jta
 vEy
 ykt
 ykt
-ykt
-szJ
+abF
+xJR
 iyE
 ttv
 hQW
@@ -192963,7 +193076,7 @@ gih
 tHY
 iBR
 xwT
-olj
+svN
 abF
 abF
 lRJ
@@ -192988,8 +193101,8 @@ ykt
 abF
 abF
 abF
-ykt
-ykt
+abF
+abF
 mfm
 oOo
 oOo
@@ -193009,8 +193122,8 @@ jup
 vEy
 ykt
 ykt
-ykt
-szJ
+abF
+xJR
 ttv
 ttv
 hQW
@@ -193265,7 +193378,7 @@ lBT
 tHY
 qrS
 jrn
-olj
+svN
 abF
 abF
 lRJ
@@ -193291,8 +193404,8 @@ abF
 abF
 abF
 ykt
-ykt
-oOo
+abF
+wOM
 gGO
 mzg
 hFc
@@ -193592,9 +193705,9 @@ ykt
 abF
 abF
 abF
-ykt
 abF
-oOo
+abF
+wOM
 mkM
 tKw
 gtC
@@ -193866,7 +193979,7 @@ sMl
 lRJ
 ykt
 ykt
-olj
+svN
 jrn
 jrn
 hsF
@@ -194168,7 +194281,7 @@ vEI
 lRJ
 ykt
 ykt
-olj
+svN
 jrn
 wXv
 ijJ
@@ -202698,7 +202811,7 @@ eSp
 wij
 hAP
 qYn
-ykt
+abF
 abF
 abF
 abF
@@ -203000,7 +203113,7 @@ uyJ
 mTz
 ngR
 qYn
-ykt
+abF
 dhM
 ykt
 ykt
@@ -203302,7 +203415,7 @@ jZv
 fql
 jZv
 jZv
-ykt
+abF
 ykt
 ykt
 ykt
@@ -203905,7 +204018,7 @@ eLr
 ftc
 gJM
 lPA
-jGc
+fzX
 abF
 ykt
 ykt
@@ -204207,7 +204320,7 @@ jZv
 jZv
 mzd
 lPA
-jGc
+fzX
 abF
 ykt
 ykt
@@ -204509,7 +204622,7 @@ njE
 qsU
 fDP
 lPA
-jGc
+fzX
 abF
 ykt
 ykt
@@ -245285,13 +245398,13 @@ lPT
 lPT
 lPT
 lPT
-lPT
-lPT
-lPT
-lPT
-lPT
-lPT
-lPT
+omC
+omC
+omC
+omC
+omC
+omC
+omC
 lPT
 lPT
 lPT
@@ -245589,10 +245702,10 @@ bYB
 bYB
 abF
 brP
-nSi
+xmu
 brP
 brP
-nSi
+xmu
 brP
 sDf
 ngz
@@ -249805,10 +249918,10 @@ vld
 ntz
 qBZ
 qBZ
-oBi
-oBi
-oBi
-oBi
+qBZ
+qBZ
+qBZ
+qBZ
 pRu
 mvL
 jXH
@@ -250107,10 +250220,10 @@ vld
 vld
 vld
 vld
-ykt
-ykt
-ykt
-ykt
+dhM
+dhM
+dhM
+dhM
 hZR
 mvL
 mvL
@@ -250722,7 +250835,7 @@ hGa
 hGa
 hGa
 hGa
-oAj
+bwY
 hKI
 oAj
 eTx
@@ -250734,7 +250847,7 @@ uMW
 lgF
 hrC
 jyH
-hrC
+qET
 hBq
 hBq
 hQc
@@ -253348,7 +253461,7 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 ydp
 kch
 fxN
@@ -253356,7 +253469,7 @@ ibM
 fxN
 jhn
 pBC
-mte
+nMd
 abF
 abF
 abF
@@ -253467,7 +253580,7 @@ bWj
 bYB
 uxp
 wss
-bXq
+rRU
 abF
 ykt
 ykt
@@ -253650,7 +253763,7 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 ydp
 kch
 fxN
@@ -253658,13 +253771,13 @@ fxN
 rvD
 jhn
 pBC
-mte
+nMd
 abF
 lfG
-tQF
-tQF
-tQF
-tQF
+iPZ
+iPZ
+iPZ
+iPZ
 lfG
 lfG
 ykt
@@ -253769,7 +253882,7 @@ cQV
 bYB
 bYq
 bWj
-bXq
+rRU
 abF
 ykt
 ykt
@@ -254071,7 +254184,7 @@ bWj
 bYB
 xTI
 cQV
-bXq
+rRU
 abF
 ykt
 ykt
@@ -255279,7 +255392,7 @@ bWj
 bYB
 xTI
 bWj
-bXq
+rRU
 abF
 ykt
 ykt
@@ -255462,8 +255575,8 @@ yll
 yll
 jWB
 jWB
-mte
-mte
+nMd
+nMd
 jWB
 jWB
 kOz
@@ -255581,7 +255694,7 @@ cQV
 bYB
 bYq
 bWj
-bXq
+rRU
 abF
 ykt
 ykt
@@ -255883,7 +255996,7 @@ bWj
 bYB
 oPp
 bYC
-bXq
+rRU
 abF
 ykt
 ykt
@@ -256064,7 +256177,7 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 wzh
 gea
 rOC
@@ -256366,7 +256479,7 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 wzh
 jWp
 jro
@@ -256668,7 +256781,7 @@ yll
 yll
 yll
 yll
-mte
+nMd
 wzh
 jWp
 jro
@@ -256970,7 +257083,7 @@ yll
 yll
 yll
 yll
-mte
+nMd
 wzh
 jWp
 jro
@@ -257003,7 +257116,7 @@ tcV
 iEl
 wBa
 wBa
-oYa
+afZ
 abF
 abF
 abF
@@ -257272,7 +257385,7 @@ jWB
 jWB
 jWB
 yll
-mte
+nMd
 wzh
 jWp
 jro
@@ -257305,7 +257418,7 @@ fgO
 jmP
 wBa
 lgU
-oYa
+afZ
 abF
 abF
 abF
@@ -257607,7 +257720,7 @@ oJb
 jmP
 wBa
 wBa
-oYa
+afZ
 abF
 abF
 abF
@@ -257909,7 +258022,7 @@ liu
 iEl
 wBa
 wBa
-oYa
+afZ
 abF
 abF
 abF
@@ -258174,11 +258287,11 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 abF
-mte
+nMd
 wzh
 jWp
 jro
@@ -258239,7 +258352,7 @@ mQX
 gqB
 kZe
 qnv
-ykt
+abF
 ykt
 ykt
 vld
@@ -258476,11 +258589,11 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 abF
-mte
+nMd
 wzh
 jWp
 jro
@@ -258516,10 +258629,10 @@ oBN
 rsT
 hga
 hga
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 mig
 roP
 sFz
@@ -258541,10 +258654,10 @@ nyz
 nyz
 ttx
 qnv
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 jDW
 pwn
 ftX
@@ -258586,10 +258699,10 @@ dzS
 cQk
 cQk
 bCS
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 bMS
 bPb
 bTZ
@@ -258778,11 +258891,11 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 abF
-mte
+nMd
 wzh
 jWp
 jro
@@ -258844,8 +258957,8 @@ ttx
 nfq
 qnv
 qnv
-nxR
-nxR
+oyJ
+oyJ
 qnv
 jDW
 ikE
@@ -258874,8 +258987,8 @@ ktF
 sqY
 jDW
 jDW
-tMY
-tMY
+adt
+adt
 jDW
 dzS
 yby
@@ -259080,11 +259193,11 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 abF
-mte
+nMd
 wzh
 jWp
 oOt
@@ -259382,11 +259495,11 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 yll
-mte
+nMd
 wzh
 uvv
 xMi
@@ -259684,9 +259797,9 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 yll
 jWB
 fuB
@@ -259750,8 +259863,8 @@ qnz
 mZh
 qnv
 qnv
-nxR
-nxR
+oyJ
+oyJ
 qnv
 jDW
 ikE
@@ -259780,8 +259893,8 @@ ktF
 gjl
 jDW
 jDW
-tMY
-tMY
+adt
+adt
 jDW
 dzS
 onu
@@ -259986,14 +260099,14 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 yll
 jWB
 jWB
-mte
-mte
+nMd
+nMd
 jWB
 ijX
 wrP
@@ -260026,10 +260139,10 @@ eNs
 hga
 hga
 hga
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 qnv
 rlH
 fyh
@@ -260096,10 +260209,10 @@ vYi
 qcl
 tMP
 bCS
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 bMS
 bDF
 bXm
@@ -260288,9 +260401,9 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 yll
 yll
 abF
@@ -260331,7 +260444,7 @@ ykt
 ykt
 ykt
 ykt
-ykt
+abF
 rEs
 gWj
 gWj
@@ -260590,9 +260703,9 @@ wgp
 wgp
 yll
 yll
-mte
+nMd
 fxN
-mte
+nMd
 yll
 abF
 abF
@@ -260633,7 +260746,7 @@ ykt
 ykt
 ykt
 ykt
-ykt
+abF
 rEs
 lSu
 lSu
@@ -260935,7 +261048,7 @@ jWB
 jWB
 ykt
 ykt
-ykt
+abF
 rEs
 lSu
 lSu
@@ -261894,8 +262007,8 @@ uGG
 vCj
 vCj
 vCj
-srp
-srp
+nhK
+nhK
 vCj
 vCj
 abF
@@ -262130,8 +262243,8 @@ hga
 wyy
 oXw
 njw
-hRI
-hRI
+rXU
+rXU
 njw
 njw
 njw
@@ -262501,7 +262614,7 @@ rHL
 rHL
 rHL
 qzx
-srp
+nhK
 abF
 ykt
 ykt
@@ -262803,7 +262916,7 @@ rHL
 cDY
 rHL
 txl
-srp
+nhK
 abF
 ykt
 eZy
@@ -263105,7 +263218,7 @@ iCr
 oMc
 qBu
 xbB
-srp
+nhK
 abF
 ykt
 gkg
@@ -263642,7 +263755,7 @@ abF
 abF
 ykt
 abF
-mte
+nMd
 lIF
 fxN
 fxN
@@ -263944,7 +264057,7 @@ abF
 abF
 ykt
 abF
-mte
+nMd
 lIF
 fxN
 fxN
@@ -264011,7 +264124,7 @@ spW
 qwd
 heA
 gLz
-rQq
+ljX
 abF
 ykt
 pEu
@@ -264313,7 +264426,7 @@ oDK
 mSV
 heA
 pDT
-rQq
+ljX
 abF
 ykt
 xpr
@@ -266972,7 +267085,7 @@ wjf
 ykt
 ykt
 ykt
-ykt
+abF
 xsz
 utQ
 ncg
@@ -267031,7 +267144,7 @@ jUy
 gYm
 kwB
 kwB
-rQq
+ljX
 abF
 ykt
 jxd
@@ -267274,7 +267387,7 @@ wjf
 wjf
 ykt
 ykt
-ykt
+abF
 xsz
 utQ
 ncg
@@ -267333,7 +267446,7 @@ gYm
 gYm
 gYm
 gYm
-rQq
+ljX
 abF
 ykt
 jLL
@@ -267576,7 +267689,7 @@ pyY
 wjf
 ykt
 ykt
-ykt
+abF
 xsz
 utQ
 sGC
@@ -267635,7 +267748,7 @@ mGf
 gYm
 frh
 frh
-rQq
+ljX
 abF
 ykt
 fxa
@@ -311719,7 +311832,7 @@ qLf
 iPx
 iPx
 iPx
-wxW
+xtt
 abF
 abF
 mvL
@@ -312324,7 +312437,7 @@ iPx
 iPx
 iPx
 iPx
-wxW
+xtt
 abF
 nWp
 iRm
@@ -313772,10 +313885,10 @@ ykt
 ykt
 dhM
 ykt
-rNV
+lpD
 qnc
 jQb
-rNV
+aFM
 ykt
 dhM
 ykt
@@ -314074,10 +314187,10 @@ ykt
 ykt
 dhM
 ykt
-rNV
+lpD
 qnc
 jQb
-rNV
+lpD
 ykt
 dhM
 ykt
@@ -315063,7 +315176,7 @@ abF
 abF
 abF
 abF
-deo
+vNV
 wKK
 ddF
 dee
@@ -315365,7 +315478,7 @@ ykt
 ykt
 ykt
 ykt
-deo
+vNV
 cgb
 ddH
 dee
@@ -315593,8 +315706,8 @@ tHg
 lnh
 jtu
 kEw
-xxf
-xxf
+lnC
+lnC
 kEw
 ykt
 ykt
@@ -315667,7 +315780,7 @@ abF
 abF
 abF
 abF
-deo
+vNV
 cgb
 ddH
 dee
@@ -315894,7 +316007,7 @@ hXB
 thP
 nRz
 lVQ
-xxf
+lnC
 ykt
 ykt
 ykt
@@ -316196,7 +316309,7 @@ uou
 mWw
 lxG
 mTR
-xxf
+lnC
 abF
 abF
 ykt
@@ -317706,7 +317819,7 @@ iCS
 qqx
 tpK
 idy
-xfO
+wHk
 ykt
 dhM
 ykt
@@ -318008,7 +318121,7 @@ fSP
 qqx
 tpK
 vqE
-xfO
+wHk
 ykt
 dhM
 ykt
@@ -324032,12 +324145,12 @@ abF
 abF
 xIN
 xIN
-rNV
-rNV
-rNV
-rNV
-rNV
-rNV
+lpD
+lpD
+lpD
+lpD
+lpD
+lpD
 sJx
 aeQ
 wbO
@@ -366093,9 +366206,9 @@ ykt
 ykt
 abF
 abF
-rKW
-rKW
-rKW
+rOb
+rOb
+rOb
 abF
 abF
 ykt
@@ -367914,11 +368027,11 @@ hwV
 abF
 abF
 abF
-ykt
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
+abF
 ykt
 ykt
 ykt
@@ -368816,7 +368929,7 @@ mrl
 kDh
 rrX
 myX
-nSi
+xmu
 abF
 abF
 abF
@@ -369109,7 +369222,7 @@ abF
 dhM
 abF
 abF
-xJR
+abF
 brP
 okH
 ibo
@@ -369118,7 +369231,7 @@ rLy
 xkP
 xkP
 koH
-nSi
+xmu
 abF
 abF
 abF
@@ -369412,7 +369525,7 @@ ykt
 abF
 abF
 abF
-nSi
+xmu
 fmR
 kFK
 gFt
@@ -369420,7 +369533,7 @@ qYQ
 jTS
 gLt
 vqG
-nSi
+xmu
 abF
 abF
 abF
@@ -369714,7 +369827,7 @@ ykt
 abF
 abF
 abF
-nSi
+xmu
 fmR
 kFK
 gFt
@@ -369722,7 +369835,7 @@ qYQ
 jTS
 yjq
 vqG
-nSi
+xmu
 abF
 abF
 abF
@@ -370016,7 +370129,7 @@ ykt
 abF
 abF
 abF
-nSi
+xmu
 hKu
 xkP
 rfq
@@ -370024,7 +370137,7 @@ rLy
 ohW
 xkP
 vtT
-nSi
+xmu
 abF
 abF
 abF
@@ -370318,7 +370431,7 @@ ykt
 abF
 abF
 abF
-nSi
+xmu
 rrX
 jim
 fNZ
@@ -370326,7 +370439,7 @@ mrl
 irG
 vDn
 myX
-nSi
+xmu
 abF
 abF
 abF
@@ -370628,7 +370741,7 @@ mrl
 vqG
 myX
 myX
-nSi
+xmu
 abF
 abF
 abF
@@ -370930,7 +371043,7 @@ mrl
 vqG
 myX
 myX
-nSi
+xmu
 abF
 abF
 abF
@@ -371232,7 +371345,7 @@ mrl
 hds
 rrX
 rrX
-nSi
+xmu
 abF
 abF
 abF
@@ -371526,7 +371639,7 @@ mvL
 ykt
 abF
 abF
-nSi
+xmu
 qyw
 qyw
 qyw
@@ -371534,7 +371647,7 @@ mrl
 qyw
 qyw
 qyw
-nSi
+xmu
 abF
 abF
 lXt
@@ -372128,8 +372241,8 @@ kbF
 kbF
 smM
 smM
-dVH
-dVH
+ajM
+ajM
 smM
 smM
 brP
@@ -373634,7 +373747,7 @@ lxO
 abF
 ykt
 abF
-dVH
+ajM
 tmk
 oPM
 gVQ
@@ -373647,10 +373760,10 @@ tDI
 pac
 hge
 xdn
-dVH
+ajM
 abF
 vaD
-wOM
+pNz
 wmr
 wDQ
 kRb
@@ -373936,7 +374049,7 @@ lxO
 abF
 ykt
 abF
-dVH
+ajM
 eSs
 gVQ
 pSc
@@ -373949,7 +374062,7 @@ odg
 foJ
 ceR
 wPe
-dVH
+ajM
 abF
 abF
 doQ
@@ -374238,7 +374351,7 @@ lxO
 abF
 ykt
 abF
-dVH
+ajM
 gFO
 jqC
 gVQ
@@ -374251,7 +374364,7 @@ oeX
 tse
 rbS
 kdt
-dVH
+ajM
 abF
 abF
 abF
@@ -374553,7 +374666,7 @@ sgx
 ttE
 fSy
 vFQ
-dVH
+ajM
 abF
 abF
 abF
@@ -374857,8 +374970,8 @@ lNd
 smM
 smM
 doQ
-iAn
-iAn
+lXt
+lXt
 doQ
 fwx
 nry
@@ -377488,7 +377601,7 @@ oXm
 knv
 lON
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -377790,7 +377903,7 @@ oXm
 oXm
 swY
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -378092,7 +378205,7 @@ oXm
 oXm
 swY
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -378394,7 +378507,7 @@ oXm
 oXm
 swY
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -378696,7 +378809,7 @@ oXm
 oXm
 swY
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -378998,7 +379111,7 @@ oXm
 oXm
 swY
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -379300,7 +379413,7 @@ oXm
 fBH
 vHy
 wPQ
-sft
+lEv
 abF
 abF
 mDB
@@ -382364,7 +382477,7 @@ jph
 gwS
 lws
 lws
-ylK
+eCN
 ykt
 abF
 lxO
@@ -382666,7 +382779,7 @@ wUg
 hjV
 sEt
 oeY
-ylK
+eCN
 ykt
 abF
 lxO
@@ -384523,7 +384636,7 @@ kwc
 doK
 abF
 fWt
-gEn
+fvb
 oEh
 nDS
 oPX
@@ -384825,7 +384938,7 @@ pMU
 doK
 abF
 ddL
-gEn
+fvb
 oEh
 nDS
 vzk
@@ -386636,7 +386749,7 @@ ykt
 dhM
 ykt
 vaD
-ljX
+rEQ
 ism
 pnE
 pSs
@@ -389059,7 +389172,7 @@ abF
 abF
 abF
 oPX
-svN
+ieC
 oPX
 ykt
 ykt
@@ -389909,10 +390022,10 @@ kye
 gfU
 iMU
 iMU
-uHe
-uHe
-uHe
-uHe
+cuq
+cuq
+cuq
+cuq
 iMU
 iMU
 iMU
