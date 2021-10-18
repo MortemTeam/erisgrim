@@ -547,10 +547,6 @@
 /obj/spawner/junk/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck5port)
-"agc" = (
-/obj/spawner/contraband,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck2port)
 "agh" = (
 /obj/machinery/atmospherics/pipe/simple/visible/red,
 /obj/effect/window_lwall_spawn/smartspawn,
@@ -633,6 +629,7 @@
 /turf/simulated/floor/plating,
 /area/eris/security/main)
 "ald" = (
+/obj/spawner/contraband,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "anL" = (
@@ -5486,6 +5483,16 @@
 /area/eris/security/barracks)
 "dOi" = (
 /turf/simulated/wall/r_wall,
+/area/eris/maintenance/section4deck2port)
+"dOw" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "dPj" = (
 /obj/structure/table/standard,
@@ -30259,6 +30266,7 @@
 	d2 = 4;
 	icon_state = "1-4"
 	},
+/obj/spawner/contraband,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "jqe" = (
@@ -30717,6 +30725,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/spawner/contraband,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "jtM" = (
@@ -36112,7 +36121,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/junk,
+/obj/spawner/mob/spiders/cluster,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "kvY" = (
@@ -41227,7 +41236,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "lvG" = (
@@ -53796,6 +53805,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "nLt" = (
@@ -79450,6 +79460,7 @@
 /area/eris/crew_quarters/clownoffice)
 "sIq" = (
 /obj/structure/railing,
+/obj/spawner/contraband,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "sIA" = (
@@ -82879,6 +82890,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "tpW" = (
@@ -85687,7 +85699,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "tVd" = (
@@ -88721,7 +88733,7 @@
 /area/eris/hallway/side/atmosphericshallway)
 "uxS" = (
 /obj/structure/railing,
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "uxW" = (
@@ -91763,6 +91775,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/spawner/mob/spiders/cluster,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "vdv" = (
@@ -103271,6 +103284,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "xoH" = (
@@ -107188,7 +107202,7 @@
 /turf/simulated/floor/tiled/steel/bluecorner,
 /area/eris/hallway/side/bridgehallway)
 "ybx" = (
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/scrap/sparse,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "yby" = (
@@ -309329,7 +309343,7 @@ cRS
 wdn
 dgP
 hly
-dgP
+hly
 hrF
 dOi
 dhM
@@ -309627,7 +309641,7 @@ brP
 brP
 lUl
 dOi
-dfi
+dgP
 dOi
 dfi
 dgP
@@ -311141,7 +311155,7 @@ rwG
 gQs
 jtI
 dgP
-dgP
+hly
 hly
 rVT
 abF
@@ -311441,7 +311455,7 @@ ykt
 dOi
 qgF
 lpx
-sIq
+uxS
 sRD
 uFA
 qfy
@@ -312650,7 +312664,7 @@ uxS
 sqD
 dOi
 ybx
-agc
+ybx
 nIx
 dfP
 dOi
@@ -312947,9 +312961,9 @@ ykt
 ykt
 ykt
 dOi
-agc
+ybx
 sIq
-onA
+dOw
 tpV
 jqd
 ald
