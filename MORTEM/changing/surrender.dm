@@ -2,6 +2,10 @@
 	name = "Surrender"
 	question = "Желаете сдаться и закончить игру?"
 
+	cooldown = 30 MINUTES
+	next_vote = 0
+	time = 60
+
 /datum/vote_choice/evac
 	text = "Признаю поражение, желаю закончить игру!"
 
