@@ -2817,6 +2817,7 @@
 #include "MORTEM\add_endgame_condition\disable_shuttles.dm"
 #include "MORTEM\add_endgame_condition\disable_teleporters.dm"
 #include "MORTEM\add_endgame_condition\endgame.dm"
+#include "MORTEM\add_events\add_mass_vote.dm"
 #include "MORTEM\add_events\massive_bluespacerift.dm"
 #include "MORTEM\add_events\massive_infestation.dm"
 #include "MORTEM\add_grim\blackness.dm"
