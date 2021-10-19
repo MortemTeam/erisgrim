@@ -1,7 +1,6 @@
 /datum/poll/evac
 	name = "Surrender"
 	question = "Желаете сдаться и закончить игру?"
-	next_vote = 60 MINUTES
 
 /datum/vote_choice/evac
 	text = "Признаю поражение, желаю закончить игру!"
