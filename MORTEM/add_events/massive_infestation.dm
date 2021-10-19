@@ -4,7 +4,6 @@
 	id = "massive_infestation"
 	name = "massive_infestation"
 
-
 	event_type = /datum/event/infestation/massive
 
 /datum/event/infestation/massive

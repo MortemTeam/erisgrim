@@ -1,6 +1,6 @@
 /obj/screen/film_grain
 	name = "Film Grain"
-	icon = 'MORTEM/rework_sanity/static.dmi'
+	icon = 'MORTEM/add_rework_sanity/static.dmi'
 	screen_loc = ui_entire_screen
 	alpha = 110
 	layer = FULLSCREEN_LAYER
