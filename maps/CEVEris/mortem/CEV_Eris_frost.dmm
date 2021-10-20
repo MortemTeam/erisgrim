@@ -1958,17 +1958,6 @@
 /obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section4deck4port)
-"aYF" = (
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
-/obj/machinery/door/airlock/maintenance_engineering{
-	name = "Engineering Maintenance";
-	req_access = list(10)
-	},
-/turf/simulated/floor/tiled/techmaint_cargo,
-/area/eris/maintenance/section4deck4port)
 "aYH" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/holomap{
@@ -194269,7 +194258,7 @@ vbf
 igh
 nxC
 aYi
-aYF
+nTn
 cyx
 aMf
 aNC
