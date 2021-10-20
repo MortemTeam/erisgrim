@@ -4,6 +4,7 @@
 	choice_types = list(/datum/vote_choice/yes_massive, /datum/vote_choice/no_massive)
 
 	can_unvote = TRUE
+	only_admin = FALSE
 
 /datum/vote_choice/yes_massive
 	text = "Запускайте дум!"
