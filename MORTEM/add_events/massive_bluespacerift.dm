@@ -21,10 +21,9 @@
 
 
 /datum/storyevent/bluespace_rift/massive
-	weight = 0
-
 	name = "massive_bluespacerift"
 	id = "massive_bluespacerift"
+	enabled = FALSE
 
 	event_type = /datum/event/bluespace_rift/massive
 

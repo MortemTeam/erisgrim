@@ -1,8 +1,7 @@
 /datum/storyevent/infestation/massive
-	weight = 0
-
 	id = "massive_infestation"
 	name = "massive_infestation"
+	enabled = FALSE
 
 	event_type = /datum/event/infestation/massive
 
