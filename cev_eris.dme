@@ -2839,6 +2839,7 @@
 #include "MORTEM\changing\generate_ore.dm"
 #include "MORTEM\changing\lcm_fire.dm"
 #include "MORTEM\changing\planes+layers.dm"
+#include "MORTEM\changing\serbian_objectives.dm"
 #include "MORTEM\changing\shuttle_base_turfs.dm"
 #include "MORTEM\changing\status.dm"
 #include "MORTEM\changing\surrender.dm"
