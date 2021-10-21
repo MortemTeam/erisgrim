@@ -1974,6 +1974,16 @@
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/sleep/cryo)
+"aYS" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/spray/sterilizine,
+/obj/machinery/button/remote/blast_door{
+	id = "operation_med_hatch";
+	name = "Operation Hatch";
+	pixel_y = -24
+	},
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/eris/medical/surgery)
 "aZx" = (
 /obj/structure/closet/wardrobe/sec,
 /turf/simulated/floor/tiled/dark/gray_platform,
@@ -5148,6 +5158,11 @@
 	},
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/left)
+"dpI" = (
+/obj/structure/table/rack,
+/obj/landmark/storyevent/potential_unique_oddity_spawn,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section2deck5port)
 "dqx" = (
 /obj/structure/table/standard,
 /obj/spawner/powercell,
@@ -5717,6 +5732,11 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
+"ewP" = (
+/obj/structure/table/rack,
+/obj/spawner/toolbox,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section2deck5port)
 "eBJ" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/blue,
 /turf/simulated/floor/plating/under,
@@ -7999,10 +8019,6 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/eris/maintenance/section3deck4central)
-"ffm" = (
-/obj/structure/disposalpipe/segment,
-/turf/simulated/floor/hull,
-/area/space)
 "ffp" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
@@ -21924,6 +21940,10 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section1deck1central)
+"hND" = (
+/obj/machinery/flasher/portable,
+/turf/simulated/floor/tiled/techmaint_panels,
+/area/eris/maintenance/section2deck5port)
 "hNF" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/door/airlock/maintenance_common{
@@ -25942,11 +25962,6 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/plating,
 /area/eris/neotheology/churchbarracks)
-"izW" = (
-/obj/structure/table/rack,
-/obj/landmark/storyevent/potential_unique_oddity_spawn,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section2deck5port)
 "iAa" = (
 /obj/machinery/atmospherics/pipe/manifold/visible{
 	dir = 4
@@ -26918,16 +26933,6 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section1deck3central)
-"iIT" = (
-/obj/structure/table/glass,
-/obj/item/reagent_containers/spray/sterilizine,
-/obj/machinery/button/remote/blast_door{
-	id = "operation_med_hatch";
-	name = "Operation Hatch";
-	pixel_y = -24
-	},
-/turf/simulated/floor/tiled/white/brown_perforated,
-/area/eris/medical/surgery)
 "iJa" = (
 /obj/structure/disposalpipe/segment,
 /obj/machinery/atmospherics/pipe/simple/hidden/black,
@@ -38260,6 +38265,10 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck2port)
+"kQW" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section2deck4port)
 "kQX" = (
 /obj/spawner/junk/low_chance,
 /obj/machinery/camera/network/command,
@@ -61615,10 +61624,6 @@
 /obj/spawner/pack/machine,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/eris/maintenance/section1deck2central)
-"pli" = (
-/obj/spawner/scrap/sparse,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section2deck4port)
 "plo" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on,
 /turf/simulated/floor/tiled/dark/gray_perforated,
@@ -62705,6 +62710,10 @@
 /obj/effect/window_lwall_spawn/smartspawnplasma,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/disposal)
+"pvT" = (
+/obj/structure/disposalpipe/segment,
+/turf/simulated/floor/hull,
+/area/space)
 "pvY" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -87496,10 +87505,6 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/engineering/atmos)
-"unq" = (
-/obj/machinery/flasher/portable,
-/turf/simulated/floor/tiled/techmaint_panels,
-/area/eris/maintenance/section2deck5port)
 "unw" = (
 /obj/machinery/atmospherics/unary/heater{
 	icon_state = "heater"
@@ -87627,11 +87632,6 @@
 	icon_state = "8,16"
 	},
 /area/shuttle/research/station)
-"uoA" = (
-/obj/structure/table/rack,
-/obj/spawner/toolbox,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section2deck5port)
 "uoG" = (
 /turf/simulated/wall/r_wall,
 /area/eris/medical/morgue)
@@ -134038,7 +134038,7 @@ tRw
 wKF
 wKF
 pNK
-unq
+hND
 jwV
 wKF
 tve
@@ -134641,8 +134641,8 @@ yll
 prG
 nXD
 wKF
-izW
-uoA
+dpI
+ewP
 jwV
 wKF
 llD
@@ -195344,7 +195344,7 @@ jta
 vEy
 oep
 jup
-pli
+kQW
 sDu
 jXA
 nsb
@@ -198052,8 +198052,8 @@ lRJ
 abF
 abF
 abF
-ykt
-ykt
+abF
+abF
 nGk
 ubl
 qai
@@ -198076,8 +198076,8 @@ kMG
 irb
 onM
 abF
-ykt
-ykt
+abF
+abF
 abF
 qYn
 omp
@@ -198101,9 +198101,9 @@ tiw
 tiw
 tiw
 abF
-ykt
-ykt
-ykt
+abF
+abF
+abF
 aVY
 jmn
 nIY
@@ -198121,11 +198121,11 @@ sOt
 aSa
 aVY
 abF
-ykt
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
+abF
 dIT
 oOV
 nxz
@@ -199562,8 +199562,8 @@ lRJ
 abF
 abF
 abF
-ykt
-ykt
+abF
+abF
 nGk
 wmu
 xbI
@@ -199586,8 +199586,8 @@ ulF
 pAV
 nGk
 abF
-ykt
-ykt
+abF
+abF
 abF
 abF
 qYn
@@ -199611,9 +199611,9 @@ hbM
 xum
 qYn
 abF
-ykt
-ykt
-ykt
+abF
+abF
+abF
 aVY
 kdB
 pUj
@@ -199631,11 +199631,11 @@ oEo
 aSp
 aVY
 abF
-ykt
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
+abF
 dIT
 aTW
 aAG
@@ -248793,21 +248793,21 @@ ykt
 ykt
 abF
 uBy
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 qCV
-ffm
+pvT
 xBH
 yip
 fCN
@@ -249702,7 +249702,7 @@ rmH
 mVu
 sNs
 lVB
-iIT
+aYS
 wKG
 hPa
 hPa
@@ -258451,10 +258451,10 @@ oBN
 rsT
 hga
 hga
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 mig
 roP
 sFz
@@ -258476,10 +258476,10 @@ nyz
 nyz
 ttx
 qnv
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 jDW
 pwn
 ftX
@@ -259961,10 +259961,10 @@ eNs
 hga
 hga
 hga
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
 qnv
 rlH
 fyh
