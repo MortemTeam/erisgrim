@@ -2849,4 +2849,5 @@
 #include "MORTEM\disabling\gravity.dm"
 #include "MORTEM\disabling\maintshroom_spread.dm"
 #include "MORTEM\disabling\other_maps.dm"
+#include "MORTEM\fixing\vote.dm"
 // END_INCLUDE
