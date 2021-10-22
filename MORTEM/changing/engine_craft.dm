@@ -35,7 +35,7 @@
 			set_anchored(!anchored)
 
 /obj/machinery/atmospherics/unary/engine/get_item_cost()
-	return rand(35000, 50000)
+	return rand(5000, 15000)
 
 /datum/trade_station/station_zarya
 	assortiment = list(
@@ -79,7 +79,7 @@
 			/obj/item/solar_assembly,
 //			/obj/item/tracker_electronics, // broken for now? This is even used for something?
 			/obj/machinery/field_generator,
-			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(8,12))
+			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(16,23))
 		),
 		"BCRKAR BCR4NHA" = list(
 			/obj/machinery/pipedispenser/orderable,
