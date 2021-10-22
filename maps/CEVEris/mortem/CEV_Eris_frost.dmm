@@ -17052,6 +17052,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
+/obj/spawner/scrap/dense,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck2starboard)
 "gQi" = (
@@ -26031,6 +26032,11 @@
 	temperature = 200
 	},
 /area/eris/rnd/server)
+"iAE" = (
+/obj/structure/railing,
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck2port)
 "iAO" = (
 /obj/structure/table/rack,
 /obj/item/cell/medium/high,
@@ -53779,7 +53785,7 @@
 /obj/structure/railing{
 	dir = 8
 	},
-/obj/spawner/scrap/sparse,
+/obj/spawner/scrap/dense,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "nLt" = (
@@ -62910,6 +62916,10 @@
 	},
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/eris/engineering/foyer)
+"pyb" = (
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck2port)
 "pyh" = (
 /obj/item/device/radio/beacon,
 /turf/simulated/floor/tiled/techmaint,
@@ -89434,6 +89444,13 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck2port)
+"uFI" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "uFL" = (
 /obj/structure/cable/green{
@@ -311384,7 +311401,7 @@ ykt
 dOi
 qgF
 lpx
-uxS
+iAE
 sRD
 uFA
 qfy
@@ -312592,7 +312609,7 @@ dOi
 uxS
 sqD
 dOi
-ybx
+pyb
 ybx
 nIx
 dfP
@@ -314103,7 +314120,7 @@ dee
 fTO
 ded
 deK
-lvF
+uFI
 dOi
 pbX
 dOi
@@ -314707,7 +314724,7 @@ dee
 dee
 deo
 deK
-lvF
+uFI
 dOi
 dfP
 dOi
