@@ -1012,6 +1012,13 @@
 /obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4central)
+"aMd" = (
+/obj/structure/railing{
+	dir = 1
+	},
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck2port)
 "aMf" = (
 /obj/structure/table/standard,
 /obj/machinery/recharger,
@@ -2400,7 +2407,7 @@
 /obj/item/electronics/circuitboard/rdserver,
 /obj/item/electronics/circuitboard/rdservercontrol,
 /obj/item/electronics/circuitboard/rdconsole,
-/turf/simulated/floor/plating,
+/turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/storage/tech)
 "bwh" = (
 /obj/structure/multiz/ladder,
@@ -19656,6 +19663,10 @@
 /obj/machinery/hologram/holopad,
 /turf/simulated/floor/tiled/steel,
 /area/eris/hallway/side/eschangara)
+"hqZ" = (
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck2port)
 "hrf" = (
 /obj/machinery/door/airlock/multi_tile/metal{
 	dir = 2;
@@ -26032,11 +26043,6 @@
 	temperature = 200
 	},
 /area/eris/rnd/server)
-"iAE" = (
-/obj/structure/railing,
-/obj/spawner/scrap/dense,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck2port)
 "iAO" = (
 /obj/structure/table/rack,
 /obj/item/cell/medium/high,
@@ -39168,6 +39174,11 @@
 	oxygen = 0
 	},
 /area/eris/engineering/engine_room)
+"kZU" = (
+/obj/structure/railing,
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck2port)
 "kZW" = (
 /obj/machinery/atmospherics/pipe/simple/visible/universal{
 	dir = 4
@@ -62916,10 +62927,6 @@
 	},
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/eris/engineering/foyer)
-"pyb" = (
-/obj/spawner/scrap/dense,
-/turf/simulated/floor/plating/under,
-/area/eris/maintenance/section4deck2port)
 "pyh" = (
 /obj/item/device/radio/beacon,
 /turf/simulated/floor/tiled/techmaint,
@@ -89444,13 +89451,6 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section4deck2port)
-"uFI" = (
-/obj/structure/railing{
-	dir = 1
-	},
-/obj/spawner/scrap/dense,
-/turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "uFL" = (
 /obj/structure/cable/green{
@@ -311401,7 +311401,7 @@ ykt
 dOi
 qgF
 lpx
-iAE
+kZU
 sRD
 uFA
 qfy
@@ -312609,7 +312609,7 @@ dOi
 uxS
 sqD
 dOi
-pyb
+hqZ
 ybx
 nIx
 dfP
@@ -314120,7 +314120,7 @@ dee
 fTO
 ded
 deK
-uFI
+aMd
 dOi
 pbX
 dOi
@@ -314724,7 +314724,7 @@ dee
 dee
 deo
 deK
-uFI
+aMd
 dOi
 dfP
 dOi
