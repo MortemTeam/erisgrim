@@ -2835,6 +2835,7 @@
 #include "MORTEM\adding\toys_disk.dm"
 #include "MORTEM\change_air_alarm\air_status.dm"
 #include "MORTEM\change_materials_icon\materials.dm"
+#include "MORTEM\changing\antidepressants.dm"
 #include "MORTEM\changing\engine_craft.dm"
 #include "MORTEM\changing\evacuaction_poll.dm"
 #include "MORTEM\changing\generate_ore.dm"
