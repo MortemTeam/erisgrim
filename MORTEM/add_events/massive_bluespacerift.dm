@@ -1,4 +1,4 @@
-/obj/effect/portal/wormhole/rift/close()
+/obj/effect/portal/wormhole/rift/massive/close()
 	return
 
 /datum/storyevent/bluespace_rift/massive
