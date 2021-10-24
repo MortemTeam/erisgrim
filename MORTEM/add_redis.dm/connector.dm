@@ -8,11 +8,12 @@ redis {
 	var/cache_folder = "redis_cache"
 
 
-	proc/New(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null)
+	proc/New(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
 		src.address = address
 		src.port = port
 		src.db = db
 		src.password = password
+	}
 
 	proc/_convert_list(var/value) {
 		/*
