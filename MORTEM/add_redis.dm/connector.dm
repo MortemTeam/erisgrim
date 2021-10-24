@@ -63,10 +63,11 @@ redis {
 			return: terminal output as text
 		*/
 
-		var/filename = "[db]-[rand(1111, 9999)]"
-		shell("[executor] [data] > [cache_folder]/[filename]")
-		var/list/out = file2list(filename)
-		fdel(filename)
+		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)]"
+		report_progress("[executor] [data] > [filepath]")
+		shell("[executor] [data] > [filepath]")
+		var/list/out = file2list(filepath)
+		fdel(filepath)
 		return out
 	}
 
