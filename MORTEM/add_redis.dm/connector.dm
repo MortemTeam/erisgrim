@@ -5,8 +5,20 @@ redis {
 	var/password
 
 	var/executor = "redis-cli"
-	var/cache_folder = "redis_cache"
+	var/cache_folder = "/tmp"
 
+
+	proc/setup(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
+		src.address = address
+		src.port = port
+		src.db = db
+		src.password = password
+		return src
+	}
+
+	/proc/_file2list(var/filename, var/seperator = "\n") {
+		return splittext(file2text(filename), seperator)
+	}
 
 	proc/_convert_list(var/value) {
 		/*
@@ -20,7 +32,7 @@ redis {
 
 		var/O = ""
 		for (var/K in value) {
-			O += @{""[K]" "}
+			O += "\"[K]\" "
 		}
 
 		return copytext(O, 1, -1)
@@ -32,11 +44,7 @@ redis {
 			return: formed string
 		*/
 
-		if (islist(value)) {
-			return _convert_list(value)
-		} else {
-			return  @{""[value]""}
-		}
+		return islist(value) ? _convert_list(value) : "\"[value]\""
 	}
 
 	proc/_form_single(var/command as text, var/value) {
@@ -45,7 +53,7 @@ redis {
 			return: formed string with three args
 		*/
 
-		return @{"[command] [_form_value(value)]"}
+		return "[command] [_form_value(value)]"
 	}
 
 	proc/_form_key_value(var/command as text, var/key as text, var/value) {
@@ -54,7 +62,7 @@ redis {
 			return: formed string with three args
 		*/
 
-		return @{"[command] [key] [_form_value(value)]"}
+		return "[command] [key] [_form_value(value)]"
 	}
 
 	proc/raw_request(var/data as text) {
@@ -63,10 +71,9 @@ redis {
 			return: terminal output as text
 		*/
 
-		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)]"
-		testing("[executor] [data] > [filepath]")
+		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)].txt"
 		shell("[executor] [data] > [filepath]")
-		var/list/out = file2list(filepath)
+		var/list/out = _file2list(filepath)
 		fdel(filepath)
 		return out
 	}
@@ -108,3 +115,9 @@ redis {
 		return request("FLUSHDB")
 	}
 }
+
+/world/New()
+	var/redis/R = new().setup(db=6)
+	var/list/out = R.lpush("ADMIN", "test@666")
+	for(var/K in out)
+		world.log << "[K]"
