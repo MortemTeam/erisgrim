@@ -115,9 +115,3 @@ redis {
 		return request("FLUSHDB")
 	}
 }
-
-/world/New()
-	var/redis/R = new().setup(db=6)
-	var/list/out = R.lpush("ADMIN", "test@666")
-	for(var/K in out)
-		world.log << "[K]"
