@@ -17,7 +17,7 @@
 	out += "<b>Features:</b> " + jointext(features, ", ") + "<br>"
 	out += "<b>Links:</b> " + jointext(pure_links, ", ") + "<br>"
 
-	out += "\[Eris downstream"
+	out += "\[ERIS DOWNSTREAM"
 
 	/* does this help? I do not know */
 	if(status != out)
