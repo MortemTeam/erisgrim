@@ -37,14 +37,18 @@
 /proc/game_log(category, text)
 	diary << "\[[time_stamp()]] [game_id] [category]: [text][log_end]"
 	if(category in list("ADMIN", "GAME", "SAY", "WHISPER", "EMOTE", "OOC"))
-		var/redis/R = new().setup(db=6)
-		R.lpush(category, "[game_id]@[text]")
+
+/proc/send_to_redis(category, text)
+	var/redis/R = new().setup(db=6)
+	R.lpush(category, "[game_id]@[text]")
 
 /proc/log_admin(text)
 	admin_log.Add(text)
 	lobby_message(message = text, color = "#FFA500")
+	send_to_redis("ADMIN", text)
 	if (config.log_admin)
 		game_log("ADMIN", text)
+
 
 /proc/log_debug(text)
 	if (config.log_debug)
@@ -55,6 +59,7 @@
 			to_chat(C, "DEBUG: [text]")
 
 /proc/log_game(text)
+	send_to_redis("GAME", text)
 	if (config.log_game)
 		game_log("GAME", text)
 
@@ -67,18 +72,22 @@
 		game_log("ACCESS", text)
 
 /proc/log_say(text)
+	send_to_redis("SAY", text)
 	if (config.log_say)
 		game_log("SAY", text)
 
 /proc/log_ooc(text)
+	send_to_redis("OOC", text)
 	if (config.log_ooc)
 		game_log("OOC", text)
 
 /proc/log_whisper(text)
+	send_to_redis("WHISPER", text)
 	if (config.log_whisper)
 		game_log("WHISPER", text)
 
 /proc/log_emote(text)
+	send_to_redis("EMOTE", text)
 	if (config.log_emote)
 		game_log("EMOTE", text)
 
