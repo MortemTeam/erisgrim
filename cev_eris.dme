@@ -2841,6 +2841,7 @@
 #include "MORTEM\changing\evacuaction_poll.dm"
 #include "MORTEM\changing\generate_ore.dm"
 #include "MORTEM\changing\lcm_fire.dm"
+#include "MORTEM\changing\logging.dm"
 #include "MORTEM\changing\machine_loot.dm"
 #include "MORTEM\changing\planes+layers.dm"
 #include "MORTEM\changing\roach_reaction.dm"
