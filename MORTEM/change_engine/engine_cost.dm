@@ -1,39 +1,3 @@
-/datum/technology/bluespace_extended
-	unlocks_designs = list(
-		/datum/design/research/item/belt_holding,
-		/datum/design/research/item/pouch_holding,
-		/datum/design/research/item/trashbag_holding,
-		/datum/design/research/item/oresatchel_holding,
-		/datum/design/research/circuit/gas_thruster
-	)
-
-/datum/design/research/circuit/gas_thruster
-	name = "Gas Thruster"
-	build_path = /obj/item/electronics/circuitboard/engine
-	sort_string = "FAHAH"
-	category = CAT_MISC
-
-/obj/item/electronics/circuitboard/engine
-	name = T_BOARD("gas thruster")
-	icon_state = "mcontroller"
-	board_type = "machine"
-	build_path = /obj/machinery/atmospherics/unary/engine
-	req_components = list(
-		/obj/item/stack/cable_coil = 10,
-		/obj/item/stock_parts/micro_laser/ultra = 3,
-		/obj/item/stock_parts/capacitor/super = 3,
-		/obj/item/stock_parts/subspace/ansible = 1
-	)
-
-/obj/machinery/atmospherics/unary/engine
-	anchored = FALSE
-
-/obj/machinery/atmospherics/unary/engine/attackby(obj/item/I, mob/user)
-	if(I.has_quality(QUALITY_BOLT_TURNING))
-		if(I.use_tool(user, src, WORKTIME_LONG, QUALITY_BOLT_TURNING, FAILCHANCE_EASY, STAT_MEC))
-			user.visible_message(SPAN_WARNING("[user] has [anchored ? "un" : ""]secured \the [src]."), SPAN_NOTICE("You [anchored ? "un" : ""]secure \the [src]."))
-			set_anchored(!anchored)
-
 /obj/machinery/atmospherics/unary/engine/get_item_cost()
 	return rand(5000, 15000)
 
@@ -79,7 +43,7 @@
 			/obj/item/solar_assembly,
 //			/obj/item/tracker_electronics, // broken for now? This is even used for something?
 			/obj/machinery/field_generator,
-			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(16,23))
+			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(18,22))
 		),
 		"BCRKAR BCR4NHA" = list(
 			/obj/machinery/pipedispenser/orderable,
@@ -92,5 +56,3 @@
 			/obj/machinery/floodlight
 		),
 	)
-
-
