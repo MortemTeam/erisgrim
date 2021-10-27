@@ -36,10 +36,8 @@
 
 /proc/game_log(category, text)
 	diary << "\[[time_stamp()]] [game_id] [category]: [text][log_end]"
-	world.log << "TEST: [category], [text]"
 	if(category in list("ADMIN", "GAME", "SAY", "WHISPER", "EMOTE", "OOC"))
-		var/out = redis_client.lpush(category, "[game_id]@[text]")
-		world.log << out[1]
+		redis_client.lpush(category, "[game_id]@[text]")
 
 /proc/log_admin(text)
 	admin_log.Add(text)
