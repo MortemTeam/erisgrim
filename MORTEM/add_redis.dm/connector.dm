@@ -81,14 +81,9 @@ redis {
 			return: terminal output as text
 		*/
 
-		set background = TRUE
-
 		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)].txt"
-		world.log << "REDIS: exec [executor] [data] > [filepath]"
-		var/SO = shell("[executor] [data] > [filepath]")
-		world.log << "REDIS: shell [SO]"
+		shell("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
-		world.log << "REDIS: f2l [out]"
 		fdel(filepath)
 		return out
 	}
