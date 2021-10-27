@@ -81,7 +81,7 @@ redis {
 			return: terminal output as text
 		*/
 
-		set waitfor = 0
+		set background = TRUE
 
 		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)].txt"
 		world.log << "REDIS: exec [executor] [data] > [filepath]"
