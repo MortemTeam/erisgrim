@@ -45,7 +45,8 @@
 		sleep(TURBULENCE / 2)
 
 		for(var/turf/simulated/T in locate(/area/space) in world)
-			T.ChangeTurf(/turf/space)
+			if(T.z in list(3))
+				T.ChangeTurf(/turf/space)
 
 		for(var/Z in eris_floor)
 			toggle_move_stars(Z, NORTH)
