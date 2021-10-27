@@ -3,7 +3,7 @@
 	on = FALSE
 
 /obj/machinery/atmospherics/unary/engine/New()
-	initialize_directions = dir
+	initialize_directions = NORTH
 	..()
 
 /obj/machinery/atmospherics/unary/engine/attackby(obj/item/I, mob/user)
