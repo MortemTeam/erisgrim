@@ -11,6 +11,10 @@ redis {
 
 
 	proc/setup(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
+		/*
+			Setup redis variables
+			return: src
+		*/
 		src.address = address
 		src.port = port
 		src.db = db
@@ -19,6 +23,10 @@ redis {
 	}
 
 	/proc/_file2list(var/filename, var/seperator = "\n") {
+		/*
+			Converting file in list
+			return: list of text rows
+		*/
 		return splittext(file2text(filename), seperator)
 	}
 
@@ -67,7 +75,7 @@ redis {
 		return "[command] [key] [_form_value(value)]"
 	}
 
-	proc/raw_request(var/data as text) {
+	verb/raw_request(var/data as text) {
 		/*
 			Clear requesting and save readable cache in game root folder
 			return: terminal output as text
