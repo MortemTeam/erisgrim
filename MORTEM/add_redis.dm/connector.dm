@@ -75,7 +75,7 @@ redis {
 		return "[command] [key] [_form_value(value)]"
 	}
 
-	verb/raw_request(var/data as text) {
+	proc/raw_request(var/data as text) {
 		/*
 			Clear requesting and save readable cache in game root folder
 			return: terminal output as text
