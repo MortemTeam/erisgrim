@@ -1,10 +1,8 @@
 /obj/machinery/atmospherics/unary/engine
 	anchored = FALSE
+	dir = NORTH
 	on = FALSE
 
-/obj/machinery/atmospherics/unary/engine/New()
-	initialize_directions = NORTH
-	..()
 
 /obj/machinery/atmospherics/unary/engine/attackby(obj/item/I, mob/user)
 	if(I.has_quality(QUALITY_BOLT_TURNING))
