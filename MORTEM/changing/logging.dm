@@ -1,5 +1,4 @@
 /game_log(category, text)
 	..()
 	if(category in list("ADMIN", "GAME", "SAY", "WHISPER", "EMOTE", "OOC"))
-		var/redis/R = new().setup(db=6)
-		R.lpush(category, "[game_id]@[text]")
+		redis_client.lpush(category, "[game_id]@[text]")

@@ -1,3 +1,5 @@
+var/global/redis/redis_client = new().setup(db=6)
+
 redis {
 	var/address = "localhost"
 	var/port = 6379
