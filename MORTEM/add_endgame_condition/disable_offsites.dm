@@ -20,5 +20,12 @@
 /obj/machinery/computer/teleporter/attack_hand(user as mob)
 	to_chat(user, SPAN_NOTICE("Unable to calibrate teleporter..."))
 
+
 /obj/machinery/complant_teleporter/attack_hand(user as mob)
 	to_chat(user, SPAN_NOTICE("Unable to calibrate teleporter..."))
+
+/obj/machinery/complant_teleporter/affect_grab(var/mob/user, var/mob/target)
+	return
+
+/obj/machinery/complant_teleporter/MouseDrop_T(var/mob/living/L, mob/living/user)
+	return
