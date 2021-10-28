@@ -39092,7 +39092,7 @@
 "kZA" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn,
 /turf/simulated/floor/plating,
 /area/eris/command/courtroom)
 "kZH" = (
@@ -105231,7 +105231,7 @@
 "xGO" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
-/obj/effect/window_lwall_spawn/smartspawn,
+/obj/effect/window_lwall_spawn,
 /turf/simulated/floor/plating,
 /area/eris/command/courtroom)
 "xGR" = (
