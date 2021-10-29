@@ -16,5 +16,5 @@
 
 	switch(new_level)
 		if(-INFINITY to 30)
-			if(last_played_scream > TimeOfGame && prob(6.66))
+			if(last_played_scream < TimeOfGame && prob(6.66))
 				play_scream()
