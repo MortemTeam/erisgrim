@@ -2845,6 +2845,7 @@
 #include "MORTEM\changing\lcm_fire.dm"
 #include "MORTEM\changing\machine_loot.dm"
 #include "MORTEM\changing\planes+layers.dm"
+#include "MORTEM\changing\pro_biotech.dm"
 #include "MORTEM\changing\roach_reaction.dm"
 #include "MORTEM\changing\serbian_objectives.dm"
 #include "MORTEM\changing\shuttle_base_turfs.dm"
