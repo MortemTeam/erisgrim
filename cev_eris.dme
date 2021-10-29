@@ -2852,6 +2852,7 @@
 #include "MORTEM\changing\shuttle_base_turfs.dm"
 #include "MORTEM\changing\status.dm"
 #include "MORTEM\changing\trade_ui_autoupdate.dm"
+#include "MORTEM\disabling\blitzshell.dm"
 #include "MORTEM\disabling\breakdowns.dm"
 #include "MORTEM\disabling\gravity.dm"
 #include "MORTEM\disabling\maintshroom_spread.dm"
