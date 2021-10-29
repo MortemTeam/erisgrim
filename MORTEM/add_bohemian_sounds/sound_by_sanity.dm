@@ -11,7 +11,7 @@
 	..()
 
 	switch(new_level)
-		if(-INFINITY to 6.66)
+		if(-INFINITY to 30)
 			if(last_played_scream > TimeOfGame && prob(6.66))
 				last_played_scream = TimeOfGame + scream_sound_cd
 				playsound(owner, pick(scream_sounds), 66.6, use_pressure = FALSE)
