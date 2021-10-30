@@ -2841,6 +2841,7 @@
 #include "MORTEM\changing\antidepressants.dm"
 #include "MORTEM\changing\commi_objectives.dm"
 #include "MORTEM\changing\evacuaction_poll.dm"
+#include "MORTEM\changing\excelsior_teleport.dm"
 #include "MORTEM\changing\generate_ore.dm"
 #include "MORTEM\changing\junk_machine_loot.dm"
 #include "MORTEM\changing\lcm_fire.dm"
