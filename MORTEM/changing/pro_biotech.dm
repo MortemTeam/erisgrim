@@ -1,10 +1,8 @@
 /obj/item/organ/external/robotic/moebius/reinforced
 	matter = list(
-		MATERIAL_STEEL = 2,
-		MATERIAL_PLASTIC = 2,
 		MATERIAL_PLASTEEL = 2,
-		MATERIAL_SILVER = 2,
-		MATERIAL_GOLD = 2,
+		MATERIAL_SILVER = 1,
+		MATERIAL_GOLD = 1,
 	)
 
 /datum/design/research/item/mechfab/prosthesis_moebius/torso
