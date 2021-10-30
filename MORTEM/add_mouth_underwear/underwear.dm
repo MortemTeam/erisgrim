@@ -55,20 +55,70 @@
 	var/say_messages = list("Mmfph!", "Mmmf mrrfff!", "Mmmf mnnf!")
 	var/say_verbs = list("mumbles", "says")
 
-/datum/category_item/underwear/bottom/briefs //white
-	item_state = "wear_m1"
 
-/datum/category_item/underwear/bottom/briefs_grey
-	item_state = "wear_m2"
+/* Boxers */
+/datum/category_item/underwear/bottom/boxers
+	item_state = "underwear_white"
 
-/datum/category_item/underwear/bottom/briefs_green
-	item_state = "wear_m3"
+/datum/category_item/underwear/bottom/boxers/black
+	item_state = "underwear_black"
 
-/datum/category_item/underwear/bottom/briefs_blue
-	item_state = "wear_m4"
+/datum/category_item/underwear/bottom/boxers/red
+	item_state = "underwear_red"
 
-/datum/category_item/underwear/bottom/briefs_black
-	item_state = "wear_m5"
+/datum/category_item/underwear/bottom/boxers/yellow
+	item_state = "underwear_yellow"
 
-/datum/category_item/underwear/bottom/panties_noback
-	item_state = "wear_m1"
+/datum/category_item/underwear/bottom/boxers/cyan
+	item_state = "underwear_cyan"
+
+
+/* Briefs */
+/datum/category_item/underwear/bottom/briefs
+	item_state = "underwear_white"
+
+/datum/category_item/underwear/bottom/briefs/black
+	item_state = "underwear_black"
+
+/datum/category_item/underwear/bottom/briefs/red
+	item_state = "underwear_red"
+
+/datum/category_item/underwear/bottom/briefs/yellow
+	item_state = "underwear_yellow"
+
+/datum/category_item/underwear/bottom/briefs/cyan
+	item_state = "underwear_cyan"
+
+
+/* Panties */
+/datum/category_item/underwear/bottom/panties
+	item_state = "underwear_white"
+
+/datum/category_item/underwear/bottom/panties/black
+	item_state = "underwear_black"
+
+/datum/category_item/underwear/bottom/panties/red
+	item_state = "underwear_red"
+
+/datum/category_item/underwear/bottom/panties/yellow
+	item_state = "underwear_yellow"
+
+/datum/category_item/underwear/bottom/panties/cyan
+	item_state = "underwear_cyan"
+
+
+/* Sportpanties */
+/datum/category_item/underwear/bottom/sportpanties
+	item_state = "underwear_white"
+
+/datum/category_item/underwear/bottom/sportpanties/black
+	item_state = "underwear_black"
+
+/datum/category_item/underwear/bottom/sportpanties/red
+	item_state = "underwear_red"
+
+/datum/category_item/underwear/bottom/sportpanties/yellow
+	item_state = "underwear_yellow"
+
+/datum/category_item/underwear/bottom/sportpanties/cyan
+	item_state = "underwear_cyan"
