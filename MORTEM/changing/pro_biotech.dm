@@ -1,23 +1,14 @@
-/datum/design/research/item/mechfab/moebius/r_arm
-	build_path = /obj/item/organ/external/robotic/moebius/r_arm
+/obj/item/organ/external/robotic/moebius/reinforced
+	matter = list(
+		MATERIAL_STEEL = 2,
+		MATERIAL_PLASTIC = 2,
+		MATERIAL_PLASTEEL = 2,
+		MATERIAL_SILVER = 2,
+		MATERIAL_GOLD = 2,
+	)
 
-/datum/design/research/item/mechfab/moebius/l_arm
-	build_path = /obj/item/organ/external/robotic/moebius/l_arm
-
-/datum/design/research/item/mechfab/moebius/r_leg
-	build_path = /obj/item/organ/external/robotic/moebius/r_leg
-
-/datum/design/research/item/mechfab/moebius/l_leg
-	build_path = /obj/item/organ/external/robotic/moebius/l_leg
-
-/datum/design/research/item/mechfab/moebius/groin
-	build_path = /obj/item/organ/external/robotic/moebius/groin
-
-/datum/design/research/item/mechfab/moebius/head
-	build_path = /obj/item/organ/external/robotic/moebius/head
-
-/datum/design/research/item/mechfab/moebius/torso
-	build_path = /obj/item/organ/external/robotic/moebius/torso
+/datum/design/research/item/mechfab/prosthesis_moebius/torso
+	build_path = /obj/item/organ/external/robotic/moebius/reinforced/torso
 
 
 /datum/technology/top_biotech
@@ -29,11 +20,11 @@
 		/datum/design/research/item/mechfab/modules/multitool/engineer,
 		/datum/design/research/item/mechfab/modules/multitool/miner,
 
-		/datum/design/research/item/mechfab/moebius/head,
-		/datum/design/research/item/mechfab/moebius/torso,
-		/datum/design/research/item/mechfab/moebius/groin,
-		/datum/design/research/item/mechfab/moebius/r_arm,
-		/datum/design/research/item/mechfab/moebius/l_arm,
-		/datum/design/research/item/mechfab/moebius/r_leg,
-		/datum/design/research/item/mechfab/moebius/l_leg,
+		/datum/design/research/item/mechfab/prosthesis_moebius/head,
+		/datum/design/research/item/mechfab/prosthesis_moebius/torso,
+		/datum/design/research/item/mechfab/prosthesis_moebius/groin,
+		/datum/design/research/item/mechfab/prosthesis_moebius/r_arm,
+		/datum/design/research/item/mechfab/prosthesis_moebius/l_arm,
+		/datum/design/research/item/mechfab/prosthesis_moebius/r_leg,
+		/datum/design/research/item/mechfab/prosthesis_moebius/l_leg,
 	)
