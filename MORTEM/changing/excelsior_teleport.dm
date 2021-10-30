@@ -1,5 +1,5 @@
 /obj/machinery/complant_teleporter
-	var/list/materials_list = list(
+	materials_list = list(
 		MATERIAL_STEEL = list("amount" = 30, "price" = 500), //base prices doubled untill new item are in
 		MATERIAL_WOOD = list("amount" = 30, "price" = 500),
 		MATERIAL_PLASTIC = list("amount" = 30, "price" = 500),
@@ -11,7 +11,7 @@
 		MATERIAL_DIAMOND = list("amount" = 10, "price" = 4000),
 	)
 
-	var/list/parts_list = list(
+	parts_list = list(
 		/obj/item/stock_parts/console_screen = 500,
 		/obj/item/stock_parts/capacitor = 1000,
 		/obj/item/stock_parts/scanning_module = 1000,
