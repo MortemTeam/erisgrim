@@ -2854,6 +2854,7 @@
 #include "MORTEM\changing\shuttle_base_turfs.dm"
 #include "MORTEM\changing\status.dm"
 #include "MORTEM\changing\trade_ui_autoupdate.dm"
+#include "MORTEM\customs\Pexel5\arm_blade.dm"
 #include "MORTEM\disabling\blitzshell.dm"
 #include "MORTEM\disabling\breakdowns.dm"
 #include "MORTEM\disabling\gravity.dm"
