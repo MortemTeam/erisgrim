@@ -1,2 +1,2 @@
 /datum/shuttle
-	ceiling_type = /turf/unsimulated/floor/shuttle_ceiling
+	ceiling_type = /turf/simulated/floor/hull
