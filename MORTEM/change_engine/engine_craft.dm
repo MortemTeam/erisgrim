@@ -9,14 +9,13 @@
 
 /datum/design/research/circuit/gas_thruster
 	name = "Gas Thruster"
-	build_path = /obj/item/electronics/circuitboard/engine
+	build_path = /obj/item/electronics/circuitboard/unary_atmos/engine
 	sort_string = "FAHAH"
 	category = CAT_MISC
 
-/obj/item/electronics/circuitboard/engine
+/obj/item/electronics/circuitboard/unary_atmos/engine
 	name = T_BOARD("gas thruster")
 	icon_state = "mcontroller"
-	board_type = "machine"
 	build_path = /obj/machinery/atmospherics/unary/engine
 	req_components = list(
 		/obj/item/stack/cable_coil = 10,

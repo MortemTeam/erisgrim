@@ -3,7 +3,6 @@
 	dir = NORTH
 	on = FALSE
 
-
 /obj/machinery/atmospherics/unary/engine/attackby(obj/item/I, mob/user)
 	if(I.has_quality(QUALITY_BOLT_TURNING))
 		if(I.use_tool(user, src, WORKTIME_LONG, QUALITY_BOLT_TURNING, FAILCHANCE_EASY, STAT_MEC))
@@ -11,5 +10,9 @@
 			set_anchored(!anchored)
 			if(anchored)
 				atmos_init()
+				build_network()
+				if(node1)
+					node1.atmos_init()
+					node1.build_network()
 			else
 				disconnect()
