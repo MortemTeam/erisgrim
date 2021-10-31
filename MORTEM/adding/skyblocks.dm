@@ -4,7 +4,7 @@
 /area/skyblock/warn/Entered(atom/A)
 	..()
 	if(ishuman(A))
-		to_chat(A, SPAN_NOTICE("A strong gust of wind blows you away."))
+		to_chat(A, SPAN_DANGER("<font size=3>A strong gust of wind blows you away.</font>"))
 
 /area/skyblock/gib
 	icon_state = "shuttlered"
