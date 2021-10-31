@@ -2862,4 +2862,7 @@
 #include "MORTEM\disabling\other_maps.dm"
 #include "MORTEM\disabling\silicon_job.dm"
 #include "MORTEM\fixing\vote.dm"
+#include "MORTEM\fixing\browsers\notes.dm"
+#include "MORTEM\fixing\browsers\storyteller.dm"
+#include "MORTEM\fixing\browsers\unban.dm"
 // END_INCLUDE
