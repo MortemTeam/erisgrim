@@ -3902,19 +3902,10 @@
 	},
 /turf/space,
 /area/space)
-"mj" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "propulsion_l"
-	},
-/turf/space,
-/area/shuttle/mercenary)
-"mk" = (
-/obj/structure/shuttle/engine/propulsion,
-/turf/space,
-/area/shuttle/mercenary)
 "ml" = (
-/obj/structure/shuttle/engine/propulsion{
-	icon_state = "propulsion_r"
+/obj/machinery/atmospherics/unary/engine{
+	anchored = 1;
+	dir = 1
 	},
 /turf/space,
 /area/shuttle/mercenary)
@@ -28348,7 +28339,7 @@ lM
 lW
 Dg
 mf
-mj
+ml
 aa
 aa
 aa
@@ -28550,7 +28541,7 @@ lN
 ln
 md
 mf
-mk
+ml
 aa
 aa
 aa
@@ -29559,7 +29550,7 @@ ll
 lE
 Bg
 mf
-mj
+ml
 aa
 aa
 aa
@@ -29761,7 +29752,7 @@ lF
 iJ
 iJ
 mf
-mk
+ml
 aa
 aa
 aa
@@ -30772,7 +30763,7 @@ YO
 lZ
 hr
 mf
-mj
+ml
 aa
 aa
 aa
@@ -30974,7 +30965,7 @@ lU
 iJ
 iJ
 mf
-mk
+ml
 aa
 aa
 aa
