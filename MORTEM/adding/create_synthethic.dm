@@ -20,21 +20,14 @@
 	H.set_species(SPECIES_HUMAN)
 	H.fully_replace_character_name(name)
 
-	// Remove all external organs other than chest and head..
-	for(var/O in list(BP_HEAD, BP_L_ARM, BP_R_ARM, BP_L_LEG, BP_R_LEG))
-		var/obj/item/organ/external/organ = H.organs_by_name[O]
-		H.organs -= organ
-		H.organs_by_name.Remove(organ.organ_tag)
-		qdel(organ)
-
 	// Remove internal organs
-	for(var/O in list(BP_BRAIN, BP_EYES, OP_APPENDIX))
+	for(var/O in list(BP_BRAIN, OP_APPENDIX))
 		for(var/obj/item/organ/internal/organ in H.internal_organs_by_efficiency[O])
 			H.organs -= organ
 			qdel(organ)
 
 	// Convert internal organs
-	for(var/O in list(OP_HEART, OP_LUNGS, OP_STOMACH, OP_LIVER, OP_KIDNEYS))
+	for(var/O in list(OP_HEART, BP_EYES, OP_LUNGS, OP_STOMACH, OP_LIVER, OP_KIDNEYS))
 		for(var/obj/item/organ/internal/organ in H.internal_organs_by_efficiency[O])
 			organ.nature = MODIFICATION_SILICON
 
