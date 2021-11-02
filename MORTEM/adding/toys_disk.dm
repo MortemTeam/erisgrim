@@ -26,7 +26,7 @@
 		/datum/design/autolathe/clothing/nun_suit,
 
 		/datum/design/autolathe/clothing/mime_shoes,
-		/datum/design/autolathe/clothing/bunny_slippers
+		/datum/design/autolathe/clothing/bunny_slippers,
 
 		/datum/design/autolathe/tool/pink_restraints,
 		/datum/design/autolathe/tool/ducttape,

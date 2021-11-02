@@ -1,15 +1,50 @@
+/obj/item/organ/external/robotic
+	var/basis_tag = BP_CHEST
+	var/constructs_body = list(
+		BP_HEAD  = null,
+		BP_CHEST = null,
+		BP_GROIN = null,
+		BP_L_ARM = null,
+		BP_R_ARM = null,
+		BP_L_LEG = null,
+		BP_R_LEG = null,
+	)
+
+/obj/item/organ/external/robotic/New()
+	..()
+	organ_tag = new default_description().organ_tag
+	if(organ_tag == basis_tag)
+		constructs_body[basis_tag] = src
+
+/obj/item/organ/external/robotic/update_icon()
+	..()
+	overlays.Cut()
+	for(var/tag in constructs_body)
+		if(constructs_body[tag])
+			overlays += constructs_body[tag]
+
 /obj/item/organ/external/robotic/attackby(obj/item/I, mob/user)
 	..()
-	var/datum/organ_description/DP = new default_description()
-	if(!DP || DP.organ_tag != BP_CHEST)
+	var/organ_tag = new default_description().organ_tag
+	if(!organ_tag || organ_tag != basis_tag)
 		return
-	if(!istype(I, /obj/item/organ/external/robotic))
+
+	if(!istype(I, bad_type))
 		return
 
 	var/obj/item/organ/external/robotic/part = I
-	DP = new part.default_description()
-	if(!DP || DP.organ_tag != BP_GROIN)
+	organ_tag = new part.default_description().organ_tag
+	if(!organ_tag || constructs_body[organ_tag])
 		return
+
+	constructs_body[organ_tag] = part
+	user.drop_from_inventory(part)
+	part.forceMove(src)
+	update_icon()
+
+	for(var/tag in constructs_body)
+		if(!constructs_body[tag])
+			return
 
 	var/name = sanitizeSafe(input(user,"Set a name for the new prosthetic."), MAX_NAME_LEN)
 	if(!name)
@@ -31,5 +66,7 @@
 		for(var/obj/item/organ/internal/organ in H.internal_organs_by_efficiency[O])
 			organ.nature = MODIFICATION_SILICON
 
-	qdel(part)
+	for(var/tag in constructs_body)
+		qdel(constructs_body[tag])
+
 	qdel(src)
