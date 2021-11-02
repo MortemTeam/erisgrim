@@ -12,6 +12,9 @@
 		/datum/design/autolathe/clothing/rabbitears,
 		/datum/design/autolathe/clothing/nursehat,
 
+		/datum/design/autolathe/clothing/sexy_mime_mask,
+		/datum/design/autolathe/clothing/muzzle,
+
 		/datum/design/autolathe/clothing/swimsuit_black,
 		/datum/design/autolathe/clothing/swimsuit_red,
 		/datum/design/autolathe/clothing/swimsuit_green,
@@ -22,8 +25,11 @@
 		/datum/design/autolathe/clothing/sexyclown_suit,
 		/datum/design/autolathe/clothing/nun_suit,
 
+		/datum/design/autolathe/clothing/mime_shoes,
+		/datum/design/autolathe/clothing/bunny_slippers
+
 		/datum/design/autolathe/tool/pink_restraints,
-		/datum/design/autolathe/tool/ducttape
+		/datum/design/autolathe/tool/ducttape,
 	)
 
 /datum/design/autolathe/clothing/captainhat
@@ -46,6 +52,16 @@
 	name = "nurse hat"
 	build_path = /obj/item/clothing/head/nursehat
 
+
+/datum/design/autolathe/clothing/sexy_mime_mask
+	name = "sexy mime mask"
+	build_path = /obj/item/clothing/mask/gas/sexymime
+
+/datum/design/autolathe/clothing/muzzle
+	name = "muzzle"
+	build_path = /obj/item/clothing/mask/muzzle
+
+
 /datum/design/autolathe/clothing/swimsuit_black
 	name = "black swimsuit"
 	build_path = /obj/item/clothing/under/swimsuit/black
@@ -66,6 +82,7 @@
 	name = "purple swimsuit"
 	build_path = /obj/item/clothing/under/swimsuit/purple
 
+
 /datum/design/autolathe/clothing/schoolgirl_uniform
 	name = "schoolgirl uniform"
 	build_path = /obj/item/clothing/under/schoolgirl
@@ -77,6 +94,16 @@
 /datum/design/autolathe/clothing/nun_suit
 	name = "nun suit"
 	build_path = /obj/item/clothing/suit/nun
+
+
+/datum/design/autolathe/clothing/mime_shoes
+	name = "mime shoes"
+	build_path = /obj/item/clothing/shoes/mime
+
+/datum/design/autolathe/clothing/bunny_slippers
+	name = "bunny slippers"
+	build_path = /obj/item/clothing/shoes/slippers
+
 
 /datum/design/autolathe/tool/pink_restraints
 	name = "pink restraints"

@@ -1,2 +1,2 @@
-/mob/living/carbon/superior_animal/roach
+/mob/living/carbon/superior_animal
 	sanity_damage = 0
