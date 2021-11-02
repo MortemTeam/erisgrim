@@ -42,6 +42,8 @@
 	part.forceMove(src)
 	update_icon()
 
+	w_class += ITEM_SIZE_SMALL
+
 	for(var/tag in constructs_body)
 		if(!constructs_body[tag])
 			return
@@ -53,7 +55,12 @@
 	var/mob/living/carbon/human/H = new /mob/living/carbon/human(get_turf(loc))
 	H.death(0, "no message")
 	H.set_species(SPECIES_HUMAN)
-	H.fully_replace_character_name(name)
+	H.fully_replace_character_name(name, name)
+
+	for(var/tag in constructs_body)
+		if(H.organs_by_name[tag])
+			qdel(H.organs_by_name[tag])
+
 
 	// Remove internal organs
 	for(var/O in list(BP_BRAIN, OP_APPENDIX))
@@ -65,8 +72,5 @@
 	for(var/O in list(OP_HEART, BP_EYES, OP_LUNGS, OP_STOMACH, OP_LIVER, OP_KIDNEYS))
 		for(var/obj/item/organ/internal/organ in H.internal_organs_by_efficiency[O])
 			organ.nature = MODIFICATION_SILICON
-
-	for(var/tag in constructs_body)
-		qdel(constructs_body[tag])
 
 	qdel(src)

@@ -3,6 +3,8 @@
 	force = WEAPON_FORCE_DANGEROUS
 	armor_penetration = ARMOR_PEN_DEEP
 
+	tool_qualities = list(QUALITY_CUTTING = 20, QUALITY_PRYING = 10)
+
 	contained_sprite = TRUE
 	icon = 'MORTEM/customs/Pexel5/icons.dmi'
 	icon_state = "arm_blade"
