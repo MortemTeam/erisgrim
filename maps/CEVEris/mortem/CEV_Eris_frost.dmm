@@ -21267,6 +21267,10 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4starboard)
+"hGP" = (
+/obj/structure/catwalk,
+/turf/simulated/floor/hull,
+/area/space)
 "hGR" = (
 /obj/machinery/atmospherics/pipe/simple/visible{
 	dir = 5
@@ -367866,12 +367870,12 @@ hwV
 abF
 abF
 abF
-ykt
-ykt
-ykt
-ykt
-ykt
-ykt
+abF
+abF
+abF
+abF
+abF
+abF
 ykt
 ykt
 ykt
@@ -368173,9 +368177,9 @@ wpN
 wpN
 wpN
 dXH
-ykt
-ykt
-ykt
+abF
+abF
+abF
 ykt
 ykt
 ykt
@@ -368469,7 +368473,7 @@ myX
 brP
 abF
 abF
-ykt
+abF
 wpN
 fmq
 nGU
@@ -368477,7 +368481,7 @@ utB
 dXH
 dXH
 dXH
-ykt
+abF
 ykt
 ykt
 ykt
@@ -368771,7 +368775,7 @@ myX
 nSi
 abF
 abF
-ykt
+abF
 wpN
 qYt
 vnE
@@ -368779,7 +368783,7 @@ eEy
 hbo
 mPj
 dXH
-ykt
+abF
 ykt
 ykt
 ykt
@@ -369073,7 +369077,7 @@ koH
 nSi
 abF
 abF
-ykt
+abF
 wpN
 ygp
 ydw
@@ -369375,7 +369379,7 @@ vqG
 nSi
 abF
 abF
-ykt
+abF
 dXH
 wpN
 wpN
@@ -369677,9 +369681,9 @@ vqG
 nSi
 abF
 abF
-ykt
-ykt
-ykt
+abF
+abF
+abF
 abF
 abF
 abF
@@ -373802,20 +373806,20 @@ ykt
 ykt
 ykt
 slt
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
-ddL
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
+hGP
 abF
 abF
 abF
@@ -382259,7 +382263,7 @@ abF
 abF
 abF
 abF
-ykt
+abF
 ykt
 ykt
 abF
