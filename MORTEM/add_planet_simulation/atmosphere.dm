@@ -20,11 +20,11 @@
 	return 1
 
 /turf/simulated/floor/exoplanet/snow
-	nitrogen = MOLES_N2ATMOS * 5
+	nitrogen = MOLES_CELLSTANDARD * 8.015
 	temperature = T20C - 193
 
 /turf/simulated/floor/exoplanet/chlorine_sand
-	nitrogen = MOLES_N2ATMOS * 5
+	nitrogen = MOLES_CELLSTANDARD * 8.015
 	temperature = T20C - 193
 
 /decl/xgm_gas/nitrogen

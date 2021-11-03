@@ -5,10 +5,10 @@
 	)
 
 /datum/objective/timed/merc
-	explanation_text = "Return to your ship and withdraw to base within 666 minutes of being detected."
 	mission_timer = 666 MINUTES
 
 /datum/objective/timed/merc/update_explanation()
+	explanation_text = "Return to your ship and withdraw to base within 666 minutes of being detected. Nuke code: [SSticker.ship_nuke_code]"
 
 /datum/objective/nuclear/check_completion()
 	return SSticker.ship_was_nuked
