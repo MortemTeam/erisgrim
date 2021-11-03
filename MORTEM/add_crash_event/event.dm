@@ -3,15 +3,21 @@
 #define APC_EXPLODING 5 MINUTES
 #define EXPLODE_COUNT 20
 
-/proc/announce()
+/datum/client_preference/rs_shake
+	description ="Roundstart shake camera"
+	key = "SHAKE_CAMERA"
+	default_value = GLOB.PREF_YES
+
+/proc/announce_crash()
 	command_announcement.Announce("Ship's propulsion functions are affected, keep calm and prepare to landing.", "Distress Signal")
 
-/proc/turbulence()
+/proc/turbulence_crash()
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(H.z in list(1,2,3,4,5))
 			spawn(0)
 				H.Weaken(TURBULENCE)
-				shake_camera(H, TURBULENCE * 1 SECONDS, 2)
+				if(H.client && H.get_preference_value(/datum/client_preference/rs_shake) == GLOB.PREF_YES)
+					shake_camera(H, TURBULENCE * 1 SECONDS, 2)
 				playsound(H, 'MORTEM/add_crash_event/crash.mp3', 66, 1)
 
 /proc/light_flicking()
@@ -52,8 +58,8 @@
 
 /datum/controller/subsystem/ticker
 	round_start_events = list(
-		CALLBACK(GLOBAL_PROC, /proc/announce),
-		CALLBACK(GLOBAL_PROC, /proc/turbulence),
+		CALLBACK(GLOBAL_PROC, /proc/announce_crash),
+		CALLBACK(GLOBAL_PROC, /proc/turbulence_crash),
 		CALLBACK(GLOBAL_PROC, /proc/light_flicking),
 		//CALLBACK(GLOBAL_PROC, /proc/explode_apc),
 	)

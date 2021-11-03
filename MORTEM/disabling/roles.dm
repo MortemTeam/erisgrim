@@ -1,8 +1,8 @@
 /datum/antagonist/blitz
 	selectable = FALSE
 
-/datum/antagonist/borer
+/datum/antagonist/rogue_ai
 	selectable = FALSE
 
-/datum/antagonist/carrion
+/datum/antagonist/traitor/synth
 	selectable = FALSE

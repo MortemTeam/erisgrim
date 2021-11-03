@@ -2861,7 +2861,6 @@
 #include "MORTEM\disabling\maintshroom_spread.dm"
 #include "MORTEM\disabling\other_maps.dm"
 #include "MORTEM\disabling\roles.dm"
-#include "MORTEM\disabling\silicon_job.dm"
 #include "MORTEM\fixing\attach_organ.dm"
 #include "MORTEM\fixing\shuttles_floor.dm"
 #include "MORTEM\fixing\vote.dm"
