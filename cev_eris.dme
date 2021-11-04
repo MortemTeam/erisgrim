@@ -2839,7 +2839,6 @@
 #include "MORTEM\change_engine\engine_craft.dm"
 #include "MORTEM\change_engine\engine_state.dm"
 #include "MORTEM\change_materials_icon\materials.dm"
-#include "MORTEM\changing\animal_sanity_damage.dm"
 #include "MORTEM\changing\antidepressants.dm"
 #include "MORTEM\changing\autolathe_suitable.dm"
 #include "MORTEM\changing\cloth_pile.dm"
