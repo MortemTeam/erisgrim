@@ -44,6 +44,8 @@ Has ability of every roach.
 	var/health_marker_2 = 1000
 	var/health_marker_3 = 500
 
+	hats4roaches = null
+
 /mob/living/carbon/superior_animal/roach/kaiser/New()
 	..()
 	gas_sac = new /datum/reagents(100, src)

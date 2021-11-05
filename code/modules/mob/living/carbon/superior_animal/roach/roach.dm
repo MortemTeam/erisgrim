@@ -48,36 +48,44 @@
 
 	var/obj/item/hat
 	var/hat_x_offset = 6
-	var/hat_y_offset = 8
+	var/hat_y_offset = 6
 
-	var/list/hats4roaches = list(/obj/item/clothing/head/collectable/chef,
-			/obj/item/clothing/head/collectable/paper,
-			/obj/item/clothing/head/collectable/beret,
-			/obj/item/clothing/head/collectable/welding,
-			/obj/item/clothing/head/collectable/flatcap,
-			/obj/item/clothing/head/collectable/pirate,
-			/obj/item/clothing/head/collectable/thunderdome,
-			/obj/item/clothing/head/collectable/swat,
-			/obj/item/clothing/head/collectable/police,
-			/obj/item/clothing/head/collectable/xenom,
-			/obj/item/clothing/head/collectable/petehat,
-			/obj/item/clothing/head/collectable/wizard,
-			/obj/item/clothing/head/collectable/hardhat,
-			/obj/item/clothing/head/fedora,
-			/obj/item/clothing/head/hasturhood,
-			/obj/item/clothing/head/hgpiratecap,
-			/obj/item/clothing/head/nursehat,
-			/obj/item/clothing/head/soft/rainbow,
-			/obj/item/clothing/head/soft/grey
-			)
+	var/hats4roaches = /obj/item/clothing/head
+	var/hats_blocked = list(
+		/obj/item/clothing/head,
+		/obj/item/clothing/head/armor,
+		/obj/item/clothing/head/armor/faceshield,
+		/obj/item/clothing/head/collectable,
+		/obj/item/clothing/head/collectable/hardhat,
+		/obj/item/clothing/head/lightrig,
+		/obj/item/clothing/head/lightrig/hacker,
+		/obj/item/clothing/head/space/rig,
+		/obj/item/clothing/head/space/rig/ce,
+		/obj/item/clothing/head/space/rig/combat,
+		/obj/item/clothing/head/space/rig/combat/ironhammer,
+		/obj/item/clothing/head/space/rig/eva,
+		/obj/item/clothing/head/space/rig/hazard,
+		/obj/item/clothing/head/space/rig/hazmat,
+		/obj/item/clothing/head/space/rig/industrial,
+		/obj/item/clothing/head/space/rig/light,
+		/obj/item/clothing/head/space/rig/medical,
+		/obj/item/clothing/head/space/rig/merc,
+		/obj/item/clothing/head/space/rig/techno
+	)
 
 
 /mob/living/carbon/superior_animal/roach/New()
 	. = ..()
-	var/newhat = pick(hats4roaches)
-	var/obj/item/hatobj = new newhat(loc)
-	wear_hat(hatobj)
+	if(hats4roaches)
+		var/newhat_type = pick(subtypesof(hats4roaches) - hats_blocked)
+		var/obj/item/clothing/head/newhat = new newhat_type(loc)
+		wear_hat(newhat)
 
+/mob/living/carbon/superior_animal/roach/getarmor(var/def_zone, var/type)
+	if(!hat)
+		return 0
+
+	return hat.armor[type]
 
 //When roaches die near a leader, the leader may call for reinforcements
 /mob/living/carbon/superior_animal/roach/death()
@@ -95,12 +103,15 @@
 		new /obj/item/storage/box/halloween_basket(get_turf(src))
 
 	if(hat)
-		hat.loc = get_turf(src)
-		hat.update_plane()
+		if(prob(1))
+			hat.loc = get_turf(src)
+			hat.update_plane()
+		else
+			new /obj/item/material/shard/shrapnel/scrap(loc)
+			qdel(hat)
+
 		hat = null
 		update_hat()
-
-
 
 /mob/living/carbon/superior_animal/roach/proc/wear_hat(var/obj/item/new_hat)
 	if(hat)
@@ -122,10 +133,10 @@
 				offset_y = -hat_y_offset
 				offset_x = -hat_x_offset
 			if(NORTH)
-				offset_y = -2
-				offset_x = 0
+				offset_y = -1
+				offset_x = 1
 			if(SOUTH)
-				offset_y = -16
-				offset_x = 0
+				offset_y = -14
+				offset_x = 1
 		overlays |= get_hat_icon(hat, offset_x, offset_y)
 
