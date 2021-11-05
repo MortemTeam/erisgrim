@@ -57,27 +57,18 @@
 		/obj/item/clothing/head/armor/faceshield,
 		/obj/item/clothing/head/collectable,
 		/obj/item/clothing/head/collectable/hardhat,
-		/obj/item/clothing/head/lightrig,
-		/obj/item/clothing/head/lightrig/hacker,
-		/obj/item/clothing/head/space/rig,
-		/obj/item/clothing/head/space/rig/ce,
-		/obj/item/clothing/head/space/rig/combat,
-		/obj/item/clothing/head/space/rig/combat/ironhammer,
-		/obj/item/clothing/head/space/rig/eva,
-		/obj/item/clothing/head/space/rig/hazard,
-		/obj/item/clothing/head/space/rig/hazmat,
-		/obj/item/clothing/head/space/rig/industrial,
-		/obj/item/clothing/head/space/rig/light,
-		/obj/item/clothing/head/space/rig/medical,
-		/obj/item/clothing/head/space/rig/merc,
-		/obj/item/clothing/head/space/rig/techno
 	)
 
 
 /mob/living/carbon/superior_animal/roach/New()
 	. = ..()
 	if(hats4roaches)
-		var/newhat_type = pick(subtypesof(hats4roaches) - hats_blocked)
+		var/newhat_type = pick(
+			subtypesof(hats4roaches) - \
+			subtypesof(/obj/item/clothing/head/space/) - \
+			subtypesof(/obj/item/clothing/head/space/rig) - \
+			subtypesof(/obj/item/clothing/head/lightrig) - \
+			hats_blocked)
 		var/obj/item/clothing/head/newhat = new newhat_type(loc)
 		wear_hat(newhat)
 
