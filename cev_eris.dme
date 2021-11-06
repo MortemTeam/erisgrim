@@ -2842,6 +2842,7 @@
 #include "MORTEM\change_materials_icon\materials.dm"
 #include "MORTEM\changing\air_status.dm"
 #include "MORTEM\changing\antidepressants.dm"
+#include "MORTEM\changing\artist_bench.dm"
 #include "MORTEM\changing\autolathe_suitable.dm"
 #include "MORTEM\changing\cloth_pile.dm"
 #include "MORTEM\changing\commi_objectives.dm"
