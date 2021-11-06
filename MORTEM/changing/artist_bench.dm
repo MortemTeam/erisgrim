@@ -1,4 +1,4 @@
-/obj/machinery/autolathe/artist_bench/proc/choose_base_art(ins_used, mob/living/carbon/human/user)
+/obj/machinery/autolathe/artist_bench/choose_base_art(ins_used, mob/living/carbon/human/user)
 	var/list/LStats = list()
 
 	if(inspiration && user.stats.getPerk(PERK_ARTIST))
