@@ -10,9 +10,9 @@
 	text = "Признаю поражение, желаю закончить игру!"
 
 /datum/vote_choice/evac/on_win()
-	to_chat(world, SPAN_DANGER("Restarting world, because you surrender!"))
+	to_chat(world, SPAN_DANGER("Restarting world after 30 seconds, because you surrender!"))
 	log_admin("Initiated a reboot by surrender.")
-	sleep(5 SECONDS)
+	sleep(30 SECONDS)
 	world.Reboot("Surrender game")
 
 /datum/vote_choice/noevac
