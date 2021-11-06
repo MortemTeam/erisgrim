@@ -194,8 +194,6 @@ This is the proc mobs get to turn into a ghost. Forked from ghostize due to comp
 		if(response != "Ghost")
 			return
 
-		return
-
 		resting = 1
 		var/turf/location = get_turf(src)
 		message_admins("[key_name_admin(usr)] has ghosted. (<A HREF='?_src_=holder;adminplayerobservecoodjump=1;X=[location.x];Y=[location.y];Z=[location.z]'>JMP</a>)")
