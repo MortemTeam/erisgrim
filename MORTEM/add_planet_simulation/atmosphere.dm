@@ -20,11 +20,11 @@
 	return 1
 
 /turf/simulated/floor/exoplanet/snow
-	nitrogen = MOLES_CELLSTANDARD * 36.28
+	nitrogen = MOLES_CELLSTANDARD * 66.6
 	temperature = T20C - 193
 
 /turf/simulated/floor/exoplanet/chlorine_sand
-	nitrogen = MOLES_CELLSTANDARD * 36.28
+	nitrogen = MOLES_CELLSTANDARD * 66.6
 	temperature = T20C - 193
 
 /decl/xgm_gas/nitrogen
