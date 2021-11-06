@@ -2845,6 +2845,7 @@
 #include "MORTEM\changing\autolathe_suitable.dm"
 #include "MORTEM\changing\cloth_pile.dm"
 #include "MORTEM\changing\commi_objectives.dm"
+#include "MORTEM\changing\department_balance.dm"
 #include "MORTEM\changing\evacuaction_poll.dm"
 #include "MORTEM\changing\excelsior_teleport.dm"
 #include "MORTEM\changing\generate_ore.dm"
