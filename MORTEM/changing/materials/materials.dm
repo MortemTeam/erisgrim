@@ -1,6 +1,6 @@
 
 /obj/item/stack/material/diamond
-	icon = 'MORTEM/change_materials_icon/icons.dmi'
+	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "handful-diamond"
 	max_amount = 30
 	novariants = FALSE
@@ -15,7 +15,7 @@
 /*                             */
 
 /obj/item/stack/material/uranium
-	icon = 'MORTEM/change_materials_icon/icons.dmi'
+	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "rods-uran"
 	max_amount = 30
 	novariants = FALSE
@@ -30,7 +30,7 @@
 /*                             */
 
 /obj/item/stack/material/plasma
-	icon = 'MORTEM/change_materials_icon/icons.dmi'
+	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "handful-plasma"
 	max_amount = 30
 	novariants = FALSE

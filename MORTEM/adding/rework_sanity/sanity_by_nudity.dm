@@ -1,5 +1,3 @@
-#define CONTEMPLATION 2
-
 /mob/living/carbon/human/proc/check_nude()
 	return !(wear_suit && w_uniform)
 
@@ -24,5 +22,6 @@
 				if(H.sanity.level < 30 || H.health < 50)
 					. += SANITY_DAMAGE_VIEW(0.1, vig, get_dist(owner, A))
 
-			if(!owner.stats.getPerk(PERK_NIHILIST) && H.stat != DEAD && H.gender != owner.gender && H.check_nude())
-				. += CONTEMPLATION * (owner.check_nude()? 1.5 : 1)
+			if(!owner.stats.getPerk(PERK_NIHILIST) && H.stat != DEAD)
+				if(H.check_nude())
+					. += (owner.check_nude() ? 2 : 1) + (owner.gender != H.gender ? 2 : 1)

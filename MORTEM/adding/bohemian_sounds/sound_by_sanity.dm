@@ -1,8 +1,8 @@
 /datum/sanity
 	var/scream_sounds = list(
-		'MORTEM/add_bohemian_sounds/track1.mp3',
-		'MORTEM/add_bohemian_sounds/track2.mp3',
-		'MORTEM/add_bohemian_sounds/track3.mp3',
+		'MORTEM/adding/bohemian_sounds/track1.mp3',
+		'MORTEM/adding/bohemian_sounds/track2.mp3',
+		'MORTEM/adding/bohemian_sounds/track3.mp3',
 	)
 	var/last_played_scream = 0
 	var/scream_sound_cd = 6 MINUTES

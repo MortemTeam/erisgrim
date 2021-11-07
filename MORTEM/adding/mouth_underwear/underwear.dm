@@ -46,7 +46,7 @@
 	return UW
 
 /obj/item/underwear
-	icon = 'MORTEM/add_mouth_underwear/underwear.dmi'
+	icon = 'MORTEM/adding/mouth_underwear/underwear.dmi'
 
 /obj/item/underwear/bottom
 	slot_flags = SLOT_MASK

@@ -18,7 +18,7 @@
 				H.Weaken(TURBULENCE)
 				if(H.client && H.get_preference_value(/datum/client_preference/rs_shake) == GLOB.PREF_YES)
 					shake_camera(H, TURBULENCE * 1 SECONDS, 2)
-				playsound(H, 'MORTEM/add_crash_event/crash.mp3', 66, 1)
+				playsound(H, 'MORTEM/adding/crash_event/crash.mp3', 66, 1)
 
 /proc/light_flicking()
 	var/start_time = world.time
