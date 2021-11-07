@@ -1158,7 +1158,7 @@
 /turf/simulated/floor/plating,
 /area/eris/security/barracks)
 "aQN" = (
-/obj/landmark/join/start/assistant,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck4central)
 "aQP" = (
@@ -18052,7 +18052,7 @@
 	pixel_y = -28
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section3deck2port)
+/area/eris/maintenance/section3deck2starboard)
 "gZk" = (
 /obj/structure/table/standard,
 /obj/spawner/pack/tech_loot,
@@ -20456,6 +20456,7 @@
 /area/eris/maintenance/section1deck4central)
 "hyZ" = (
 /obj/structure/bed/chair/comfy/beige,
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "hza" = (
@@ -27349,7 +27350,6 @@
 /obj/structure/bed/chair{
 	dir = 4
 	},
-/obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section2deck4central)
 "iNB" = (
@@ -29941,6 +29941,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 1
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "jmT" = (
@@ -31391,6 +31392,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 5
 	},
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4central)
 "jAl" = (
@@ -38450,7 +38452,6 @@
 /area/eris/maintenance/section3deck3port)
 "kTf" = (
 /obj/structure/bed/chair,
-/obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/eris/maintenance/section3deck4central)
 "kTg" = (
@@ -39910,6 +39911,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 8
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "liw" = (
@@ -42089,9 +42091,9 @@
 /turf/simulated/floor/tiled/white/cargo,
 /area/eris/medical/surgery)
 "lCm" = (
-/obj/landmark/join/start/assistant,
+/obj/effect/window_lwall_spawn/reinforced,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section2deck4central)
+/area/eris/maintenance/section3deck5starboard)
 "lCo" = (
 /obj/machinery/computer/general_air_control/large_tank_control{
 	dir = 8;
@@ -51565,6 +51567,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/eris/crew_quarters/sleep)
 "npO" = (
@@ -51928,6 +51931,10 @@
 	},
 /turf/simulated/floor/tiled/steel/orangecorner,
 /area/eris/engineering/propulsion/left)
+"nsT" = (
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section3deck4central)
 "nsU" = (
 /obj/structure/catwalk,
 /obj/item/stack/rods,
@@ -52856,6 +52863,7 @@
 /obj/structure/bed/chair{
 	dir = 8
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/eris/crew_quarters/sleep)
 "nBC" = (
@@ -59729,6 +59737,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "oRA" = (
@@ -61185,6 +61194,7 @@
 /obj/structure/disposalpipe/segment{
 	dir = 4
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "pha" = (
@@ -74152,7 +74162,7 @@
 /obj/spawner/pack/tech_loot,
 /obj/spawner/pack/tech_loot,
 /turf/simulated/floor/tiled/techmaint_panels,
-/area/eris/maintenance/section3deck2port)
+/area/eris/maintenance/section3deck2starboard)
 "rEe" = (
 /obj/machinery/atmospherics/pipe/zpipe/down,
 /obj/structure/disposalpipe/down,
@@ -75701,6 +75711,7 @@
 /area/eris/maintenance/section3deck5port)
 "rVO" = (
 /obj/machinery/light/small,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section2deck4central)
 "rVT" = (
@@ -76124,6 +76135,14 @@
 /obj/structure/disposalpipe/segment,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
+"rZV" = (
+/obj/structure/catwalk,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck2starboard)
 "saa" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/black{
 	dir = 9
@@ -76975,6 +76994,10 @@
 /obj/structure/table/standard,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/eris/medical/chemistry)
+"sjH" = (
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section2deck4central)
 "sjN" = (
 /obj/structure/table/rack/shelf,
 /obj/spawner/booze,
@@ -77235,6 +77258,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 10
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/eris/crew_quarters/sleep)
 "smY" = (
@@ -81592,6 +81616,7 @@
 /obj/structure/bed/chair/comfy/beige{
 	dir = 4
 	},
+/obj/landmark/join/start/assistant,
 /turf/simulated/floor/carpet/turcarpet,
 /area/eris/crew_quarters/clothingstorage)
 "tdg" = (
@@ -82183,6 +82208,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck2starboard)
 "tjx" = (
@@ -82673,7 +82699,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck3central)
 "top" = (
-/obj/landmark/join/start/assistant,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section1deck4central)
 "toq" = (
@@ -83562,6 +83588,24 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2starboard)
+"twD" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section3deck5starboard)
 "twH" = (
 /obj/machinery/atmospherics/unary/vent_pump/on,
 /turf/simulated/floor/tiled/white/violetcorener,
@@ -97262,6 +97306,10 @@
 /obj/structure/railing{
 	dir = 8
 	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section3deck4central)
+"wgi" = (
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck4central)
 "wgl" = (
@@ -139530,7 +139578,7 @@ yll
 yll
 yll
 yll
-nmO
+hYA
 qlT
 hYA
 yll
@@ -139832,7 +139880,7 @@ yll
 yll
 eBR
 yll
-nmO
+hYA
 qlT
 hYA
 eBR
@@ -140134,7 +140182,7 @@ yll
 yll
 yll
 yll
-oBP
+hYA
 qlT
 hYA
 jpE
@@ -140436,9 +140484,9 @@ yll
 yll
 yll
 yll
-hYA
+lCm
 qlT
-hYA
+lCm
 yll
 yll
 yll
@@ -140738,9 +140786,9 @@ yll
 yll
 yll
 jpE
-hYA
+lCm
 qlT
-oBP
+lCm
 yll
 yll
 yll
@@ -141946,9 +141994,9 @@ vyQ
 fJG
 yll
 yll
-nmO
+hYA
 qlT
-nmO
+hYA
 yll
 yll
 yll
@@ -142248,9 +142296,9 @@ tSn
 sVl
 yll
 yll
-nmO
+hYA
 qlT
-nmO
+hYA
 yll
 yll
 yll
@@ -142853,7 +142901,7 @@ sVl
 sVl
 hYA
 hYA
-qlT
+twD
 hYA
 hYA
 yll
@@ -192629,10 +192677,10 @@ gji
 lyw
 ghx
 npY
-npY
-npY
-npY
 top
+npY
+npY
+npY
 npY
 lRJ
 lRJ
@@ -199290,7 +199338,7 @@ jqe
 gRY
 mIi
 iRy
-mIi
+sjH
 hoT
 jqe
 rMZ
@@ -199298,8 +199346,8 @@ mIi
 jqe
 sbR
 hoT
+sjH
 mIi
-lCm
 hoT
 npk
 sng
@@ -199316,7 +199364,7 @@ iJS
 iJS
 mgw
 iJS
-iJS
+nsT
 gcd
 rIr
 iJS
@@ -201745,7 +201793,7 @@ vur
 xMI
 tHk
 oAt
-vKQ
+wgi
 ngR
 qYn
 ykt
@@ -317099,7 +317147,7 @@ kKr
 vrN
 vrN
 xOQ
-eRR
+lXL
 uvZ
 uvZ
 lXL
@@ -318322,7 +318370,7 @@ mFL
 nUJ
 pcm
 pcm
-dOi
+pcm
 dOi
 mjG
 iVq
@@ -318624,7 +318672,7 @@ pXl
 nUJ
 vGF
 pcm
-dgP
+vbb
 dNn
 tdO
 nwk
@@ -318926,7 +318974,7 @@ nUJ
 nUJ
 jkX
 pcm
-uhk
+vbb
 jnD
 kCB
 dOi
@@ -319228,7 +319276,7 @@ rRN
 qnv
 vbb
 eVb
-uhk
+vbb
 jnD
 rps
 jnD
@@ -319530,7 +319578,7 @@ rRN
 nxR
 wws
 vbb
-uhk
+vbb
 pTh
 iub
 vVd
@@ -323124,7 +323172,7 @@ thZ
 iSf
 yfA
 ofE
-rGy
+rZV
 paC
 qfq
 uxW
