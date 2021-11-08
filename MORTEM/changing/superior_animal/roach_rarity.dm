@@ -1,6 +1,6 @@
 /mob/living/carbon/superior_animal/roach/kaiser
 	spawn_blacklisted = FALSE
-	rarity_value = 400
+	rarity_value = 300
 
 /mob/living/carbon/superior_animal/roach/fuhrer
 	rarity_value = 50

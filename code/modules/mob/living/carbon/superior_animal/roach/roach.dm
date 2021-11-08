@@ -50,7 +50,7 @@
 	var/hat_x_offset = 6
 	var/hat_y_offset = 6
 
-	var/hats4roaches = /obj/item/clothing/head
+	var/hats4roaches = /obj/item/clothing/head/armor
 	var/hats_blocked = list(
 		/obj/item/clothing/head,
 		/obj/item/clothing/head/armor,
@@ -62,7 +62,7 @@
 
 /mob/living/carbon/superior_animal/roach/New()
 	. = ..()
-	if(hats4roaches)
+	if(hats4roaches && prob(25))
 		var/newhat_type = pick(
 			subtypesof(hats4roaches) - \
 			subtypesof(/obj/item/clothing/head/space/) - \
