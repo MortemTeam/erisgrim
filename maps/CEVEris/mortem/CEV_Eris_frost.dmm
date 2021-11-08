@@ -8049,7 +8049,7 @@
 	dir = 8
 	},
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "ffS" = (
 /obj/effect/floor_decal/industrial/warning,
 /turf/simulated/floor/tiled/techmaint,
@@ -45558,7 +45558,7 @@
 "mkE" = (
 /obj/structure/closet/cabinet,
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "mkM" = (
 /obj/structure/closet/secure_closet/personal/patient,
 /turf/simulated/floor/tiled/white/violetcorener,
@@ -51344,7 +51344,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "noj" = (
 /obj/structure/girder,
 /obj/effect/decal/cleanable/rubble,
@@ -57376,7 +57376,7 @@
 	dir = 10
 	},
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "ows" = (
 /obj/spawner/lowkeyrandom/low_chance,
 /turf/simulated/floor/plating,
@@ -92737,7 +92737,7 @@
 	navigation = "Section 2, floor 4. Moebius dormitory of science deparment, on the bed."
 	},
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "vol" = (
 /obj/machinery/telecomms/bus/preset_three,
 /turf/simulated/floor/bluegrid{
@@ -106231,7 +106231,7 @@
 /obj/item/lipstick/random,
 /obj/machinery/light,
 /turf/simulated/floor/carpet/purcarpet,
-/area/eris/rnd/research)
+/area/eris/maintenance/section2deck2starboard)
 "xRk" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -326490,7 +326490,7 @@ yfA
 vog
 owr
 nnZ
-yfA
+uxW
 mnO
 paC
 usC
@@ -326792,7 +326792,7 @@ yfA
 mkE
 ffK
 xRj
-yfA
+uxW
 nWi
 mgI
 rfg
@@ -327092,9 +327092,9 @@ eVK
 wzj
 yfA
 yfA
-yfA
-yfA
-yfA
+uxW
+uxW
+uxW
 mnO
 paC
 jIP
