@@ -2832,6 +2832,7 @@
 #include "MORTEM\adding\rework_sanity\sanity_by_nudity.dm"
 #include "MORTEM\adding\smooth_animation\firedoor\firedoor.dm"
 #include "MORTEM\adding\surgery\create_synthethic.dm"
+#include "MORTEM\adding\washer\heal_by_wash.dm"
 #include "MORTEM\changing\breakdowns\weight.dm"
 #include "MORTEM\changing\closet\airwalls_to_techcloset.dm"
 #include "MORTEM\changing\clothing\clown_suit\suit.dm"
