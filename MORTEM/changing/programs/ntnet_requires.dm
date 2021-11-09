@@ -26,3 +26,10 @@
 
 /datum/computer_file/program/newsbrowser
 	requires_ntnet = TRUE
+
+
+/datum/computer_file/program/nttransfer
+	requires_ntnet = FALSE
+
+/datum/computer_file/program/chatclient
+	requires_ntnet = FALSE
