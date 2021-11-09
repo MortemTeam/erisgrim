@@ -15059,7 +15059,7 @@
 /obj/structure/reagent_dispensers/fueltank,
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
+/area/eris/maintenance/section2deck2starboard)
 "gyc" = (
 /obj/item/device/radio/intercom{
 	pixel_y = 24
@@ -24954,7 +24954,7 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
+/area/eris/maintenance/section2deck2starboard)
 "ipF" = (
 /obj/structure/catwalk,
 /obj/structure/disposalpipe/segment,
@@ -26083,7 +26083,7 @@
 	dir = 1
 	},
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
+/area/eris/maintenance/section2deck2starboard)
 "iBk" = (
 /obj/machinery/status_display{
 	pixel_y = 32
@@ -77107,7 +77107,7 @@
 	dir = 4
 	},
 /turf/simulated/floor/plating/under,
-/area/eris/hallway/main/section2)
+/area/eris/maintenance/section2deck2starboard)
 "slc" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
 /obj/structure/disposalpipe/segment,
@@ -85090,13 +85090,15 @@
 /turf/simulated/floor/plating,
 /area/eris/security/warden)
 "tOZ" = (
-/obj/machinery/door/airlock/maintenance_common{
-	name = "Service Maintenance";
-	req_access = list(12)
+/obj/structure/railing,
+/obj/structure/disposalpipe/segment{
+	dir = 4
 	},
-/obj/machinery/door/firedoor,
-/turf/simulated/floor/tiled/techmaint_cargo,
-/area/eris/hallway/main/section2)
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck2starboard)
 "tPb" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -89747,7 +89749,7 @@
 "uIf" = (
 /obj/landmark/join/start/assistant,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
+/area/eris/maintenance/section2deck2starboard)
 "uIm" = (
 /obj/item/material/shard,
 /turf/simulated/floor/tiled/dark,
@@ -92238,12 +92240,6 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/security/disposal)
-"viN" = (
-/obj/machinery/light/small{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
 "viX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -102521,10 +102517,6 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/warden)
-"xhv" = (
-/obj/spawner/junk/low_chance,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/hallway/main/section2)
 "xhw" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
@@ -320442,18 +320434,18 @@ qnv
 nxR
 nxR
 nxR
-haT
-haT
-xhv
+nJy
+nJy
+mgI
 skT
-oBL
-ipD
-fuh
-fuh
-iBe
-haT
-haT
 tOZ
+ipD
+paC
+paC
+iBe
+nJy
+nJy
+eWg
 nJy
 qnv
 qnv
@@ -320745,14 +320737,14 @@ mgI
 paC
 hwb
 sdD
-fuh
-fuh
+paC
+paC
 skT
-oBL
-pJY
+tOZ
+mnO
 uIf
-fuh
-xhv
+paC
+mgI
 eWg
 paC
 vlW
@@ -321051,12 +321043,12 @@ nJy
 nJy
 lWZ
 xcc
-haT
-viN
-xhv
-fuh
-haT
-haT
+nJy
+fZp
+mgI
+paC
+nJy
+nJy
 nJy
 nJy
 uxW
@@ -321064,7 +321056,7 @@ abF
 abF
 ykt
 ykt
-pcm
+qnv
 qbd
 qbd
 nxR
@@ -321354,11 +321346,11 @@ paC
 mkY
 jbe
 sdD
-fuh
-fuh
-fuh
+paC
+paC
+paC
 gya
-haT
+nJy
 jZa
 hPx
 uxW
@@ -321366,7 +321358,7 @@ abF
 abF
 ykt
 ykt
-pcm
+qnv
 qNe
 ttx
 imS
@@ -321655,12 +321647,12 @@ paC
 rer
 kJl
 sZc
-haT
-haT
-haT
+nJy
+nJy
+nJy
 sdD
-haT
-haT
+nJy
+nJy
 rAy
 hpq
 uxW
@@ -321668,7 +321660,7 @@ abF
 abF
 ykt
 ykt
-pcm
+qnv
 wXS
 ttx
 ktY
