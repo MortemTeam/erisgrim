@@ -12,6 +12,9 @@
 		/obj/item/clothing/head/collectable/hardhat,
 	)
 
+/mob/living/carbon/superior_animal/roach/fuhrer
+	hats4roaches = /obj/item/clothing/head/armor
+
 /mob/living/carbon/superior_animal/roach/Move()
 	..()
 	update_hat()
