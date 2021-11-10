@@ -5797,17 +5797,6 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/eris/maintenance/section1deck1central)
-"eFB" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
-	},
-/obj/machinery/door/airlock/maintenance_common{
-	name = "Service Maintenance";
-	req_access = list(12)
-	},
-/turf/simulated/floor/tiled/techmaint_cargo,
-/area/eris/maintenance/oldtele)
 "eFW" = (
 /obj/structure/multiz/ladder/up,
 /obj/effect/decal/cleanable/rubble,
@@ -80017,10 +80006,6 @@
 	name = "Service Maintenance";
 	req_access = list(12)
 	},
-/obj/machinery/door/airlock/maintenance_common{
-	name = "Service Maintenance";
-	req_access = list(12)
-	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/security/lobby)
 "sLX" = (
@@ -84580,10 +84565,6 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/chemistry)
 "tGL" = (
-/obj/machinery/door/airlock/maintenance_common{
-	name = "Service Maintenance";
-	req_access = list(12)
-	},
 /obj/machinery/door/airlock/maintenance_common{
 	name = "Service Maintenance";
 	req_access = list(12)
@@ -323596,7 +323577,7 @@ gtl
 gIr
 sZX
 gIr
-eFB
+jJc
 gIr
 gIr
 rVx
