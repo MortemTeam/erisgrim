@@ -677,6 +677,18 @@
 /obj/machinery/light,
 /turf/simulated/floor/tiled/white,
 /area/eris/medical/reception)
+"awe" = (
+/obj/structure/catwalk,
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "awv" = (
 /obj/machinery/computer/arcade,
 /turf/simulated/floor/wood,
@@ -972,8 +984,8 @@
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/drone_fabrication)
 "aKH" = (
-/obj/spawner/mob/roaches/cluster,
 /obj/effect/decal/cleanable/rubble,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/eris/maintenance/section1deck4central)
 "aKQ" = (
@@ -2155,6 +2167,9 @@
 /obj/machinery/flasher/portable,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/eris/maintenance/section2deck5port)
+"boP" = (
+/turf/simulated/wall,
+/area/eris/maintenance/section1deck4central)
 "bpA" = (
 /obj/structure/shuttle_part/mining{
 	icon_state = "0,19"
@@ -2920,10 +2935,22 @@
 /obj/effect/decal/cleanable/dirt,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck5port)
+"bKX" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section1deck4central)
 "bMg" = (
 /obj/structure/girder,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5starboard)
+"bMi" = (
+/obj/structure/catwalk,
+/obj/spawner/scrap/dense,
+/turf/simulated/open,
+/area/eris/maintenance/section3deck2starboard)
 "bMk" = (
 /obj/structure/shuttle_part/mining{
 	icon_state = "12,2"
@@ -4031,6 +4058,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4port)
 "ctl" = (
@@ -4413,7 +4441,7 @@
 /area/eris/crew_quarters/sleep)
 "cHH" = (
 /obj/structure/railing,
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "cIf" = (
@@ -4529,6 +4557,11 @@
 	},
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck2port)
+"cSn" = (
+/obj/structure/catwalk,
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/open,
+/area/eris/maintenance/section4deck1central)
 "cTS" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/cable/green{
@@ -4551,7 +4584,7 @@
 /obj/machinery/atmospherics/pipe/simple/visible/yellow{
 	dir = 4
 	},
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2starboard)
 "cVF" = (
@@ -4601,6 +4634,9 @@
 /obj/item/stack/material/steel,
 /turf/simulated/floor/exoplanet/chlorine_sand,
 /area/space)
+"daI" = (
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/section1deck1central)
 "daP" = (
 /obj/structure/table/reinforced,
 /obj/structure/window/reinforced{
@@ -4966,7 +5002,6 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/mob/spiders/cluster,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "dgI" = (
@@ -5762,6 +5797,17 @@
 /obj/spawner/pack/tech_loot/low_chance,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/eris/maintenance/section1deck1central)
+"eFB" = (
+/obj/machinery/door/airlock/maintenance_command{
+	name = "Bridge Maintenance";
+	req_access = list(19)
+	},
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/oldtele)
 "eFW" = (
 /obj/structure/multiz/ladder/up,
 /obj/effect/decal/cleanable/rubble,
@@ -9821,6 +9867,7 @@
 /obj/machinery/atmospherics/pipe/manifold/hidden/supply{
 	dir = 1
 	},
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section1deck4central)
 "fxN" = (
@@ -10493,6 +10540,10 @@
 	},
 /turf/simulated/wall,
 /area/eris/maintenance/section1deck5central)
+"fDM" = (
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck3central)
 "fDN" = (
 /obj/structure/disposalpipe/segment,
 /obj/structure/catwalk,
@@ -14986,8 +15037,11 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/disposal)
 "gxL" = (
-/obj/structure/catwalk,
-/turf/simulated/floor/plating/under,
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section1deck5central)
 "gxM" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
@@ -16182,6 +16236,11 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/steel/cargo,
 /area/eris/quartermaster/miningdock)
+"gIp" = (
+/obj/structure/catwalk,
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck1central)
 "gIr" = (
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/oldtele)
@@ -19225,7 +19284,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck5starboard)
 "hly" = (
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck2port)
 "hlB" = (
@@ -19292,6 +19351,7 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "hmn" = (
@@ -20931,6 +20991,13 @@
 /obj/item/material/shard,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/eris/engineering/propulsion/right)
+"hDO" = (
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck1central)
 "hDZ" = (
 /obj/structure/closet,
 /obj/item/device/lighting/glowstick/flare,
@@ -21512,6 +21579,9 @@
 /obj/structure/cyberplant,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/eris/crew_quarters/bar)
+"hIT" = (
+/turf/simulated/wall,
+/area/eris/rnd/anomalisolone)
 "hJd" = (
 /obj/machinery/light/small{
 	dir = 1
@@ -23868,7 +23938,6 @@
 	dir = 4
 	},
 /obj/structure/catwalk,
-/obj/spawner/traps/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "igC" = (
@@ -25367,6 +25436,18 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/rnd/chargebay)
+"iuh" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section1deck4central)
 "iuj" = (
 /obj/machinery/disposal,
 /obj/structure/disposalpipe/trunk{
@@ -26215,6 +26296,13 @@
 	},
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/eris/crew_quarters/bar)
+"iBT" = (
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck3central)
 "iCk" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
@@ -26931,9 +27019,9 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/quartermaster/storage)
 "iIP" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/maintenance/section1deck1central)
@@ -27677,11 +27765,8 @@
 /turf/simulated/floor/plating,
 /area/eris/engineering/engine_room)
 "iPV" = (
-/obj/spawner/mob/spiders/cluster,
-/obj/spawner/junk/low_chance,
-/obj/spawner/junk/low_chance,
-/turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section3deck3starboard)
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/section1deck5central)
 "iPX" = (
 /obj/structure/multiz/stairs/active/bottom{
 	dir = 8
@@ -28723,6 +28808,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 9
 	},
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4port)
 "jbq" = (
@@ -29672,6 +29758,10 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
+"jku" = (
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck1central)
 "jky" = (
 /obj/machinery/door/firedoor,
 /obj/structure/disposalpipe/segment{
@@ -30004,6 +30094,13 @@
 /obj/machinery/autolathe/loaded,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/storage/primary)
+"jnv" = (
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/spawner/traps/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck1central)
 "jnD" = (
 /turf/simulated/wall/r_wall,
 /area/eris/maintenance/section3deck2port)
@@ -32377,9 +32474,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck2port)
 "jJc" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/oldtele)
@@ -34298,7 +34395,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "kbU" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck2starboard)
 "kca" = (
@@ -34529,9 +34626,9 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck4starboard)
 "kei" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section1deck5central)
@@ -34607,7 +34704,7 @@
 /area/eris/command/bridge)
 "keJ" = (
 /obj/structure/catwalk,
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/open,
 /area/eris/maintenance/oldtele)
 "keK" = (
@@ -35048,6 +35145,9 @@
 	},
 /obj/machinery/atmospherics/pipe/manifold/hidden/red{
 	dir = 1
+	},
+/obj/structure/railing{
+	dir = 4
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section2deck5starboard)
@@ -36127,7 +36227,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "kvY" = (
@@ -42858,6 +42958,13 @@
 	},
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/eris/security/lobby)
+"lKB" = (
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/maintenance/section2deck1starboard)
 "lKH" = (
 /obj/effect/decal/cleanable/rubble,
 /obj/effect/decal/cleanable/dirt,
@@ -44152,7 +44259,7 @@
 /turf/simulated/floor/tiled/steel/monofloor,
 /area/eris/rnd/misc_lab)
 "lWv" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint_panels,
 /area/eris/maintenance/section1deck4central)
 "lWw" = (
@@ -44577,8 +44684,13 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck2starboard)
 "mbf" = (
-/turf/simulated/wall,
-/area/eris/maintenance/section1deck2central)
+/obj/structure/catwalk,
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section1deck5central)
 "mbh" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/red{
 	dir = 10
@@ -45714,6 +45826,11 @@
 	},
 /turf/simulated/floor/tiled/dark/gray_platform,
 /area/eris/quartermaster/hangarsupply)
+"mmj" = (
+/obj/structure/catwalk,
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section4deck4port)
 "mmm" = (
 /obj/structure/cable/green{
 	d1 = 1;
@@ -45733,7 +45850,7 @@
 /turf/simulated/floor/tiled/steel,
 /area/eris/crew_quarters/fitness)
 "mmp" = (
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/eris/maintenance/substation/bridge)
 "mmq" = (
 /obj/machinery/door/airlock/atmos{
@@ -46056,7 +46173,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "moV" = (
@@ -46503,9 +46620,9 @@
 /turf/simulated/floor/plating,
 /area/eris/hallway/main/section4)
 "mtd" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section1deck3central)
@@ -48602,7 +48719,7 @@
 	d2 = 8;
 	icon_state = "4-8"
 	},
-/turf/simulated/wall,
+/turf/simulated/wall/r_wall,
 /area/eris/maintenance/section1deck2central)
 "mNy" = (
 /obj/machinery/atmospherics/pipe/manifold4w/hidden/supply,
@@ -49050,7 +49167,7 @@
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/engineering/atmos)
 "mSc" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating,
 /area/eris/engineering/construction)
 "mSe" = (
@@ -50202,7 +50319,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "nds" = (
@@ -50235,7 +50352,7 @@
 /obj/structure/railing{
 	dir = 1
 	},
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "ndO" = (
@@ -51335,6 +51452,7 @@
 /area/eris/medical/psych)
 "nnY" = (
 /obj/item/stool,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint_perforated,
 /area/eris/maintenance/section1deck1central)
 "nnZ" = (
@@ -54116,13 +54234,10 @@
 /turf/simulated/floor/tiled/white,
 /area/eris/rnd/server)
 "nOV" = (
-/obj/item/paper{
-	info = "Directions:<br><i>First you'll want to make sure there is a target stake in the center of the magnetic platform. Next, take an aluminum target from the crates back there and slip it into the stake. Make sure it clicks! Next, there should be a control console mounted on the wall somewhere in the room.<br><br> This control console dictates the behaviors of the magnetic platform, which can move your firing target around to simulate real-world combat situations. From here, you can turn off the magnets or adjust their electromagnetic levels and magnetic fields. The electricity level dictates the strength of the pull - you will usually want this to be the same value as the speed. The magnetic field level dictates how far the magnetic pull reaches.<br><br>Speed and path are the next two settings. Speed is associated with how fast the machine loops through the designated path. Paths dictate where the magnetic field will be centered at what times. There should be a pre-fabricated path input already. You can enable moving to observe how the path affects the way the stake moves. To script your own path, look at the following key:</i><br><br>N: North<br>S: South<br>E: East<br>W: West<br>C: Center<br>R: Random (results may vary)<br>; or &: separators. They are not necessary but can make the path string better visible.";
-	name = "Firing Range Instructions"
-	},
 /obj/machinery/light/small{
 	dir = 1
 	},
+/obj/item/paper,
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section1deck1central)
 "nOY" = (
@@ -55471,6 +55586,12 @@
 	icon_state = "7,10"
 	},
 /area/shuttle/mining/station)
+"ocF" = (
+/obj/structure/sign/vacuum{
+	pixel_y = 32
+	},
+/turf/simulated/floor/plating,
+/area/eris/maintenance/section1deck4central)
 "ocH" = (
 /obj/machinery/atmospherics/pipe/simple/visible/green{
 	dir = 5
@@ -55508,7 +55629,6 @@
 /turf/simulated/floor/tiled/dark/techfloor_grid,
 /area/eris/security/prison)
 "odr" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/plating,
 /area/eris/maintenance/section1deck1central)
 "odv" = (
@@ -56019,6 +56139,16 @@
 	},
 /turf/simulated/floor/tiled/steel/brown_perforated,
 /area/eris/quartermaster/office)
+"oib" = (
+/obj/structure/railing,
+/obj/structure/disposalpipe/segment{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck2starboard)
 "oil" = (
 /obj/machinery/atmospherics/pipe/simple/visible/black,
 /turf/simulated/floor/hull{
@@ -57497,6 +57627,10 @@
 	},
 /turf/simulated/floor/tiled/white/cargo,
 /area/eris/rnd/storage)
+"oxQ" = (
+/obj/spawner/scrap/dense,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck1central)
 "oxW" = (
 /obj/structure/reagent_dispensers/fueltank/huge,
 /obj/effect/decal/cleanable/rubble,
@@ -61768,7 +61902,7 @@
 /turf/simulated/floor/tiled/steel/techfloor_grid,
 /area/eris/medical/chemstor)
 "pmI" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section4deck4port)
 "pmJ" = (
@@ -61875,6 +62009,17 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
+"pnA" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply,
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section1deck4central)
 "pnB" = (
 /obj/structure/cable/green{
 	d1 = 4;
@@ -62627,7 +62772,7 @@
 /turf/simulated/floor/tiled/dark,
 /area/eris/rnd/podbay)
 "puX" = (
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck3starboard)
 "pva" = (
@@ -62947,7 +63092,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "pyo" = (
@@ -66200,6 +66345,9 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck4central)
+"qet" = (
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/eris/maintenance/section1deck1central)
 "qew" = (
 /obj/machinery/door/firedoor,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
@@ -66319,20 +66467,9 @@
 /turf/simulated/floor/plating/under,
 /area/eris/crew_quarters/kitchen_storage)
 "qfJ" = (
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/supply{
-	dir = 4
-	},
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
-/obj/structure/sign/vacuum,
-/turf/simulated/wall,
-/area/eris/maintenance/section1deck4central)
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section1deck5central)
 "qfK" = (
 /obj/machinery/seed_extractor,
 /turf/simulated/floor/wood,
@@ -67543,6 +67680,13 @@
 	},
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck1central)
+"qqA" = (
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/techmaint_cargo,
+/area/eris/maintenance/section1deck2central)
 "qqH" = (
 /obj/structure/railing{
 	dir = 1
@@ -70012,7 +70156,7 @@
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section3deck3starboard)
 "qSW" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/oldtele)
 "qTa" = (
@@ -70402,15 +70546,10 @@
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/eris/rnd/lab)
 "qWw" = (
-/obj/spawner/junk/low_chance,
-/obj/spawner/junk/low_chance,
-/obj/spawner/junk/low_chance,
 /obj/machinery/conveyor/east{
 	id = "silk_road"
 	},
-/obj/spawner/contraband,
-/obj/spawner/contraband,
-/obj/spawner/contraband/low_chance,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section3deck3starboard)
 "qWA" = (
@@ -77404,6 +77543,10 @@
 /obj/machinery/door/firedoor,
 /turf/simulated/floor/tiled/dark/golden,
 /area/eris/neotheology/chapel)
+"snR" = (
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/tiled/techmaint,
+/area/eris/maintenance/section4deck1central)
 "snV" = (
 /obj/machinery/atmospherics/pipe/simple/hidden{
 	dir = 6
@@ -78278,7 +78421,7 @@
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
 	},
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck3port)
 "swH" = (
@@ -79870,9 +80013,13 @@
 /area/eris/command/mbo)
 "sLW" = (
 /obj/machinery/door/firedoor,
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/security/lobby)
@@ -84433,9 +84580,13 @@
 /turf/simulated/floor/tiled/white/brown_perforated,
 /area/eris/medical/chemistry)
 "tGL" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
+	},
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/steel,
 /area/eris/maintenance/section1deck3central)
@@ -85090,15 +85241,9 @@
 /turf/simulated/floor/plating,
 /area/eris/security/warden)
 "tOZ" = (
-/obj/structure/railing,
-/obj/structure/disposalpipe/segment{
-	dir = 4
-	},
-/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
-	dir = 4
-	},
+/obj/structure/catwalk,
 /turf/simulated/floor/plating/under,
-/area/eris/maintenance/section2deck2starboard)
+/area/eris/maintenance/section1deck5central)
 "tPb" = (
 /obj/structure/window/reinforced{
 	dir = 1
@@ -85112,6 +85257,21 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/fo/quarters)
+"tPp" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/spawner/mob/spiders/cluster/low_chance,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section1deck4central)
 "tPM" = (
 /obj/structure/multiz/stairs/enter/bottom{
 	dir = 8
@@ -88355,9 +88515,9 @@
 /turf/simulated/floor/tiled/techmaint,
 /area/eris/maintenance/section2deck3starboard)
 "utR" = (
-/obj/machinery/door/airlock/maintenance_command{
-	name = "Bridge Maintenance";
-	req_access = list(19)
+/obj/machinery/door/airlock/maintenance_common{
+	name = "Service Maintenance";
+	req_access = list(12)
 	},
 /turf/simulated/floor/tiled/techmaint_cargo,
 /area/eris/maintenance/section1deck1central)
@@ -88936,16 +89096,16 @@
 /turf/simulated/floor/carpet/gaycarpet,
 /area/eris/quartermaster/artistoffice)
 "uAe" = (
-/obj/structure/cable{
-	d1 = 4;
-	d2 = 8;
-	icon_state = "4-8"
-	},
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /obj/machinery/atmospherics/pipe/simple/hidden/supply{
 	dir = 4
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
 	},
 /turf/simulated/wall,
 /area/eris/maintenance/section1deck4central)
@@ -89488,6 +89648,11 @@
 	},
 /turf/simulated/floor/wood,
 /area/eris/command/courtroom)
+"uFy" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/obj/machinery/door/firedoor,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section3deck2starboard)
 "uFA" = (
 /obj/structure/table/rack,
 /obj/spawner/pack/tech_loot,
@@ -91223,9 +91388,9 @@
 /turf/simulated/floor/plating,
 /area/eris/maintenance/substation/section4)
 "uXI" = (
-/obj/spawner/mob/roaches/cluster/low_chance,
+/obj/effect/window_lwall_spawn/smartspawn,
 /turf/simulated/floor/tiled/techmaint,
-/area/eris/maintenance/section1deck2central)
+/area/eris/maintenance/section2deck5starboard)
 "uXM" = (
 /turf/simulated/shuttle/wall/science{
 	icon_state = "13,1"
@@ -91771,7 +91936,6 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/mob/spiders/cluster,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck2port)
 "vdv" = (
@@ -92240,6 +92404,9 @@
 	},
 /turf/simulated/floor/tiled/dark/techfloor,
 /area/eris/security/disposal)
+"viN" = (
+/turf/simulated/wall,
+/area/eris/maintenance/section2deck5starboard)
 "viX" = (
 /obj/machinery/atmospherics/unary/vent_scrubber/on{
 	dir = 1
@@ -100236,8 +100403,8 @@
 /turf/simulated/floor/reinforced,
 /area/eris/medical/chemstor)
 "wKz" = (
-/obj/spawner/mob/spiders/cluster/low_chance,
 /obj/item/material/shard,
+/obj/spawner/mob/spiders/cluster/low_chance,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/eris/maintenance/section4deck4port)
 "wKC" = (
@@ -102517,6 +102684,18 @@
 	},
 /turf/simulated/floor/tiled/dark,
 /area/eris/security/warden)
+"xhv" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/obj/structure/catwalk,
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck5starboard)
 "xhw" = (
 /obj/machinery/atmospherics/unary/vent_pump{
 	dir = 1
@@ -103087,7 +103266,7 @@
 /area/eris/command/meo)
 "xmL" = (
 /obj/structure/catwalk,
-/obj/spawner/mob/spiders/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/open,
 /area/eris/maintenance/section3deck2starboard)
 "xmP" = (
@@ -103742,10 +103921,21 @@
 /turf/simulated/mineral,
 /area/eris/security/range)
 "xsI" = (
-/obj/structure/catwalk,
-/obj/spawner/scrap/dense,
-/turf/simulated/open,
-/area/eris/maintenance/section3deck2starboard)
+/obj/structure/railing,
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/red{
+	dir = 4
+	},
+/obj/spawner/junk/low_chance,
+/obj/structure/railing{
+	dir = 8
+	},
+/turf/simulated/floor/plating/under,
+/area/eris/maintenance/section2deck5starboard)
 "xsL" = (
 /obj/machinery/atmospherics/pipe/simple/hidden/supply,
 /obj/machinery/atmospherics/pipe/simple/hidden/scrubbers,
@@ -107347,7 +107537,7 @@
 /obj/structure/railing{
 	dir = 4
 	},
-/obj/spawner/scrap/dense/low_chance,
+/obj/spawner/junk/low_chance,
 /turf/simulated/floor/plating/under,
 /area/eris/maintenance/section4deck1central)
 "ycY" = (
@@ -140730,10 +140920,10 @@ ive
 uud
 oCC
 uud
-mVf
+gxL
 uud
-oCC
-oCC
+yll
+yll
 njB
 jbl
 rzn
@@ -141032,10 +141222,10 @@ wRh
 uud
 abF
 uud
-kei
+iPV
 uud
-abF
-abF
+qfJ
+uXI
 njB
 kjV
 uLy
@@ -141334,12 +141524,12 @@ wKM
 uud
 jMr
 uud
-gxL
-uud
-jMr
-jMr
-njB
-rKQ
+mVf
+mbf
+tOZ
+lgl
+viN
+xhv
 qSh
 oiq
 oiq
@@ -141638,10 +141828,10 @@ wDV
 wDV
 mVf
 uud
-abF
-abF
+qfJ
+uXI
 njB
-rKQ
+xsI
 qSh
 oiq
 ylq
@@ -192057,7 +192247,7 @@ lRJ
 dhM
 dhM
 hcv
-hcv
+qjI
 hcv
 hcv
 hcv
@@ -193655,7 +193845,7 @@ uBD
 ceK
 aNw
 aPC
-aTX
+mmj
 xCA
 aCa
 aCa
@@ -194173,7 +194363,7 @@ kBj
 qLR
 ijJ
 vfJ
-stN
+bKX
 lRJ
 qyY
 hoS
@@ -197195,7 +197385,7 @@ ijJ
 xUq
 stN
 uXp
-lRJ
+boP
 oOd
 npY
 npY
@@ -197494,7 +197684,7 @@ pZx
 puu
 yhc
 ijJ
-vfJ
+iuh
 stN
 gXt
 lRJ
@@ -200825,7 +201015,7 @@ lRJ
 lRJ
 lRJ
 lRJ
-qfJ
+vEn
 lRJ
 dhM
 abF
@@ -201730,7 +201920,7 @@ lRJ
 pKV
 sGn
 lRJ
-uXp
+ocF
 vEn
 vTw
 ykt
@@ -202637,7 +202827,7 @@ lRJ
 lRJ
 lRJ
 kQX
-vEn
+tPp
 vTw
 abF
 abF
@@ -205045,7 +205235,7 @@ ijo
 ijo
 sBF
 ijo
-ijo
+pnA
 ijo
 gbS
 ijo
@@ -261795,7 +261985,7 @@ wgp
 yll
 yll
 jWB
-obw
+iBT
 jWB
 jWB
 jWB
@@ -263641,7 +263831,7 @@ abF
 mte
 lIF
 fxN
-fxN
+fDM
 nMj
 tjc
 obw
@@ -271239,7 +271429,7 @@ liQ
 liQ
 liQ
 qUy
-qUy
+puX
 ioX
 ioX
 ioX
@@ -271540,7 +271730,7 @@ kYl
 qUy
 kYl
 whH
-iPV
+kJh
 qUy
 ioX
 lTX
@@ -271839,7 +272029,7 @@ lCO
 jYj
 pjR
 kJh
-iPV
+kJh
 uYG
 nHU
 kYl
@@ -272447,7 +272637,7 @@ pjR
 qUy
 pjR
 liQ
-liQ
+puX
 ioX
 ioX
 ioX
@@ -309328,7 +309518,7 @@ cRS
 wdn
 dgP
 hly
-hly
+dgP
 hrF
 dOi
 dhM
@@ -311140,7 +311330,7 @@ rwG
 gQs
 jtI
 dgP
-hly
+dgP
 hly
 rVT
 abF
@@ -317670,7 +317860,7 @@ qBD
 pOw
 uVZ
 sWG
-uXI
+oac
 tRs
 sPV
 tRs
@@ -317973,7 +318163,7 @@ sPV
 sPV
 sPV
 sPV
-sUO
+qqA
 sPV
 tRs
 abF
@@ -318902,7 +319092,7 @@ kUG
 sft
 vIU
 vIU
-gOp
+xIN
 peI
 gBq
 tYZ
@@ -319204,15 +319394,15 @@ rUs
 wLK
 vIU
 vIU
-gOp
+xIN
 neV
 oFh
-gOp
+xIN
 vIU
 vIU
 vIU
 vIU
-mbf
+tRs
 oOr
 sPV
 tRs
@@ -319517,7 +319707,7 @@ vIU
 uuT
 fJc
 sPV
-sUO
+qqA
 jUQ
 tRs
 abF
@@ -320438,7 +320628,7 @@ nJy
 nJy
 mgI
 skT
-tOZ
+oib
 ipD
 paC
 paC
@@ -320714,15 +320904,15 @@ hSL
 wLK
 vIU
 vIU
-gOp
+xIN
 huC
 oFh
-gOp
+xIN
 vIU
 vIU
 vIU
 vIU
-mbf
+tRs
 plf
 sPV
 tRs
@@ -320740,7 +320930,7 @@ sdD
 paC
 paC
 skT
-tOZ
+oib
 mnO
 uIf
 paC
@@ -321016,17 +321206,17 @@ rwu
 wLK
 vIU
 vIU
-gOp
+xIN
 peI
 gBq
-gOp
+xIN
 mmp
 xVp
 xVp
 mmp
 mmp
 sPV
-uXI
+oac
 tRs
 ykt
 ykt
@@ -321321,7 +321511,7 @@ vIU
 rNV
 puM
 qGn
-gOp
+xIN
 vNH
 lLh
 izk
@@ -321623,7 +321813,7 @@ vIU
 rNV
 hMO
 svs
-gOp
+xIN
 sVI
 oJY
 ott
@@ -321925,14 +322115,14 @@ vIU
 rNV
 oIy
 oFh
-gOp
+xIN
 mmp
 grv
 sQe
 mmp
 mmp
-mbf
-sUO
+tRs
+qqA
 tRs
 aeQ
 ykt
@@ -322529,13 +322719,13 @@ vIU
 rNV
 mDI
 oFh
-gOp
-mbf
+xIN
+tRs
 mYz
 tFP
-mbf
-mbf
-mbf
+tRs
+tRs
+tRs
 sPV
 tRs
 aeQ
@@ -322831,13 +323021,13 @@ vIU
 rNV
 mDI
 oVr
-gOp
+xIN
 rfr
 wkn
 pAT
 ivD
 nja
-mbf
+tRs
 sPV
 tRs
 ykt
@@ -323133,13 +323323,13 @@ rNV
 xIN
 xOD
 oFh
-gOp
+xIN
 prY
 vQc
 gIg
 mAu
 ncz
-mbf
+tRs
 mzh
 tRs
 ykt
@@ -323406,7 +323596,7 @@ gtl
 gIr
 sZX
 gIr
-jJc
+eFB
 gIr
 gIr
 rVx
@@ -323435,13 +323625,13 @@ fCq
 vIf
 mSU
 gPF
-gOp
-mbf
+xIN
+tRs
 sUO
-mbf
+tRs
 mNx
-mbf
-mbf
+tRs
+tRs
 sPV
 tRs
 ykt
@@ -323737,7 +323927,7 @@ oHc
 nck
 rDR
 oFh
-gOp
+xIN
 jUQ
 mzh
 sPV
@@ -331336,7 +331526,7 @@ pcm
 pcm
 fTK
 fTK
-pcm
+uFy
 pcm
 pcm
 pcm
@@ -331639,8 +331829,8 @@ rAH
 oiH
 sKn
 ohO
-xsI
-xmL
+rAH
+bMi
 pcm
 xzl
 pcm
@@ -331942,7 +332132,7 @@ oiH
 sKn
 ohO
 rAH
-rAH
+xmL
 pcm
 nBz
 pcm
@@ -375985,7 +376175,7 @@ xLN
 nHJ
 xLN
 hNp
-lOI
+jku
 rOf
 xLN
 lOI
@@ -376050,7 +376240,7 @@ dXH
 hAQ
 hAQ
 hAQ
-hAQ
+cSn
 smM
 smM
 oVM
@@ -376657,19 +376847,19 @@ hAQ
 hAQ
 dDL
 eEy
-wxP
+jnv
 eEy
 dDL
 mBF
 vWR
-cHg
+gIp
 cIp
 doQ
 doQ
 doQ
 doQ
 eEy
-eEy
+snR
 dXH
 qVg
 dXH
@@ -376953,7 +377143,7 @@ eEy
 eEy
 pDm
 eEy
-eEy
+jHg
 ris
 hAQ
 hAQ
@@ -377564,7 +377754,7 @@ dXH
 dDL
 tOP
 hsp
-eEy
+snR
 dDL
 eEy
 cEu
@@ -377802,10 +377992,10 @@ lgT
 xLN
 lOI
 mDB
+oxQ
 mDB
-mDB
-ykt
-ykt
+abF
+abF
 fwf
 rUg
 qmG
@@ -378100,14 +378290,14 @@ xuL
 xLN
 lOI
 qqr
+jku
 lOI
 lOI
-mjF
 mDB
-ykt
-ykt
-ykt
-ykt
+mDB
+mDB
+psf
+psf
 fwf
 rUg
 gna
@@ -378403,14 +378593,14 @@ xLN
 utR
 xLN
 xLN
-xLN
-xLN
-mDB
-ykt
-ykt
-ykt
-ykt
-fwf
+lOI
+lOI
+hDO
+qet
+qet
+qet
+qet
+lKB
 rUg
 iva
 wuB
@@ -378706,12 +378896,12 @@ lOI
 lOI
 iIP
 lOI
-lOI
 mDB
-ykt
-ykt
-ykt
-ykt
+mDB
+psf
+psf
+psf
+psf
 fwf
 rUg
 jfs
@@ -379008,10 +379198,10 @@ vdr
 sKY
 xLN
 lOI
-qqr
 mDB
 ykt
 ykt
+abF
 ykt
 ykt
 fwf
@@ -379079,7 +379269,7 @@ iBF
 eEy
 ycX
 ndr
-eEy
+snR
 dXH
 dXH
 dXH
@@ -379301,7 +379491,7 @@ abF
 abF
 mDB
 lOI
-mjF
+jku
 xLN
 xLN
 mne
@@ -379312,14 +379502,14 @@ xLN
 qqr
 mDB
 mDB
-mDB
-mDB
+psf
+psf
 mDB
 ykt
 fwf
 fwf
 fwf
-fwf
+fWf
 hcm
 hcm
 hcm
@@ -379923,7 +380113,7 @@ osN
 mDB
 ykt
 hcm
-hcm
+hIT
 hcm
 iDm
 sWU
@@ -381131,7 +381321,7 @@ ykt
 ykt
 ykt
 hcm
-hcm
+hIT
 jWU
 kyT
 hTJ
@@ -381795,7 +381985,7 @@ iBF
 iBF
 gor
 mWH
-jHg
+eEy
 dph
 oIm
 xlR
@@ -382024,7 +382214,7 @@ xLN
 nDP
 xLN
 xLN
-utR
+daI
 mDB
 gRO
 jES
@@ -382400,7 +382590,7 @@ dWQ
 dWQ
 pdS
 kDu
-kDu
+awe
 uLA
 vTi
 lki
@@ -383529,7 +383719,7 @@ abF
 abF
 mDB
 eFj
-lOI
+jku
 xLN
 qqr
 utR
