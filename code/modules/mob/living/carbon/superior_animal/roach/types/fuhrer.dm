@@ -25,8 +25,6 @@
 	var/distress_calls = 1 //Each fuhrer can only call for help once in its life
 	var/retreat_calls = 1 //Can call for retreat once too
 
-	hats4roaches = /obj/item/clothing/head
-
 /mob/living/carbon/superior_animal/roach/fuhrer/bullet_act()
 	.=..()
 	distress_call()
