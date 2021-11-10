@@ -2826,6 +2826,7 @@
 #include "MORTEM\adding\grim\blackness.dm"
 #include "MORTEM\adding\grim\hud.dm"
 #include "MORTEM\adding\grim\light.dm"
+#include "MORTEM\adding\hats4roaches\roach.dm"
 #include "MORTEM\adding\mouth_underwear\underwear.dm"
 #include "MORTEM\adding\planet_simulation\atmosphere.dm"
 #include "MORTEM\adding\planet_simulation\earthquake.dm"
