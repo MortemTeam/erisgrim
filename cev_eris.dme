@@ -2863,6 +2863,7 @@
 #include "MORTEM\changing\superior_animal\ai.dm"
 #include "MORTEM\changing\superior_animal\roach_rarity.dm"
 #include "MORTEM\changing\system\evac_to_surrender.dm"
+#include "MORTEM\changing\system\fps.dm"
 #include "MORTEM\changing\system\lcm_fire.dm"
 #include "MORTEM\changing\system\planes+layers.dm"
 #include "MORTEM\changing\system\status.dm"
