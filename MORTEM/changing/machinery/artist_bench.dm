@@ -35,7 +35,7 @@
 
 	return pickweight(list(
 		"artwork_revolver" = weight_artwork_revolver,
-		//"artwork_oddity" = weight_artwork_oddity,
+		"artwork_oddity" = weight_artwork_oddity,
 		"artwork_toolmod" = weight_artwork_toolmod,
 		"artwork_statue" = weight_artwork_statue,
 		"artwork_gunPart" = weight_artwork_gunPart,
