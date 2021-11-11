@@ -3,6 +3,7 @@
 	var/hat_x_offset = 6
 	var/hat_y_offset = 6
 
+	var/hat_prob = 50
 	var/hats4roaches = /obj/item/clothing/head/armor
 	var/hats_blocked = list(
 		/obj/item/clothing/head,
@@ -12,8 +13,15 @@
 		/obj/item/clothing/head/collectable/hardhat,
 	)
 
+/mob/living/carbon/superior_animal/roach/hunter
+	hat_prob = 100
+
+/mob/living/carbon/superior_animal/roach/tank
+	hat_prob = 100
+
 /mob/living/carbon/superior_animal/roach/fuhrer
 	hats4roaches = /obj/item/clothing/head/armor
+
 
 /mob/living/carbon/superior_animal/roach/Move()
 	..()
@@ -21,7 +29,7 @@
 
 /mob/living/carbon/superior_animal/roach/New()
 	. = ..()
-	if(hats4roaches && prob(25))
+	if(hats4roaches && prob(hat_prob))
 		var/newhat_type = pick(
 			subtypesof(hats4roaches) - \
 			subtypesof(/obj/item/clothing/head/space/) - \
