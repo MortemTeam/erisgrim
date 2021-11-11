@@ -28,6 +28,7 @@
 		/datum/design/autolathe/clothing/mime_shoes,
 		/datum/design/autolathe/clothing/bunny_slippers,
 
+		/datum/design/autolathe/ammo/rubber_toy,
 		/datum/design/autolathe/tool/pink_restraints,
 		/datum/design/autolathe/tool/ducttape,
 	)
@@ -104,6 +105,10 @@
 	name = "bunny slippers"
 	build_path = /obj/item/clothing/shoes/slippers
 
+
+/datum/design/autolathe/ammo/rubber_toy
+	name = "rubber toy"
+	build_path = /obj/item/ammo_casing/grenade
 
 /datum/design/autolathe/tool/pink_restraints
 	name = "pink restraints"
