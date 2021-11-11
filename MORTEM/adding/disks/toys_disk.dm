@@ -108,6 +108,7 @@
 
 /datum/design/autolathe/ammo/rubber_toy
 	name = "rubber toy"
+	materials = list(MATERIAL_BIOMATTER = 5)
 	build_path = /obj/item/ammo_casing/grenade
 
 /datum/design/autolathe/tool/pink_restraints
