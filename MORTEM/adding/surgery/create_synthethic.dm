@@ -49,6 +49,10 @@
 	if(!name)
 		name = "prosthetic ([random_id("prosthetic_id", 1, 999)])"
 
+	var/sex = input(user, "Choose your character's sex:", CHARACTER_PREFERENCE_INPUT_TITLE) as null|anything in list(FEMALE, MALE, NEUTER)
+	if(!sex)
+		sex = NEUTER
+
 	var/mob/living/carbon/human/H = new /mob/living/carbon/human(get_turf(loc))
 	H.fully_replace_character_name(name, name)
 	H.death(0)
@@ -67,5 +71,7 @@
 		var/obj/item/organ/internal/O = new organ_type(H)
 		O.nature = MODIFICATION_SILICON
 
+	H.gender = sex
 	H.update_body()
+	H.regenerate_icons()
 	qdel(src)
