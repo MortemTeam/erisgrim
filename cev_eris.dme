@@ -2840,6 +2840,7 @@
 #include "MORTEM\changing\breakdowns\weight.dm"
 #include "MORTEM\changing\closet\airwalls_to_techcloset.dm"
 #include "MORTEM\changing\clothing\clown_suit\suit.dm"
+#include "MORTEM\changing\clothing\schoolgirl\suit.dm"
 #include "MORTEM\changing\engine\engine_cost.dm"
 #include "MORTEM\changing\engine\engine_craft.dm"
 #include "MORTEM\changing\engine\engine_state.dm"
