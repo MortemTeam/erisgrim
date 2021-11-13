@@ -22,7 +22,7 @@
 		/datum/design/autolathe/clothing/swimsuit_purple,
 
 		/datum/design/autolathe/clothing/neko_black,
-		/datum/design/autolathe/clothing/neko_white,
+		//datum/design/autolathe/clothing/neko_white,
 
 		/datum/design/autolathe/clothing/maid,
 		/datum/design/autolathe/clothing/janimaid,
