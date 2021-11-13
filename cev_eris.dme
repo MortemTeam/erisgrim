@@ -2817,6 +2817,8 @@
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
 #include "MORTEM\adding\skyblocks.dm"
 #include "MORTEM\adding\bohemian_sounds\sound_by_sanity.dm"
+#include "MORTEM\adding\clothing\maids\uniform.dm"
+#include "MORTEM\adding\clothing\suit_shirt\suit.dm"
 #include "MORTEM\adding\crash_event\event.dm"
 #include "MORTEM\adding\disks\toys_disk.dm"
 #include "MORTEM\adding\endgame_condition\endgame.dm"

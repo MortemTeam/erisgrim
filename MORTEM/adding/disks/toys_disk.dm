@@ -21,6 +21,9 @@
 		/datum/design/autolathe/clothing/swimsuit_blue,
 		/datum/design/autolathe/clothing/swimsuit_purple,
 
+		/datum/design/autolathe/clothing/maid,
+		/datum/design/autolathe/clothing/janimaid,
+
 		/datum/design/autolathe/clothing/schoolgirl_uniform,
 		/datum/design/autolathe/clothing/sexyclown_suit,
 		/datum/design/autolathe/clothing/nun_suit,
@@ -82,6 +85,15 @@
 /datum/design/autolathe/clothing/swimsuit_purple
 	name = "purple swimsuit"
 	build_path = /obj/item/clothing/under/swimsuit/purple
+
+
+/datum/design/autolathe/clothing/maid
+	name = "maid uniform"
+	build_path = /obj/item/clothing/under/maid/classic
+
+/datum/design/autolathe/clothing/janimaid
+	name = "janimaid uniform"
+	build_path = /obj/item/clothing/under/maid/janitor
 
 
 /datum/design/autolathe/clothing/schoolgirl_uniform
