@@ -92,11 +92,11 @@
 
 /datum/design/autolathe/clothing/neko_black
 	name = "neko black"
-	build_path = /obj/item/clothing/uniform/neko/black
+	build_path = /obj/item/clothing/under/neko/black
 
 /datum/design/autolathe/clothing/neko_white
 	name = "neko white"
-	build_path = /obj/item/clothing/uniform/neko/white
+	build_path = /obj/item/clothing/under/neko/white
 
 
 /datum/design/autolathe/clothing/maid

@@ -1,4 +1,4 @@
-/obj/item/clothing/uniform/neko
+/obj/item/clothing/under/neko
 	desc = "<3"
 	style = STYLE_HIGH
 	price_tag = 666
@@ -11,12 +11,12 @@
 
 
 
-/obj/item/clothing/uniform/neko/black
+/obj/item/clothing/under/neko/black
 	name = "Black Neko"
 	icon_state = "neko_black"
 	item_state = "neko_black"
 
-/obj/item/clothing/uniform/neko/white
+/obj/item/clothing/under/neko/white
 	name = "White Neko"
 	icon_state = "neko_white"
 	item_state = "neko_white"
