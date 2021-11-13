@@ -2,7 +2,7 @@
 	name = "ianshirt"
 	desc = "A worn out, curiously comfortable t-shirt with a picture of Ian. You wouldn't go so far as to say it feels like being hugged when you wear it, but it's pretty close. Good for sleeping in."
 	style = STYLE_HIGH
-	price_tag = 500
+	price_tag = 666
 
 	body_parts_covered = UPPER_TORSO
 	equip_delay = 3 SECONDS

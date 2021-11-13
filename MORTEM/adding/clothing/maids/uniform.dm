@@ -1,7 +1,7 @@
 /obj/item/clothing/under/maid
 	desc = "Traditional French maid uniform."
 	style = STYLE_HIGH
-	price_tag = 500
+	price_tag = 666
 
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
 	equip_delay = 5 SECONDS
