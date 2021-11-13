@@ -21,6 +21,9 @@
 		/datum/design/autolathe/clothing/swimsuit_blue,
 		/datum/design/autolathe/clothing/swimsuit_purple,
 
+		/datum/design/autolathe/clothing/neko_black,
+		/datum/design/autolathe/clothing/neko_white,
+
 		/datum/design/autolathe/clothing/maid,
 		/datum/design/autolathe/clothing/janimaid,
 
@@ -85,6 +88,15 @@
 /datum/design/autolathe/clothing/swimsuit_purple
 	name = "purple swimsuit"
 	build_path = /obj/item/clothing/under/swimsuit/purple
+
+
+/datum/design/autolathe/clothing/neko_black
+	name = "neko black"
+	build_path = /obj/item/clothing/uniform/neko/black
+
+/datum/design/autolathe/clothing/neko_white
+	name = "neko white"
+	build_path = /obj/item/clothing/uniform/neko/white
 
 
 /datum/design/autolathe/clothing/maid
