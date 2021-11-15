@@ -9,9 +9,9 @@
 
 
 /datum/category_item/underwear/socks/pantyhouse
-	underwear_name = "pantyhouse"
-	icon_state = "pantyhouse"
-	name = "pantyhouse"
+	underwear_name = "pantyhose"
+	icon_state = "pantyhose"
+	name = "pantyhose"
 	has_color = TRUE
 
 
