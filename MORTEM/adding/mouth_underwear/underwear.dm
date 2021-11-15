@@ -28,23 +28,6 @@
 	returns[3] = speech_problem_flag
 	return returns
 
-/datum/category_item/underwear
-	var/item_state
-
-/datum/category_item/underwear/create_underwear(var/atom/location, var/list/metadata, var/iconfile)	//we iconfile from bodybuild
-	if(!underwear_type)
-		return
-
-	var/obj/item/underwear/UW = new underwear_type(location)
-	UW.SetName(underwear_name)
-	UW.gender = underwear_gender
-	UW.icon_state = icon_state
-	UW.item_state = item_state
-
-	for(var/datum/gear_tweak/gt in tweaks)
-		gt.tweak_item(UW, metadata && metadata["[gt]"] ? metadata["[gt]"] : gt.get_default())
-	return UW
-
 /obj/item/underwear/bottom
 	icon = 'MORTEM/adding/mouth_underwear/underwear.dmi'
 	contained_sprite = TRUE

@@ -1,5 +1,6 @@
 /obj/item/underwear/socks
 	icon = 'MORTEM/adding/clothing/socks/icons.dmi'
+	contained_sprite = TRUE
 
 
 /datum/category_item/underwear/socks/fishnet
@@ -59,16 +60,3 @@
 /datum/category_item/underwear/socks/socks/thigh
 	icon_state = "socks_thigh"
 	name = "socks (thigh)"
-
-
-/datum/category_item/underwear/socks/thin
-	underwear_name = "thin"
-	has_color = TRUE
-
-/datum/category_item/underwear/socks/thin/knee
-	icon_state = "thin_knee"
-	name = "thin (knee)"
-
-/datum/category_item/underwear/socks/thin/thigh
-	icon_state = "thin_thigh"
-	name = "thin (thigh)"

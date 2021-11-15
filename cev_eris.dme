@@ -2893,6 +2893,7 @@
 #include "MORTEM\fixing\poster.dm"
 #include "MORTEM\fixing\ru_stutter.dm"
 #include "MORTEM\fixing\shuttles_floor.dm"
+#include "MORTEM\fixing\underwear.dm"
 #include "MORTEM\fixing\vote.dm"
 #include "MORTEM\fixing\browsers\notes.dm"
 #include "MORTEM\fixing\browsers\storyteller.dm"
