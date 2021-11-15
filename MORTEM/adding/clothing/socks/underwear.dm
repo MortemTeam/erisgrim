@@ -1,3 +1,7 @@
+/obj/item/underwear/socks
+	icon = 'MORTEM/adding/clothing/socks/icons.dmi'
+
+
 /datum/category_item/underwear/socks/fishnet
 	underwear_name = "fishnet"
 	icon_state = "fishnet"

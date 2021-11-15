@@ -45,13 +45,11 @@
 		gt.tweak_item(UW, metadata && metadata["[gt]"] ? metadata["[gt]"] : gt.get_default())
 	return UW
 
-/obj/item/underwear
-	icon = 'MORTEM/adding/mouth_underwear/underwear.dmi'
-
 /obj/item/underwear/bottom
-	slot_flags = SLOT_MASK
+	icon = 'MORTEM/adding/mouth_underwear/underwear.dmi'
 	contained_sprite = TRUE
 
+	slot_flags = SLOT_MASK
 	var/say_messages = list("Mmfph!", "Mmmf mrrfff!", "Mmmf mnnf!")
 	var/say_verbs = list("mumbles", "says")
 
