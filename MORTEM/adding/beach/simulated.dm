@@ -91,20 +91,8 @@
 
 /turf/simulated/floor/beach/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
 	var/datum/gas_mixture/above_air = return_air()
-	if(L && L.lying)
-		if(L.can_breathe_water() || (istype(L.wear_mask, /obj/item/clothing/mask/snorkel)))
-			return above_air
-
-		var/gasid = "carbon_dioxide"
-		if(ishuman(L))
-			var/mob/living/carbon/human/H = L
-			if(H.species && H.species.exhale_type)
-				gasid = H.species.exhale_type
-
-		var/datum/gas_mixture/water_breath = new()
-		water_breath.adjust_gas(gasid, MOLES_CELLSTANDARD) // this will cause them to suffocate, but not pop their lung
-		water_breath.temperature = above_air.temperature
-		return water_breath
+	if(L && L.lying && (!L.can_breathe_water() || !istype(L.wear_mask, /obj/item/clothing/mask/snorkel)))
+		return new/datum/gas_mixture()
 
 	return above_air // Otherwise their head is above the water, so get the air from the atmosphere instead.
 
@@ -115,6 +103,7 @@
 /mob/living/carbon/human/update_icons()
 	..()
 	if(water_overlay)
+		water_overlay.icon_state = "water_l" + (lying ? "_lying" : "")
 		add_overlay(water_overlay)
 
 /turf/simulated/floor/beach/water/Entered(atom/movable/AM, atom/oldloc)
