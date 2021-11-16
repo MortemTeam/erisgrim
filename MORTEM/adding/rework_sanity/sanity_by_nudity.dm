@@ -1,6 +1,3 @@
-/mob/living/carbon/human/proc/check_nude()
-	return !(wear_suit && w_uniform)
-
 /datum/sanity/handle_view()
 	. = 0
 	if(sanity_invulnerability)//Sorry, but that needed to be added here :C

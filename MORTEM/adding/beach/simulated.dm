@@ -16,6 +16,25 @@
 /obj/effect/water_effect/update_plane()
 	return
 
+
+/mob/living/carbon/human
+	var/obj/effect/water_effect/water_overlay
+
+/mob/living/carbon/human/update_icons()
+	..()
+	if(water_overlay)
+		water_overlay.icon_state = "water_l" + (lying ? "_lying" : "")
+		add_overlay(water_overlay)
+
+/mob/living/proc/can_breathe_water()
+	return FALSE
+
+/datum/sanity/handle_view()
+	. = ..()
+	if(owner.water_overlay && owner.check_nude())
+		. += 1
+
+
 /*
 /turf/simulated/floor/beach
 	name = "beach"
@@ -86,25 +105,12 @@
 		water_overlay = null
 	return ..()
 
-/mob/living/proc/can_breathe_water()
-	return FALSE
-
 /turf/simulated/floor/beach/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
 	var/datum/gas_mixture/above_air = return_air()
 	if(L && L.lying && (!L.can_breathe_water() || !istype(L.wear_mask, /obj/item/clothing/mask/snorkel)))
 		return new/datum/gas_mixture()
 
 	return above_air // Otherwise their head is above the water, so get the air from the atmosphere instead.
-
-
-/mob/living/carbon/human
-	var/obj/effect/water_effect/water_overlay
-
-/mob/living/carbon/human/update_icons()
-	..()
-	if(water_overlay)
-		water_overlay.icon_state = "water_l" + (lying ? "_lying" : "")
-		add_overlay(water_overlay)
 
 /turf/simulated/floor/beach/water/Entered(atom/movable/AM, atom/oldloc)
 	if(ishuman(AM))
@@ -175,6 +181,12 @@
 			var/washmask = 1
 			var/washears = 1
 			var/washglasses = 1
+
+			for(var/obj/item/organ/external/E in H.organs)
+				if(!BP_IS_SILICON(E))
+					if(E.brute_dam + E.burn_dam == 0)
+						if(!(E.status & ORGAN_BLEEDING && E.open))
+							E.wounds.Cut()
 
 			if(H.wear_suit)
 				washgloves = !(H.wear_suit.flags_inv & HIDEGLOVES)
