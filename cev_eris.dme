@@ -2852,6 +2852,7 @@
 #include "MORTEM\changing\events\meteorwave.dm"
 #include "MORTEM\changing\human\remove_underwear.dm"
 #include "MORTEM\changing\jobs\department_balance.dm"
+#include "MORTEM\changing\jobs\vagabund_name.dm"
 #include "MORTEM\changing\junk_piles\cloth_pile.dm"
 #include "MORTEM\changing\junk_piles\machine_pile.dm"
 #include "MORTEM\changing\machinery\air_status.dm"
