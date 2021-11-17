@@ -2862,6 +2862,7 @@
 #include "MORTEM\changing\machinery\trade_ui_autoupdate.dm"
 #include "MORTEM\changing\materials\materials.dm"
 #include "MORTEM\changing\medicine\antidepressants.dm"
+#include "MORTEM\changing\medicine\resuscitator.dm"
 #include "MORTEM\changing\oddity\stats_count.dm"
 #include "MORTEM\changing\perks\noble.dm"
 #include "MORTEM\changing\programs\ntnet_requires.dm"
