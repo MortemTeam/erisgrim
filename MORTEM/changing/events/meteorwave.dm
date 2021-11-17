@@ -5,5 +5,5 @@
 		if (zlevel)
 			target_level = zlevel
 		else
-			target_level = pick(list(1,2,3))
+			target_level = pick(list(3,4,5))
 		spawn_meteor(meteortypes, startSide, target_level)

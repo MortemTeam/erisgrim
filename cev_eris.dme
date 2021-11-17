@@ -2820,6 +2820,7 @@
 #include "MORTEM\adding\beach\simulated.dm"
 #include "MORTEM\adding\beach\unsimulated.dm"
 #include "MORTEM\adding\bohemian_sounds\sound_by_sanity.dm"
+#include "MORTEM\adding\breakdowns\insight_dumper.dm"
 #include "MORTEM\adding\clothing\maids\uniform.dm"
 #include "MORTEM\adding\clothing\neko\uniform.dm"
 #include "MORTEM\adding\clothing\socks\underwear.dm"
