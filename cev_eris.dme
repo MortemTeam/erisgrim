@@ -2862,6 +2862,7 @@
 #include "MORTEM\changing\machinery\autolathe_suitable.dm"
 #include "MORTEM\changing\machinery\excelsior_teleport.dm"
 #include "MORTEM\changing\machinery\nuke_announce.dm"
+#include "MORTEM\changing\machinery\rename_scrap_pacman.dm"
 #include "MORTEM\changing\machinery\trade_ui_autoupdate.dm"
 #include "MORTEM\changing\materials\materials.dm"
 #include "MORTEM\changing\medicine\antidepressants.dm"
