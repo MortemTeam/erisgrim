@@ -8,5 +8,5 @@
 /obj/machinery/nuclearbomb/Process()
 	..()
 	if(timing && !loc_announced)
-		command_announcement.Announce("Nuke bomb engaged in [loc]. Make sure the process is authorized by the command.", "Nuke Safety")
+		command_announcement.Announce("Nuke bomb engaged in [get_area(src)]. Make sure the process is authorized by the command.", "Nuke Safety")
 		loc_announced = TRUE
