@@ -63,7 +63,7 @@
 
 	use(amount)
 
-/obj/item/stack/material/plasma/throw_at(atom/target, range, speed, thrower)
+/obj/item/stack/material/plasma/throw_at(atom/target, range, speed, atom/thrower)
 	var/turf/T = get_turf(src)
 	T.assume_gas("plasma", amount * 10, T20C)
 
