@@ -2,11 +2,11 @@
 /obj/item/stack/material/diamond
 	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "handful-diamond"
-	max_amount = 30
+	max_amount = 60
 	novariants = FALSE
 
 /obj/item/stack/material/diamond/full
-	amount = 30
+	amount = 60
 
 /material/diamond
 	sheet_singular_name = "handful"
@@ -17,11 +17,11 @@
 /obj/item/stack/material/uranium
 	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "rods-uran"
-	max_amount = 30
+	max_amount = 60
 	novariants = FALSE
 
 /obj/item/stack/material/uranium/full
-	amount = 30
+	amount = 60
 
 /material/uranium
 	sheet_singular_name = "rod"
@@ -32,8 +32,11 @@
 /obj/item/stack/material/plasma
 	icon = 'MORTEM/changing/materials/icons.dmi'
 	icon_state = "handful-plasma"
-	max_amount = 30
+	max_amount = 60
 	novariants = FALSE
+
+/obj/item/stack/material/plasma/full
+	amount = 60
 
 /obj/item/stack/material/plasma/attack_self(var/mob/user)
 	var/turf/T = get_turf(src)
@@ -60,8 +63,16 @@
 
 	use(amount)
 
-/obj/item/stack/material/plasma/full
-	amount = 30
+/obj/item/stack/material/plasma/throw_at(atom/target, range, speed, thrower)
+	var/turf/T = get_turf(src)
+	T.assume_gas("plasma", amount * 10, T20C)
+
+	thrower.visible_message(
+		SPAN_DANGER("[thrower] blown dust in the wind."),
+		SPAN_NOTICE("You've blown dust in the wind.")
+	)
+
+	use(amount)
 
 /material/plasma
 	sheet_singular_name = "handful"
