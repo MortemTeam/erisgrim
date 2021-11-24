@@ -5,5 +5,6 @@
 /obj/item/ammo_casing/rocket
 	rarity_value = 66.6
 
-/obj/item/projectile/bullet/rocket/throw_impact(atom/hit_atom, var/speed)
-	on_hit(hit_atom)
+/obj/item/ammo_casing/rocket/throw_impact(atom/hit_atom, var/speed)
+	if(amount)
+		explosion(hit_atom, 0, 1, 2, 4)
