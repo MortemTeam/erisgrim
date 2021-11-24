@@ -2861,6 +2861,7 @@
 #include "MORTEM\changing\machinery\air_status.dm"
 #include "MORTEM\changing\machinery\autolathe_suitable.dm"
 #include "MORTEM\changing\machinery\excelsior_teleport.dm"
+#include "MORTEM\changing\machinery\expand_art_bench.dm"
 #include "MORTEM\changing\machinery\nuke_announce.dm"
 #include "MORTEM\changing\machinery\rename_scrap_pacman.dm"
 #include "MORTEM\changing\machinery\trade_ui_autoupdate.dm"
