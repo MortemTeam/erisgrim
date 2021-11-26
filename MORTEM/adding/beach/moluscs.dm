@@ -3,7 +3,8 @@
 	matter = list(MATERIAL_BIOMATTER = 1)
 	spawn_blacklisted = TRUE
 
-	var/list/rand_state = list()
+	icon_state = "shell1"
+	var/list/rand_state = list("shell1")
 
 /obj/item/trash/shell/New()
 	..()

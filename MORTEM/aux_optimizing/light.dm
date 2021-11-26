@@ -3,5 +3,5 @@
 	return new type(arglist(arguments))
 
 /datum/controller/master/StartProcessing(delay)
-	world.log << call("MORTEM/optimize_light/lightlib.dll", "auxtools_init")()
+	world.log << call("MORTEM/aux_optimizing/lightlib.dll", "auxtools_init")()
 	..()
