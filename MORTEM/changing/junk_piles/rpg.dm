@@ -10,3 +10,4 @@
 /obj/item/ammo_casing/rocket/throw_impact(atom/hit_atom, var/speed)
 	if(amount)
 		explosion(hit_atom, 0, 1, 2, 4)
+		qdel(src)
