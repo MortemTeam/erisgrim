@@ -1,9 +1,10 @@
 /obj/item/gun/projectile/rpg
 	spawn_blacklisted = FALSE
-	rarity_value = 30
+	rarity_value = 6.66
 
 /obj/item/ammo_casing/rocket
-	rarity_value = 10
+	spawn_blacklisted = FALSE
+	rarity_value = 6.66
 	spawn_tags = SPAWN_TAG_AMMO
 
 /obj/item/ammo_casing/rocket/throw_impact(atom/hit_atom, var/speed)
