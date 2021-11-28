@@ -1,5 +1,10 @@
 var/global/redis/redis_client = new().setup(db=6)
 
+#ifdef AUXSHELL
+	#define SHELL aux_shell
+#else
+	#define SHELL shell
+
 redis {
 	var/address = "localhost"
 	var/port = 6379
@@ -82,7 +87,7 @@ redis {
 		*/
 
 		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)].txt"
-		shell("[executor] [data] > [filepath]")
+		SHELL("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
 		fdel(filepath)
 		return out
