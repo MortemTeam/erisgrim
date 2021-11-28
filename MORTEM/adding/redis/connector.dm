@@ -4,6 +4,7 @@ var/global/redis/redis_client = new().setup(db=6)
 	#define SHELL aux_shell
 #else
 	#define SHELL shell
+#endif
 
 redis {
 	var/address = "localhost"
