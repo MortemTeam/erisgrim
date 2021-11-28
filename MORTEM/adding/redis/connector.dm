@@ -6,6 +6,8 @@ var/global/redis/redis_client = new().setup(db=6)
 	#define SHELL shell
 #endif
 
+#define REDIS_CACHE_FOLDER (world.system_type == MS_WINDOWS ? "tmp" : "/tmp")
+
 redis {
 	var/address = "localhost"
 	var/port = 6379
@@ -13,7 +15,6 @@ redis {
 	var/password
 
 	var/executor = "redis-cli"
-	var/cache_folder = "/tmp"
 
 
 	proc/setup(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
@@ -87,7 +88,8 @@ redis {
 			return: terminal output as text
 		*/
 
-		var/filepath = "[cache_folder]/[db]-[rand(1111, 9999)].txt"
+		var/filepath = "[REDIS_CACHE_FOLDER]/[db]-[rand(1111, 9999)].txt"
+		world.log << "[executor] [data] > [filepath]"
 		SHELL("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
 		fdel(filepath)
