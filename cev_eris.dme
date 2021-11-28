@@ -2814,7 +2814,6 @@
 #include "maps\submaps\planetary_ruins\radshrine\radshrine.dm"
 #include "maps\submaps\planetary_ruins\spider_nest\spider_nest.dm"
 #include "maps\submaps\planetary_ruins\tar_anomaly\tar_anomaly.dm"
-#include "MORTEM\adding\redis_logger.dm"
 #include "MORTEM\adding\skyblocks.dm"
 #include "MORTEM\adding\beach\moluscs.dm"
 #include "MORTEM\adding\beach\simulated.dm"
