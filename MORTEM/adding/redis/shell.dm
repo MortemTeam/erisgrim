@@ -2,7 +2,7 @@
 
 /proc/aux_shell()
 
-/world/New() {
+/datum/controller/master/StartProcessing(delay) {
 	world.log << "AUXSHELL: " + call(AUXSHELL, "auxtools_init")()
 	..()
 }
