@@ -85,7 +85,7 @@ redis {
 		*/
 
 		var/filepath = "[REDIS_CACHE_FOLDER]/[db]-[rand(1111, 9999)].txt"
-		SHELL("\"[executor] [data] > [filepath]\"")
+		SHELL("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
 		fdel(filepath)
 		return out
