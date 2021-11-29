@@ -43,13 +43,9 @@ redis {
 			return: formed string
 		*/
 
-		if (!islist(value)) {
-			return value
-		}
-
 		var/O = ""
 		for (var/K in value) {
-			O += "\"[K]\" "
+			O += "'[K]' "
 		}
 
 		return copytext(O, 1, -1)
@@ -61,7 +57,7 @@ redis {
 			return: formed string
 		*/
 
-		return islist(value) ? _convert_list(value) : "\"[value]\""
+		return islist(value) ? _convert_list(value) : "'[value]'"
 	}
 
 	proc/_form_single(var/command as text, var/value) {
