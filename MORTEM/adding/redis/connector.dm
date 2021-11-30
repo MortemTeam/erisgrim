@@ -39,7 +39,7 @@ redis {
 
 		var/O = ""
 		for (var/K in value) {
-			O += "\"[K]\" "
+			O += "'[K]' "
 		}
 
 		return copytext(O, 1, -1)
@@ -51,7 +51,7 @@ redis {
 			return: formed string
 		*/
 
-		return islist(value) ? _convert_list(value) : "\"[value]\""
+		return islist(value) ? _convert_list(value) : "'[value]'"
 	}
 
 	proc/_form_single(var/command as text, var/value) {
@@ -79,6 +79,7 @@ redis {
 		*/
 
 		var/filepath = "[REDIS_CACHE_FOLDER]/[db]-[rand(1111, 9999)].txt"
+		world.log << "[executor] [data] > [filepath]"
 		aux_shell("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
 		fdel(filepath)
