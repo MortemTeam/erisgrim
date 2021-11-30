@@ -1,6 +1,10 @@
 var/global/redis/redis_client = new().setup(db=6)
 
-#define REDIS_CACHE_FOLDER (world.system_type == MS_WINDOWS ? "tmp" : "/tmp")
+#ifdef AUXSHELL
+	#define SHELL aux_shell
+#else
+	#define SHELL shell
+#endif
 
 redis {
 	var/address = "localhost"
@@ -9,7 +13,6 @@ redis {
 	var/password
 
 	var/executor = "redis-cli"
-
 
 	proc/setup(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
 		/*
@@ -75,21 +78,16 @@ redis {
 	proc/raw_request(var/data as text) {
 		/*
 			Clear requesting and save readable cache in game root folder
-			return: terminal output as text
+			return: true if success
 		*/
-
-		var/filepath = "[REDIS_CACHE_FOLDER]/[db]-[rand(1111, 9999)].txt"
-		world.log << "[executor] [data] > [filepath]"
-		aux_shell("[executor] [data] > [filepath]")
-		var/list/out = _file2list(filepath)
-		fdel(filepath)
-		return out
+		world.log << "[executor] [data]"
+		return SHELL("[executor] [data]")
 	}
 
 	proc/request(var/data as text) {
 		/*
 			Request with -h, -p, -a, -n, --raw parameters
-			return: terminal output
+			return: true if success
 		*/
 
 		var/command = "-h [address] -p [port] "
