@@ -1,11 +1,5 @@
 var/global/redis/redis_client = new().setup(db=6)
 
-#ifdef AUXSHELL
-	#define SHELL aux_shell
-#else
-	#define SHELL shell
-#endif
-
 #define REDIS_CACHE_FOLDER (world.system_type == MS_WINDOWS ? "tmp" : "/tmp")
 
 redis {
@@ -45,7 +39,7 @@ redis {
 
 		var/O = ""
 		for (var/K in value) {
-			O += "[K] "
+			O += "\"[K]\" "
 		}
 
 		return copytext(O, 1, -1)
@@ -57,7 +51,7 @@ redis {
 			return: formed string
 		*/
 
-		return islist(value) ? _convert_list(value) : "[value]"
+		return islist(value) ? _convert_list(value) : "\"[value]\""
 	}
 
 	proc/_form_single(var/command as text, var/value) {
@@ -85,7 +79,7 @@ redis {
 		*/
 
 		var/filepath = "[REDIS_CACHE_FOLDER]/[db]-[rand(1111, 9999)].txt"
-		SHELL("[executor] [data] > [filepath]")
+		aux_shell("[executor] [data] > [filepath]")
 		var/list/out = _file2list(filepath)
 		fdel(filepath)
 		return out
