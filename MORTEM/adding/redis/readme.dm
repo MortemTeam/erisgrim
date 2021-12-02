@@ -11,6 +11,6 @@ redis {
 	* gset.dm - store get-set functions
 	* list.dm - store push & pop functions
 
-	* auxshell.dm (Optional) - override proc/shell by auxshell (Also my authored)
+	* auxshell.dm (Optional) - hook proc/aux_shell using python (Also my authored)
 	*/
 }
