@@ -6,11 +6,10 @@ redis {
 
 	- Provides the ability to interact with redis-cli
 
-	* include.dm - store all includes
+	* include.dm - store all includes and override redis/proc/request
 	* connector.dm - present redis client
 	* gset.dm - store get-set functions
 	* list.dm - store push & pop functions
 
-	* auxshell.dm (Optional) - hook proc/aux_shell using python (Also my authored)
 	*/
 }

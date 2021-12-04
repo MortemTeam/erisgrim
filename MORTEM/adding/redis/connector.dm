@@ -1,25 +1,17 @@
-var/global/redis/redis_client = new().setup(db=6)
-
-#ifdef AUXSHELL
-	#define SHELL aux_shell
-#else
-	#define SHELL shell
-#endif
+var/global/redis/redis_client = new()
 
 redis {
-	var/address = "localhost"
+	var/host = "localhost"
 	var/port = 6379
 	var/db = 0
-	var/password
+	var/password //useless
 
-	var/executor = "redis-cli"
-
-	proc/setup(var/address = "localhost", var/port = 6379, var/db = 0, var/password = null) {
+	proc/setup(var/host = "localhost", var/port = 6379, var/db = 0, var/password = null) {
 		/*
 			Setup redis variables
 			return: src
 		*/
-		src.address = address
+		src.host = host
 		src.port = port
 		src.db = db
 		src.password = password
@@ -75,30 +67,10 @@ redis {
 		return "[command] [key] [_form_value(value)]"
 	}
 
-	proc/raw_request(var/data as text) {
-		/*
-			Clear requesting and save readable cache in game root folder
-			return: true if success
-		*/
-		world.log << "[executor] [data]"
-		return SHELL("[executor] [data]")
-	}
-
 	proc/request(var/data as text) {
 		/*
-			Request with -h, -p, -a, -n, --raw parameters
-			return: true if success
+			Abstract proc for hook from .dll,  Request to redis
 		*/
-
-		var/command = "-h [address] -p [port] "
-
-		if (password) {
-			command += "-a [password] "
-		}
-
-		command += "-n [db] --raw [data]"
-
-		return raw_request(command)
 	}
 
 	proc/echo(var/data as text|num) {
