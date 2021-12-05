@@ -2839,6 +2839,7 @@
 #include "MORTEM\adding\planet_simulation\atmosphere.dm"
 #include "MORTEM\adding\planet_simulation\earthquake.dm"
 #include "MORTEM\adding\planet_simulation\generate_ore.dm"
+#include "MORTEM\adding\redis\include.dm"
 #include "MORTEM\adding\rework_sanity\sanity_by_nudity.dm"
 #include "MORTEM\adding\smooth_animation\firedoor\firedoor.dm"
 #include "MORTEM\adding\surgery\create_synthethic.dm"
