@@ -7,7 +7,6 @@
 	if(!spin_effect)
 		spin_effect = new(null)
 
-
 /obj/machinery/light/update()
 	. = ..()
 	if(atmosalarmed && on && cmptext(base_state,"tube"))

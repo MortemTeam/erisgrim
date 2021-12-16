@@ -10,9 +10,9 @@
 
 /obj/effect/spinning_light/Initialize()
 	. = ..()
-	filters = filter(type="rays", size = _size, color = GRIM_RED, factor = _factor, density = _density, flags = FILTER_OVERLAY, offset = _offset)
+	filters = filter(type="rays", size = _size, color = COLOR_RED, factor = _factor, density = _density, flags = FILTER_OVERLAY, offset = _offset)
 
-	alpha = 200
+	alpha = 100
 
 	//Rays start rotated which made synchronizing the scaling a bit difficult, so let's move it 45 degrees
 	var/matrix/m = new
