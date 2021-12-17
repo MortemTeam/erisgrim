@@ -63,3 +63,21 @@ obj/machinery/light/set_blue()
 
 /obj/item/device/lighting/glowstick/yellow
 	light_color = GRIM_YELLOW
+
+/obj/machinery/light/on_update_icon()
+	switch(status)		// set icon_states
+		if(LIGHT_OK)
+			if((firealarmed || atmosalarmed) && on && cmptext(base_state,"tube"))
+				icon_state = "[base_state]_alert"
+			else
+				icon_state = "[base_state][on]"
+		if(LIGHT_EMPTY)
+			icon_state = "[base_state]-empty"
+			on = FALSE
+		if(LIGHT_BURNED)
+			icon_state = "[base_state]-burned"
+			on = FALSE
+		if(LIGHT_BROKEN)
+			icon_state = "[base_state]-broken"
+			on = FALSE
+	return
