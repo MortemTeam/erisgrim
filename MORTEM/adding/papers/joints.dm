@@ -5,7 +5,6 @@
 
 	icon_on = "samokrutkaon"
 	icon_off = "samokrutkaoff"
-	type_butt = null
 	chem_volume = 15.0
 	smoketime = 150
 
