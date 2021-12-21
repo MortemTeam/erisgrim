@@ -1,3 +1,6 @@
+#define BELT_LAYER 10
+#define WORN_BELT "_be"
+
 /mob/living/carbon/human/update_inv_belt(var/update_icons=1)
 	overlays_standing[BELT_LAYER] = null
 	if(belt)
@@ -34,3 +37,6 @@
 		overlays_standing[otherlayer] = null
 
 	if(update_icons)   update_icons()
+
+#undef BELT_LAYER
+#undef WORN_BELT
