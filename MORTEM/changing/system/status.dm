@@ -1,16 +1,15 @@
 /world/update_status()
-	var/out = ""
+	var/features = list("MRP", "No Xenos", "ERP Allowed")
 	var/links = list(
-		"Discord" = config.discordurl,
-		"Wiki"    = config.wikiurl,
+		"Site" = config.forumurl,
+		"Wiki" = config.wikiurl,
 	)
 
 	var/pure_links = list()
 	for(var/K in links)
 		pure_links += "<a href='[links[K]]'>[K]</a>"
 
-	var/features = list("MRP", "No Xenos", "ERP Allowed")
-
+	var/out = ""
 	if(config && config.server_name)
 		out += "<b>[config.server_name]</b><br>"
 
