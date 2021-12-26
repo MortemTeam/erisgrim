@@ -1,7 +1,7 @@
 #define TURBULENCE 35
 #define FLICK_LIGHT 5 MINUTES
 #define APC_EXPLODING 5 MINUTES
-#define EXPLODE_COUNT 20
+#define EXPLODE_COUNT 33
 
 /datum/client_preference/rs_shake
 	description ="Roundstart shake camera"
@@ -14,7 +14,7 @@
 /proc/turbulence_crash()
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(H.z in list(1,2,3,4,5))
-			spawn(0)
+			spawn()
 				H.Weaken(TURBULENCE)
 				if(H.client && H.get_preference_value(/datum/client_preference/rs_shake) == GLOB.PREF_YES)
 					shake_camera(H, TURBULENCE * 1 SECONDS, 2)
@@ -25,21 +25,22 @@
 
 	var/list_of_light = list()
 	for(var/obj/machinery/light/L in SSmachines.processing.Copy())
-		if(L.z in list(1,2,3,4,5))
-			L.set_red()
-			list_of_light += L
+		spawn()
+			if(L.z in list(1,2,3,4,5))
+				L.set_red()
+				list_of_light += L
 
 	while(start_time + FLICK_LIGHT > world.time)
 		var/obj/machinery/light/L = pick(list_of_light)
-		L.flick_light(5)
+		L.flick_light(6)
 		do_sparks(1, 0, L)
 
 		sleep(1 SECONDS)
 
-	for(var/obj/machinery/light/L as() in list_of_light)
-		L.on = TRUE
-		L.reset_color()
-
+/proc/close_all_firedoor()
+	for(var/obj/machinery/firealarm/F in SSmachines.processing.Copy())
+		spawn()
+			F.alarm()
 
 /proc/explode_apc()
 	var/start_time = world.time
@@ -61,6 +62,7 @@
 		CALLBACK(GLOBAL_PROC, /proc/announce_crash),
 		CALLBACK(GLOBAL_PROC, /proc/turbulence_crash),
 		CALLBACK(GLOBAL_PROC, /proc/light_flicking),
+		CALLBACK(GLOBAL_PROC, /proc/close_all_firedoor),
 		//CALLBACK(GLOBAL_PROC, /proc/explode_apc),
 	)
 
