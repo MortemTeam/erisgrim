@@ -11,6 +11,12 @@
 /proc/announce_crash()
 	command_announcement.Announce("Ship's propulsion functions are affected, keep calm and prepare to landing.", "Distress Signal")
 
+/proc/setup_planet_light()
+	for(var/turf/T in locate(/area/space))
+		for(var/datum/lighting_corner/LC as() in T.get_corners())
+			if(LC.active)
+				LC.update_lumcount(255, 255, 255)
+
 /proc/turbulence_crash()
 	for(var/mob/living/carbon/human/H in GLOB.player_list)
 		if(H.z in list(1,2,3,4,5))
@@ -59,10 +65,11 @@
 
 /datum/controller/subsystem/ticker
 	round_start_events = list(
-		CALLBACK(GLOBAL_PROC, /proc/announce_crash),
+		CALLBACK(GLOBAL_PROC, /proc/setup_planet_light),
 		CALLBACK(GLOBAL_PROC, /proc/turbulence_crash),
 		CALLBACK(GLOBAL_PROC, /proc/light_flicking),
 		CALLBACK(GLOBAL_PROC, /proc/close_all_firedoor),
+		CALLBACK(GLOBAL_PROC, /proc/announce_crash),
 		//CALLBACK(GLOBAL_PROC, /proc/explode_apc),
 	)
 
