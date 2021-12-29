@@ -13,11 +13,25 @@
 		gas_data.name[gas.id] = gas.name
 		gas_data.specific_heat[gas.id] = gas.specific_heat
 		gas_data.molar_mass[gas.id] = gas.molar_mass
-		if(gas.tile_overlay) gas_data.tile_overlay[gas.id] = image(gas.tile_icon, gas.tile_overlay, FLY_LAYER)
-		if(gas.overlay_limit) gas_data.overlay_limit[gas.id] = gas.overlay_limit
+
+		if(gas.tile_overlay)
+			gas_data.tile_overlay[gas.id] = image(gas.tile_icon, gas.tile_overlay, FLY_LAYER)
+		if(gas.overlay_limit)
+			gas_data.overlay_limit[gas.id] = gas.overlay_limit
+
 		gas_data.flags[gas.id] = gas.flags
 
 	return 1
+
+/turf/simulated/floor/exoplanet/barren
+	oxygen = MOLES_O2STANDARD * 3
+	nitrogen = MOLES_N2STANDARD * 7
+	temperature = T20C + 1000
+
+/turf/simulated/floor/exoplanet/desert
+	oxygen = MOLES_O2STANDARD * 3
+	nitrogen = MOLES_N2STANDARD * 7
+	temperature = T20C + 1000
 
 /turf/simulated/floor/exoplanet/snow
 	nitrogen = MOLES_CELLSTANDARD * 66
@@ -29,5 +43,5 @@
 
 /decl/xgm_gas/nitrogen
 	tile_icon = 'MORTEM/adding/planet_simulation/weather.dmi'
-	tile_overlay = "snowfall_med"
+	tile_overlay = "snowfall_heavy"
 	overlay_limit = 200
