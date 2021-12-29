@@ -1,14 +1,17 @@
+#define PLANET_TURF /turf/simulated/floor/exoplanet/snow
+// snow/barren
+
 /obj/effect/shuttle_landmark/merc/engieva
-	base_turf = /turf/simulated/floor/exoplanet/snow
+	base_turf = PLANET_TURF
 
 /obj/effect/shuttle_landmark/merc/mining
-	base_turf = /turf/simulated/floor/exoplanet/snow
+	base_turf = PLANET_TURF
 
 /obj/effect/shuttle_landmark/merc/northeast
-	base_turf = /turf/simulated/floor/exoplanet/snow
+	base_turf = PLANET_TURF
 
 /obj/effect/shuttle_landmark/skipjack/northwest
-	base_turf = /turf/simulated/floor/exoplanet/snow
+	base_turf = PLANET_TURF
 
 /obj/effect/shuttle_landmark/supply/station
-	base_turf = /turf/simulated/floor/exoplanet/barren
+	base_turf = PLANET_TURF
