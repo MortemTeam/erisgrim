@@ -28,7 +28,7 @@
 
 	var/datum/gender/T = gender_datums[gender]
 	if(w_uniform || (wear_suit && wear_suit.body_parts_covered & LOWER_TORSO))
-		T = gender_datums[PLURAL]
+		T = gender_datums[NEUTER]
 
 	if(icon)
 		msg += "\icon[icon] " //fucking BYOND: this should stop dreamseeker crashing if we -somehow- examine somebody before their icon is generated
