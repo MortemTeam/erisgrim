@@ -43,5 +43,5 @@
 
 /decl/xgm_gas/nitrogen
 	tile_icon = 'MORTEM/adding/planet_simulation/weather.dmi'
-	tile_overlay = "snowfall_heavy"
+	tile_overlay = "dustfall_heavy"
 	overlay_limit = 200

@@ -1,4 +1,4 @@
-#define PLANET_TURF /turf/simulated/floor/exoplanet/snow
+#define PLANET_TURF /turf/simulated/floor/exoplanet/barren
 // snow/barren
 
 /obj/effect/shuttle_landmark/merc/engieva
