@@ -176,7 +176,7 @@
 /obj/proc/hides_under_flooring()
 	return level == BELOW_PLATING_LEVEL
 
-/obj/proc/hear_talk(mob/M as mob, text, verb, datum/language/speaking, speech_volume)
+/obj/proc/hear_talk(mob/M as mob, text, verb, datum/language/speaking)
 	if(talking_atom)
 		talking_atom.catchMessage(text, M)
 /*

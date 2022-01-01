@@ -48,7 +48,6 @@
 #define CE_MIND    		 "mindbending"  // Stabilizes or wrecks mind. Used for hallucinations
 #define CE_ANTITOX       "antitox"      // Dylovene
 #define CE_TOXIN         "toxins"       // Generic toxins, stops autoheal.
-#define CE_SPEECH_VOLUME     "speach_volume"    // speech volume multiplier , default volume is integer and equals 2
 #define CE_BLOODCLOT 	"bloodclot"	// Promote healing but thickens blood, slows and stops bleeding (range 0 - 1)
 #define CE_OXYGENATED    "oxygen"       // Dexalin.
 #define CE_PURGER "purger"	//Purger

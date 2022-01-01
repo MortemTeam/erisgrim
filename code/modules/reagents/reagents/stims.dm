@@ -108,7 +108,6 @@
 	M.stats.addTempStat(STAT_ROB, STAT_LEVEL_ADEPT * effect_multiplier, STIM_TIME, "violence")
 	M.stats.addTempStat(STAT_VIG, -STAT_LEVEL_ADEPT * effect_multiplier, STIM_TIME, "violence")
 	M.add_chemical_effect(CE_PULSE, 1)
-	M.add_chemical_effect(CE_SPEECH_VOLUME, rand(3,4))
 	sanity_gain = 1
 
 /datum/reagent/stim/violence/withdrawal_act(mob/living/carbon/M)
@@ -416,7 +415,6 @@
 	M.stats.addTempStat(STAT_BIO, -STAT_LEVEL_ADEPT * effect_multiplier, STIM_TIME, "menace")
 	M.stats.addTempStat(STAT_COG, -STAT_LEVEL_ADEPT * effect_multiplier, STIM_TIME, "menace")
 	M.slurring = max(M.slurring, 30)
-	M.add_chemical_effect(CE_SPEECH_VOLUME, 4)
 	sanity_gain = 1
 
 /datum/reagent/stim/menace/withdrawal_act(mob/living/carbon/M)

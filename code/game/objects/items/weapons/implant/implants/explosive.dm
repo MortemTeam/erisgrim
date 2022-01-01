@@ -33,7 +33,7 @@
 		<b>Integrity:</b> Implant will occasionally be degraded by the body's immune system and thus will occasionally malfunction."}
 	return data
 
-/obj/item/implant/explosive/hear_talk(mob/M, msg, verb, datum/language/speaking, speech_volume)
+/obj/item/implant/explosive/hear_talk(mob/M, msg, verb, datum/language/speaking)
 	hear(msg)
 
 /obj/item/implant/explosive/hear(var/msg)

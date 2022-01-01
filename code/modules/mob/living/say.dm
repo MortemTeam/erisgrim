@@ -102,10 +102,10 @@ var/list/channel_to_radio_key = new
 	returns[3] = speech_problem_flag
 	return returns
 
-/mob/living/proc/handle_message_mode(message_mode, message, verb, speaking, used_radios, alt_name, speech_volume)
+/mob/living/proc/handle_message_mode(message_mode, message, verb, speaking, used_radios, alt_name)
 	if(message_mode == "intercom")
 		for(var/obj/item/device/radio/intercom/I in view(1, null))
-			I.talk_into(src, message, verb, speaking, speech_volume)
+			I.talk_into(src, message, verb, speaking)
 			used_radios += I
 	return 0
 
@@ -122,14 +122,6 @@ var/list/channel_to_radio_key = new
 		return "asks"
 
 	return verb
-
-// returns message
-/mob/living/proc/getSpeechVolume(var/message)
-	var/volume = chem_effects[CE_SPEECH_VOLUME] ? round(chem_effects[CE_SPEECH_VOLUME]) : 2	// 2 is default text size in byond chat
-	var/ending = copytext(message, length(message))
-	if(ending == "!")
-		volume ++
-	return volume
 
 /mob/living/say(var/message, var/datum/language/speaking = null, var/verb="says", var/alt_name="")
 	if(client)
@@ -215,12 +207,12 @@ var/list/channel_to_radio_key = new
 	var/list/obj/item/used_radios = new
 
 
-	if(handle_message_mode(message_mode, message, verb, speaking, used_radios, alt_name, getSpeechVolume(message)))
+	if(handle_message_mode(message_mode, message, verb, speaking, used_radios, alt_name))
 		return TRUE
 
 	var/list/handle_v = handle_speech_sound()
 	var/sound/speech_sound = handle_v[1]
-	var/sound_vol = handle_v[2] * (chem_effects[CE_SPEECH_VOLUME] ? chem_effects[CE_SPEECH_VOLUME] : 1)
+	var/sound_vol = handle_v[2]
 
 	var/italics = FALSE
 	var/message_range = world.view
@@ -252,7 +244,6 @@ var/list/channel_to_radio_key = new
 
 	var/list/listening = list()
 	var/list/listening_obj = list()
-	var/list/listening_falloff = list() //People that are quite far away from the person speaking, who just get a _quiet_ version of whatever's being said.
 
 	if(T)
 		//make sure the air can transmit speech - speaker's side
@@ -265,10 +256,8 @@ var/list/channel_to_radio_key = new
 		if(pressure < ONE_ATMOSPHERE * 0.4)
 			italics = TRUE
 			sound_vol *= 0.5 //muffle the sound a bit, so it's like we're actually talking through contact
-		var/falloff = (message_range + round(3 * (chem_effects[CE_SPEECH_VOLUME] ? chem_effects[CE_SPEECH_VOLUME] : 1))) //A wider radius where you're heard, but only quietly. This means you can hear people offscreen.
 		//DO NOT FUCKING CHANGE THIS TO GET_OBJ_OR_MOB_AND_BULLSHIT() -- Hugs and Kisses ~Ccomp
 		var/list/hear = hear(message_range, T)
-		var/list/hear_falloff = hear(falloff, T)
 
 		for(var/X in SSmobs.mob_list)
 			if(!ismob(X))
@@ -280,8 +269,6 @@ var/list/channel_to_radio_key = new
 			if(M.locs.len && (M.locs[1] in hear))
 				listening |= M
 				continue //To avoid seeing BOTH normal message and quiet message
-			else if(M.locs.len && (M.locs[1] in hear_falloff))
-				listening_falloff |= M
 
 		for(var/obj in GLOB.hearing_objects)
 			if(get_turf(obj) in hear)
@@ -299,14 +286,7 @@ var/list/channel_to_radio_key = new
 		var/mob/M = X
 		if(M.client)
 			speech_bubble_recipients += M.client
-		M.hear_say(message, verb, speaking, alt_name, italics, src, speech_sound, sound_vol, getSpeechVolume(message))
-	for(var/X in listening_falloff)
-		if(!ismob(X))
-			continue
-		var/mob/M = X
-		if(M.client)
-			speech_bubble_recipients += M.client
-		M.hear_say(message, verb, speaking, alt_name, italics, src, speech_sound, sound_vol, 1)
+		M.hear_say(message, verb, speaking, alt_name, italics, src, speech_sound, sound_vol)
 
 	INVOKE_ASYNC(GLOBAL_PROC, .proc/animate_speechbubble, speech_bubble, speech_bubble_recipients, 30)
 	INVOKE_ASYNC(src, /atom/movable/proc/animate_chat, message, speaking, italics, speech_bubble_recipients, 40, verb)
@@ -314,7 +294,7 @@ var/list/channel_to_radio_key = new
 	for(var/obj/O in listening_obj)
 		spawn(0)
 			if(!QDELETED(O)) //It's possible that it could be deleted in the meantime.
-				O.hear_talk(src, message, verb, speaking, getSpeechVolume(message), message_pre_stutter)
+				O.hear_talk(src, message, verb, speaking, message_pre_stutter)
 
 
 	log_say("[name]/[key] : [message]")
@@ -347,7 +327,7 @@ var/list/channel_to_radio_key = new
 	return name
 
 /mob/living/hear_say(message, verb = "says", datum/language/language = null, alt_name = "", italics = FALSE,\
-		mob/speaker = null, speech_sound, sound_vol, speech_volume)
+		mob/speaker = null, speech_sound, sound_vol)
 	if(!client)
 		return
 

@@ -202,22 +202,22 @@
 	returns[3] = speech_problem_flag
 	return returns
 
-/mob/living/carbon/human/handle_message_mode(message_mode, message, verb, speaking, list/used_radios, alt_name, speech_volume)
+/mob/living/carbon/human/handle_message_mode(message_mode, message, verb, speaking, list/used_radios, alt_name)
 	switch(message_mode)
 		if("intercom")
 			if(!src.restrained())
 				for(var/obj/item/device/radio/intercom/I in view(1))
-					I.talk_into(src, message, null, verb, speaking, speech_volume)
+					I.talk_into(src, message, null, verb, speaking)
 					I.add_fingerprint(src)
 					used_radios += I
 		if("headset")
 			if(l_ear && istype(l_ear, /obj/item/device/radio))
 				var/obj/item/device/radio/R = l_ear
-				R.talk_into(src, message, null, verb, speaking, speech_volume)
+				R.talk_into(src, message, null, verb, speaking)
 				used_radios += l_ear
 			else if(r_ear && istype(r_ear, /obj/item/device/radio))
 				var/obj/item/device/radio/R = r_ear
-				R.talk_into(src, message, null, verb, speaking, speech_volume)
+				R.talk_into(src, message, null, verb, speaking)
 				used_radios += r_ear
 		if("right ear")
 			var/obj/item/device/radio/R
@@ -226,7 +226,7 @@
 			if(!R && r_ear && istype(r_ear, /obj/item/device/radio))
 				R = r_ear
 			if(R)
-				R.talk_into(src, message, null, verb, speaking, speech_volume)
+				R.talk_into(src, message, null, verb, speaking)
 				used_radios += R
 		if("left ear")
 			var/obj/item/device/radio/R
@@ -235,7 +235,7 @@
 			if(!R && l_ear && istype(l_ear, /obj/item/device/radio))
 				R = l_ear
 			if(R)
-				R.talk_into(src, message, null, verb, speaking, speech_volume)
+				R.talk_into(src, message, null, verb, speaking)
 				used_radios += R
 		if("whisper")
 			whisper_say(message, speaking, alt_name)
@@ -243,10 +243,10 @@
 		else
 			if(message_mode)
 				if(l_ear && istype(l_ear, /obj/item/device/radio))
-					if(l_ear.talk_into(src, message, message_mode, verb, speaking, speech_volume))
+					if(l_ear.talk_into(src, message, message_mode, verb, speaking))
 						used_radios += l_ear
 				if(!used_radios.len && r_ear && istype(r_ear, /obj/item/device/radio))
-					if(r_ear.talk_into(src, message, message_mode, verb, speaking, speech_volume))
+					if(r_ear.talk_into(src, message, message_mode, verb, speaking))
 						used_radios += r_ear
 
 /mob/living/carbon/human/handle_speech_sound()

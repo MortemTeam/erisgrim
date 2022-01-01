@@ -70,9 +70,7 @@
 	else
 		icon_state = "taperecorder_idle"
 
-/obj/item/device/taperecorder/hear_talk(mob/living/M as mob, msg, var/verb="says", datum/language/speaking=null, speech_volume)
-	if(speech_volume)
-		msg = "<FONT size='[speech_volume]'>[msg]</FONT>"
+/obj/item/device/taperecorder/hear_talk(mob/living/M as mob, msg, var/verb="says", datum/language/speaking=null)
 	if(audio_file && recording)
 		audio_file.timestamp += audio_file.used_capacity
 

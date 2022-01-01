@@ -196,7 +196,7 @@
 		R.activate_module(src)
 	//R.hud_used.update_robot_modules_display()
 
-/obj/item/proc/talk_into(mob/living/M, message, channel, verb = "says", datum/language/speaking = null, speech_volume)
+/obj/item/proc/talk_into(mob/living/M, message, channel, verb = "says", datum/language/speaking = null)
 	return
 
 /obj/item/proc/moved(mob/user as mob, old_loc as turf)
