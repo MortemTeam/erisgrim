@@ -111,7 +111,7 @@
 	for(var/datum/core_module/M in modules)
 		M.on_implant_uninstall()
 
-/obj/item/implant/core_implant/hear_talk(mob/living/carbon/human/H, message, verb, datum/language/speaking, message_pre_problems)
+/obj/item/implant/core_implant/hear_talk(mob/living/carbon/human/H, message, verb, datum/language/speaking, speech_volume, message_pre_problems)
 	var/group_ritual_leader = FALSE
 	for(var/datum/core_module/group_ritual/GR in src.modules)
 		GR.hear(H, message)

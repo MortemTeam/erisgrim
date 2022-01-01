@@ -275,7 +275,7 @@ var/global/list/default_medbay_channels = list(
 	// If we were to send to a channel we don't have, drop it.
 	return null
 
-/obj/item/device/radio/talk_into(mob/living/M as mob, message, channel, var/verb = "says", var/datum/language/speaking = null)
+/obj/item/device/radio/talk_into(mob/living/M as mob, message, channel, var/verb = "says", var/datum/language/speaking = null, var/speech_volume)
 	if(!on) return 0 // the device has to be on
 	//  Fix for permacell radios, but kinda eh about actually fixing them.
 	if(!M || !message) return 0
@@ -395,6 +395,7 @@ var/global/list/default_medbay_channels = list(
 			"level" = position.z, // The source's z level
 			"language" = speaking,
 			"verb" = verb,
+			"speech_volume" = speech_volume
 		)
 		signal.frequency = connection.frequency // Quick frequency set
 
@@ -449,7 +450,8 @@ var/global/list/default_medbay_channels = list(
 		"reject" = 0,
 		"level" = position.z,
 		"language" = speaking,
-		"verb" = verb
+		"verb" = verb,
+		"speech_volume" = speech_volume
 	)
 	signal.frequency = connection.frequency // Quick frequency set
 
@@ -471,14 +473,14 @@ var/global/list/default_medbay_channels = list(
 
 	return Broadcast_Message(connection, M, voicemask, pick(M.speak_emote),
 					  src, message, displayname, jobname, real_name, M.voice_name,
-					  filter_type, signal.data["compression"], list(position.z), connection.frequency,verb,speaking)
+					  filter_type, signal.data["compression"], list(position.z), connection.frequency,verb,speaking, speech_volume)
 
 
-/obj/item/device/radio/hear_talk(mob/M as mob, msg, var/verb = "says", var/datum/language/speaking = null)
+/obj/item/device/radio/hear_talk(mob/M as mob, msg, var/verb = "says", var/datum/language/speaking = null, speech_volume)
 
 	if (broadcasting)
 		if(get_dist(src, M) <= canhear_range)
-			talk_into(M, msg,null,verb,speaking)
+			talk_into(M, msg,null,verb,speaking, speech_volume)
 
 
 /*
@@ -591,7 +593,7 @@ var/global/list/default_medbay_channels = list(
 /obj/item/device/radio/borg/list_channels(mob/user)
 	return list_secure_channels(user)
 
-/obj/item/device/radio/borg/talk_into(mob/living/M, message, channel, var/verb = "says", var/datum/language/speaking = null)
+/obj/item/device/radio/borg/talk_into(mob/living/M, message, channel, var/verb = "says", var/datum/language/speaking = null, var/speech_volume)
 	. = ..()
 	if (isrobot(src.loc))
 		var/mob/living/silicon/robot/R = src.loc

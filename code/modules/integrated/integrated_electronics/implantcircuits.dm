@@ -48,5 +48,5 @@
 	IC.attack_self(user)
 
 
-/obj/item/implant/integrated_circuit/hear_talk(mob/M, var/msg, verb, datum/language/speaking, )
-	IC.hear_talk(M, msg, speaking)
+/obj/item/implant/integrated_circuit/hear_talk(mob/M, var/msg, verb, datum/language/speaking, speech_volume)
+	IC.hear_talk(M, msg, speaking, speech_volume = speech_volume)
