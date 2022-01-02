@@ -16,8 +16,6 @@
 		var/mob/living/carbon/human/H = speaker
 		speaker_name = H.rank_prefix_name(H.GetVoice())
 
-	if(speech_volume)
-		message = "<FONT size='[speech_volume]'>[message]</FONT>"
 	if(italics)
 		message = "<i>[message]</i>"
 
