@@ -157,4 +157,5 @@
 
 	return TRUE
 
+#undef TURBULENCE
 

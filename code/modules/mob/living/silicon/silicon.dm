@@ -30,6 +30,7 @@
 	var/obj/item/card/id/idcard
 	var/idcard_type = /obj/item/card/id/synthetic
 
+	var/obj/item/cell/large/cell
 	var/email_ringtone = TRUE
 
 	#define SEC_HUD 1 //Security HUD mode
@@ -72,10 +73,12 @@
 /mob/living/silicon/emp_act(severity)
 	switch(severity)
 		if(1)
-			take_organ_damage(0,20,emp=1)
+			// take_organ_damage(0,20,emp=1)
+			cell.charge = max(cell.charge - rand(180, 200), 0)
 			Stun(rand(5,10))
 		if(2)
-			take_organ_damage(0,10,emp=1)
+			// take_organ_damage(0,10,emp=1)
+			cell.charge = max(cell.charge - rand(90, 100), 0)
 			confused = (min(confused + 2, 30))
 //	FLICK("noise", flash)
 	if (HUDtech.Find("flash"))
