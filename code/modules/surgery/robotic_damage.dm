@@ -65,6 +65,7 @@
 		SPAN_NOTICE("You finish patching damage to [organ.get_surgery_name()] with \the [tool].")
 	)
 	organ.heal_damage(rand(30, 50), 0, TRUE)
+	organ.update_icon()
 
 /datum/surgery_step/robotic/fix_brute/fail_step(mob/living/user, obj/item/organ/external/organ, obj/item/tool)
 	user.visible_message(
@@ -106,6 +107,7 @@
 	)
 	if(tool.use(3))
 		organ.heal_damage(0, rand(30, 50), TRUE)
+		organ.update_icon()
 
 /datum/surgery_step/robotic/fix_burn/fail_step(mob/living/user, obj/item/organ/external/organ, obj/item/stack/cable_coil/tool)
 	user.visible_message(

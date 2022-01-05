@@ -50,3 +50,5 @@
 
 		for(var/Z in eris_floor)
 			toggle_move_stars(Z, NORTH)
+
+#undef TURBULENCE
