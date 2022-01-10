@@ -1,7 +1,7 @@
 var/global/redis/redis_client = new()
 
 redis {
-	var/host = "localhost"
+	var/host = "127.0.0.1"
 	var/port = 6379
 	var/db = 0
 	var/password //useless
