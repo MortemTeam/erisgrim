@@ -55,7 +55,7 @@
 /obj/screen/grab
 	icon = 'MORTEM/adding/grim/icons.dmi'
 
-/obj/screen/sanity/on_update_icon()
+/obj/screen/sanity/update_icon()
 	var/mob/living/carbon/human/H = parentmob
 	if(!istype(H) || H.stat == DEAD)
 		return
@@ -79,4 +79,4 @@
 		if(90 to INFINITY)
 			ovrl = ovrls["sanity6"]
 
-	add_overlays(ovrl)
+	overlays += ovrl

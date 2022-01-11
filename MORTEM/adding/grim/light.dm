@@ -28,7 +28,7 @@ obj/machinery/light/set_blue()
 /obj/machinery/light/set_red()
 	tube_set_color(GRIM_RED)
 
-/obj/machinery/power/apc/on_update_icon()
+/obj/machinery/power/apc/update_icon()
 	..()
 	var/l_range = 2
 	var/l_power = 0.6
@@ -64,7 +64,7 @@ obj/machinery/light/set_blue()
 /obj/item/device/lighting/glowstick/yellow
 	light_color = GRIM_YELLOW
 
-/obj/machinery/light/on_update_icon()
+/obj/machinery/light/update_icon()
 	switch(status)		// set icon_states
 		if(LIGHT_OK)
 			if((firealarmed || atmosalarmed) && on && cmptext(base_state,"tube"))

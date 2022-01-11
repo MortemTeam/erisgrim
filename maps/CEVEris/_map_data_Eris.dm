@@ -1,4 +1,4 @@
 #include "overmap-eris.dm"
 #include "shuttles-eris.dm"
-#include "mortem/CEV_Eris_desert.dmm"
-#include "mortem/centcomm.dmm"
+#include "_CEV_Eris.dmm"
+#include "centcomm.dmm"

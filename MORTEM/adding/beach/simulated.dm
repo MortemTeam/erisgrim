@@ -58,17 +58,16 @@
 	footstep_sound = /decl/sound_category/water_footstep
 */
 
-/turf/simulated/floor/beach/water
+/turf/simulated/floor/exoplanet/water
 	name = "water"
 	icon = 'MORTEM/adding/beach/icons.dmi'
 	icon_state = "water"
-	initial_flooring = null
 
 	var/obj/effect/water_effect/water_overlay
 	var/watertype = "water5"
 	var/processing_counts = 0
 
-/turf/simulated/floor/beach/water/get_footstep_sound()
+/turf/simulated/floor/exoplanet/water/get_footstep_sound()
 	return pick(list(
 		'MORTEM/adding/beach/sounds/water1.ogg',
 		'MORTEM/adding/beach/sounds/water2.ogg',
@@ -76,21 +75,21 @@
 		'MORTEM/adding/beach/sounds/water4.ogg',
 	))
 
-/turf/simulated/floor/beach/water/pool
+/turf/simulated/floor/exoplanet/water/pool
 	name = "pool"
 	icon_state = "pool"
 	watertype = "poolwater"
 
-/turf/simulated/floor/beach/water/ocean
+/turf/simulated/floor/exoplanet/water/ocean
 	name = "ocean"
 	icon_state = "seadeep"
 
-/turf/simulated/floor/beach/water/ocean/abyss
+/turf/simulated/floor/exoplanet/water/ocean/abyss
 	name = "abyss"
 	icon_state = "abyss"
 	watertype = "seadeep"
 
-/turf/simulated/floor/beach/water/Initialize()
+/turf/simulated/floor/exoplanet/water/Initialize()
 	. = ..()
 	var/obj/effect/water_effect/W = new /obj/effect/water_effect(src)
 	W.icon_state = watertype
@@ -99,20 +98,20 @@
 
 	create_reagents(2)
 
-/turf/simulated/floor/beach/water/Destroy()
+/turf/simulated/floor/exoplanet/water/Destroy()
 	if(water_overlay)
 		qdel(water_overlay)
 		water_overlay = null
 	return ..()
 
-/turf/simulated/floor/beach/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
+/turf/simulated/floor/exoplanet/water/return_air_for_internal_lifeform(var/mob/living/carbon/L)
 	var/datum/gas_mixture/above_air = return_air()
 	if(L && L.lying && (!L.can_breathe_water() || !istype(L.wear_mask, /obj/item/clothing/mask/snorkel)))
 		return new/datum/gas_mixture()
 
 	return above_air // Otherwise their head is above the water, so get the air from the atmosphere instead.
 
-/turf/simulated/floor/beach/water/Entered(atom/movable/AM, atom/oldloc)
+/turf/simulated/floor/exoplanet/water/Entered(atom/movable/AM, atom/oldloc)
 	if(ishuman(AM))
 		if(!processing_counts)
 			START_PROCESSING(SSprocessing, src)
@@ -128,7 +127,7 @@
 
 	..()
 
-/turf/simulated/floor/beach/water/Exited(atom/movable/AM, atom/newloc)
+/turf/simulated/floor/exoplanet/water/Exited(atom/movable/AM, atom/newloc)
 	if(ishuman(AM))
 		if(processing_counts > 0)
 			processing_counts--
@@ -144,7 +143,7 @@
 
 	..()
 
-/turf/simulated/floor/beach/water/Process()
+/turf/simulated/floor/exoplanet/water/Process()
 	for(var/atom/movable/AM as() in loc)
 		if(istype(AM) && AM.simulated)
 			wash(AM)
@@ -153,7 +152,7 @@
 	reagents.add_reagent("water", reagents.get_free_space())
 
 // Taken from shower
-/turf/simulated/floor/beach/water/proc/wash(atom/movable/O as obj|mob)
+/turf/simulated/floor/exoplanet/water/proc/wash(atom/movable/O as obj|mob)
 	if(isliving(O))
 		var/mob/living/L = O
 		L.ExtinguishMob()
