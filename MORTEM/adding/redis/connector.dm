@@ -6,7 +6,7 @@ redis {
 	var/db = 0
 	var/password //useless
 
-	proc/setup(var/host = "localhost", var/port = 6379, var/db = 0, var/password = null) {
+	proc/setup(var/host = "127.0.0.1", var/port = 6379, var/db = 0, var/password = null) {
 		/*
 			Setup redis variables
 			return: src
