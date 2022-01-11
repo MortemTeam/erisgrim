@@ -6,4 +6,5 @@
 		if(A.id == antag_id)
 			A.remove_antagonist()
 
+	to_chat(wearer, SPAN_DANGER("You have forgotten all the events of this shift."))
 	wearer.visible_message(SPAN_DANGER("As \the [src] is removed from \the [wearer]..."))
