@@ -8,19 +8,21 @@
 /datum/event/infestation/massive
 	possible_mobs_mundane = list(
 		INFESTATION_ROACHES = 6,
+		INFESTATION_SPIDERS = 6,
 	)
 
 	possible_mobs_moderate = list(
 		INFESTATION_ROACHES = 7,
+		INFESTATION_SPIDERS = 7,
 	)
 
 	possible_mobs_major = list(
-		INFESTATION_ROACHES = 9,
+		INFESTATION_ROACHES = 8,
+		INFESTATION_SPIDERS = 8,
 	)
 
 /datum/event/infestation/massive/setup()
-	announceWhen = rand(20,80) //Very large random window for announcement,
-	num_areas = 666
+	announceWhen = rand(20, 80) //Very large random window for announcement,
 	switch(severity)
 		if(EVENT_LEVEL_MUNDANE)
 			num_areas = 666
