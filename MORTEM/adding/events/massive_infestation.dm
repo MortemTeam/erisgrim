@@ -8,17 +8,17 @@
 /datum/event/infestation/massive
 	possible_mobs_mundane = list(
 		INFESTATION_ROACHES = 10,
-		//INFESTATION_SPIDERS = 20,
+		INFESTATION_SPIDERS = 20,
 	)
 
 	possible_mobs_moderate = list(
 		INFESTATION_ROACHES = 20,
-		//INFESTATION_SPIDERS = 30,
+		INFESTATION_SPIDERS = 30,
 	)
 
 	possible_mobs_major = list(
 		INFESTATION_ROACHES = 30,
-		//INFESTATION_SPIDERS = 40,
+		INFESTATION_SPIDERS = 40,
 	)
 
 /datum/event/infestation/massive/setup()
