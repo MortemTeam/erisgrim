@@ -2850,6 +2850,7 @@
 #include "MORTEM\adding\grim\light.dm"
 #include "MORTEM\adding\hats4roaches\roach.dm"
 #include "MORTEM\adding\machinery\gateway.dm"
+#include "MORTEM\adding\machinery\stockparts\neotheology.dm"
 #include "MORTEM\adding\mouth_underwear\underwear.dm"
 #include "MORTEM\adding\papers\joints.dm"
 #include "MORTEM\adding\plants\cannabis\seed.dm"
