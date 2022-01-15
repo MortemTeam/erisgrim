@@ -1,16 +1,18 @@
 /obj/item/photo
 	var/nude_count = 0
 
-/obj/item/device/camera/proc/get_nudes_count(var/turf/T)
+/obj/item/device/camera/proc/get_nudes_count(var/turf/T, var/mob/living/user)
 	var/nude_count = 0
 	for(var/mob/living/carbon/human/H in T)
-		if(H.invisibility) continue
-		if(H.stat != DEAD && H.check_nude())
+		if(H.invisibility || H.stat == DEAD || H == user)
+			continue
+
+		if(H.check_nude())
 			nude_count += 1
 
 	return nude_count
 
-/obj/item/device/camera/captureimage(atom/target, mob/living/user, capturemode = CAPTURE_MODE_REGULAR)
+/obj/item/device/camera/captureimage(var/atom/target, var/mob/living/user, var/capturemode = CAPTURE_MODE_REGULAR)
 	var/x_c = target.x - radius
 	var/y_c = target.y + radius
 	var/z_c	= target.z
@@ -22,7 +24,7 @@
 			var/turf/T = locate(x_c, y_c, z_c)
 			if(user.can_capture_turf(T))
 				mobs += get_mobs(T)
-				nudes += get_nudes_count(T)
+				nudes += get_nudes_count(T, user)
 
 			x_c++
 		y_c--
