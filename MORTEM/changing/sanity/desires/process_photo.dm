@@ -5,7 +5,7 @@
 	var/nude_count = 0
 	for(var/mob/living/carbon/human/H in T)
 		if(H.invisibility) continue
-		if(H.check_nude())
+		if(H.stat != DEAD && H.check_nude())
 			nude_count += 1
 
 	return nude_count
