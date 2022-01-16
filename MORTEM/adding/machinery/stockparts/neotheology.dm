@@ -11,8 +11,8 @@
 
 /obj/machinery/autolathe/RefreshParts()
 	. = ..()
-	if(.)
-		unsuitable_materials = list(MATERIAL_BIOMATTER)
-		for(var/obj/item/stock_parts/manipulator/nt/M in component_parts)
-			unsuitable_materials -= list(MATERIAL_BIOMATTER)
-			break
+
+	unsuitable_materials = list(MATERIAL_BIOMATTER)
+	for(var/obj/item/stock_parts/manipulator/nt/M in component_parts)
+		unsuitable_materials -= list(MATERIAL_BIOMATTER)
+		break
