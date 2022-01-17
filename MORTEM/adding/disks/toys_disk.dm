@@ -35,6 +35,7 @@
 		/datum/design/autolathe/clothing/bunny_slippers,
 
 		/datum/design/autolathe/ammo/rubber_toy,
+		/datum/design/autolathe/clothing/towel,
 		/datum/design/autolathe/tool/pink_restraints,
 		/datum/design/autolathe/tool/ducttape,
 	)
@@ -129,6 +130,11 @@
 	name = "bunny slippers"
 	build_path = /obj/item/clothing/shoes/slippers
 
+
+/datum/design/autolathe/clothing/towel
+	name = "towel"
+	materials = list(MATERIAL_BIOMATTER = 5)
+	build_path = /obj/item/tool/towel/random
 
 /datum/design/autolathe/ammo/rubber_toy
 	name = "rubber toy"

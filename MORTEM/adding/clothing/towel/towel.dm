@@ -17,9 +17,9 @@
 	hitsound = 'MORTEM/adding/clothing/towel/towelwhip.ogg'
 
 	matter = list(MATERIAL_BIOMATTER = 5)
-	spawn_frequency = 8
 	spawn_tags = SPAWN_TAG_CLOTHING
-	rarity_value = 25
+	spawn_blacklisted = FALSE
+	rarity_value = 13
 
 /obj/item/tool/towel/attack_self(mob/living/user as mob)
 	user.visible_message(text("<span class='notice'>[] uses [] to towel themselves off.</span>", user, src))
