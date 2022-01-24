@@ -54,7 +54,7 @@
 
 /datum/design/autolathe/clothing/rabbitears
 	name = "rabbit ears"
-	build_path = /obj/item/clothing/head/rabbitears
+	build_path = /obj/item/clothing/head/collectable/rabbitears
 
 /datum/design/autolathe/clothing/nursehat
 	name = "nurse hat"
