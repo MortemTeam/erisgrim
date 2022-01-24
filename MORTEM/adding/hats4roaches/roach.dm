@@ -40,7 +40,9 @@
 		wear_hat(newhat)
 
 /mob/living/carbon/superior_animal/roach/getarmor(var/def_zone, var/type)
-	return hat ? hat.armor[type] : 0
+	total = ..()
+	total += hat ? hat.armor[type] : 0
+	return CLAMP(total, 0, 100)
 
 /mob/living/carbon/superior_animal/roach/death()
 	..()
