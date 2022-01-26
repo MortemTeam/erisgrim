@@ -1,5 +1,5 @@
 /world/update_status()
-	var/features = list("MRP", "No Xenos", "ERP Allowed")
+	var/features = list("Free RolePlay", "No Xenos")
 	var/links = list(
 		"Site" = config.forumurl,
 		"Wiki" = config.wikiurl,
