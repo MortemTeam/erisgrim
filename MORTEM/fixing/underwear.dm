@@ -25,6 +25,10 @@
 	var/obj/item/underwear/UW = new underwear_type(location)
 	UW.SetName(underwear_name)
 	UW.gender = underwear_gender
+
+	if(!UW.contained_sprite)
+		UW.icon = iconfile
+
 	UW.icon_state = icon_state
 	UW.item_state = item_state
 
