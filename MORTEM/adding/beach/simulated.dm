@@ -34,30 +34,6 @@
 	if(owner.water_overlay && owner.check_nude())
 		. += 1
 
-
-/*
-/turf/simulated/floor/beach
-	name = "beach"
-	icon = 'icons/misc/beach.dmi'
-	icon_state = "sand"
-	footstep_sound = /decl/sound_category/sand_footstep
-
-/turf/simulated/floor/beach/sand
-	name = "sand"
-
-/turf/simulated/floor/beach/sand/alt
-	icon_state = "sand_alt"
-
-/turf/simulated/floor/beach/sand/desert
-	icon_state = "desert"
-
-/turf/simulated/floor/beach/coastline
-	name = "coastline"
-	icon = 'icons/misc/beach2.dmi'
-	icon_state = "sandwater"
-	footstep_sound = /decl/sound_category/water_footstep
-*/
-
 /turf/simulated/floor/exoplanet/water
 	name = "water"
 	icon = 'MORTEM/adding/beach/icons.dmi'

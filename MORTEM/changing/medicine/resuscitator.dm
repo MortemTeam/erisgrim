@@ -8,7 +8,7 @@
 	if(!is_asystole() && !(heart_organ && brain_organ) || (heart_organ.is_broken() || brain_organ.is_broken()))
 		return 0
 
-	if(world.time >= (timeofdeath + NECROZTIME))
+	if(world.time >= (timeofdeath + 30 MINUTES))
 		return 0
 
 	if(!resusciate_available)
