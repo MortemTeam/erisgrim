@@ -18,7 +18,7 @@ redis {
 		return src
 	}
 
-	/proc/_file2list(var/filename, var/seperator = "\n") {
+	proc/_file2list(var/filename, var/seperator = "\n") {
 		/*
 			Converting file in list
 			return: list of text rows

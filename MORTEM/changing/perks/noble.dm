@@ -1,9 +1,5 @@
 /datum/perk/fate/noble/assign(mob/living/carbon/human/H)
-	SHOULD_CALL_PARENT(TRUE)
-	holder = H
-	RegisterSignal(holder, COMSIG_MOB_LIFE, .proc/on_process)
-	to_chat(holder, SPAN_NOTICE("[gain_text]"))
-
+	..()
 	if(!holder || !holder.last_name)
 		holder.stats.removePerk(src.type)
 		return
