@@ -2879,6 +2879,7 @@
 #include "MORTEM\adding\machinery\gateway.dm"
 #include "MORTEM\adding\machinery\stockparts\neotheology.dm"
 #include "MORTEM\adding\mouth_underwear\underwear.dm"
+#include "MORTEM\adding\outfits\tminus.dm"
 #include "MORTEM\adding\papers\joints.dm"
 #include "MORTEM\adding\plants\cannabis\seed.dm"
 #include "MORTEM\adding\plants\cannabis\thc.dm"
