@@ -2878,6 +2878,7 @@
 #include "MORTEM\adding\hats4roaches\roach.dm"
 #include "MORTEM\adding\machinery\gateway.dm"
 #include "MORTEM\adding\machinery\stockparts\neotheology.dm"
+#include "MORTEM\adding\mobs\tminus_robo.dm"
 #include "MORTEM\adding\mouth_underwear\underwear.dm"
 #include "MORTEM\adding\outfits\tminus.dm"
 #include "MORTEM\adding\papers\joints.dm"
