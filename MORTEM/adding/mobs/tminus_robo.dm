@@ -22,7 +22,7 @@
 	verbs += /mob/living/proc/hide
     
     real_name = "Blade Wolf"
-	name = real_name
+    name = real_name
 
 /mob/living/silicon/robot/syndicate/bladewolf/init()
 	aiCamera = new/obj/item/device/camera/siliconcam/robot_camera(src)
