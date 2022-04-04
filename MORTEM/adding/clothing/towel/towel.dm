@@ -27,11 +27,9 @@
 
 /obj/item/tool/towel/random/New()
 	..()
-	color = get_random_colour()
+	color = get_random_colour(0, 0, 255)
 
 /obj/item/tool/towel/fleece // loot from the king of goats. it's a golden towel
 	name = "golden fleece"
 	desc = "The legendary Golden Fleece of Jason made real."
 	color = "#ffd700"
-	force = 1
-	attack_verb = list("smote")
