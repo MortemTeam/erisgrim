@@ -2913,6 +2913,7 @@
 #include "MORTEM\changing\machinery\nuke_announce.dm"
 #include "MORTEM\changing\machinery\rename_scrap_pacman.dm"
 #include "MORTEM\changing\machinery\trade_ui_autoupdate.dm"
+#include "MORTEM\changing\machinery\washing.dm"
 #include "MORTEM\changing\materials\materials.dm"
 #include "MORTEM\changing\medicine\antidepressants.dm"
 #include "MORTEM\changing\medicine\brain_surgery.dm"
