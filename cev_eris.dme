@@ -2949,7 +2949,6 @@
 #include "MORTEM\fixing\belt.dm"
 #include "MORTEM\fixing\dresses.dm"
 #include "MORTEM\fixing\grab_icon.dm"
-#include "MORTEM\fixing\human_hud.dm"
 #include "MORTEM\fixing\mobhelper.dm"
 #include "MORTEM\fixing\overmap_ship.dm"
 #include "MORTEM\fixing\poster.dm"
