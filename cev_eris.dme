@@ -2881,6 +2881,7 @@
 #include "MORTEM\adding\hats4roaches\roach.dm"
 #include "MORTEM\adding\machinery\gateway.dm"
 #include "MORTEM\adding\machinery\stockparts\neotheology.dm"
+#include "MORTEM\adding\medicine\jivin.dm"
 #include "MORTEM\adding\mobs\tminus_robo.dm"
 #include "MORTEM\adding\mouth_underwear\underwear.dm"
 #include "MORTEM\adding\outfits\tminus.dm"
