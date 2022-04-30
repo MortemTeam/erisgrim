@@ -2,7 +2,7 @@
 	return rand(5000, 15000)
 
 /datum/trade_station/station_zarya
-	assortiment = list(
+	inventory = list(
 		"BO3DYX" = list(
 			/obj/item/tank/air,
 			/obj/item/tank/plasma,
@@ -43,7 +43,7 @@
 			/obj/item/solar_assembly,
 //			/obj/item/tracker_electronics, // broken for now? This is even used for something?
 			/obj/machinery/field_generator,
-			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(18,22))
+			/obj/machinery/atmospherics/unary/engine = good_data("Gas Thruster", list(18,22), 6000)
 		),
 		"BCRKAR BCR4NHA" = list(
 			/obj/machinery/pipedispenser/orderable,

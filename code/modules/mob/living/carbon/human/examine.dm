@@ -27,6 +27,9 @@
 	var/msg = "<span class='info'>*---------*\nThis is "
 
 	var/datum/gender/T = gender_datums[gender]
+	if(w_uniform || (wear_suit && wear_suit.body_parts_covered & LOWER_TORSO))
+		T = gender_datums[NEUTER]
+	
 	if(skipjumpsuit && skipface) //big suits/masks/helmets make it hard to tell their gender
 		T = gender_datums[PLURAL]
 	else

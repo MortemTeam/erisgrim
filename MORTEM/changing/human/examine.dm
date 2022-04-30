@@ -29,9 +29,12 @@
 	var/datum/gender/T = gender_datums[gender]
 	if(w_uniform || (wear_suit && wear_suit.body_parts_covered & LOWER_TORSO))
 		T = gender_datums[NEUTER]
-
-	if(icon)
-		msg += "\icon[icon] " //fucking BYOND: this should stop dreamseeker crashing if we -somehow- examine somebody before their icon is generated
+	
+	if(skipjumpsuit && skipface) //big suits/masks/helmets make it hard to tell their gender
+		T = gender_datums[PLURAL]
+	else
+		if(icon)
+			msg += "\icon[icon] " //fucking BYOND: this should stop dreamseeker crashing if we -somehow- examine somebody before their icon is generated
 
 	if(!T)
 		// Just in case someone VVs the gender to something strange. It'll runtime anyway when it hits usages, better to CRASH() now with a helpful message.
@@ -182,8 +185,8 @@
 		if(locate(/obj/item/implant/carrion_spider) in src)
 			msg += SPAN_DANGER("[T.He] [T.has] a strange growth on [T.his] chest!") + "\n"
 
-	if(mSmallsize in mutations)
-		msg += "[T.He] [T.is] small halfling!\n"
+//	if(mSmallsize in mutations)
+//		msg += "[T.He] [T.is] small halfling!\n"
 
 	var/distance = get_dist(usr,src)
 	if(isghost(usr) || usr?.stat == DEAD) // ghosts can see anything
@@ -267,42 +270,52 @@
 	var/display_chest = 0
 	var/display_shoes = 0
 	var/display_gloves = 0
+
 	if(wound_flavor_text["head"] && (is_destroyed["head"] || (!skipmask && !(wear_mask && istype(wear_mask, /obj/item/clothing/mask/gas)))))
 		msg += wound_flavor_text["head"]
 	else if(is_bleeding["head"])
 		msg += "<span class='warning'>[src] [T.has] blood running down [T.his] face!</span>\n"
+
 	if(wound_flavor_text["upper body"] && !w_uniform && !skipjumpsuit) //No need.  A missing chest gibs you.
 		msg += wound_flavor_text["upper body"]
 	else if(is_bleeding["upper body"])
 		display_chest = 1
+
 	if(wound_flavor_text["left arm"] && (is_destroyed["left arm"] || (!w_uniform && !skipjumpsuit)))
 		msg += wound_flavor_text["left arm"]
 	else if(is_bleeding["left arm"])
 		display_chest = 1
+
 	if(wound_flavor_text["left hand"] && (is_destroyed["left hand"] || (!gloves && !skipgloves)))
 		msg += wound_flavor_text["left hand"]
 	else if(is_bleeding["left hand"])
 		display_gloves = 1
+
 	if(wound_flavor_text["right arm"] && (is_destroyed["right arm"] || (!w_uniform && !skipjumpsuit)))
 		msg += wound_flavor_text["right arm"]
 	else if(is_bleeding["right arm"])
 		display_chest = 1
+
 	if(wound_flavor_text["right hand"] && (is_destroyed["right hand"] || (!gloves && !skipgloves)))
 		msg += wound_flavor_text["right hand"]
 	else if(is_bleeding["right hand"])
 		display_gloves = 1
+
 	if(wound_flavor_text["lower body"] && (is_destroyed["lower body"] || (!w_uniform && !skipjumpsuit)))
 		msg += wound_flavor_text["lower body"]
 	else if(is_bleeding["lower body"])
 		display_chest = 1
+
 	if(wound_flavor_text["left leg"] && (is_destroyed["left leg"] || (!w_uniform && !skipjumpsuit)))
 		msg += wound_flavor_text["left leg"]
 	else if(is_bleeding["left leg"])
 		display_chest = 1
+
 	if(wound_flavor_text["right leg"] && (is_destroyed["right leg"] || (!w_uniform && !skipjumpsuit)))
 		msg += wound_flavor_text["right leg"]
 	else if(is_bleeding["right leg"])
 		display_chest = 1
+
 	if(display_chest)
 		msg += "<span class='danger'>[src] [T.has] blood soaking through from under [T.his] clothing!</span>\n"
 	if(display_shoes)

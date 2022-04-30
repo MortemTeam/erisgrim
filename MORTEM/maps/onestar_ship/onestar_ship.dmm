@@ -598,7 +598,7 @@
 /turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/space)
 "qc" = (
-/obj/machinery/dna_scannernew,
+/obj/machinery/cryo_slab,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/space)
 "qf" = (
@@ -1536,17 +1536,15 @@
 /turf/simulated/floor/tiled/steel/bar_light,
 /area/space)
 "Mj" = (
-/obj/structure/bed/chair/custom/onestar{
-	dir = 1
-	},
-/turf/simulated/floor/tiled/derelict,
+/obj/machinery/dna/console,
+/turf/simulated/floor/tiled/white/brown_platform,
 /area/space)
 "Mm" = (
 /obj/spawner/mob/roomba,
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/space)
 "Ms" = (
-/obj/machinery/computer/scan_consolenew,
+/obj/machinery/dna/moeballs_printer,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/space)
 "MH" = (
@@ -24146,7 +24144,7 @@ aa
 xb
 pv
 xb
-nP
+Mj
 nP
 wO
 Pi
@@ -24551,7 +24549,7 @@ dC
 vc
 xb
 Ms
-Mj
+nP
 nP
 nP
 EV
