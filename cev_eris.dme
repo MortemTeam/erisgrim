@@ -2958,4 +2958,6 @@
 #include "MORTEM\fixing\browsers\notes.dm"
 #include "MORTEM\fixing\browsers\storyteller.dm"
 #include "MORTEM\fixing\browsers\unban.dm"
+#include "MORTEM\maps\onestar_ship\onestar_ship.dm"
+#include "MORTEM\maps\water_pool\water_pool.dm"
 // END_INCLUDE

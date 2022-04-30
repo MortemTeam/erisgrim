@@ -29,11 +29,6 @@
 /mob/living/proc/can_breathe_water()
 	return FALSE
 
-/datum/sanity/handle_view()
-	. = ..()
-	if(owner.water_overlay && owner.check_nude())
-		. += 1
-
 /turf/simulated/floor/exoplanet/water
 	name = "water"
 	icon = 'MORTEM/adding/beach/icons.dmi'
@@ -70,6 +65,8 @@
 	var/obj/effect/water_effect/W = new /obj/effect/water_effect(src)
 	W.icon_state = watertype
 	W.alpha = 255
+	W.plane = plane
+	W.layer = layer
 	water_overlay = W
 
 	create_reagents(2)
@@ -97,6 +94,7 @@
 			sleep(H.movement_delay())
 			H.water_overlay = new /obj/effect/water_effect/above(H)
 			H.water_overlay.icon_state = "water_l"
+			H.water_overlay.plane = H.plane
 			H.update_icons()
 
 		processing_counts++

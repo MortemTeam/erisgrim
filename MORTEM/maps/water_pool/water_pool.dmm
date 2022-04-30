@@ -1,0 +1,14460 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"ab" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"al" = (
+/obj/structure/table/standard,
+/obj/machinery/recharger,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"am" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"ap" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"aq" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"ar" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Security Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ax" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"aF" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"aG" = (
+/obj/item/contraband/poster/placed{
+	icon_state = "bsposter41";
+	pixel_y = 31
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"aQ" = (
+/obj/machinery/door/airlock/sandstone,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"aT" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"aW" = (
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/cable/yellow{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"aX" = (
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"aY" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"bd" = (
+/obj/machinery/door/firedoor,
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"be" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 1;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"bg" = (
+/obj/machinery/door/airlock/glass_medical{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access = newlist()
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"br" = (
+/obj/structure/sign/department/medbay{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"bx" = (
+/obj/structure/kitchenspike,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"by" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/adv{
+	pixel_x = -2
+	},
+/obj/item/storage/firstaid/adv{
+	pixel_x = -2
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"bD" = (
+/obj/structure/closet/chefcloset{
+	name = "Waterpool Worker closet"
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"bL" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"bR" = (
+/obj/machinery/vending/snack,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"bT" = (
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"bY" = (
+/obj/machinery/computer/operating{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"ca" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/machinery/power/smes/buildable,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"cd" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"co" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/machinery/power/sensor{
+	name = "Waterpool Powernet Sensor";
+	name_tag = "Waterpool Powernet"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"ct" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"cu" = (
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/machinery/shower{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"cx" = (
+/obj/structure/railing/grey{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"cz" = (
+/obj/machinery/door/airlock/sandstone,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"cA" = (
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"cH" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/obj/spawner/junk,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"cI" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"cL" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"cM" = (
+/obj/machinery/atmospherics/pipe/manifold/visible{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"cP" = (
+/obj/machinery/floodlight,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"cT" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/turf/space,
+/area/away/water_pool)
+"cV" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"cX" = (
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"db" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"dg" = (
+/obj/item/clothing/under/maid/classic,
+/obj/item/clothing/under/maid/janitor,
+/obj/structure/closet{
+	name = "Janitor Closet"
+	},
+/obj/item/clothing/head/collectable/kitty,
+/obj/item/clothing/head/collectable/rabbitears,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"dh" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"dl" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"dm" = (
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"dr" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Janitor Airlock"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"dA" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"dG" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"dH" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"dK" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"dS" = (
+/obj/structure/table/standard,
+/obj/item/storage/toolbox/mechanical,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"dV" = (
+/obj/structure/closet/radiation,
+/obj/item/clothing/glasses/powered/meson,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"dW" = (
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/structure/cable/yellow{
+	d2 = 8;
+	icon_state = "0-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"eb" = (
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ek" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"el" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"em" = (
+/obj/structure/cyberplant{
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"et" = (
+/obj/machinery/autolathe/bioprinter/disk{
+	default_disk = /obj/item/computer_hardware/hard_drive/portable/design/playtoys;
+	name = "Waterpool Bioprinter";
+	stored_material = list()
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"ev" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"ex" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ey" = (
+/obj/structure/table/bar_special,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"eC" = (
+/obj/structure/table/bar_special,
+/obj/item/reagent_containers/food/drinks/shaker,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"eI" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "Waterpool_engine_blast";
+	name = "Waterpool Blast Door";
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"eJ" = (
+/obj/machinery/door/window/eastright,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"eK" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"eL" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"eR" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"eS" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"eT" = (
+/obj/structure/table/woodentable,
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/item/material/shard,
+/obj/item/material/shard,
+/obj/item/material/shard,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"eX" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 1
+	},
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_dock_inner";
+	locked = 1;
+	name = "Waterpool Dock Airlock"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"eZ" = (
+/obj/structure/table/standard,
+/obj/item/storage/toolbox/mechanical,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"fb" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"fm" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Reception Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"fo" = (
+/obj/structure/dispenser/oxygen,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"fu" = (
+/obj/structure/cyberplant,
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"fw" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 1;
+	frequency = 1380;
+	id_tag = "waterpool_dock_pump"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"fy" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"fA" = (
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 2;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"fE" = (
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"fJ" = (
+/obj/structure/table/bar_special,
+/obj/item/talkingcrystal,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"fK" = (
+/obj/structure/closet/oldstyle,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"fO" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"fX" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"fY" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ge" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"gf" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"gg" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"gi" = (
+/obj/machinery/autolathe/bioprinter/disk{
+	default_disk = /obj/item/computer_hardware/hard_drive/portable/design/playtoys;
+	name = "Waterpool Bioprinter";
+	stored_material = list()
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"gy" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id = "waterpool_outer_post";
+	name = "Waterpool Post";
+	opacity = 0
+	},
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"gz" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/o2{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/o2{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"gE" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/turf/space,
+/area/away/water_pool)
+"gF" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 8
+	},
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"gG" = (
+/obj/structure/table/rack,
+/obj/item/device/radio,
+/obj/item/device/radio,
+/obj/item/device/radio,
+/obj/item/device/radio,
+/obj/item/device/radio,
+/obj/item/device/radio,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"gH" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"gI" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/space,
+/area/space)
+"gK" = (
+/obj/item/device/radio/intercom{
+	dir = 4;
+	pixel_x = -22
+	},
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gL" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"gM" = (
+/obj/effect/shuttle_landmark/water_pool/outer1,
+/turf/space,
+/area/space)
+"gN" = (
+/obj/machinery/door/airlock/sandstone{
+	health = 200;
+	icon_state = "door_open";
+	name = "Engine Room";
+	p_open = 1;
+	req_access = list(12);
+	stat = 1
+	},
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"gO" = (
+/obj/machinery/media/jukebox,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gP" = (
+/obj/structure/table/bar_special,
+/obj/machinery/chemical_dispenser/soda,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gQ" = (
+/obj/machinery/vending/boozeomat,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gR" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gU" = (
+/obj/effect/shuttle_landmark/water_pool/dock1,
+/turf/space,
+/area/space)
+"gX" = (
+/obj/structure/table/bar_special,
+/obj/item/flame/lighter/zippo,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"gZ" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"ha" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"hc" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"hd" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"he" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"hg" = (
+/obj/machinery/hologram/holopad,
+/obj/item/remains/human,
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 1;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"hj" = (
+/obj/machinery/door/window/eastleft,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"hq" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"hu" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/space,
+/area/space)
+"hv" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/srifle{
+	amount = 2;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"hw" = (
+/obj/item/beach_ball,
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"hL" = (
+/obj/machinery/door/window/westleft,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"hM" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Waterpool Worker Closet's"
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"hN" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"hP" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id = "waterpool_outer_post";
+	name = "Waterpool Post";
+	opacity = 0
+	},
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/obj/item/material/shard,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"hQ" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"hW" = (
+/obj/item/stack/rods,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ih" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"im" = (
+/obj/structure/sign/department/anomaly{
+	name = "PRIVATEPOOL";
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"io" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"iq" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"iw" = (
+/obj/structure/bed/chair,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ix" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"iy" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"iD" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"iJ" = (
+/obj/item/material/shard,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"iK" = (
+/obj/item/ammo_casing/lrifle{
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"iS" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"iV" = (
+/obj/structure/toilet{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/landmark/storyevent/midgame_stash_spawn{
+	navigation = "Waterpool, Toilet's"
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"jc" = (
+/obj/structure/bed/chair/comfy/beige{
+	dir = 1
+	},
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"jk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"jl" = (
+/obj/item/ammo_magazine/lrifle/empty,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"jp" = (
+/obj/structure/closet/chefcloset{
+	name = "Waterpool Worker closet"
+	},
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"jq" = (
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"jP" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"jQ" = (
+/obj/structure/bed/chair/comfy/beige,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"jT" = (
+/obj/effect/overlay/palmtree_r,
+/obj/effect/overlay/coconut,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 8;
+	req_access = list(24)
+	},
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"jW" = (
+/obj/structure/table/standard,
+/obj/item/storage/briefcase/inflatable,
+/obj/item/inflatable_dispenser,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"jY" = (
+/obj/machinery/sleeper{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"kb" = (
+/obj/structure/closet/chefcloset{
+	name = "Waterpool Worker closet"
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ke" = (
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"kg" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"ki" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"kl" = (
+/obj/structure/table/standard,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"kn" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/obj/item/stack/rods,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ko" = (
+/obj/structure/catwalk,
+/obj/structure/railing,
+/obj/structure/lattice,
+/obj/machinery/floodlight,
+/turf/space,
+/area/away/water_pool)
+"kp" = (
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ks" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"kv" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"kw" = (
+/obj/structure/table/standard,
+/obj/item/folder/blue,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"kx" = (
+/obj/spawner/junk,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"kz" = (
+/turf/space,
+/area/space)
+"kE" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"kH" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"kN" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/item/ammo_casing/srifle{
+	amount = 1;
+	icon_state = "srifle_c_l-spent"
+	},
+/obj/item/ammo_magazine/srifle/long/empty,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"kS" = (
+/obj/item/modular_computer/console/preset/civilian{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"lb" = (
+/obj/landmark/storyevent/midgame_stash_spawn{
+	navigation = "Waterpool, Hall"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"lj" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/item/ammo_casing/shotgun/pellet{
+	icon_state = "s-shell_l-spent"
+	},
+/turf/space,
+/area/away/water_pool)
+"lk" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"lv" = (
+/obj/structure/sink/kitchen{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"lx" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"lz" = (
+/obj/structure/table/woodentable,
+/obj/item/material/shard,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"lF" = (
+/obj/machinery/door/airlock/sandstone{
+	health = 200;
+	icon_state = "door_open";
+	name = "Private Pool";
+	p_open = 1;
+	stat = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"lM" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"lN" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"lX" = (
+/obj/structure/table/standard,
+/obj/machinery/reagentgrinder/portable,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"lY" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"ma" = (
+/obj/item/ammo_magazine/lrifle/empty,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"mi" = (
+/obj/structure/table/bar_special,
+/obj/item/device/lighting/toggleable/lamp/green,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"mm" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"mu" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"mH" = (
+/obj/structure/bed/chair/office/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"mI" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"mM" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"mO" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_dock_outer";
+	locked = 1;
+	name = "Waterpool Dock Airlock"
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/tiled/steel/cargo,
+/area/away/water_pool)
+"mQ" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = -32
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"mU" = (
+/obj/machinery/camera/network/third_section{
+	dir = 4
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"mW" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"mZ" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"ne" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"nh" = (
+/obj/machinery/sleeper{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ni" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"nk" = (
+/obj/structure/table/standard,
+/obj/item/storage/toolbox/emergency,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"nm" = (
+/obj/machinery/atmospherics/pipe/tank/air{
+	dir = 8
+	},
+/obj/machinery/alarm{
+	dir = 1;
+	pixel_y = -23
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"nq" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"nv" = (
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/obj/item/ammo_magazine/lrifle/empty,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"nB" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"nH" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/srifle{
+	amount = 2;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"nJ" = (
+/obj/item/ammo_casing/srifle{
+	amount = 2;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"nQ" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"nV" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_dock_inner";
+	locked = 1;
+	name = "Waterpool Dock Airlock"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"nX" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"oa" = (
+/obj/structure/table/bar_special,
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"oc" = (
+/obj/machinery/door/airlock/glass_medical{
+	health = 150;
+	icon_state = "door_open";
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	p_open = 1;
+	req_access = newlist();
+	stat = 1
+	},
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"oi" = (
+/obj/structure/table/bar_special,
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"ok" = (
+/obj/structure/girder,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"on" = (
+/obj/structure/closet/secure_closet/personal/doctor,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"op" = (
+/obj/effect/window_lwall_spawn/plasma,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"os" = (
+/obj/item/stack/rods,
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/lrifle{
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"oz" = (
+/obj/structure/table/standard,
+/obj/structure/table/standard,
+/obj/item/storage/toolbox/electrical,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"oB" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"oC" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"oH" = (
+/obj/item/tool/chainofcommand,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"oN" = (
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 3;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"oQ" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"oR" = (
+/obj/machinery/light,
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"oU" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"oZ" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"pi" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"pn" = (
+/obj/item/stack/rods,
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"pt" = (
+/obj/structure/closet,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"pM" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"pO" = (
+/obj/structure/table/glass,
+/obj/item/storage/freezer/medical,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"pP" = (
+/obj/structure/bed/chair/comfy/blue,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"pT" = (
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"pU" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"qa" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"qb" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"qe" = (
+/obj/machinery/optable,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"qj" = (
+/obj/structure/table/standard,
+/obj/item/device/megaphone,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"qn" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1
+	},
+/obj/item/contraband/poster/placed{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"qo" = (
+/obj/structure/cable{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/structure/cable{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/obj/machinery/power/apc{
+	dir = 1;
+	name = "North APC";
+	pixel_y = 28
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"qq" = (
+/obj/structure/table/glass,
+/obj/item/paper_bin,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"qv" = (
+/obj/structure/table/glass,
+/obj/item/tool/screwdriver,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"qx" = (
+/obj/structure/closet/cabinet,
+/obj/item/ammo_casing/srifle/rubber,
+/obj/item/ammo_casing/pistol/rubber,
+/obj/item/ammo_casing/magnum/rubber,
+/obj/item/ammo_casing/lrifle/rubber,
+/obj/item/ammo_casing/clrifle/rubber,
+/obj/item/ammo_casing/grenade{
+	name = "rubber"
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"qG" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"rb" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/space,
+/area/space)
+"re" = (
+/obj/machinery/door/airlock/hatch{
+	icon_state = "door_locked";
+	id_tag = "engine_access_hatch_waterpool";
+	locked = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"rf" = (
+/obj/structure/table/bar_special,
+/obj/item/device/lighting/toggleable/lamp/green,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"rk" = (
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 4;
+	icon_state = "freezer_1";
+	set_temperature = 240;
+	use_power = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ro" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"rs" = (
+/obj/structure/medical_stand,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"rB" = (
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"rT" = (
+/obj/machinery/access_button{
+	command = "cycle_exterior";
+	frequency = 1380;
+	master_tag = "waterpool_dock_airlock";
+	name = "exterior access button";
+	pixel_x = 32;
+	pixel_y = 2
+	},
+/obj/structure/table/standard,
+/obj/machinery/button/remote/blast_door{
+	id = "Waterpool_outer_post";
+	name = "Waterpool Post"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"rY" = (
+/obj/structure/cyberplant,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"sa" = (
+/obj/structure/extinguisher_cabinet{
+	pixel_x = -27
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"sb" = (
+/obj/structure/table/standard,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"sf" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"sj" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"sq" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "VIP Airlock"
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"sw" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"sC" = (
+/obj/structure/table/glass,
+/obj/item/storage/firstaid/surgery,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"sH" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"sI" = (
+/obj/machinery/atmospherics/unary/freezer{
+	dir = 1;
+	icon_state = "freezer"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"sJ" = (
+/obj/item/ammo_magazine/hpistol/empty,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"sZ" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"td" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"tn" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"ts" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = -32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"tu" = (
+/obj/machinery/portable_atmospherics/canister/oxygen,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"tw" = (
+/obj/spawner/junk,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"tA" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"tD" = (
+/obj/spawner/junk,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"tK" = (
+/obj/machinery/autolathe/bioprinter/disk{
+	default_disk = /obj/item/computer_hardware/hard_drive/portable/design/playtoys;
+	name = "Waterpool Bioprinter";
+	stored_material = list()
+	},
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"tL" = (
+/obj/machinery/vending/snack,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"tN" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"tS" = (
+/obj/machinery/button/mass_driver{
+	_wifi_id = "EJECTCORE_WATERPOOL";
+	pixel_x = -25
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"tV" = (
+/obj/machinery/atmospherics/portables_connector{
+	dir = 8
+	},
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"tX" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ue" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/item/ammo_casing/srifle{
+	amount = 2;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"uj" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"uw" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"uz" = (
+/obj/structure/table/reinforced,
+/obj/item/soap/nanotrasen,
+/obj/item/soap/nanotrasen,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"uF" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/food/snacks/mint,
+/obj/item/reagent_containers/food/condiment/saltshaker{
+	pixel_x = -3
+	},
+/obj/item/reagent_containers/food/condiment/peppermill{
+	pixel_x = 3
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"uK" = (
+/obj/structure/table/standard,
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"uN" = (
+/obj/machinery/door/firedoor,
+/obj/structure/low_wall,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"uO" = (
+/obj/structure/table/bar_special,
+/obj/item/deck/cards,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"va" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"vb" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ve" = (
+/obj/structure/reagent_dispensers/watertank,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"vg" = (
+/obj/structure/cyberplant,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"vs" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/mirror{
+	dir = 8;
+	pixel_x = 28
+	},
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"vv" = (
+/obj/map_data/water_pool,
+/obj/effect/overmap/sector/water_pool,
+/turf/space,
+/area/space)
+"vF" = (
+/obj/structure/closet,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"vL" = (
+/obj/structure/bed/chair/comfy/beige,
+/obj/item/stack/rods,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"vW" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"wg" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"wl" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"wt" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "VIP Bar Airlock"
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"ww" = (
+/obj/structure/bed/chair/comfy/blue,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"wB" = (
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"wH" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"wN" = (
+/obj/machinery/shield_diffuser,
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_dock_outer";
+	locked = 1;
+	name = "Waterpool Dock Airlock"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"wO" = (
+/obj/item/ammo_casing/srifle{
+	amount = 9;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"wX" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Cooking Airlock"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"wY" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"wZ" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"xb" = (
+/obj/item/ammo_casing/srifle{
+	amount = 9;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"xc" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/space,
+/area/space)
+"xh" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"xj" = (
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 1;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"xl" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on{
+	dir = 1
+	},
+/obj/structure/closet/secure_closet/freezer/kitchen,
+/obj/item/storage/fancy/egg_box,
+/obj/item/storage/fancy/egg_box,
+/obj/item/reagent_containers/food/drinks/soymilk,
+/obj/item/reagent_containers/food/drinks/soymilk,
+/obj/item/reagent_containers/food/drinks/soymilk,
+/obj/item/reagent_containers/food/drinks/milk,
+/obj/item/reagent_containers/food/drinks/milk,
+/obj/item/reagent_containers/food/drinks/milk,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"xr" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"xt" = (
+/obj/structure/bedsheetbin,
+/obj/structure/table/bar_special,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"xu" = (
+/obj/structure/closet/athletic_mixed,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"xv" = (
+/obj/structure/table/glass,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/bruise_pack,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"xy" = (
+/obj/structure/bed/chair/custom/bar_special,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"xP" = (
+/obj/structure/table/glass,
+/obj/item/device/radio/phone,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"xQ" = (
+/obj/structure/cyberplant,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"xR" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"xT" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"xU" = (
+/obj/structure/closet/chefcloset,
+/obj/item/tool/knife,
+/obj/item/tool/knife,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"xX" = (
+/obj/structure/closet/crate,
+/obj/item/storage/freezer,
+/obj/item/storage/freezer,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"yh" = (
+/turf/simulated/floor/reinforced{
+	name = "engine floor";
+	oxygen = 0;
+	plasma = 666
+	},
+/area/away/water_pool)
+"yk" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"ym" = (
+/obj/machinery/door/blast/shutters{
+	dir = 2;
+	id = "waterpool_dock_helper";
+	layer = 3.3;
+	name = "Dock Helper Hatch"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"yq" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"yw" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"yx" = (
+/obj/structure/bed/chair/comfy/brown,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"yC" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/pistol{
+	icon_state = "pistol_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"yD" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/item/stack/rods,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"yG" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"yH" = (
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"yN" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/machinery/light{
+	dir = 8
+	},
+/obj/item/ammo_casing/srifle{
+	amount = 2;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"yS" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/item/ammo_casing/antim/breach{
+	icon_state = "atmr-HE-spent"
+	},
+/turf/space,
+/area/away/water_pool)
+"zc" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "waterpool_dock_sensor";
+	pixel_x = 25;
+	pixel_y = 8
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "waterpool_dock_airlock";
+	pixel_x = 25;
+	pixel_y = -5;
+	tag_airpump = "waterpool_dock_pump";
+	tag_chamber_sensor = "waterpool_dock_sensor";
+	tag_exterior_door = "waterpool_dock_outer";
+	tag_interior_door = "waterpool_dock_inner"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"zd" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/power/terminal{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"zf" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/mirror{
+	dir = 8;
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"zg" = (
+/obj/landmark/storyevent/midgame_stash_spawn{
+	navigation = "Waterpool, VIP Room, Toilet"
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"zt" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 4
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"zx" = (
+/obj/item/ammo_casing/srifle{
+	amount = 6;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"zy" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Meeting Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"zz" = (
+/obj/machinery/portable_atmospherics/canister/plasma,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"zB" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"zD" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"zE" = (
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"zF" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"zI" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"zS" = (
+/obj/structure/table/standard,
+/obj/spawner/rations,
+/obj/spawner/rations,
+/obj/spawner/rations,
+/obj/spawner/rations,
+/obj/spawner/rations,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"zU" = (
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/cable/yellow,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"zX" = (
+/obj/machinery/door/airlock/glass_medical{
+	health = 150;
+	icon_state = "door_open";
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	p_open = 1;
+	req_access = newlist();
+	stat = 1
+	},
+/obj/structure/inflatable/door,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Ab" = (
+/obj/machinery/door/firedoor,
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"Ai" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"Ap" = (
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"AF" = (
+/obj/effect/shuttle_landmark/water_pool/dock2,
+/turf/space,
+/area/space)
+"AH" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/button/remote/blast_door{
+	id = "engine_access_hatch_waterpool";
+	name = "Waterpool Airtight Hatch";
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"AK" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"AN" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/item/material/shard,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"AV" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"AW" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 8;
+	icon_state = "2-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Ba" = (
+/obj/structure/cable{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Bk" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Br" = (
+/obj/item/ammo_casing/srifle{
+	amount = 1;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Bz" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/mirror{
+	dir = 8;
+	pixel_x = 28
+	},
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"BD" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"BK" = (
+/obj/structure/kitchenspike,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"BT" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/cyberplant,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"BV" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Cb" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/space,
+/area/away/water_pool)
+"Cd" = (
+/obj/structure/cyberplant,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Cm" = (
+/obj/machinery/door/blast/regular{
+	id = "enginevent_waterpool";
+	name = "Reactor Vent"
+	},
+/turf/space,
+/area/away/water_pool)
+"Cp" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Cx" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"CA" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"CF" = (
+/obj/machinery/vending/style,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"CK" = (
+/obj/structure/closet/secure_closet/personal/doctor{
+	name = "waterpool doctor's locker";
+	req_access = list()
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"CS" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"CV" = (
+/obj/structure/cyberplant{
+	pixel_y = 9
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Di" = (
+/obj/structure/table/glass,
+/obj/item/paper,
+/obj/item/pen/multi,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Do" = (
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 5;
+	icon_state = "s-shell_l-spent"
+	},
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"Dr" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"DA" = (
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"DB" = (
+/obj/item/ammo_magazine/srifle/long/empty,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"DI" = (
+/obj/structure/table/standard,
+/obj/item/storage/toolbox/electrical,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"DM" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/space,
+/area/space)
+"DV" = (
+/obj/machinery/access_button{
+	command = "cycle_interior";
+	frequency = 1380;
+	master_tag = "waterpool_dock_airlock";
+	name = "interior access button";
+	pixel_y = -30
+	},
+/obj/machinery/suit_storage_unit/standard_unit,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"DW" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Ef" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Ek" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"El" = (
+/obj/structure/cyberplant,
+/obj/item/stack/rods,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Eo" = (
+/obj/structure/table/woodentable,
+/obj/item/device/lighting/toggleable/lamp/green,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Er" = (
+/obj/structure/closet/emcloset,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Eu" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Ez" = (
+/obj/structure/sink{
+	dir = 4;
+	pixel_x = 11
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"ED" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 6
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"EK" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"EL" = (
+/obj/structure/low_wall,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"EV" = (
+/obj/structure/cyberplant,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Fc" = (
+/obj/machinery/shield_diffuser,
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_emergency_outer";
+	locked = 1;
+	name = "Waterpool Emergency Airlock"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"Fh" = (
+/obj/machinery/portable_atmospherics/canister/nitrogen/prechilled,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Fj" = (
+/obj/structure/railing/grey{
+	dir = 1
+	},
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"Fm" = (
+/obj/machinery/power/rad_collector/anchored,
+/obj/structure/cable/yellow{
+	d2 = 2;
+	icon_state = "0-2"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Ft" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/space,
+/area/away/water_pool)
+"Fu" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/space,
+/area/away/water_pool)
+"Fz" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"FE" = (
+/obj/structure/table/bar_special,
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"FH" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"FK" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Gb" = (
+/obj/structure/bed/chair,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Gd" = (
+/obj/structure/table/glass,
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/item/paper_bin,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Gi" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/pistol{
+	icon_state = "pistol_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Gk" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Gn" = (
+/obj/structure/closet/crate,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/item/storage/box/donkpockets,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Gs" = (
+/obj/item/stack/rods,
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Gw" = (
+/obj/structure/table/glass,
+/obj/item/device/lighting/toggleable/lamp/green,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"GD" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"GE" = (
+/obj/effect/floor_decal/industrial/warning,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"GG" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"GK" = (
+/obj/machinery/door/airlock/sandstone,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/dark/gray_perforated,
+/area/away/water_pool)
+"GL" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"GQ" = (
+/obj/item/modular_computer/console/preset/engineering/power{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"GR" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"GW" = (
+/obj/machinery/atmospherics/pipe/simple/visible{
+	dir = 10
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"Ha" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/shotgun/pellet{
+	amount = 1;
+	icon_state = "s-shell_l-spent"
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Hq" = (
+/obj/structure/cyberplant,
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Hr" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"HD" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"HH" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/turf/space,
+/area/space)
+"HM" = (
+/obj/structure/bed/chair/office/dark{
+	dir = 8
+	},
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"HN" = (
+/obj/machinery/atmospherics/pipe/manifold/hidden,
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_emergency_inner";
+	locked = 1;
+	name = "Waterpool Emergency Airlock"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"HO" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"HQ" = (
+/obj/structure/sign/department/commander{
+	name = "VIPROOM";
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"HZ" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Id" = (
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Ie" = (
+/obj/structure/reagent_dispensers/water_cooler,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"If" = (
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Ii" = (
+/obj/machinery/shower{
+	dir = 4
+	},
+/obj/machinery/door/window/southleft,
+/obj/item/bikehorn/rubberducky,
+/turf/simulated/floor/tiled/steel,
+/area/away/water_pool)
+"Ik" = (
+/obj/structure/bed/chair/custom/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Iq" = (
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/cyberplant,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"It" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Iv" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Iw" = (
+/obj/structure/bed/chair/custom/bar_special,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"IA" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"IH" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"II" = (
+/obj/structure/table/glass,
+/obj/item/reagent_containers/spray/sterilizine,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"IR" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"IT" = (
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Ja" = (
+/obj/machinery/media/jukebox,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Jb" = (
+/obj/item/device/camera_film,
+/obj/structure/table/woodentable,
+/obj/item/device/camera,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Jc" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Jk" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Jl" = (
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Js" = (
+/obj/machinery/door/firedoor,
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"Jv" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"JC" = (
+/obj/item/stack/rods,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"JH" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"JL" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"JM" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/food/drinks/cans/dr_gibb{
+	pixel_x = -3;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/food/drinks/cans/dr_gibb{
+	pixel_x = 4;
+	pixel_y = 3
+	},
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"JO" = (
+/obj/machinery/vending/style,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"JR" = (
+/obj/spawner/scrap/sparse,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"Kh" = (
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Kj" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Ko" = (
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_emergency_inner";
+	locked = 1;
+	name = "Waterpool Emergency Airlock"
+	},
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"Kp" = (
+/obj/structure/cyberplant,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Ks" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/structure/bed/chair/office/light,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"KE" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/structure/railing,
+/turf/space,
+/area/away/water_pool)
+"KI" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"KV" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"KW" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"KX" = (
+/obj/machinery/atmospherics/pipe/tank/oxygen{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Lb" = (
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Lg" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"Lj" = (
+/obj/item/ammo_casing/srifle{
+	amount = 9;
+	icon_state = "srifle_c_l-spent"
+	},
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Lp" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Ls" = (
+/obj/structure/flora/ausbushes/brflowers,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"Lv" = (
+/obj/item/material/shard,
+/obj/item/ammo_magazine/hpistol/empty,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Lx" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"LC" = (
+/obj/structure/table/standard,
+/obj/item/reagent_containers/glass/bottle/stoxin,
+/obj/item/reagent_containers/glass/bottle/stoxin,
+/obj/item/reagent_containers/syringe,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"LG" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/machinery/button/remote/blast_door{
+	id = "waterpool_dock_helpert";
+	name = "Waterpool Dock Helper";
+	pixel_y = 25
+	},
+/turf/space,
+/area/away/water_pool)
+"LR" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"LV" = (
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"LX" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Mb" = (
+/obj/structure/table/standard,
+/obj/spawner/booze/low_chance,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Md" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Me" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Ml" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Mq" = (
+/obj/structure/table/bar_special,
+/obj/structure/bedsheetbin,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Ms" = (
+/obj/structure/table/glass,
+/obj/item/device/radio/phone,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"MB" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"MI" = (
+/obj/effect/window_lwall_spawn/smartspawn,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ML" = (
+/obj/structure/table/woodentable,
+/obj/item/paper_bin,
+/obj/item/pen,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"MM" = (
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"MO" = (
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"MQ" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"MX" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"MY" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Nd" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Nk" = (
+/obj/effect/window_lwall_spawn/plasma,
+/turf/simulated/floor/reinforced{
+	name = "engine floor";
+	oxygen = 0;
+	plasma = 666
+	},
+/area/away/water_pool)
+"Nm" = (
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"Nt" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Nv" = (
+/obj/structure/girder,
+/turf/space,
+/area/away/water_pool)
+"Nz" = (
+/obj/structure/mirror{
+	dir = 8;
+	pixel_x = 28
+	},
+/obj/landmark/storyevent/midgame_stash_spawn{
+	navigation = "Waterpool, Janitor"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"ND" = (
+/obj/structure/lattice,
+/obj/structure/catwalk,
+/obj/structure/railing,
+/obj/machinery/floodlight,
+/turf/space,
+/area/away/water_pool)
+"NG" = (
+/obj/machinery/portable_atmospherics/powered/pump,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"NQ" = (
+/obj/structure/table/standard,
+/obj/item/storage/freezer/contains_food,
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"NY" = (
+/obj/machinery/vending/boozeomat,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"NZ" = (
+/obj/structure/railing/grey,
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Ob" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Od" = (
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/power/smes/buildable,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Oi" = (
+/obj/structure/table/glass,
+/obj/item/deck/cards,
+/obj/item/deck/cards,
+/obj/item/deck/cards,
+/obj/item/deck/cards,
+/obj/item/deck/cards,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Oq" = (
+/obj/machinery/power/emitter/anchored{
+	dir = 8;
+	id = "EngineEmitter"
+	},
+/obj/structure/cable{
+	d2 = 4;
+	icon_state = "0-4"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Ou" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Oy" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/pistol{
+	amount = 3;
+	icon_state = "pistol_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"OA" = (
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"OG" = (
+/obj/structure/cyberplant,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"OH" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/obj/item/ammo_casing/srifle{
+	amount = 6;
+	icon_state = "srifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"OJ" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"ON" = (
+/obj/machinery/door/airlock/sandstone,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"OQ" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Public Bar Airlock"
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"OS" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/obj/item/material/shard,
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Pb" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/machinery/floodlight,
+/turf/space,
+/area/away/water_pool)
+"Pc" = (
+/obj/machinery/vending/coffee,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Pg" = (
+/obj/machinery/airlock_sensor{
+	frequency = 1380;
+	id_tag = "waterpool_emergency_sensor";
+	pixel_y = -28
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"Pi" = (
+/obj/structure/table/glass,
+/obj/item/paper,
+/obj/item/pen/multi,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Pj" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Pv" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Pz" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 2;
+	icon_state = "1-2"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"PD" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"PE" = (
+/obj/structure/table/standard,
+/obj/item/storage/box/donut,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"PF" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 4
+	},
+/obj/item/material/shard,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"PG" = (
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"PH" = (
+/obj/spawner/oddities/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"PJ" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Engine Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"PL" = (
+/obj/structure/table/standard,
+/obj/item/clothing/head/surgery/purple,
+/obj/item/clothing/head/surgery/green,
+/obj/item/clothing/head/surgery/blue,
+/obj/item/clothing/head/surgery,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"PS" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"PT" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/space,
+/area/away/water_pool)
+"PX" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/obj/item/tool/knife/butch,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"Qe" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/window/reinforced{
+	dir = 2
+	},
+/obj/structure/flora/ausbushes/ywflowers,
+/obj/structure/window/reinforced{
+	dir = 8;
+	req_access = list(24)
+	},
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"Qj" = (
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Qp" = (
+/obj/structure/bookcase/manuals/medical,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Qx" = (
+/obj/structure/table/bar_special,
+/obj/machinery/chemical_dispenser/soda,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"Qz" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"QL" = (
+/obj/machinery/door/window/eastright,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"QN" = (
+/obj/machinery/atmospherics/unary/vent_pump/high_volume{
+	dir = 4;
+	frequency = 1380;
+	id_tag = "waterpool_emergency_pump"
+	},
+/turf/simulated/floor/tiled/steel/techfloor_grid,
+/area/away/water_pool)
+"QP" = (
+/obj/structure/closet/cabinet,
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/item/reagent_containers/food/drinks/bottle/goldschlager,
+/obj/item/reagent_containers/food/drinks/bottle/ntcahors,
+/obj/item/reagent_containers/food/drinks/bottle/ntcahors,
+/obj/item/reagent_containers/food/drinks/bottle/ntcahors,
+/obj/item/reagent_containers/food/drinks/bottle/patron,
+/obj/item/reagent_containers/food/drinks/bottle/patron,
+/obj/item/reagent_containers/food/drinks/bottle/patron,
+/obj/item/reagent_containers/food/drinks/bottle/pwine,
+/obj/item/reagent_containers/food/drinks/bottle/pwine,
+/obj/item/reagent_containers/food/drinks/bottle/pwine,
+/obj/item/storage/pill_bottle/happy,
+/obj/item/storage/pill_bottle/happy,
+/obj/item/storage/pill_bottle/happy,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"QU" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 1
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"QY" = (
+/obj/structure/bed/chair/custom/bar_special{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"QZ" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Rh" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Emergency Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Rn" = (
+/obj/structure/cyberplant,
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Rp" = (
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"Rs" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Men's Locker Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Ru" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "mining_dock_outer";
+	locked = 1;
+	name = "Mining Dock Airlock";
+	req_access = list(13)
+	},
+/obj/machinery/shield_diffuser,
+/turf/simulated/floor/tiled/steel/cargo,
+/area/away/water_pool)
+"Rx" = (
+/obj/spawner/mob/roomba,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Ry" = (
+/obj/item/stack/rods,
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"RA" = (
+/obj/structure/bed/chair/custom/bar_special,
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"RM" = (
+/obj/structure/closet,
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"RN" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"RO" = (
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"RT" = (
+/obj/structure/table/bar_special,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"RU" = (
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Sf" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Sg" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Si" = (
+/obj/effect/overlay/palmtree_r,
+/obj/effect/overlay/coconut,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"Sp" = (
+/obj/structure/closet/crate/freezer,
+/obj/machinery/camera/network/medbay{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"Ss" = (
+/obj/machinery/door/window/eastright,
+/obj/item/stack/rods,
+/obj/item/material/shard,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Sv" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/plating/under,
+/area/away/water_pool)
+"Sz" = (
+/obj/structure/cable/yellow{
+	d1 = 2;
+	d2 = 4;
+	icon_state = "2-4"
+	},
+/obj/structure/cable/yellow{
+	d1 = 1;
+	d2 = 4;
+	icon_state = "1-4"
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"SB" = (
+/obj/structure/closet/secure_closet/anesthetics,
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"SC" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"SD" = (
+/obj/structure/table/standard,
+/obj/item/folder/cyan,
+/obj/item/folder/cyan,
+/obj/item/hand_labeler,
+/obj/item/reagent_containers/syringe,
+/obj/item/storage/box/gloves,
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"SK" = (
+/obj/item/reagent_containers/blood/AMinus{
+	pixel_x = -7;
+	pixel_y = -3
+	},
+/obj/item/reagent_containers/blood/APlus{
+	pixel_x = -5;
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/blood/empty{
+	pixel_x = 1;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/blood/empty{
+	pixel_x = 1;
+	pixel_y = -4
+	},
+/obj/item/reagent_containers/blood/BMinus{
+	pixel_y = 4
+	},
+/obj/item/reagent_containers/blood/BPlus{
+	pixel_x = 5;
+	pixel_y = 3
+	},
+/obj/item/reagent_containers/blood/OMinus{
+	pixel_x = -5;
+	pixel_y = -1
+	},
+/obj/item/reagent_containers/blood/OPlus{
+	pixel_x = 4;
+	pixel_y = 2
+	},
+/obj/structure/table/rack/shelf,
+/turf/simulated/floor/tiled/white/brown_perforated,
+/area/away/water_pool)
+"SV" = (
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Td" = (
+/obj/structure/flora/ausbushes/brflowers,
+/obj/structure/window/reinforced{
+	dir = 8
+	},
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"Tg" = (
+/obj/effect/overlay/palmtree_r,
+/obj/effect/overlay/coconut,
+/obj/item/material/shard,
+/turf/simulated/floor/exoplanet/grass,
+/area/away/water_pool)
+"Tj" = (
+/obj/item/contraband/poster/placed{
+	icon_state = "bsposter1";
+	pixel_y = 31
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Tk" = (
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Tl" = (
+/obj/machinery/vending/powermat{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"Tm" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/atmospherics/pipe/manifold/hidden{
+	dir = 4
+	},
+/obj/machinery/door/airlock/external{
+	frequency = 1380;
+	icon_state = "door_locked";
+	id_tag = "waterpool_dock_inner";
+	locked = 1;
+	name = "Waterpool Dock Airlock"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Tp" = (
+/obj/structure/dispenser/plasma,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Ts" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Tt" = (
+/obj/structure/closet/wall_mounted/emcloset{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"Tv" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/space,
+/area/away/water_pool)
+"TD" = (
+/obj/machinery/atmospherics/pipe/simple/visible,
+/obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"TN" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = -32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"TP" = (
+/obj/machinery/chem_master/condimaster,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"TQ" = (
+/obj/machinery/light,
+/obj/item/ammo_magazine/srifle/long/empty,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"Ue" = (
+/obj/structure/sign/department/bar{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Um" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Un" = (
+/obj/machinery/power/supermatter{
+	layer = 4
+	},
+/obj/machinery/mass_driver{
+	_wifi_id = "EJECTCORE_WATERPOOL";
+	dir = 8;
+	id = null
+	},
+/turf/simulated/floor/reinforced{
+	name = "engine floor";
+	oxygen = 0;
+	plasma = 666
+	},
+/area/away/water_pool)
+"Uq" = (
+/obj/machinery/atmospherics/unary/cryo_cell,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Us" = (
+/obj/item/remains/human,
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"Uu" = (
+/obj/machinery/door/firedoor,
+/obj/structure/low_wall,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"UJ" = (
+/obj/structure/inflatable/door,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"UL" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/obj/structure/sign/nosmoking_1{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"UN" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_x = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"UQ" = (
+/obj/structure/railing/grey,
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"Va" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/toxin{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/toxin{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/contraband/poster/placed{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Vh" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Vj" = (
+/obj/structure/closet/cabinet,
+/obj/spawner/booze,
+/obj/spawner/booze,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/obj/item/reagent_containers/food/drinks/drinkingglass,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Vz" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/obj/item/stack/rods,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"VC" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Women's Locker Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"VM" = (
+/obj/structure/table/standard,
+/obj/item/storage/belt/medical{
+	pixel_y = 2
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = 2
+	},
+/obj/item/storage/belt/medical{
+	pixel_y = 2
+	},
+/obj/item/clothing/accessory/stethoscope,
+/obj/item/clothing/mask/muzzle,
+/obj/item/tool/cane,
+/obj/item/tool/cane,
+/obj/item/bodybag/cryobag{
+	pixel_x = 5
+	},
+/obj/item/bodybag/cryobag,
+/obj/item/clothing/suit/straight_jacket,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Wa" = (
+/obj/structure/table/bar_special,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Wn" = (
+/obj/structure/low_wall,
+/obj/item/material/shard,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"Wo" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_x = 32
+	},
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/ammo_casing/lrifle{
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"WC" = (
+/obj/structure/curtain/black,
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"WE" = (
+/obj/structure/cable{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/techfloor,
+/area/away/water_pool)
+"WP" = (
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"WU" = (
+/obj/item/ammo_magazine/srifle/long/empty,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"WW" = (
+/obj/structure/bed/chair/custom/bar_special,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/spawner/lowkeyrandom/low_chance,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"WZ" = (
+/obj/machinery/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"Xb" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"Xj" = (
+/obj/structure/bed/chair/office/light{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Xk" = (
+/obj/machinery/hologram/holopad,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Xo" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/item/stack/rods,
+/turf/simulated/floor/wood,
+/area/away/water_pool)
+"Xs" = (
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Xu" = (
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"Xv" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Xx" = (
+/obj/machinery/door/firedoor,
+/obj/machinery/door/blast/shutters{
+	density = 0;
+	dir = 2;
+	icon_state = "shutter0";
+	id = "waterpool_outer_post";
+	name = "Waterpool Post";
+	opacity = 0
+	},
+/obj/structure/low_wall,
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"XB" = (
+/obj/structure/closet/wall_mounted/firecloset{
+	pixel_y = 32
+	},
+/obj/item/stack/rods,
+/turf/simulated/floor/tiled/steel/bar_dance,
+/area/away/water_pool)
+"XD" = (
+/obj/structure/sign/nosmoking_1{
+	pixel_y = -32
+	},
+/obj/spawner/junk,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"XH" = (
+/obj/structure/railing/grey{
+	dir = 4
+	},
+/turf/simulated/floor/exoplanet/water/pool,
+/area/away/water_pool)
+"XL" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"XO" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"XP" = (
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/steel/bar_flat,
+/area/away/water_pool)
+"XT" = (
+/obj/effect/decal/cleanable/blood,
+/obj/item/remains/human,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"XU" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Private Pool"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Ya" = (
+/obj/structure/low_wall,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"Ye" = (
+/obj/structure/window/reinforced{
+	dir = 4
+	},
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"Yf" = (
+/obj/effect/decal/cleanable/blood/drip,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/item/ammo_casing/pistol{
+	icon_state = "pistol_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Yh" = (
+/obj/machinery/light{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/white/bluecorner,
+/area/away/water_pool)
+"Yi" = (
+/obj/structure/mopbucket,
+/obj/item/mop,
+/obj/item/reagent_containers/glass/bucket,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Yl" = (
+/obj/structure/bed/chair/comfy/brown{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Yo" = (
+/obj/structure/catwalk,
+/obj/structure/lattice,
+/turf/space,
+/area/space)
+"Yq" = (
+/obj/structure/cyberplant,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Yu" = (
+/obj/machinery/atmospherics/pipe/simple/hidden{
+	dir = 4
+	},
+/obj/machinery/embedded_controller/radio/airlock/docking_port{
+	frequency = 1380;
+	id_tag = "waterpool_emergency_airlock";
+	pixel_y = -32;
+	tag_airpump = "waterpool_emergency_pump";
+	tag_chamber_sensor = "waterpool_emergency_sensor";
+	tag_exterior_door = "waterpool_emergency_outer";
+	tag_interior_door = "waterpool_emergency_inner"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Yv" = (
+/obj/structure/mirror{
+	pixel_y = 32
+	},
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Yw" = (
+/obj/machinery/gibber,
+/turf/simulated/floor/tiled/white/brown_platform,
+/area/away/water_pool)
+"YA" = (
+/obj/structure/table/glass,
+/obj/item/stack/medical/advanced/bruise_pack,
+/obj/item/stack/medical/advanced/ointment,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"YB" = (
+/obj/structure/bed/chair/comfy/brown,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"YC" = (
+/obj/structure/bed/chair/comfy/brown,
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"YD" = (
+/obj/item/stool/custom/bar_special,
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"YF" = (
+/obj/structure/table/glass,
+/obj/item/device/lighting/toggleable/lamp/green,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"YG" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 4
+	},
+/turf/space,
+/area/space)
+"YJ" = (
+/obj/machinery/door/airlock/sandstone,
+/turf/simulated/floor/tiled/white,
+/area/away/water_pool)
+"YP" = (
+/obj/effect/decal/cleanable/blood/drip,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"YR" = (
+/obj/structure/bed/padded,
+/obj/item/bedsheet/rd,
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/obj/item/handcuffs/cable/pink,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"YS" = (
+/obj/machinery/light,
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"YT" = (
+/obj/item/material/shard,
+/obj/item/ammo_casing/lrifle{
+	icon_state = "lrifle_c_l-spent"
+	},
+/obj/item/ammo_casing/pistol{
+	amount = 3;
+	icon_state = "pistol_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"YW" = (
+/obj/structure/cyberplant,
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"YX" = (
+/obj/structure/table/standard,
+/obj/machinery/microwave{
+	pixel_x = -3;
+	pixel_y = 6
+	},
+/turf/simulated/floor/tiled/cafe,
+/area/away/water_pool)
+"YY" = (
+/obj/structure/filingcabinet/filingcabinet,
+/turf/simulated/floor/tiled/dark/brown_perforated,
+/area/away/water_pool)
+"YZ" = (
+/obj/item/contraband/poster/placed{
+	pixel_y = 32
+	},
+/obj/spawner/lowkeyrandom/low_chance,
+/turf/simulated/floor/carpet/sblucarpet,
+/area/away/water_pool)
+"Zd" = (
+/obj/structure/table/standard,
+/obj/item/storage/firstaid/fire{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/obj/item/storage/firstaid/fire{
+	pixel_x = -2;
+	pixel_y = 4
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"Zf" = (
+/obj/item/handcuffs/cable/pink,
+/obj/item/device/camera,
+/turf/simulated/floor/carpet,
+/area/away/water_pool)
+"Zi" = (
+/obj/effect/floor_decal/industrial/warning{
+	dir = 8
+	},
+/turf/space,
+/area/space)
+"Zn" = (
+/obj/item/remains/human,
+/obj/effect/decal/cleanable/blood,
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"Zv" = (
+/obj/machinery/door/airlock/sandstone{
+	name = "Women's Locker Room";
+	req_access = list(12)
+	},
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+"ZC" = (
+/obj/machinery/shower{
+	dir = 8
+	},
+/obj/machinery/door/window/southright,
+/obj/item/soap/deluxe,
+/turf/simulated/floor/tiled/steel,
+/area/away/water_pool)
+"ZD" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/white/violetcorener,
+/area/away/water_pool)
+"ZI" = (
+/obj/item/ammo_casing/lrifle{
+	amount = 3;
+	icon_state = "lrifle_c_l-spent"
+	},
+/turf/simulated/floor/tiled/steel/gray_perforated,
+/area/away/water_pool)
+"ZQ" = (
+/obj/machinery/door/airlock/glass_medical{
+	id_tag = "MedbayFoyer";
+	name = "Medbay";
+	req_access = newlist()
+	},
+/turf/simulated/floor/tiled/dark/brown_platform,
+/area/away/water_pool)
+"ZS" = (
+/turf/simulated/wall/r_wall,
+/area/away/water_pool)
+"ZT" = (
+/obj/structure/low_wall,
+/obj/item/stack/rods,
+/turf/simulated/floor/plating,
+/area/away/water_pool)
+"ZZ" = (
+/obj/machinery/disposal,
+/turf/simulated/floor/tiled/steel/gray_platform,
+/area/away/water_pool)
+
+(1,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+vv
+"}
+(2,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(3,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(4,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(5,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(6,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(7,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(8,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(9,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(10,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(11,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(12,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(13,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(14,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(15,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(16,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(17,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(18,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(19,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(20,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(21,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+gM
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(22,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(23,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(24,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(25,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(26,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(27,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(28,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(29,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(30,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(31,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+CS
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+HH
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(32,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+xc
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+hu
+Yo
+Yo
+Yo
+Yo
+HH
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(33,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+YG
+YG
+YG
+YG
+rb
+Yo
+gI
+ZS
+Ab
+Uu
+Js
+ZS
+ZS
+ZS
+bd
+uN
+Uu
+ZS
+ZS
+kz
+Zi
+Zi
+Cx
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(34,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+gI
+ZS
+Hr
+PF
+MQ
+Sg
+ZS
+oC
+vL
+JM
+jc
+oC
+ZS
+ZS
+ZS
+ZS
+kz
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+Cb
+gE
+gE
+Ft
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(35,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+xc
+Zi
+Zi
+Zi
+Zi
+kz
+ZS
+Eo
+ML
+lz
+Tk
+ZS
+YZ
+jQ
+NQ
+ev
+MM
+ZS
+wY
+wY
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Cm
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Fc
+wN
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(36,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+MQ
+Vz
+tn
+Tk
+oc
+Ts
+MO
+PG
+pU
+Ts
+ZQ
+PG
+PG
+ZS
+EV
+KW
+db
+ab
+Pc
+ZS
+Tp
+aW
+op
+yh
+op
+aW
+Tp
+ZS
+zz
+zz
+zz
+ZS
+Ap
+Pg
+ZS
+Pb
+gE
+gE
+gE
+gE
+gE
+Fu
+gE
+gE
+gE
+gE
+Fu
+gE
+gE
+gE
+gE
+Fu
+gE
+gE
+gE
+gE
+Fu
+gE
+gE
+gE
+gE
+ko
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(37,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+VM
+SD
+hW
+CK
+ZS
+Vj
+oZ
+Tk
+Qp
+ZS
+WP
+pU
+kx
+PG
+IA
+Lp
+IA
+PG
+ZS
+iw
+Gb
+PG
+pU
+PG
+ZS
+yq
+yk
+re
+Un
+re
+ki
+Qj
+PJ
+he
+he
+aY
+ZS
+QN
+QN
+ZS
+gE
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+KE
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(38,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+YG
+YG
+Ai
+Yo
+gI
+ZS
+uj
+nH
+nJ
+oR
+ZS
+ZS
+zX
+MI
+ZS
+ZS
+Tl
+IR
+HD
+lx
+Dr
+ZS
+Ou
+pU
+ZS
+Gb
+Gb
+LV
+kl
+LV
+ZS
+sH
+zU
+op
+Nk
+op
+Fm
+nX
+ZS
+ZS
+ZS
+ZS
+ZS
+Ko
+HN
+ZS
+gE
+cT
+iD
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(39,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+Ai
+Yo
+Yo
+Yo
+Yo
+gI
+ZS
+ZS
+ok
+Do
+ok
+ZS
+Uq
+TD
+cM
+KX
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+dA
+PG
+zy
+LV
+cL
+LV
+kw
+LV
+ZS
+Pj
+zU
+aW
+tS
+aW
+Fm
+AH
+ZS
+kE
+AV
+ZS
+gG
+RU
+Yu
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(40,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+xc
+Zi
+Zi
+kz
+ZS
+ZZ
+Qz
+GD
+Qz
+bg
+DA
+Qz
+GW
+sI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+PG
+PG
+zy
+LV
+LV
+tX
+PE
+cL
+ZS
+Lb
+he
+ne
+he
+ne
+Jk
+eI
+ZS
+ct
+ct
+Rh
+RU
+pT
+fO
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(41,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+xc
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+ZS
+ZS
+ZS
+ZS
+Ob
+mH
+Ml
+TQ
+ZS
+ZD
+DA
+DA
+XO
+ZS
+on
+PL
+SB
+LC
+on
+ZS
+wH
+Rx
+ZS
+Gb
+Gb
+LV
+kl
+LV
+ZS
+AW
+Sz
+Pz
+Jc
+nQ
+Jc
+ni
+ZS
+wH
+PG
+Rh
+RU
+Zn
+fO
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(42,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Nm
+Nm
+ZS
+yD
+Ss
+JC
+QL
+ZS
+nh
+al
+DA
+Qz
+bg
+DA
+DA
+DA
+DA
+DA
+ZQ
+PG
+PG
+ZS
+iw
+Gb
+pU
+PG
+PG
+ZS
+ca
+zd
+cX
+jk
+cX
+Jl
+jW
+ZS
+PG
+pU
+oU
+oz
+zD
+fO
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(43,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gK
+WZ
+sa
+uF
+ZS
+bx
+BK
+Yw
+ZS
+Nm
+Nm
+ZS
+YA
+Qz
+RO
+mM
+ZS
+jY
+qj
+cd
+XL
+mm
+mm
+DA
+Qz
+cd
+DA
+ZQ
+PG
+pU
+ZS
+Rn
+Hq
+PG
+aT
+KI
+ZS
+Od
+zd
+Jl
+Oq
+td
+Jl
+GQ
+ZS
+It
+PG
+ZT
+nk
+fE
+fO
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(44,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+Mb
+jq
+Pv
+jq
+ZS
+nB
+rB
+kv
+ZS
+Nm
+Nm
+ZS
+pP
+DA
+DA
+Qz
+bg
+DA
+DA
+Qz
+XD
+ZS
+pO
+ke
+qe
+DA
+rs
+ZS
+PG
+el
+ZS
+ZS
+ZS
+ar
+ZS
+ZS
+ZS
+Od
+dW
+cX
+WE
+cX
+qb
+rk
+ZS
+Br
+zx
+Ya
+dS
+RU
+fO
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(45,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+zS
+jq
+jq
+va
+ok
+Lg
+nB
+kv
+ZS
+ZS
+ZS
+ZS
+ww
+DA
+dG
+DA
+bg
+Qz
+DA
+DA
+XO
+ZS
+qv
+ke
+bY
+DA
+Sp
+ZS
+PG
+kx
+ZS
+kb
+ab
+PG
+eS
+kb
+ZS
+qo
+co
+iS
+Ba
+Tt
+GE
+tV
+ZS
+Br
+Lj
+Wn
+RU
+RU
+fY
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(46,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+lv
+Pv
+jq
+wO
+Do
+Do
+rB
+PX
+ZS
+Ls
+Ls
+ZS
+Ie
+Qz
+DA
+YS
+ZS
+by
+Va
+Zd
+gz
+ZS
+II
+sC
+xv
+Ez
+SK
+ZS
+dA
+PG
+ZS
+kb
+pU
+PG
+PG
+kb
+ZS
+ZS
+ZS
+ZS
+cX
+ZS
+ZS
+ZS
+ZS
+kN
+WP
+ZS
+fo
+tu
+gf
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(47,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+YX
+WU
+ax
+xb
+ok
+ZS
+ZS
+ZS
+ZS
+MI
+MI
+ZS
+ZS
+YJ
+YJ
+YJ
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+pU
+PG
+ZS
+bD
+PG
+ek
+PG
+bD
+ZS
+DI
+eZ
+ZS
+gN
+ZS
+dV
+Er
+ZS
+pU
+el
+ZS
+ZS
+ZS
+ZS
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(48,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+sb
+va
+jq
+Pv
+ZS
+Ls
+MI
+io
+TN
+FH
+Xs
+GL
+br
+Xs
+FH
+Xs
+GL
+io
+Xs
+Eu
+Xs
+Xs
+cz
+PG
+pU
+ab
+PG
+PG
+PG
+PG
+hM
+PG
+PG
+Ts
+hv
+lN
+hM
+dl
+OH
+yN
+dl
+ih
+dl
+ue
+dl
+PG
+Ts
+ZS
+fK
+fK
+fK
+ZS
+gE
+cT
+gI
+gU
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(49,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+Gn
+jq
+jq
+xl
+ZS
+Ls
+MI
+Xs
+Xs
+Xs
+OJ
+FH
+Xs
+Xs
+Xs
+Xs
+FH
+Xs
+OJ
+Xs
+Xs
+Xs
+cz
+PG
+PG
+Id
+pU
+Rx
+Id
+pU
+hM
+UN
+sw
+be
+Rx
+Cp
+hM
+xj
+Id
+xj
+DB
+sw
+Ha
+be
+fA
+pU
+be
+ZS
+ge
+PG
+ct
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(50,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+TP
+Pv
+jq
+xU
+ZS
+Ls
+MI
+FH
+Xs
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+FH
+Bk
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+mu
+tL
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ge
+PG
+PG
+ex
+pU
+PG
+pU
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(51,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+lX
+jq
+jq
+xX
+ZS
+Ls
+MI
+Xs
+Xs
+Xu
+Xu
+Xu
+Xu
+Xu
+ro
+Xu
+Xu
+Xu
+Xu
+Xu
+Xs
+zF
+ZS
+vF
+vF
+vF
+vF
+ZS
+xu
+xu
+xu
+xu
+ZS
+ZS
+ZS
+ZS
+Si
+Iq
+Si
+Iq
+Si
+Iq
+Si
+ZS
+xr
+PG
+oN
+ZS
+pt
+pt
+pt
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(52,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+wX
+ZS
+ZS
+ZS
+MI
+MI
+Sf
+Xs
+ro
+Xu
+Xu
+XH
+Xu
+Xu
+Xu
+XH
+hw
+Xu
+Xu
+Xs
+Xs
+ZS
+kg
+Rp
+Rp
+EK
+ZS
+kg
+Rp
+Rp
+Rp
+ZS
+aF
+bR
+ZS
+cI
+cI
+cI
+cI
+cI
+cI
+cI
+ZS
+Rx
+pU
+el
+ZS
+ZS
+ZS
+ZS
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(53,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gO
+jq
+Wa
+YD
+WZ
+LR
+MI
+Xs
+Xs
+Xu
+Xu
+UQ
+em
+Fj
+Xu
+UQ
+em
+Fj
+Xu
+Xu
+Xs
+FH
+ZS
+aq
+Rp
+XP
+Rp
+Rp
+gZ
+Rp
+XP
+xh
+ZS
+LX
+RU
+oB
+RN
+RU
+RN
+HZ
+RN
+RU
+RU
+ZS
+PG
+PG
+PG
+ZS
+Kp
+YY
+kS
+gy
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(54,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+eC
+jq
+ey
+YD
+wl
+Wa
+MI
+Xs
+FH
+Xu
+Xu
+Xu
+cx
+Xu
+ro
+Xu
+cx
+Xu
+Xu
+Xu
+Xs
+Xs
+VC
+Rp
+Rp
+Rp
+Rp
+XP
+Rp
+Rp
+Rp
+Rp
+Zv
+bT
+xT
+bT
+OA
+OA
+PS
+Yl
+PS
+nv
+UJ
+Lp
+Lp
+MY
+Lp
+Lp
+Lp
+hg
+HM
+Xx
+gE
+yS
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(55,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gP
+wl
+Wa
+YD
+jq
+Md
+MI
+FH
+Xs
+Xu
+Xu
+hw
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+ro
+Xu
+FH
+zF
+ZS
+xh
+Rp
+Rp
+EK
+ZS
+qa
+Rp
+XP
+Rp
+ZS
+aG
+RU
+ZI
+RN
+OG
+eL
+Tg
+JH
+AK
+hq
+ZS
+ZS
+ZS
+ZS
+ZS
+Xb
+Fz
+rT
+hP
+lj
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(56,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gQ
+jq
+Wa
+YD
+jq
+Mq
+MI
+Xs
+Xs
+ro
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+FH
+Bk
+ZS
+ZS
+GG
+GG
+GG
+ZS
+oa
+oa
+oa
+oa
+ZS
+hL
+rY
+Ms
+RU
+Gs
+OS
+sZ
+sZ
+OA
+RU
+ZS
+eb
+eb
+DV
+ZS
+ZS
+ZS
+ZS
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(57,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gR
+jq
+ey
+YD
+jq
+jq
+ON
+FH
+FH
+Xu
+Xu
+XH
+Xu
+Xu
+XH
+hw
+Xu
+XH
+Xu
+Xu
+Xs
+Xs
+cA
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+IT
+MO
+Gw
+RU
+kp
+jl
+bT
+OA
+OA
+ma
+fm
+RU
+RU
+RN
+nV
+fw
+sf
+Ap
+Ru
+gE
+cT
+HH
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(58,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gX
+jq
+oi
+YD
+wl
+jq
+ON
+Xs
+OJ
+Xu
+UQ
+em
+Fj
+UQ
+em
+Fj
+UQ
+em
+Fj
+Xu
+OJ
+Xs
+cA
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+FK
+Ks
+os
+Pi
+RN
+lb
+OA
+xQ
+OA
+cV
+RU
+fm
+RN
+Xk
+RU
+eX
+fw
+Ap
+Ap
+Ru
+gE
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+ND
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(59,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ha
+wl
+Wa
+YD
+jq
+jq
+OQ
+Xs
+Xs
+Xu
+Xu
+cx
+Xu
+Xu
+cx
+Xu
+Xu
+cx
+Xu
+Xu
+Xs
+FH
+cA
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+IT
+Kh
+Gd
+iK
+bT
+bT
+OA
+bT
+Ml
+RU
+fm
+RU
+RN
+ED
+Tm
+fw
+zc
+Ap
+mO
+gE
+cT
+xc
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(60,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+hd
+jq
+ey
+YD
+jq
+Mq
+MI
+Xs
+FH
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+ro
+Xu
+Xu
+Xu
+Xu
+Xs
+Bk
+ZS
+ZS
+cu
+cu
+tN
+ZS
+xt
+oa
+oa
+oa
+ZS
+eJ
+Ye
+bL
+RU
+cV
+Yl
+Yl
+dH
+bT
+RU
+ZS
+UL
+RU
+hQ
+ZS
+ZS
+ZS
+ZS
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(61,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+Ai
+Yo
+gI
+ZS
+hj
+Wa
+Wa
+YD
+wl
+jq
+MI
+Xs
+Xs
+Xu
+Xu
+Xu
+Xu
+ro
+Xu
+Xu
+Xu
+ro
+Xu
+Xu
+Xs
+zF
+ZS
+xh
+Rp
+Rp
+EK
+ZS
+qa
+Rp
+Rp
+Rp
+ZS
+Tj
+HZ
+RU
+RN
+AK
+AN
+jT
+Qe
+YW
+Um
+ZS
+fo
+tu
+nm
+ZS
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(62,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+Yo
+gI
+ZS
+fb
+jq
+jq
+jq
+jq
+jq
+MI
+Xs
+Xs
+Xu
+hw
+Xu
+XH
+Xu
+Xu
+Xu
+XH
+Xu
+Xu
+Xu
+Xs
+Xs
+Rs
+Rp
+Rp
+XP
+Rp
+Rp
+Rp
+Rp
+XP
+Rp
+Rs
+bT
+xT
+sJ
+bT
+YT
+kn
+sZ
+sZ
+bT
+Ek
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+LG
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(63,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+xc
+kz
+ZS
+pi
+iq
+sj
+yx
+Wa
+Nt
+MI
+FH
+Xs
+Xu
+Xu
+UQ
+em
+Fj
+Xu
+UQ
+em
+Fj
+Xu
+Xu
+Xs
+Xs
+ZS
+aq
+Rp
+Rp
+Rp
+gZ
+XP
+Rp
+Rp
+xh
+ZS
+Gi
+Yf
+Wo
+Oy
+Ry
+Lv
+RN
+ZI
+RU
+ma
+oQ
+ZS
+mU
+zz
+ab
+cP
+cP
+PG
+ym
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(64,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Sf
+Xs
+Xu
+Xu
+Xu
+cx
+Xu
+Xu
+Xu
+cx
+hw
+Xu
+Xu
+Xs
+Xs
+ZS
+kg
+Rp
+Rp
+EK
+ZS
+kg
+Rp
+Rp
+XP
+ZS
+yC
+eK
+ZS
+yH
+dm
+EL
+cI
+cI
+cI
+cI
+ZS
+ZS
+zz
+zz
+PG
+cP
+cP
+PG
+ym
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(65,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+iV
+ZS
+eR
+ZS
+am
+ZS
+am
+ZS
+SC
+FH
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xs
+hN
+ZS
+vF
+vF
+vF
+vF
+ZS
+xu
+xu
+xu
+xu
+ZS
+YP
+ZS
+ZS
+Si
+BT
+Tg
+Iq
+Si
+Iq
+Si
+ZS
+ZS
+dK
+PG
+PG
+PG
+PG
+PG
+ym
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(66,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+aQ
+ZS
+aQ
+ZS
+aQ
+ZS
+aQ
+ZS
+BV
+Xs
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xu
+Xs
+Bk
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+NZ
+nq
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Fh
+Fh
+PG
+NG
+NG
+PG
+ym
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(67,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+aX
+aX
+aX
+yG
+aX
+yG
+aX
+ZS
+Xs
+Xs
+OJ
+FH
+Xs
+Xs
+Xs
+Xs
+Xs
+Xs
+FH
+OJ
+Xs
+Xs
+Xs
+wt
+MX
+fX
+fX
+mQ
+xy
+mi
+MX
+If
+fX
+YP
+wg
+nq
+ZS
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+Fh
+Fh
+aT
+NG
+NG
+PG
+ym
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(68,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ix
+yG
+lY
+uw
+lY
+mZ
+lY
+GK
+iy
+iy
+Xs
+Vh
+Yh
+im
+FH
+Xs
+Xs
+im
+Yh
+Vh
+FH
+Xs
+Ue
+ZS
+ZS
+ZS
+jP
+PH
+WW
+Qx
+wB
+gL
+XB
+ok
+Sv
+ok
+ZS
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(69,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+Bz
+Bz
+vs
+ZS
+zf
+zf
+zf
+ZS
+Td
+Td
+Td
+ZS
+ZS
+ZS
+bT
+bT
+bT
+ZS
+ZS
+ZS
+Td
+Td
+Td
+ZS
+Nm
+ZS
+HO
+wB
+Ik
+RT
+mW
+NY
+CA
+MQ
+Nm
+El
+QP
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+AF
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(70,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+Yq
+Iv
+bT
+xT
+qG
+Iv
+Yq
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+QY
+PD
+Ik
+mi
+PD
+vg
+wB
+ZS
+Kj
+tn
+fy
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(71,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+et
+wB
+wB
+wB
+em
+ZS
+et
+wB
+wB
+pM
+em
+ZS
+YB
+bT
+bT
+bT
+bT
+bT
+JL
+ZS
+et
+wB
+wB
+pM
+em
+ZS
+uO
+wB
+Iw
+fJ
+CA
+Ja
+wB
+ZS
+Xo
+Tk
+MQ
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(72,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+em
+Xu
+Xu
+hw
+wB
+ZS
+em
+Xu
+Us
+Xu
+wB
+ZS
+YB
+vb
+bT
+ks
+bT
+xT
+JL
+ZS
+em
+Xu
+Xu
+Xu
+wB
+ZS
+DW
+wB
+Ik
+RT
+PH
+wB
+pn
+ok
+Nm
+tK
+jp
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(73,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+pM
+Xu
+Xu
+Us
+wB
+ZS
+YB
+YP
+bT
+Ml
+bT
+MB
+JL
+ZS
+pM
+Xu
+Xu
+Xu
+pM
+ZS
+Cd
+PD
+RA
+mi
+rf
+uO
+CA
+Nm
+Nm
+ok
+ZS
+ZS
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(74,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+Me
+Xu
+Xu
+Xu
+BD
+ZS
+Me
+Xu
+Xu
+Xu
+ts
+ZS
+YC
+YP
+qG
+cV
+bT
+bT
+qn
+ZS
+Me
+Xu
+Xu
+Xu
+BD
+ZS
+QY
+wB
+wB
+MX
+wB
+fX
+CA
+Nv
+tA
+Zf
+gi
+qx
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+Tv
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(75,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+Xu
+Xu
+Xu
+pM
+ZS
+wB
+Xu
+hw
+Xu
+wB
+ZS
+gH
+YP
+YF
+Di
+qq
+bT
+eK
+ZS
+pM
+Xu
+Xu
+hw
+wB
+ZS
+RT
+PD
+QY
+QY
+zt
+fX
+wB
+ZS
+Yv
+Nd
+SV
+SV
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(76,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+pM
+Xu
+Xu
+Xu
+wB
+ZS
+RU
+YP
+Oi
+Xj
+xP
+bT
+QZ
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+DW
+wB
+RT
+uO
+RT
+fX
+Lx
+sq
+SV
+SV
+xR
+YR
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(77,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+em
+MX
+pM
+wB
+em
+ZS
+em
+wB
+wB
+pM
+em
+ZS
+Yq
+YP
+PG
+PG
+PG
+YP
+Yq
+ZS
+em
+wB
+pM
+wB
+em
+ZS
+HO
+MX
+DW
+DW
+gF
+fX
+HQ
+ZS
+iJ
+kH
+SV
+oH
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(78,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+lF
+ZS
+ZS
+ZS
+ZS
+ZS
+XU
+ZS
+ZS
+ZS
+ZS
+QZ
+ZS
+ZS
+ZS
+QZ
+ZS
+ZS
+ZS
+ZS
+XU
+ZS
+ZS
+ZS
+JO
+fX
+dh
+IH
+tD
+fX
+IH
+ZS
+eT
+Jv
+Sv
+lM
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+QU
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(79,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+eK
+RU
+RU
+RU
+tw
+FE
+CV
+RU
+RU
+zI
+Ef
+zI
+QZ
+QZ
+RU
+CV
+yw
+RU
+mI
+Zn
+RN
+CV
+yw
+RU
+eK
+ZS
+ZS
+WC
+ZS
+ZS
+ZS
+WC
+ZS
+ZS
+ZS
+ok
+Sv
+JR
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+gE
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+cT
+KE
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(80,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+CV
+bT
+xT
+bT
+bT
+Ml
+lk
+bT
+bT
+bT
+bT
+bT
+bT
+MB
+bT
+Ml
+bT
+bT
+bT
+zE
+bT
+bT
+Ml
+bT
+gH
+ZS
+lM
+zB
+vW
+ZS
+SV
+hc
+XT
+ZS
+Ii
+FH
+Nm
+Xs
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+Pb
+gE
+gE
+gE
+gE
+gE
+PT
+gE
+gE
+gE
+gE
+PT
+gE
+gE
+gE
+gE
+PT
+gE
+gE
+gE
+gE
+PT
+gE
+gE
+gE
+gE
+ko
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(81,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+gH
+gg
+RU
+RU
+CV
+GR
+RU
+RU
+RU
+tw
+CV
+FE
+gg
+RU
+RN
+CF
+RU
+cH
+CV
+RU
+RN
+RU
+gg
+RU
+RU
+ZS
+KV
+Nd
+XT
+ZS
+wZ
+Nm
+lM
+ZS
+ZC
+zg
+FH
+Xs
+ZS
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+Nm
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(82,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+XU
+ZS
+ZS
+ZS
+ZS
+ZS
+XU
+ZS
+ZS
+ZS
+ZS
+ZS
+RU
+ZS
+ZS
+ZS
+ZS
+ZS
+XU
+ZS
+ZS
+ZS
+dr
+ZS
+Jb
+Gk
+Jv
+ZS
+Jb
+ap
+Jv
+ZS
+ZS
+fu
+uK
+RM
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(83,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+em
+wB
+wB
+wB
+em
+ZS
+em
+wB
+wB
+wB
+em
+ZS
+em
+pM
+wB
+pM
+em
+ZS
+em
+wB
+wB
+wB
+em
+ZS
+RU
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+kz
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(84,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+wB
+Xu
+ro
+Xu
+wB
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+wB
+ro
+Xu
+ro
+pM
+ZS
+RU
+RN
+Yi
+ZS
+kz
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+rb
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(85,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+hw
+Xu
+Xu
+wB
+ZS
+pM
+Xu
+Xu
+Xu
+pM
+ZS
+wB
+Xu
+Xu
+ro
+wB
+ZS
+pM
+hw
+Xu
+ro
+wB
+ZS
+Xv
+RU
+ve
+ZS
+DM
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+xc
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(86,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+Me
+Xu
+ro
+Xu
+ts
+ZS
+Me
+Xu
+Xu
+Xu
+BD
+ZS
+Me
+Xu
+hw
+Xu
+BD
+ZS
+Me
+Xu
+Xu
+Xu
+BD
+ZS
+CV
+RN
+uz
+ZS
+DM
+Yo
+xc
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(87,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+wB
+Xu
+hw
+Xu
+wB
+ZS
+wB
+Xu
+Xu
+Xu
+wB
+ZS
+wB
+Xu
+ro
+Xu
+wB
+ZS
+oQ
+Nz
+dg
+ZS
+DM
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(88,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+em
+Xu
+Xu
+Xu
+wB
+ZS
+em
+Xu
+Xu
+Xu
+wB
+ZS
+em
+Xu
+ro
+Xu
+wB
+ZS
+em
+Xu
+Xu
+Xu
+pM
+ZS
+ZS
+ZS
+ZS
+ZS
+DM
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(89,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+et
+wB
+wB
+pM
+em
+ZS
+et
+wB
+pM
+wB
+em
+ZS
+et
+wB
+wB
+wB
+em
+ZS
+et
+wB
+pM
+wB
+em
+ZS
+kz
+YG
+YG
+YG
+rb
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(90,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+gI
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+ZS
+DM
+Yo
+Yo
+Yo
+Yo
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(91,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+HH
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+YG
+rb
+Yo
+xc
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(92,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+DM
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+Yo
+gI
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(93,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+Zi
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(94,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(95,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(96,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(97,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(98,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(99,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
+(100,1,1) = {"
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+kz
+"}
