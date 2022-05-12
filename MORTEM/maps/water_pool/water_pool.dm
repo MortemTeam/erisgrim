@@ -17,8 +17,8 @@
 	)
 	known = 1
 
-	name_stages = list("water pool", "unknown object", "unknown spatial phenomenon")
-	icon_stages = list("htu_station", "object", "poi")
+	name_stages = list("water pool", "unknown station", "unknown spatial phenomenon")
+	icon_stages = list("htu_station", "station", "poi")
 
 /obj/effect/shuttle_landmark/water_pool/dock1
 	name = "Water Pool Dock №1"

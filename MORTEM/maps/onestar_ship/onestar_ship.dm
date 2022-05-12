@@ -17,8 +17,8 @@
 	known = 1
 	invisibility = 101
 
-	name_stages = list("abandoned ship", "unknown object", "unknown spatial phenomenon")
-	icon_stages = list("htu_frigate_r", "object", "poi")
+	name_stages = list("abandoned ship", "unknown ship", "unknown spatial phenomenon")
+	icon_stages = list("htu_frigate_r", "ship", "poi")
 
 
 /obj/effect/shuttle_landmark/onestar_ship/nav1
