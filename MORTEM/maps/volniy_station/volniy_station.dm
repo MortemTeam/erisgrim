@@ -107,7 +107,6 @@
 	account_allowed = FALSE
 	wage = WAGE_NONE
 
-	core_upgrades = list(CRUCIFORM_COMMON)
 	perks = list(PERK_JUNKBORN)
 	stat_modifiers = list(
 		STAT_MEC = 15,
