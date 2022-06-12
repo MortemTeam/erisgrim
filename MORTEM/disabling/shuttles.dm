@@ -1,9 +1,3 @@
-/datum/evacuation_controller
-	deny = TRUE
-
-/datum/evacuation_controller/can_evacuate(var/mob/user, var/forced)
-	return FALSE
-
 /obj/machinery/computer/shuttle_control/multi/mercenary/attack_hand(user as mob)
 	if(!allowed(user))
 		to_chat(user, "<span class='warning'>Access Denied.</span>")
