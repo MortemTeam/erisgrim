@@ -2890,6 +2890,7 @@
 #include "MORTEM\changing\clothing\clown_suit\suit.dm"
 #include "MORTEM\changing\clothing\schoolgirl\suit.dm"
 #include "MORTEM\changing\clothing\suit\ass_jacket.dm"
+#include "MORTEM\changing\configs\enable_mob_sleep.dm"
 #include "MORTEM\changing\engine\engine_cost.dm"
 #include "MORTEM\changing\engine\engine_craft.dm"
 #include "MORTEM\changing\engine\engine_state.dm"
