@@ -2935,6 +2935,7 @@
 #include "MORTEM\customs\Pexel5\arm_blade.dm"
 #include "MORTEM\disabling\evac.dm"
 #include "MORTEM\disabling\excelsior_implant_kill.dm"
+#include "MORTEM\disabling\job_limits.dm"
 #include "MORTEM\disabling\maintshroom_spread.dm"
 #include "MORTEM\disabling\nuke_station.dm"
 #include "MORTEM\disabling\restart_poll.dm"
