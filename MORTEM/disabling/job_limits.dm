@@ -1,3 +1,7 @@
+/datum/job/is_position_available()
+	return (current_positions < 666) || (total_positions == -1)
+
+
 /datum/controller/subsystem/job/AssignRole(mob/new_player/player, rank, latejoin = FALSE)
 	Debug("Running AR, Player: [player], Rank: [rank], LJ: [latejoin]")
 	if(player && player.mind && rank)
