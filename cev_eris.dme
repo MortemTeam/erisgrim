@@ -2934,6 +2934,7 @@
 #include "MORTEM\changing\technology\pro_biotech.dm"
 #include "MORTEM\customs\Pexel5\arm_blade.dm"
 #include "MORTEM\disabling\excelsior_implant_kill.dm"
+#include "MORTEM\disabling\restart_poll.dm"
 #include "MORTEM\disabling\economy\atm.dm"
 #include "MORTEM\fixing\attach_organ.dm"
 #include "MORTEM\fixing\belt.dm"
