@@ -31,7 +31,7 @@
 		x_c = x_c - size
 
 	var/obj/item/photo/p = createpicture(target, user, capturemode, radius)
-	p.desc = mobs
+	p.desc = "You can see on photo: \n" + mobs
 	p.nude_count = nudes
 	printpicture(user, p)
 

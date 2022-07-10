@@ -2883,6 +2883,7 @@
 #include "MORTEM\adding\smooth_animation\firedoor\firedoor.dm"
 #include "MORTEM\adding\surgery\create_synthethic.dm"
 #include "MORTEM\adding\washer\heal_by_wash.dm"
+#include "MORTEM\changing\extend_photo_detail.dm"
 #include "MORTEM\changing\antags\malf_ai.dm"
 #include "MORTEM\changing\atmos\xgm_icons.dm"
 #include "MORTEM\changing\breakdowns\weight.dm"
