@@ -2940,7 +2940,6 @@
 #include "MORTEM\disabling\economy\atm.dm"
 #include "MORTEM\disabling\events\blobs.dm"
 #include "MORTEM\disabling\events\maintshroom_spread.dm"
-#include "MORTEM\disabling\events\radiation.dm"
 #include "MORTEM\fixing\attach_organ.dm"
 #include "MORTEM\fixing\belt.dm"
 #include "MORTEM\fixing\dresses.dm"
