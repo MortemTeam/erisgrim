@@ -2923,6 +2923,7 @@
 #include "MORTEM\changing\roles\marshal_weight.dm"
 #include "MORTEM\changing\roles\serbian_objectives.dm"
 #include "MORTEM\changing\roles\traitor_survive.dm"
+#include "MORTEM\changing\sanity\exclude_logoff.dm"
 #include "MORTEM\changing\sanity\sanity_by_nudity.dm"
 #include "MORTEM\changing\sanity\tweaks.dm"
 #include "MORTEM\changing\sanity\desires\pick_desires.dm"
