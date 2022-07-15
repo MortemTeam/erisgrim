@@ -1,4 +1,4 @@
-/datum/spawnpoint/proc/put_mob(mob/M, ignore_environment = FALSE, announce = TRUE)
+/datum/spawnpoint/put_mob(mob/M, ignore_environment = FALSE, announce = TRUE)
 	var/list/free_turfs = get_free_turfs()
 	if(!free_turfs.len)
 		return FALSE
