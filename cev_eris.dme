@@ -2897,6 +2897,7 @@
 #include "MORTEM\changing\engine\engine_craft.dm"
 #include "MORTEM\changing\engine\engine_state.dm"
 #include "MORTEM\changing\events\hivemind.dm"
+#include "MORTEM\changing\events\radstorm.dm"
 #include "MORTEM\changing\human\examine.dm"
 #include "MORTEM\changing\human\min_age.dm"
 #include "MORTEM\changing\human\remove_underwear.dm"
