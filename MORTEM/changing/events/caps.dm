@@ -11,3 +11,4 @@
 
     GLOB.hive_data_float["maximum_existing_mobs"] = 50
     GLOB.hive_data_float["maximum_controlled_areas"] = 13
+    return ..()
