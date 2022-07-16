@@ -2934,6 +2934,7 @@
 #include "MORTEM\changing\sanity\tweaks.dm"
 #include "MORTEM\changing\sanity\desires\pick_desires.dm"
 #include "MORTEM\changing\sanity\desires\process_photo.dm"
+#include "MORTEM\changing\sanity\desires\process_shower.dm"
 #include "MORTEM\changing\sanity\desires\process_view.dm"
 #include "MORTEM\changing\shuttles\shuttle_settings.dm"
 #include "MORTEM\changing\suit_storage\nt_suit_storage.dm"

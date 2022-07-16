@@ -1,5 +1,6 @@
 #define INSIGHT_DESIRE_NUDES "nudes"
 #define INSIGHT_DESIRE_MUSIC "music"
+#define INSIGHT_DESIRE_SHOWER "shower"
 
 /datum/sanity/pick_desires()
 	desires.Cut()
@@ -10,6 +11,7 @@
 		INSIGHT_DESIRE_DRUGS,
 		INSIGHT_DESIRE_NUDES,
 		INSIGHT_DESIRE_MUSIC,
+		INSIGHT_DESIRE_SHOWER,
 	)
 
 	for(var/i in owner.metabolism_effects.addiction_list)
@@ -18,6 +20,7 @@
 				candidates.Remove(INSIGHT_DESIRE_SMOKING)
 				continue
 			candidates.Remove(INSIGHT_DESIRE_DRUGS)
+
 	for(var/i = 0; i < INSIGHT_DESIRE_COUNT; i++)
 		var/desire = pick_n_take(candidates)
 		var/list/potential_desires = list()
