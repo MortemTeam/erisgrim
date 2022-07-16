@@ -1,39 +1,46 @@
-/obj/item/projectile/bullet/bolt
-    muzzle_type = null
-    armor_penetration = ARMOR_PEN_EXTREME
-
-/obj/item/projectile/bullet/bolt/on_hit(mob/living/target, def_zone = BP_CHEST)
-    if(istype(target) && prob(armor_penetration))
-        target.embed(src, def_zone)
-
+/obj/item/arrow/rod
+    force = WEAPON_FORCE_NORMAL
+    throwforce = WEAPON_FORCE_DANGEROUS
+    armor_penetration = ARMOR_PEN_MODERATE
 
 /obj/item/gun/energy/poweredcrossbow
-	fire_sound = 'sound/weapons/punchmiss.ogg'
-	fire_sound_text = "a solid thunk"
+    spawn_blacklisted = TRUE
 
-/obj/item/gun/energy/poweredcrossbow/attackby(obj/item/I, mob/living/user)
-    . = ..()
-    update_icon()
-    I.update_icon()
-    return .
+/obj/item/gun/launcher/crossbow
+    icon = 'icons/obj/guns/energy/poweredcrossbow.dmi'
+    icon_state = "crossbow"
+    item_state = "crossbow"
 
-/obj/item/gun/energy/poweredcrossbow/attack_hand(mob/living/user)
-	if(pre_pickup(user))
-		pickup(user)
-		return TRUE
-	return FALSE
+    spawn_tags = SPAWN_TAG_GUN_HANDMADE 
+    matter = list(MATERIAL_STEEL = 3, MATERIAL_PLASTIC = 5, MATERIAL_WOOD = 5)
 
-/obj/item/gun/energy/poweredcrossbow/MouseDrop(over_object)
-    if(bolt && (src.loc == usr) && istype(over_object, /obj/screen/inventory/hand))
-        usr.put_in_hands(bolt)
-        bolt = null
+    draw_time = 10
+    var/charge_cost = 2000
 
-        usr.visible_message(
-            "[usr] removes [bolt] from [src].",
-            SPAN_NOTICE("You remove [bolt] from [src].")
-        )
+/obj/item/gun/launcher/crossbow/update_icon()
+    icon_state = bolt ? "crossbow_drawn" : "crossbow"
 
-        update_icon()
+/obj/item/gun/launcher/crossbow/superheat_rod(mob/user)
+    if(!user || !cell || !bolt) return
+    if(!cell.check_charge(charge_cost))
+        to_chat(user, SPAN_NOTICE("[bolt] not enough power to overheat."))
         return
 
-    return ..()
+    to_chat(user, SPAN_NOTICE("[bolt] sparks and crackles as it gives off a red-hot glow."))
+
+    bolt.throwforce *= 2
+    bolt.armor_penetration *= 2
+    bolt.icon_state = "metal-rod-superheated"
+    cell.use(charge_cost)
+
+/datum/craft_recipe/weapon/crossbow_bolt
+	name = "crossbow"
+	result = /obj/item/gun/launcher/crossbow
+	steps = list(
+		list(CRAFT_MATERIAL, 5, MATERIAL_WOOD), //old frame recipe
+		list(/obj/item/stack/rods, 3, "time" = 20),
+		list(QUALITY_WELDING, 10, "time" = 30),
+		list(/obj/item/stack/cable_coil, 10, "time" = 10),
+		list(CRAFT_MATERIAL, 3, MATERIAL_PLASTIC, "time" = 10),
+		list(QUALITY_SCREW_DRIVING, 5, 10,"time" = 3)
+	)
