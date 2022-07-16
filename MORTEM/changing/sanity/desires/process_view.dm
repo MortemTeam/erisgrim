@@ -5,7 +5,7 @@
 		if(istype(A, /obj/machinery/media/jukebox))
 			var/obj/machinery/media/jukebox/J = A
 			if(J.playing)
-				add_rest(INSIGHT_DESIRE_MUSIC, 1 * J.volume)
+				add_rest(INSIGHT_DESIRE_MUSIC, 2 * J.volume)
 
 		if(ishuman(A))
 			var/mob/living/carbon/human/H = A
