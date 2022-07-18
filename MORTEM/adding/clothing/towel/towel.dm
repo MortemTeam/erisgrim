@@ -18,7 +18,6 @@
 
 	matter = list(MATERIAL_BIOMATTER = 5)
 	spawn_tags = SPAWN_TAG_CLOTHING
-	spawn_blacklisted = FALSE
 	rarity_value = 13
 
 /obj/item/tool/towel/attack_self(mob/living/user as mob)

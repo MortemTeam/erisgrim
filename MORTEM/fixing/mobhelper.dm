@@ -1,2 +1,2 @@
 /mob/living/carbon/human/proc/check_nude()
-	return !wear_suit && !w_uniform
+	return !body_part_covered(BP_CHEST) || !body_part_covered(BP_GROIN)

@@ -7,14 +7,13 @@
 	underwear_name = "fishnet"
 	icon_state = "fishnet"
 	name = "fishnet"
-
+	has_color = TRUE
 
 /datum/category_item/underwear/socks/pantyhouse
 	underwear_name = "pantyhose"
 	icon_state = "pantyhose"
 	name = "pantyhose"
 	has_color = TRUE
-
 
 /datum/category_item/underwear/socks/striped
 	underwear_name = "striped socks"
@@ -28,7 +27,6 @@
 	icon_state = "striped_thigh"
 	name = "striped socks (thigh)"
 
-
 /datum/category_item/underwear/socks/rainbow
 	underwear_name = "rainbow socks"
 
@@ -39,7 +37,6 @@
 /datum/category_item/underwear/socks/rainbow/thigh
 	icon_state = "rainbow_thigh"
 	name = "rainbow socks (thigh)"
-
 
 /datum/category_item/underwear/socks/socks
 	underwear_name = "socks"

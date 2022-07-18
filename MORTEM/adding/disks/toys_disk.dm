@@ -15,6 +15,10 @@
 		/datum/design/autolathe/clothing/sexy_mime_mask,
 		/datum/design/autolathe/clothing/muzzle,
 
+		/datum/design/autolathe/clothing/cheer_purple,
+		/datum/design/autolathe/clothing/cheer_yellow,
+		/datum/design/autolathe/clothing/cheer_white,
+
 		/datum/design/autolathe/clothing/swimsuit_black,
 		/datum/design/autolathe/clothing/swimsuit_red,
 		/datum/design/autolathe/clothing/swimsuit_green,
@@ -98,6 +102,19 @@
 /datum/design/autolathe/clothing/neko_ears
 	name = "neko ears"
 	build_path = /obj/item/clothing/head/collectable/neko
+
+
+/datum/design/autolathe/clothing/cheer_purple
+	name = "purple cheer uniform"
+	build_path = /obj/item/clothing/under/cheer/purple
+
+/datum/design/autolathe/clothing/cheer_yellow
+	name = "yellow cheer uniform"
+	build_path = /obj/item/clothing/under/cheer/yellow
+
+/datum/design/autolathe/clothing/cheer_white
+	name = "white cheer uniform"
+	build_path = /obj/item/clothing/under/cheer/white
 
 
 /datum/design/autolathe/clothing/maid
