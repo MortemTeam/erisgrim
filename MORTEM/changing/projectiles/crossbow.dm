@@ -1,7 +1,7 @@
 /obj/item/arrow/rod
-    force = WEAPON_FORCE_NORMAL
-    throwforce = WEAPON_FORCE_DANGEROUS
-    armor_penetration = ARMOR_PEN_MODERATE
+    force = WEAPON_FORCE_DANGEROUS
+    throwforce = WEAPON_FORCE_LETHAL
+    armor_penetration = ARMOR_PEN_EXTREME
 
 /obj/item/gun/energy/poweredcrossbow
     spawn_blacklisted = TRUE
