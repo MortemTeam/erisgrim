@@ -2926,6 +2926,7 @@
 #include "MORTEM\changing\programs\warez_contains.dm"
 #include "MORTEM\changing\projectiles\crossbow.dm"
 #include "MORTEM\changing\projectiles\speed.dm"
+#include "MORTEM\changing\roaches\benz_roach.dm"
 #include "MORTEM\changing\roles\commi_objectives.dm"
 #include "MORTEM\changing\roles\marshal_weight.dm"
 #include "MORTEM\changing\roles\serbian_objectives.dm"
