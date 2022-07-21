@@ -1,5 +1,9 @@
 /datum/perk/fate/noble/assign(mob/living/carbon/human/H)
-	..()
+	if(istype(H))
+		holder = H
+		RegisterSignal(holder, COMSIG_MOB_LIFE, .proc/on_process)
+		to_chat(holder, SPAN_NOTICE("[gain_text]"))
+
 	if(!holder || !holder.last_name)
 		holder.stats.removePerk(src.type)
 		return
@@ -11,7 +15,6 @@
 	var/list/block_list = list(
 		/obj/item/tool/sword/nt_sword,
 		/obj/item/tool/sword/katana/nano,
-
 
 		/obj/item/gun/projectile,
 		/obj/item/gun/projectile/automatic,
@@ -60,9 +63,12 @@
 
 	var/list/stats = ALL_STATS
 	var/list/final_oddity = list()
-	var/stat = pick(stats)
-	final_oddity += stat
-	final_oddity[stat] = rand(1,7)
+	for(var/i = 1 to 2)
+		var/stat = pick(stats)
+		stats.Remove(stat)
+
+		final_oddity += stat
+		final_oddity[stat] = rand(1,7)
 
 	W.AddComponent(/datum/component/inspiration, final_oddity, get_oddity_perk())
 	W.AddComponent(/datum/component/atom_sanity, 1, "") //sanity gain by area
