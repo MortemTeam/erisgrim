@@ -1,6 +1,5 @@
 /obj/item/gun/projectile/rpg
-	spawn_tags = SPAWN_TAG_FS_PROJECTILE
-	serial_type = "FS"
+	spawn_blacklisted = FALSE
 
 /obj/item/ammo_casing/rocket
 	spawn_tags = SPAWN_TAG_AMMO
