@@ -1,4 +1,5 @@
 /obj/item/gun/projectile/rpg
+	rarity_value = 10
 	spawn_blacklisted = FALSE
 
 /obj/item/ammo_casing/rocket
