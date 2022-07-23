@@ -1,9 +1,8 @@
-// Technomancers
 /obj/item/computer_hardware/hard_drive/portable/design/playtoys
 	disk_name = "WetRoach RL-34 Playtoys"
 	icon_state = "purple"
 	rarity_value = 10
-	spawn_tags = SPAWN_TAG_DESIGN_COMMON
+	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
 	license = 13
 	designs = list(
 		/datum/design/autolathe/clothing/captainhat,
