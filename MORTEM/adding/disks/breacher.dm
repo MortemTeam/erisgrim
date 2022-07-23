@@ -1,9 +1,9 @@
 /obj/item/computer_hardware/hard_drive/portable/design/breacher
-	disk_name = "IH Breach Tools"
+	disk_name = "Illegal Breach Tools"
 	icon_state = "black"
 	rarity_value = 15
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 6
+	license = 5
 	designs = list(
         /datum/design/autolathe/gun/rpg,
         /datum/design/autolathe/ammo/rpg,

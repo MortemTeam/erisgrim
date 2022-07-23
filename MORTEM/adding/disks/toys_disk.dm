@@ -3,7 +3,7 @@
 	icon_state = "purple"
 	rarity_value = 10
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON
-	license = 13
+	license = 5
 	designs = list(
 		/datum/design/autolathe/clothing/captainhat,
 		/datum/design/autolathe/clothing/witchwig,
