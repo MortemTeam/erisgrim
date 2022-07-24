@@ -28,6 +28,7 @@
 		/datum/design/autolathe/clothing/neko_ears,
 
 		/datum/design/autolathe/clothing/maid,
+		/datum/design/autolathe/clothing/nakedmaid,
 		/datum/design/autolathe/clothing/janimaid,
 
 		/datum/design/autolathe/clothing/schoolgirl_uniform,
@@ -119,6 +120,10 @@
 /datum/design/autolathe/clothing/maid
 	name = "maid uniform"
 	build_path = /obj/item/clothing/under/maid/classic
+
+/datum/design/autolathe/clothing/nakedmaid
+	name = "naked maid uniform"
+	build_path = /obj/item/clothing/under/maid/naked
 
 /datum/design/autolathe/clothing/janimaid
 	name = "janimaid uniform"
