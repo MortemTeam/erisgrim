@@ -1,5 +1,5 @@
 /obj/item/clothing/under/neko
-	spawn_blacklisted = TRUE
+	bad_type = /obj/item/clothing/under/neko
 	desc = "<3"
 	style = STYLE_HIGH
 	price_tag = 100
@@ -12,7 +12,6 @@
 
 
 /obj/item/clothing/under/neko/black
-	spawn_blacklisted = FALSE
 	name = "Black Neko"
 	icon_state = "neko_black"
 	item_state = "neko_black"

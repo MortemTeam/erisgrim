@@ -1,5 +1,5 @@
 /obj/item/clothing/under/maid
-	spawn_blacklisted = TRUE
+	bad_type = /obj/item/clothing/under/maid
 	desc = "Traditional French maid uniform."
 	style = STYLE_HIGH
 	price_tag = 250
@@ -11,7 +11,6 @@
 
 
 /obj/item/clothing/under/maid/classic
-	spawn_blacklisted = FALSE
 	name = "maid uniform"
 
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO
@@ -20,7 +19,6 @@
 	item_state = "maid"
 
 /obj/item/clothing/under/maid/janitor
-	spawn_blacklisted = FALSE
 	name = "janimaid uniform"
 
 	body_parts_covered = UPPER_TORSO|LOWER_TORSO|LEGS|ARMS
