@@ -1,5 +1,5 @@
 /obj/item/computer_hardware/hard_drive/portable/design/breacher
-	disk_name = "Illegal Breach Tools"
+	disk_name = "Breach Tools of Anarchy Revolt"
 	icon_state = "black"
 	rarity_value = 15
 	spawn_tags = SPAWN_TAG_DESIGN_ADVANCED_COMMON

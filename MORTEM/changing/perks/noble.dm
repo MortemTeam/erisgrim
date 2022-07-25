@@ -60,6 +60,7 @@
 
 	W = new W(T)
 	W.desc += " It has been inscribed with the \"[holder.last_name]\" family name."
+	W.name = "[W] of [holder.last_name]"
 
 	var/list/stats = ALL_STATS
 	var/list/final_oddity = list()
@@ -73,6 +74,7 @@
 	W.AddComponent(/datum/component/inspiration, final_oddity, get_oddity_perk())
 	W.AddComponent(/datum/component/atom_sanity, 1, "") //sanity gain by area
 	W.sanity_damage -= 1 //damage by view
+	W.price_tag += rand(1000, 2500)
 
 	spawn(1)
 		holder.equip_to_storage_or_drop(W)

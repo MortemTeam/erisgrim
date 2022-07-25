@@ -33,14 +33,9 @@
     bolt.icon_state = "metal-rod-superheated"
     cell.use(charge_cost)
 
-/datum/craft_recipe/weapon/crossbow_bolt
+/datum/craft_recipe/gun/poweredcrossbow
 	name = "crossbow"
 	result = /obj/item/gun/launcher/crossbow
-	steps = list(
-		list(CRAFT_MATERIAL, 5, MATERIAL_WOOD), //old frame recipe
-		list(/obj/item/stack/rods, 3, "time" = 20),
-		list(QUALITY_WELDING, 10, "time" = 30),
-		list(/obj/item/stack/cable_coil, 10, "time" = 10),
-		list(CRAFT_MATERIAL, 3, MATERIAL_PLASTIC, "time" = 10),
-		list(QUALITY_SCREW_DRIVING, 5, 10,"time" = 3)
-	)
+
+/datum/craft_recipe/gun/crossbow_bolt
+    avaliableToEveryone = FALSE
