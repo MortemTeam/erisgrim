@@ -2905,6 +2905,7 @@
 #include "MORTEM\changing\events\radstorm.dm"
 #include "MORTEM\changing\human\examine.dm"
 #include "MORTEM\changing\human\min_age.dm"
+#include "MORTEM\changing\human\nutrition.dm"
 #include "MORTEM\changing\human\remove_underwear.dm"
 #include "MORTEM\changing\jobs\department_balance.dm"
 #include "MORTEM\changing\jobs\spawnpoints.dm"
