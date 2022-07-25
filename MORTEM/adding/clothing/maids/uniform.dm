@@ -18,13 +18,13 @@
 	icon_state = "maid"
 	item_state = "maid"
 
-/obj/item/clothing/under/maid/naked
-	name = "naked maid uniform"
+/obj/item/clothing/under/maid/sex
+	name = "sex-maid uniform"
 
 	body_parts_covered = 0
 
-	icon_state = "nakedmaid"
-	item_state = "nakedmaid"
+	icon_state = "sexmaid"
+	item_state = "sexmaid"
 
 /obj/item/clothing/under/maid/janitor
 	name = "janimaid uniform"
