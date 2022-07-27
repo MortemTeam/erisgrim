@@ -2,6 +2,6 @@
     if(owner.client)
         return ..()
 
-/datum/sanity/onSay()
+/datum/sanity/updateLevel()
     if(owner.client)
         return ..()
