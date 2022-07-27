@@ -1,5 +1,6 @@
 /datum/hallucination/sound/owl
-	duration = 30 SECONDS
+	allow_duplicates = FALSE
+	duration = 1.13 MINUTES
 	min_power = 66.6
 	sounds = list(
 		'MORTEM/adding/bohemian_sounds/track1.mp3',
