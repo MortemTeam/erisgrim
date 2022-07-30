@@ -42,6 +42,8 @@
 		/datum/design/autolathe/clothing/towel,
 		/datum/design/autolathe/tool/pink_restraints,
 		/datum/design/autolathe/tool/ducttape,
+
+		/datum/design/autolathe/misc/cards,
 	)
 
 /datum/design/autolathe/clothing/captainhat
@@ -165,3 +167,9 @@
 /datum/design/autolathe/tool/pink_restraints
 	name = "pink restraints"
 	build_path = /obj/item/handcuffs/cable/pink
+
+
+/datum/design/autolathe/misc/cards
+	name = "playing cards"
+	materials = list(MATERIAL_PLASTIC = 3)
+	build_path = /obj/item/deck/cards
