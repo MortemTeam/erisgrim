@@ -100,6 +100,23 @@
 #define rustg_cnoise_generate(percentage, smoothing_iterations, birth_limit, death_limit, width, height) \
 	call(RUST_G, "cnoise_generate")(percentage, smoothing_iterations, birth_limit, death_limit, width, height)
 
+/**
+ * This proc generates a grid of perlin-like noise
+ *
+ * Returns a single string that goes row by row, with values of 1 representing an turned on cell, and a value of 0 representing a turned off cell.
+ *
+ * Arguments:
+ * * seed: seed for the function
+ * * accuracy: how close this is to the original perlin noise, as accuracy approaches infinity, the noise becomes more and more perlin-like
+ * * stamp_size: Size of a singular stamp used by the algorithm, think of this as the same stuff as frequency in perlin noise
+ * * world_size: size of the returned grid.
+ * * lower_range: lower bound of values selected for. (inclusive)
+ * * upper_range: upper bound of values selected for. (exclusive)
+ */
+#define rustg_dbp_generate(seed, accuracy, stamp_size, world_size, lower_range, upper_range) \
+	call(RUST_G, "dbp_generate")(seed, accuracy, stamp_size, world_size, lower_range, upper_range)
+
+
 #define rustg_dmi_strip_metadata(fname) call(RUST_G, "dmi_strip_metadata")(fname)
 #define rustg_dmi_create_png(path, width, height, data) call(RUST_G, "dmi_create_png")(path, width, height, data)
 #define rustg_dmi_resize_png(path, width, height, resizetype) call(RUST_G, "dmi_resize_png")(path, width, height, resizetype)
@@ -118,6 +135,22 @@
 
 #define rustg_git_revparse(rev) call(RUST_G, "rg_git_revparse")(rev)
 #define rustg_git_commit_date(rev) call(RUST_G, "rg_git_commit_date")(rev)
+
+#define rustg_hash_string(algorithm, text) call(RUST_G, "hash_string")(algorithm, text)
+#define rustg_hash_file(algorithm, fname) call(RUST_G, "hash_file")(algorithm, fname)
+#define rustg_hash_generate_totp(seed) call(RUST_G, "generate_totp")(seed)
+#define rustg_hash_generate_totp_tolerance(seed, tolerance) call(RUST_G, "generate_totp_tolerance")(seed, tolerance)
+
+#define RUSTG_HASH_MD5 "md5"
+#define RUSTG_HASH_SHA1 "sha1"
+#define RUSTG_HASH_SHA256 "sha256"
+#define RUSTG_HASH_SHA512 "sha512"
+#define RUSTG_HASH_XXH64 "xxh64"
+#define RUSTG_HASH_BASE64 "base64"
+
+#ifdef RUSTG_OVERRIDE_BUILTINS
+	#define md5(thing) (isfile(thing) ? rustg_hash_file(RUSTG_HASH_MD5, "[thing]") : rustg_hash_string(RUSTG_HASH_MD5, thing))
+#endif
 
 #define RUSTG_HTTP_METHOD_GET "get"
 #define RUSTG_HTTP_METHOD_PUT "put"
@@ -140,6 +173,14 @@
 
 #define rustg_noise_get_at_coordinates(seed, x, y) call(RUST_G, "noise_get_at_coordinates")(seed, x, y)
 
+#define RUSTG_REDIS_ERROR_CHANNEL "RUSTG_REDIS_ERROR_CHANNEL"
+
+#define rustg_redis_connect(addr) call(RUST_G, "redis_connect")(addr)
+/proc/rustg_redis_disconnect() return call(RUST_G, "redis_disconnect")()
+#define rustg_redis_subscribe(channel) call(RUST_G, "redis_subscribe")(channel)
+/proc/rustg_redis_get_messages() return call(RUST_G, "redis_get_messages")()
+#define rustg_redis_publish(channel, message) call(RUST_G, "redis_publish")(channel, message)
+
 #define rustg_sql_connect_pool(options) call(RUST_G, "sql_connect_pool")(options)
 #define rustg_sql_query_async(handle, query, params) call(RUST_G, "sql_query_async")(handle, query, params)
 #define rustg_sql_query_blocking(handle, query, params) call(RUST_G, "sql_query_blocking")(handle, query, params)
@@ -160,6 +201,9 @@
 	else
 		CRASH(output["content"])
 
+#define rustg_unzip_download_async(url, unzip_directory) call(RUST_G, "unzip_download_async")(url, unzip_directory)
+#define rustg_unzip_check(job_id) call(RUST_G, "unzip_check")("[job_id]")
+
 #define rustg_url_encode(text) call(RUST_G, "url_encode")("[text]")
 #define rustg_url_decode(text) call(RUST_G, "url_decode")(text)
 
@@ -167,4 +211,21 @@
 	#define url_encode(text) rustg_url_encode(text)
 	#define url_decode(text) rustg_url_decode(text)
 #endif
+
+/**
+ * This proc generates a noise grid using worley noise algorithm
+ *
+ * Returns a single string that goes row by row, with values of 1 representing an alive cell, and a value of 0 representing a dead cell.
+ *
+ * Arguments:
+ * * region_size: The size of regions
+ * * threshold: the value that determines wether a cell is dead or alive
+ * * node_per_region_chance: chance of a node existiing in a region
+ * * size: size of the returned grid
+ * * node_min: minimum amount of nodes in a region (after the node_per_region_chance is applied)
+ * * node_max: maximum amount of nodes in a region
+ */
+#define rustg_worley_generate(region_size, threshold, node_per_region_chance, size, node_min, node_max) \
+	call(RUST_G, "worley_generate")(region_size, threshold, node_per_region_chance, size, node_min, node_max)
+
 

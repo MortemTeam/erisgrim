@@ -8,7 +8,6 @@
 #define READ_FILE(file, text) DIRECT_INPUT(file, text)
 //print an error message to world.log
 
-
 // On Linux/Unix systems the line endings are LF, on windows it's CRLF, admins that don't use notepad++
 // will get logs that are one big line if the system is Linux and they are using notepad.  This solves it by adding CR to every line ending
 // in the logs.  ascii character 13 = CR
@@ -35,9 +34,10 @@
 	log_world("## TESTING: [msg][log_end]")
 
 /proc/game_log(category, text)
-	diary << "\[[time_stamp()]] [game_id] [category]: [text][log_end]"
+	var/round_duration = roundduration2text()
+	diary << "\[[round_duration]] [game_id] [category]: [text][log_end]"
 	if(category in list("ADMIN", "GAME", "SAY", "WHISPER", "EMOTE", "OOC"))
-		redis_client.lpush(category, "[game_id]@[text]")
+		redis_client.push(category, "[game_id]@[round_duration]@[text]")
 
 /proc/log_admin(text)
 	admin_log.Add(text)

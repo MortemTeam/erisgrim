@@ -2888,7 +2888,7 @@
 #include "MORTEM\adding\plants\cannabis\seed.dm"
 #include "MORTEM\adding\plants\cannabis\thc.dm"
 #include "MORTEM\adding\plants\cannabis\vending.dm"
-#include "MORTEM\adding\redis\include.dm"
+#include "MORTEM\adding\redis\client.dm"
 #include "MORTEM\adding\smooth_animation\firedoor\firedoor.dm"
 #include "MORTEM\adding\surgery\create_synthethic.dm"
 #include "MORTEM\adding\washer\heal_by_wash.dm"
