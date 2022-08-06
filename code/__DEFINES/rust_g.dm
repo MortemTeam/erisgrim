@@ -7,7 +7,7 @@
 // Override the .dll/.so detection logic with a fixed path or with detection
 // logic of your own.
 //
-// #define RUSTG_OVERRIDE_BUILTINS
+#define RUSTG_OVERRIDE_BUILTINS
 // Enable replacement rust-g functions for certain builtins. Off by default.
 
 #ifndef RUST_G
@@ -156,7 +156,7 @@
 /proc/rustg_read_toml_file(path)
 	var/list/output = rustg_raw_read_toml_file(path)
 	if (output["success"])
-		return output["content"]
+		return json_decode(output["content"])
 	else
 		CRASH(output["content"])
 
