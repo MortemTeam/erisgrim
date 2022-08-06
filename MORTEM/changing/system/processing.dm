@@ -14,14 +14,14 @@
 		var/datum/thing = current_run[current_run.len]
 		current_run.len--
 
-		var/start_time = TimeOfGame
+		rustg_time_reset(current_run.len)
 
 		if(QDELETED(thing))
 			processing -= thing
 		else if(call(thing, process_proc)(src.wait, times_fired, src) == PROCESS_KILL)
 			STOP_PROCESSING(src, thing)
 
-		var/total_time = TimeOfGame - start_time
+		var/total_time = rustg_time_milliseconds(current_run.len)
 		if(QDELETED(most_busy_thing) || total_time > most_busy_time)
 			most_busy_thing = thing
 			most_busy_time = total_time
