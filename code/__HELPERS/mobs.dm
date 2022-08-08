@@ -185,6 +185,11 @@ Proc for attack log creation, because really why not
 
 	var/endtime = world.time+time
 	var/starttime = world.time
+
+	var/needhand = 1
+	if(user.stats.getPerk(/datum/perk/oddity/unstoppable_arm))
+		needhand = 0
+
 	. = 1
 	while (world.time < endtime)
 		sleep(1)
@@ -204,7 +209,7 @@ Proc for attack log creation, because really why not
 			. = 0
 			break
 
-		if(user.get_active_hand() != holding)
+		if(needhand && (user.get_active_hand() != holding))
 			. = 0
 			break
 
@@ -237,6 +242,10 @@ Proc for attack log creation, because really why not
 
 	var/endtime = world.time + delay
 	var/starttime = world.time
+
+	if(user.stats.getPerk(/datum/perk/oddity/unstoppable_arm))
+		needhand = 0
+
 	. = 1
 	while (world.time < endtime)
 		sleep(1)
