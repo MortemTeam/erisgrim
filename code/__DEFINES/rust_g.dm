@@ -7,7 +7,7 @@
 // Override the .dll/.so detection logic with a fixed path or with detection
 // logic of your own.
 //
-#define RUSTG_OVERRIDE_BUILTINS
+// #define RUSTG_OVERRIDE_BUILTINS
 // Enable replacement rust-g functions for certain builtins. Off by default.
 
 #ifndef RUST_G
@@ -129,8 +129,8 @@
 #define rustg_file_seek_line(fname, line) call(RUST_G, "file_seek_line")(fname, "[line]")
 
 #ifdef RUSTG_OVERRIDE_BUILTINS
-	#define file2text(fname) rustg_file_read("./[fname]")
-	#define text2file(text, fname) rustg_file_append(text, "./[fname]")
+	#define file2text(fname) rustg_file_read("[fname]")
+	#define text2file(text, fname) rustg_file_append(text, "[fname]")
 #endif
 
 #define rustg_git_revparse(rev) call(RUST_G, "rg_git_revparse")(rev)
