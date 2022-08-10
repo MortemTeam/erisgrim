@@ -2971,7 +2971,6 @@
 #include "MORTEM\fixing\overmap_ship.dm"
 #include "MORTEM\fixing\poster.dm"
 #include "MORTEM\fixing\rag_hot.dm"
-#include "MORTEM\fixing\ru_stutter.dm"
 #include "MORTEM\fixing\underwear.dm"
 #include "MORTEM\fixing\browsers\notes.dm"
 #include "MORTEM\fixing\browsers\storyteller.dm"
