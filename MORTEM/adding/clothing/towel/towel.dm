@@ -9,7 +9,7 @@
 	item_state = "towel"
 
 	item_flags = THICKMATERIAL
-	slot_flags = SLOT_HEAD | SLOT_BELT | SLOT_OCLOTHING
+	slot_flags = SLOT_HEAD | SLOT_BELT | SLOT_OCLOTHING | SLOT_ICLOTHING
 
 	force = WEAPON_FORCE_HARMLESS
 	armor_penetration = ARMOR_PEN_GRAZING
