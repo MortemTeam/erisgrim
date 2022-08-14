@@ -2904,6 +2904,7 @@
 #include "MORTEM\changing\atmos\xgm_icons.dm"
 #include "MORTEM\changing\breakdowns\weight.dm"
 #include "MORTEM\changing\closet\airwalls_to_techcloset.dm"
+#include "MORTEM\changing\clothing\marisa.dm"
 #include "MORTEM\changing\clothing\clown_suit\suit.dm"
 #include "MORTEM\changing\clothing\schoolgirl\suit.dm"
 #include "MORTEM\changing\clothing\suit\ass_jacket.dm"
