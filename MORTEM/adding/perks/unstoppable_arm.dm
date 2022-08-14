@@ -1,4 +1,4 @@
-#define PERK_LONG_ARM /datum/perk/oddity/unstoppable_arm
+#define PERK_UNSTOPPABLE_ARM /datum/perk/oddity/unstoppable_arm
 
 /datum/perk/oddity/unstoppable_arm
     name = "Unstoppable Arm"
