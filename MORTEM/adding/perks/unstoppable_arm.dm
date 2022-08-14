@@ -1,3 +1,5 @@
+#define PERK_LONG_ARM /datum/perk/oddity/unstoppable_arm
+
 /datum/perk/oddity/unstoppable_arm
     name = "Unstoppable Arm"
     desc = "Measure twice and cut once, that's definitely not you. \

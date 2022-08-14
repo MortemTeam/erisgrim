@@ -2861,6 +2861,7 @@
 #include "MORTEM\adding\bottles\lube.dm"
 #include "MORTEM\adding\breakdowns\insight_dumper.dm"
 #include "MORTEM\adding\breakdowns\skill_dumper.dm"
+#include "MORTEM\adding\character_setup\background_06_ability.dm"
 #include "MORTEM\adding\clothing\cheers\uniform.dm"
 #include "MORTEM\adding\clothing\maids\uniform.dm"
 #include "MORTEM\adding\clothing\neko\uniform.dm"
