@@ -51,7 +51,6 @@
 			hat.loc = get_turf(src)
 			hat.update_plane()
 		else
-			new /obj/item/material/shard/shrapnel/scrap(loc)
 			qdel(hat)
 
 		hat = null
