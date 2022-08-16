@@ -8,9 +8,6 @@
 	if(!is_asystole() && !(heart_organ && brain_organ) || (heart_organ.is_broken() || brain_organ.is_broken()))
 		return 0
 
-	if(world.time >= (timeofdeath + 30 MINUTES))
-		return 0
-
 	if(!resusciate_available)
 		visible_message(SPAN_WARNING("\The [src] twitches a bit, but their body is too damaged to sustain life!"))
 		timeofdeath = 0
