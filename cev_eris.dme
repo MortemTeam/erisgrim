@@ -2813,7 +2813,7 @@
 #include "code\ZAS\Variable Settings.dm"
 #include "code\ZAS\Zone.dm"
 #include "interface\interface.dm"
-#include "interface\skin.dmf"
+#include "interface\mortem.dmf"
 #include "maps\_map_shims.dm"
 #include "maps\CEVEris\_Eris_areas.dm"
 #include "maps\CEVEris\_map_data_Eris.dm"
