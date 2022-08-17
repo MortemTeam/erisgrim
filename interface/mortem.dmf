@@ -1165,6 +1165,7 @@ window "mainwindow"
 		background-color = none
 		is-default = true
 		saved-params = ""
+		on-size = ".winset \"mainwindow.is-maximized=true\""
 		title = "Space Station 13"
 		titlebar = false
 		statusbar = false
@@ -1187,8 +1188,8 @@ window "mainwindow"
 		type = BROWSER
 		pos = 0,-56
 		size = 999x1022
-		anchor1 = -1,-1
-		anchor2 = -1,-1
+		anchor1 = 0,0
+		anchor2 = 100,100
 		background-color = none
 		is-visible = false
 		saved-params = ""
@@ -1260,7 +1261,7 @@ window "outputwindow"
 window "rpane"
 	elem "rpane"
 		type = MAIN
-		pos = 378,0
+		pos = 372,0
 		size = 781x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
