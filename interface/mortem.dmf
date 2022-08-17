@@ -1,123 +1,75 @@
 macro "borghotkeymode"
 	elem 
-		name = "WEST"
-		command = "MoveKey 8 1"
-	elem 
-		name = "WEST+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "NORTH"
-		command = "MoveKey 1 1"
-	elem 
-		name = "NORTH+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "EAST"
-		command = "MoveKey 4 1"
-	elem 
-		name = "EAST+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "SOUTH"
-		command = "MoveKey 2 1"
-	elem 
-		name = "SOUTH+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "A"
-		command = "MoveKey 8 1"
-	elem 
-		name = "A+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "W"
-		command = "MoveKey 1 1"
-	elem 
-		name = "W+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "D"
-		command = "MoveKey 4 1"
-	elem 
-		name = "D+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "S"
-		command = "MoveKey 2 1"
-	elem 
-		name = "S+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "TAB"
+		name = "Tab"
 		command = ".winset \"mainwindow.macro=borgmacro hotkey_toggle.is-checked=false input.focus=true input.background-color=#D3B5B5\""
 	elem 
-		name = "CENTER+REP"
+		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "NORTHEAST"
+		name = "Northeast"
 		command = ".northeast"
 	elem 
-		name = "SOUTHEAST"
+		name = "Southeast"
 		command = ".southeast"
 	elem 
-		name = "SOUTHWEST"
+		name = "Southwest"
 		command = ".southwest"
 	elem 
-		name = "NORTHWEST"
+		name = "Northwest"
 		command = ".northwest"
 	elem 
-		name = "ALT+CTRL+WEST"
-		command = "westfaceperm"
+		name = "West"
+		command = "MoveKey 8 1"
 	elem 
-		name = "CTRL+WEST"
+		name = "CTRL+West"
 		command = "westface"
 	elem 
-		name = "ALT+CTRL+NORTH"
-		command = "northfaceperm"
-	elem 
-		name = "CTRL+NORTH"
-		command = "northface"
-	elem 
-		name = "ALT+CTRL+EAST"
-		command = "eastfaceperm"
-	elem 
-		name = "CTRL+EAST"
-		command = "eastface"
-	elem 
-		name = "ALT+CTRL+SOUTH"
-		command = "southfaceperm"
-	elem 
-		name = "CTRL+SOUTH"
-		command = "southface"
-	elem 
-		name = "ALT+CTRL+A"
+		name = "ALT+CTRL+West"
 		command = "westfaceperm"
 	elem 
-		name = "CTRL+A"
-		command = "westface"
+		name = "West+UP"
+		command = "MoveKey 8 0"
 	elem 
-		name = "ALT+CTRL+W"
-		command = "northfaceperm"
+		name = "North"
+		command = "MoveKey 1 1"
 	elem 
-		name = "CTRL+W"
+		name = "CTRL+North"
 		command = "northface"
 	elem 
-		name = "ALT+CTRL+D"
-		command = "eastfaceperm"
+		name = "ALT+CTRL+North"
+		command = "northfaceperm"
 	elem 
-		name = "CTRL+D"
+		name = "North+UP"
+		command = "MoveKey 1 0"
+	elem 
+		name = "East"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+East"
 		command = "eastface"
 	elem 
-		name = "ALT+CTRL+S"
-		command = "southfaceperm"
+		name = "ALT+CTRL+East"
+		command = "eastfaceperm"
 	elem 
-		name = "CTRL+S"
+		name = "East+UP"
+		command = "MoveKey 4 0"
+	elem 
+		name = "South"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+South"
 		command = "southface"
 	elem 
-		name = "INSERT"
+		name = "ALT+CTRL+South"
+		command = "southfaceperm"
+	elem 
+		name = "South+UP"
+		command = "MoveKey 2 0"
+	elem 
+		name = "Insert"
 		command = "a-intent right"
 	elem 
-		name = "DELETE"
+		name = "Delete"
 		command = "delete-key-pressed"
 	elem 
 		name = "1"
@@ -146,6 +98,33 @@ macro "borghotkeymode"
 	elem 
 		name = "5"
 		command = "me-verb"
+	elem 
+		name = "A"
+		command = "MoveKey 8 1"
+	elem 
+		name = "CTRL+A"
+		command = "westface"
+	elem 
+		name = "ALT+CTRL+A"
+		command = "westfaceperm"
+	elem 
+		name = "A+UP"
+		command = "MoveKey 8 0"
+	elem 
+		name = "B"
+		command = "resist"
+	elem 
+		name = "D"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+D"
+		command = "eastface"
+	elem 
+		name = "ALT+CTRL+D"
+		command = "eastfaceperm"
+	elem 
+		name = "D+UP"
+		command = "MoveKey 4 0"
 	elem 
 		name = "F"
 		command = "a-intent left"
@@ -177,8 +156,32 @@ macro "borghotkeymode"
 		name = "CTRL+R"
 		command = ".southwest"
 	elem 
+		name = "S"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+S"
+		command = "southface"
+	elem 
+		name = "ALT+CTRL+S"
+		command = "southfaceperm"
+	elem 
+		name = "S+UP"
+		command = "MoveKey 2 0"
+	elem 
 		name = "T"
 		command = "say-verb"
+	elem 
+		name = "W"
+		command = "MoveKey 1 1"
+	elem 
+		name = "CTRL+W"
+		command = "northface"
+	elem 
+		name = "ALT+CTRL+W"
+		command = "northfaceperm"
+	elem 
+		name = "W+UP"
+		command = "MoveKey 1 0"
 	elem 
 		name = "X"
 		command = ".northeast"
@@ -198,8 +201,26 @@ macro "borghotkeymode"
 		name = "CTRL+Z"
 		command = "Activate-Held-Object"
 	elem 
-		name = "B"
-		command = "resist"
+		name = "Numpad1"
+		command = "body-r-leg"
+	elem 
+		name = "Numpad2"
+		command = "body-groin"
+	elem 
+		name = "Numpad3"
+		command = "body-l-leg"
+	elem 
+		name = "Numpad4"
+		command = "body-r-arm"
+	elem 
+		name = "Numpad5"
+		command = "body-chest"
+	elem 
+		name = "Numpad6"
+		command = "body-l-arm"
+	elem 
+		name = "Numpad8"
+		command = "body-toggle-head"
 	elem 
 		name = "F1"
 		command = "adminhelp"
@@ -236,124 +257,79 @@ macro "borghotkeymode"
 	elem 
 		name = "F12"
 		command = "F12"
-	elem 
-		name = "NUMPAD8"
-		command = "body-toggle-head"
-	elem 
-		name = "NUMPAD5"
-		command = "body-chest"
-	elem 
-		name = "NUMPAD4"
-		command = "body-r-arm"
-	elem 
-		name = "NUMPAD6"
-		command = "body-l-arm"
-	elem 
-		name = "NUMPAD2"
-		command = "body-groin"
-	elem 
-		name = "NUMPAD1"
-		command = "body-r-leg"
-	elem 
-		name = "NUMPAD3"
-		command = "body-l-leg"
 
 macro "macro"
 	elem 
-		name = "WEST"
-		command = "MoveKey 8 1"
-	elem 
-		name = "WEST+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "CTRL+A"
-		command = "MoveKey 8 1"
-	elem 
-		name = "CTRL+A+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "NORTH"
-		command = "MoveKey 1 1"
-	elem 
-		name = "NORTH+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "CTRL+W"
-		command = "MoveKey 1 1"
-	elem 
-		name = "CTRL+W+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "EAST"
-		command = "MoveKey 4 1"
-	elem 
-		name = "EAST+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "CTRL+D"
-		command = "MoveKey 4 1"
-	elem 
-		name = "CTRL+D+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "SOUTH"
-		command = "MoveKey 2 1"
-	elem 
-		name = "SOUTH+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "CTRL+S"
-		command = "MoveKey 2 1"
-	elem 
-		name = "CTRL+S+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "TAB"
+		name = "Tab"
 		command = ".winset \"mainwindow.macro=hotkeymode hotkey_toggle.is-checked=true mapwindow.map.focus=true input.background-color=#F0F0F0\""
 	elem 
-		name = "CENTER+REP"
+		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "NORTHEAST"
+		name = "Northeast"
 		command = ".northeast"
 	elem 
-		name = "SOUTHEAST"
+		name = "Southeast"
 		command = ".southeast"
 	elem 
-		name = "SOUTHWEST"
+		name = "Southwest"
 		command = ".southwest"
 	elem 
-		name = "NORTHWEST"
+		name = "Northwest"
 		command = ".northwest"
 	elem 
-		name = "ALT+CTRL+WEST"
-		command = "westfaceperm"
+		name = "West"
+		command = "MoveKey 8 1"
 	elem 
-		name = "CTRL+WEST"
+		name = "CTRL+West"
 		command = "westface"
 	elem 
-		name = "ALT+CTRL+NORTH"
-		command = "northfaceperm"
+		name = "ALT+CTRL+West"
+		command = "westfaceperm"
 	elem 
-		name = "CTRL+NORTH"
+		name = "West+UP"
+		command = "MoveKey 8 0"
+	elem 
+		name = "North"
+		command = "MoveKey 1 1"
+	elem 
+		name = "CTRL+North"
 		command = "northface"
 	elem 
-		name = "ALT+CTRL+EAST"
-		command = "eastfaceperm"
+		name = "ALT+CTRL+North"
+		command = "northfaceperm"
 	elem 
-		name = "CTRL+EAST"
+		name = "North+UP"
+		command = "MoveKey 1 0"
+	elem 
+		name = "East"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+East"
 		command = "eastface"
 	elem 
-		name = "ALT+CTRL+SOUTH"
-		command = "southfaceperm"
+		name = "ALT+CTRL+East"
+		command = "eastfaceperm"
 	elem 
-		name = "CTRL+SOUTH"
+		name = "East+UP"
+		command = "MoveKey 4 0"
+	elem 
+		name = "South"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+South"
 		command = "southface"
 	elem 
-		name = "INSERT"
+		name = "ALT+CTRL+South"
+		command = "southfaceperm"
+	elem 
+		name = "South+UP"
+		command = "MoveKey 2 0"
+	elem 
+		name = "Insert"
 		command = "a-intent right"
 	elem 
-		name = "DELETE"
+		name = "Delete"
 		command = "delete-key-pressed"
 	elem 
 		name = "CTRL+1"
@@ -367,6 +343,18 @@ macro "macro"
 	elem 
 		name = "CTRL+4"
 		command = "a-intent harm"
+	elem 
+		name = "CTRL+A"
+		command = "MoveKey 8 1"
+	elem 
+		name = "CTRL+A+UP"
+		command = "MoveKey 8 0"
+	elem 
+		name = "CTRL+D"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+D+UP"
+		command = "MoveKey 4 0"
 	elem 
 		name = "CTRL+E"
 		command = "quick-equip"
@@ -386,6 +374,18 @@ macro "macro"
 		name = "CTRL+R"
 		command = ".southwest"
 	elem 
+		name = "CTRL+S"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+S+UP"
+		command = "MoveKey 2 0"
+	elem 
+		name = "CTRL+W"
+		command = "MoveKey 1 1"
+	elem 
+		name = "CTRL+W+UP"
+		command = "MoveKey 1 0"
+	elem 
 		name = "CTRL+X"
 		command = ".northeast"
 	elem 
@@ -395,25 +395,25 @@ macro "macro"
 		name = "CTRL+Z"
 		command = "Activate-Held-Object"
 	elem 
-		name = "CTRL+NUMPAD1"
+		name = "CTRL+Numpad1"
 		command = "body-r-leg"
 	elem 
-		name = "CTRL+NUMPAD2"
+		name = "CTRL+Numpad2"
 		command = "body-groin"
 	elem 
-		name = "CTRL+NUMPAD3"
+		name = "CTRL+Numpad3"
 		command = "body-l-leg"
 	elem 
-		name = "CTRL+NUMPAD4"
+		name = "CTRL+Numpad4"
 		command = "body-r-arm"
 	elem 
-		name = "CTRL+NUMPAD5"
+		name = "CTRL+Numpad5"
 		command = "body-chest"
 	elem 
-		name = "CTRL+NUMPAD6"
+		name = "CTRL+Numpad6"
 		command = "body-l-arm"
 	elem 
-		name = "CTRL+NUMPAD8"
+		name = "CTRL+Numpad8"
 		command = "body-toggle-head"
 	elem 
 		name = "F1"
@@ -750,100 +750,76 @@ macro "hotkeymode"
 
 macro "borgmacro"
 	elem 
-		name = "WEST"
-		command = "MoveKey 8 1"
-	elem 
-		name = "WEST+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "CTRL+A"
-		command = "MoveKey 8 1"
-	elem 
-		name = "CTRL+A+UP"
-		command = "MoveKey 8 0"
-	elem 
-		name = "NORTH"
-		command = "MoveKey 1 1"
-	elem 
-		name = "NORTH+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "CTRL+W"
-		command = "MoveKey 1 1"
-	elem 
-		name = "CTRL+W+UP"
-		command = "MoveKey 1 0"
-	elem 
-		name = "EAST"
-		command = "MoveKey 4 1"
-	elem 
-		name = "EAST+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "CTRL+D"
-		command = "MoveKey 4 1"
-	elem 
-		name = "CTRL+D+UP"
-		command = "MoveKey 4 0"
-	elem 
-		name = "SOUTH"
-		command = "MoveKey 2 1"
-	elem 
-		name = "SOUTH+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "CTRL+S"
-		command = "MoveKey 2 1"
-	elem 
-		name = "CTRL+S+UP"
-		command = "MoveKey 2 0"
-	elem 
-		name = "TAB"
+		name = "Tab"
 		command = ".winset \"mainwindow.macro=borghotkeymode hotkey_toggle.is-checked=true mapwindow.map.focus=true input.background-color=#F0F0F0\""
 	elem 
-		name = "CENTER+REP"
+		name = "Center+REP"
 		command = ".center"
 	elem 
-		name = "NORTHEAST"
+		name = "Northeast"
 		command = ".northeast"
 	elem 
-		name = "SOUTHEAST"
+		name = "Southeast"
 		command = ".southeast"
 	elem 
-		name = "SOUTHWEST"
+		name = "Southwest"
 		command = ".southwest"
 	elem 
-		name = "NORTHWEST"
+		name = "Northwest"
 		command = ".northwest"
 	elem 
-		name = "ALT+CTRL+WEST"
-		command = "westfaceperm"
+		name = "West"
+		command = "MoveKey 8 1"
 	elem 
-		name = "CTRL+WEST"
+		name = "CTRL+West"
 		command = "westface"
 	elem 
-		name = "ALT+CTRL+NORTH"
-		command = "northfaceperm"
+		name = "ALT+CTRL+West"
+		command = "westfaceperm"
 	elem 
-		name = "CTRL+NORTH"
+		name = "West+UP"
+		command = "MoveKey 8 0"
+	elem 
+		name = "North"
+		command = "MoveKey 1 1"
+	elem 
+		name = "CTRL+North"
 		command = "northface"
 	elem 
-		name = "ALT+CTRL+EAST"
-		command = "eastfaceperm"
+		name = "ALT+CTRL+North"
+		command = "northfaceperm"
 	elem 
-		name = "CTRL+EAST"
+		name = "North+UP"
+		command = "MoveKey 1 0"
+	elem 
+		name = "East"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+East"
 		command = "eastface"
 	elem 
-		name = "ALT+CTRL+SOUTH"
-		command = "southfaceperm"
+		name = "ALT+CTRL+East"
+		command = "eastfaceperm"
 	elem 
-		name = "CTRL+SOUTH"
+		name = "East+UP"
+		command = "MoveKey 4 0"
+	elem 
+		name = "South"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+South"
 		command = "southface"
 	elem 
-		name = "INSERT"
+		name = "ALT+CTRL+South"
+		command = "southfaceperm"
+	elem 
+		name = "South+UP"
+		command = "MoveKey 2 0"
+	elem 
+		name = "Insert"
 		command = "a-intent right"
 	elem 
-		name = "DELETE"
+		name = "Delete"
 		command = "delete-key-pressed"
 	elem 
 		name = "CTRL+1"
@@ -858,6 +834,18 @@ macro "borgmacro"
 		name = "CTRL+4"
 		command = "a-intent left"
 	elem 
+		name = "CTRL+A"
+		command = "MoveKey 8 1"
+	elem 
+		name = "CTRL+A+UP"
+		command = "MoveKey 8 0"
+	elem 
+		name = "CTRL+D"
+		command = "MoveKey 4 1"
+	elem 
+		name = "CTRL+D+UP"
+		command = "MoveKey 4 0"
+	elem 
 		name = "CTRL+F"
 		command = "a-intent left"
 	elem 
@@ -870,6 +858,18 @@ macro "borgmacro"
 		name = "CTRL+R"
 		command = ".southwest"
 	elem 
+		name = "CTRL+S"
+		command = "MoveKey 2 1"
+	elem 
+		name = "CTRL+S+UP"
+		command = "MoveKey 2 0"
+	elem 
+		name = "CTRL+W"
+		command = "MoveKey 1 1"
+	elem 
+		name = "CTRL+W+UP"
+		command = "MoveKey 1 0"
+	elem 
 		name = "CTRL+X"
 		command = ".northeast"
 	elem 
@@ -879,25 +879,25 @@ macro "borgmacro"
 		name = "CTRL+Z"
 		command = "Activate-Held-Object"
 	elem 
-		name = "CTRL+NUMPAD1"
+		name = "CTRL+Numpad1"
 		command = "body-r-leg"
 	elem 
-		name = "CTRL+NUMPAD2"
+		name = "CTRL+Numpad2"
 		command = "body-groin"
 	elem 
-		name = "CTRL+NUMPAD3"
+		name = "CTRL+Numpad3"
 		command = "body-l-leg"
 	elem 
-		name = "CTRL+NUMPAD4"
+		name = "CTRL+Numpad4"
 		command = "body-r-arm"
 	elem 
-		name = "CTRL+NUMPAD5"
+		name = "CTRL+Numpad5"
 		command = "body-chest"
 	elem 
-		name = "CTRL+NUMPAD6"
+		name = "CTRL+Numpad6"
 		command = "body-l-arm"
 	elem 
-		name = "CTRL+NUMPAD8"
+		name = "CTRL+Numpad8"
 		command = "body-toggle-head"
 	elem 
 		name = "F1"
@@ -976,6 +976,21 @@ menu "menu"
 		command = ""
 		category = "&Icons"
 		saved-params = "is-checked"
+	elem 
+		name = "&Scaling"
+		command = ""
+		category = "&Icons"
+		saved-params = "is-checked"
+	elem "textmode"
+		name = "&Text"
+		command = ".winset \"menu.textmode.is-checked=true?mapwindow.map.text-mode=true:mapwindow.map.text-mode=false\""
+		category = "&Icons"
+		can-check = true
+		saved-params = "is-checked"
+	elem 
+		name = "&Size"
+		command = ""
+		saved-params = "is-checked"
 	elem "stretch"
 		name = "&Stretch to fit"
 		command = ".winset \"mapwindow.map.icon-size=0\""
@@ -1022,7 +1037,6 @@ menu "menu"
 	elem 
 		name = "&Scaling"
 		command = ""
-		category = "&Icons"
 		saved-params = "is-checked"
 	elem "NN"
 		name = "&Nearest Neighbor"
@@ -1044,12 +1058,6 @@ menu "menu"
 		category = "&Scaling"
 		can-check = true
 		group = "scale"
-		saved-params = "is-checked"
-	elem "textmode"
-		name = "&Text"
-		command = ".winset \"menu.textmode.is-checked=true?mapwindow.map.text-mode=true:mapwindow.map.text-mode=false\""
-		category = "&Icons"
-		can-check = true
 		saved-params = "is-checked"
 	elem 
 		name = "&Help"
@@ -1154,20 +1162,24 @@ window "mainwindow"
 		size = 640x440
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-default = true
-		saved-params = "pos;size;is-minimized;is-maximized"
+		saved-params = ""
 		title = "Space Station 13"
 		titlebar = false
 		statusbar = false
 		is-maximized = true
 		icon = 'icons\\ss13_64.png'
 		macro = "macro"
+		outer-size = 1936x1096
+		inner-size = 1920x1080
 	elem "mainvsplit"
 		type = CHILD
 		pos = 3,0
 		size = 634x441
 		anchor1 = 0,0
 		anchor2 = 100,100
+		background-color = none
 		saved-params = "splitter"
 		right = "rpane"
 		is-vert = true
@@ -1177,6 +1189,7 @@ window "mainwindow"
 		size = 999x1022
 		anchor1 = -1,-1
 		anchor2 = -1,-1
+		background-color = none
 		is-visible = false
 		saved-params = ""
 
@@ -1248,18 +1261,18 @@ window "rpane"
 	elem "rpane"
 		type = MAIN
 		pos = 372,0
-		size = 640x480
+		size = 781x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
 		background-color = none
 		saved-params = "pos;size;is-minimized;is-maximized"
 		is-pane = true
-		outer-size = 658x549
-		inner-size = 640x502
+		outer-size = 799x549
+		inner-size = 781x502
 	elem "rpanewindow"
 		type = CHILD
 		pos = 0,0
-		size = 640x499
+		size = 781x499
 		anchor1 = 0,0
 		anchor2 = 100,100
 		background-color = none
@@ -1267,6 +1280,39 @@ window "rpane"
 		saved-params = "splitter"
 		right = "outputwindow"
 		is-vert = false
+	elem "hideb"
+		type = BUTTON
+		pos = 745,0
+		size = 20x16
+		anchor1 = 100,0
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = "---"
+		command = ".winset \"mainwindow.is-minimized=true\""
+		group = "rpanemode"
+	elem "hotkey_toggle"
+		type = BUTTON
+		pos = 640,-4
+		size = 80x20
+		anchor1 = -1,-1
+		anchor2 = -1,-1
+		background-color = #b2b2b2
+		saved-params = ""
+		text = "Hotkey Toggle"
+		command = ".winset \"mainwindow.macro!=macro ? mainwindow.macro=macro hotkey_toggle.is-checked=false input.focus=true : mainwindow.macro=hotkeymode hotkey_toggle.is-checked=true mapwindow.map.focus=true\""
+		button-type = pushbox
+	elem "closeb"
+		type = BUTTON
+		pos = 765,0
+		size = 20x16
+		anchor1 = 100,0
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = "X"
+		command = ".quit"
+		group = "rpanemode"
 	elem "githuburl"
 		type = BUTTON
 		pos = 352,0
