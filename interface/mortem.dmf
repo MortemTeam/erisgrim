@@ -1260,7 +1260,7 @@ window "outputwindow"
 window "rpane"
 	elem "rpane"
 		type = MAIN
-		pos = 372,0
+		pos = 378,0
 		size = 781x480
 		anchor1 = -1,-1
 		anchor2 = -1,-1
@@ -1282,7 +1282,7 @@ window "rpane"
 		is-vert = false
 	elem "hideb"
 		type = BUTTON
-		pos = 745,0
+		pos = 726,0
 		size = 20x16
 		anchor1 = 100,0
 		anchor2 = -1,-1
@@ -1290,6 +1290,17 @@ window "rpane"
 		saved-params = "is-checked"
 		text = "---"
 		command = ".winset \"mainwindow.is-minimized=true\""
+		group = "rpanemode"
+	elem "reconnectb"
+		type = BUTTON
+		pos = 745,0
+		size = 20x16
+		anchor1 = 100,0
+		anchor2 = -1,-1
+		background-color = none
+		saved-params = "is-checked"
+		text = "R"
+		command = ".reconnect"
 		group = "rpanemode"
 	elem "hotkey_toggle"
 		type = BUTTON
