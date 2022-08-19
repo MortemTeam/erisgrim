@@ -1,3 +1,5 @@
-/obj/machinery/hivemind_machine/node/Initialize()
-	. = ..()
-	hive_mind_ai.evo_points = 666
+/mob/living/simple_animal/hostile/hivemind/mechiver
+	rarity_value = 166
+
+/mob/living/simple_animal/hostile/hivemind/stinger
+	move_to_delay = 4
