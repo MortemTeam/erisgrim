@@ -2958,7 +2958,6 @@
 #include "MORTEM\changing\perks\noble.dm"
 #include "MORTEM\changing\planets\num_on_overmap.dm"
 #include "MORTEM\changing\programs\warez_contains.dm"
-#include "MORTEM\changing\projectiles\crossbow.dm"
 #include "MORTEM\changing\projectiles\speed.dm"
 #include "MORTEM\changing\roaches\benz_roach.dm"
 #include "MORTEM\changing\roles\commi_objectives.dm"
