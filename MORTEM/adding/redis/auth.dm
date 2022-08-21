@@ -4,5 +4,5 @@
     set desc = "Login discord for use special features"
 
     token = sanitize(token)
-    redis_client.push("SYSTEM", "LOGIN [token]@[key]")
+    redis_client.push("DISCORD-SYSTEM", "LOGIN [token]@[key]")
     to_chat(src, SPAN_NOTICE("Check your PM with bot, if he hasn't responded, notify administrators!"))

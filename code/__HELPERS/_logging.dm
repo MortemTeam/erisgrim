@@ -36,8 +36,8 @@
 /proc/game_log(category, text)
 	var/round_duration = roundduration2text()
 	diary << "\[[round_duration]] [game_id] [category]: [text][log_end]"
-	if(category in list("ADMIN", "GAME", "SAY", "WHISPER", "EMOTE", "OOC"))
-		redis_client.push(category, "[game_id]@[round_duration]@[text]")
+	if(category in list("ADMIN"))
+		redis_client.push("LOG-" + category, "[game_id]@[round_duration]@[text]")
 
 /proc/log_admin(text)
 	admin_log.Add(text)

@@ -21,3 +21,9 @@ var/global/redis/redis_client = new()
 	var/x = rustg_redis_publish(channel, message)
 	if(x in list("sending on a closed channel", "Not connected"))
 		Connect()
+
+/redis/proc/subscribe(channel)
+	rustg_redis_subscribe(channel)
+
+/redis/proc/get_message()
+	rustg_redis_get_messages()
