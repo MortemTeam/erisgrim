@@ -24,7 +24,7 @@
 			if(C.get_preference_value(/datum/client_preference/staff/show_chat_prayers) == GLOB.PREF_SHOW)
 				to_chat(C, msg)
 
-	redis_client.push("LOG-PRAY", "[game_id]@[round_duration]@[key]: [msg]")
+	redis_client.push("LOG-PRAY", "[game_id]@[roundduration2text()]@[key]: [msg]")
 	to_chat(usr, "Your prayers have been received by the gods.")
 
 

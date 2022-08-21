@@ -41,7 +41,7 @@
 
 	// Assuming it is an an admin help and not a mentor help	
 	SStickets.newHelpRequest(src, msg) // Ahelp
-	redis_client.push("LOG-AHELP", "[game_id]@[round_duration]@[key]: [msg]")
+	redis_client.push("LOG-AHELP", "[game_id]@[roundduration2text()]@[key]: [msg]")
 
 	// SSmentor_tickets.newHelpRequest(src, mentormsg) // Mhelp (for mentors if they ever get implemented)
 
