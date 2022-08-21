@@ -69,6 +69,10 @@ GLOBAL_LIST_INIT(blacklisted_builds, list(
 		if(ismob(C)) 		//Old stuff can feed-in mobs instead of clients
 			var/mob/M = C
 			C = M.client
+		// its a fucking ckey
+		if(istext(C))
+			C = directory[C]
+
 		cmd_admin_pm(C,null)
 		return
 
