@@ -114,13 +114,14 @@ ADMIN_VERB_ADD(/client/proc/cmd_dev_bst, R_ADMIN|R_DEBUG, TRUE)
 	return TRUE
 
 /mob/living/carbon/human/bst/proc/suicide()
-
+	log_admin("Bluespace Tech teleport out in: X:[bst.x] Y:[bst.y] Z:[bst.z] User:[src]")
 	src.custom_emote(1,"presses a button on their suit, followed by a polite bow.")
 	var/datum/effect/effect/system/spark_spread/s = new /datum/effect/effect/system/spark_spread
 	s.set_up(5, 1, src)
 	s.start()
 	spawn(10)
 		qdel(src)
+
 	if(key)
 		var/mob/observer/ghost/ghost = ghostize(TRUE)
 		ghost.name = "[ghost.key] BSTech"
