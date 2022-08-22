@@ -78,6 +78,7 @@ GLOBAL_LIST_INIT(excel_item_targets,list(
 
 	if(M)
 		M.contracts_completed++
+		redis_client.push("DISCORD-SYSTEM", "COMPLETE CONTRACT [M.key]")
 		if(M.current)
 			to_chat(M.current, SPAN_NOTICE("Contract completed: [name] ([reward] TC)"))
 
@@ -346,7 +347,7 @@ GLOBAL_LIST_INIT(excel_item_targets,list(
 			to_chat(user, SPAN_NOTICE("Mandate completed: [name] ([reward] energy, [E.time2minutes(E.mandate_increase)] minutes have been added to the detection countdown timer.)"))
 		else
 			to_chat(user, SPAN_NOTICE("Mandate completed: [name] ([reward] energy)"))
-	
+
 	for (var/obj/machinery/complant_teleporter/t in excelsior_teleporters)
 		t.update_nano_data()
 

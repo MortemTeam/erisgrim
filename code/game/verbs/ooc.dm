@@ -33,7 +33,7 @@
 			return
 
 	log_ooc("[mob.name]/[key] : [msg]")
-	redis_client.push("DISCORD-SYSTEM", "OOC [key]@[msg]")
+	redis_client.push("DISCORD-SYSTEM", "OOC [game_id]@[roundduration2text()]@[key]@[msg]")
 
 	msg = emoji_parse(msg)
 

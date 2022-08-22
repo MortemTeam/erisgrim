@@ -126,6 +126,7 @@
 /datum/individual_objective/proc/update_faction_score()
 	if(owner)
 		owner.individual_objectives_completed++
+		redis_client.push("DISCORD-SYSTEM", "COMPLETE OBJECTIVE [owner.key]")
 	if(req_cruciform || (DEPARTMENT_CHURCH in req_department))
 		GLOB.neotheology_objectives_completed++
 	else if(DEPARTMENT_SECURITY in req_department)
