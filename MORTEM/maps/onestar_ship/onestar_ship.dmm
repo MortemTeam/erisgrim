@@ -53,7 +53,7 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/space)
 "aY" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/space)
 "bf" = (
@@ -294,10 +294,6 @@
 /area/space)
 "iM" = (
 /turf/simulated/floor/tiled/white/brown_perforated,
-/area/space)
-"iO" = (
-/obj/spawner/mob/roomba,
-/turf/simulated/floor/tiled/derelict,
 /area/space)
 "iU" = (
 /obj/structure/table/onestar,
@@ -555,7 +551,7 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/space)
 "pg" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/carpet,
 /area/space)
 "pl" = (
@@ -594,7 +590,7 @@
 /obj/structure/sign/derelict1{
 	pixel_x = 32
 	},
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/space)
 "qc" = (
@@ -724,7 +720,7 @@
 /obj/structure/sign/derelict2{
 	pixel_x = -32
 	},
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/derelict,
 /area/space)
 "rY" = (
@@ -1162,10 +1158,6 @@
 /obj/structure/table/onestar,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/space)
-"DZ" = (
-/obj/spawner/mob/roomba,
-/turf/simulated/floor/tiled/derelict/white_small_edges,
-/area/space)
 "Ek" = (
 /obj/structure/table/rack,
 /obj/spawner/medical/low_chance,
@@ -1192,7 +1184,7 @@
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/space)
 "Fo" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/cafe,
 /area/space)
 "Fy" = (
@@ -1225,6 +1217,10 @@
 	dir = 6
 	},
 /turf/simulated/floor/tiled/white/techfloor_grid,
+/area/space)
+"FZ" = (
+/obj/spawner/mob/roaches/cluster,
+/turf/simulated/floor/tiled/derelict/white_small_edges,
 /area/space)
 "Gk" = (
 /obj/structure/table/onestar,
@@ -1322,7 +1318,7 @@
 /obj/structure/sign/derelict2{
 	pixel_x = -32
 	},
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /obj/machinery/light{
 	dir = 8
 	},
@@ -1539,10 +1535,6 @@
 /obj/machinery/dna/console,
 /turf/simulated/floor/tiled/white/brown_platform,
 /area/space)
-"Mm" = (
-/obj/spawner/mob/roomba,
-/turf/simulated/floor/tiled/dark/brown_platform,
-/area/space)
 "Ms" = (
 /obj/machinery/dna/moeballs_printer,
 /turf/simulated/floor/tiled/white/brown_platform,
@@ -1569,6 +1561,10 @@
 	dir = 8
 	},
 /turf/simulated/floor/dirt,
+/area/space)
+"NR" = (
+/obj/spawner/mob/roaches/cluster,
+/turf/simulated/floor/tiled/dark/brown_platform,
 /area/space)
 "Oc" = (
 /obj/structure/table/standard,
@@ -1684,7 +1680,7 @@
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/space)
 "QI" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/space)
 "QM" = (
@@ -1872,7 +1868,7 @@
 /turf/simulated/floor/tiled/white/techfloor_grid,
 /area/space)
 "Vg" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/derelict/red_white_edges,
 /area/space)
 "Vi" = (
@@ -1958,7 +1954,7 @@
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/space)
 "Xu" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/derelict/white_big_edges,
 /area/space)
 "XJ" = (
@@ -2003,6 +1999,10 @@
 	dir = 4
 	},
 /turf/simulated/floor/tiled/derelict/white_small_edges,
+/area/space)
+"Zd" = (
+/obj/spawner/mob/roaches/cluster,
+/turf/simulated/floor/tiled/derelict,
 /area/space)
 "Zg" = (
 /obj/structure/bed/chair/office/dark{
@@ -18723,7 +18723,7 @@ tX
 fX
 fX
 fX
-DZ
+FZ
 fX
 fX
 xb
@@ -18901,13 +18901,13 @@ Qm
 eA
 Qm
 xb
-DZ
+FZ
 fX
 xb
 Qu
 nP
 nP
-iO
+Zd
 nP
 nP
 nP
@@ -19113,12 +19113,12 @@ mR
 mR
 nP
 nP
-iO
+Zd
 nP
 nP
 Vx
 xb
-Mm
+NR
 rh
 rh
 Ad
@@ -19732,7 +19732,7 @@ xb
 lb
 fX
 fX
-DZ
+FZ
 fX
 VY
 fX
@@ -19916,7 +19916,7 @@ fX
 ZO
 tX
 fX
-DZ
+FZ
 fX
 fX
 tX
@@ -20124,7 +20124,7 @@ fX
 fX
 fX
 fX
-DZ
+FZ
 fX
 tX
 fX
@@ -20134,7 +20134,7 @@ fX
 fX
 fX
 fX
-DZ
+FZ
 fX
 fX
 fX
@@ -20915,7 +20915,7 @@ rX
 nP
 nP
 CN
-iO
+Zd
 nP
 HK
 yE
@@ -21325,7 +21325,7 @@ eA
 IT
 IT
 xb
-DZ
+FZ
 fX
 xb
 QR
@@ -21719,14 +21719,14 @@ AO
 Ss
 rh
 rh
-Mm
+NR
 rh
 rh
 HK
 qV
 GW
 yo
-Mm
+NR
 rh
 pv
 fX
@@ -22329,7 +22329,7 @@ nP
 nP
 eM
 nP
-iO
+Zd
 nP
 eA
 eA
@@ -23356,7 +23356,7 @@ fX
 fX
 fX
 fX
-DZ
+FZ
 fX
 fX
 fX
@@ -23561,7 +23561,7 @@ Jl
 tX
 uV
 fX
-DZ
+FZ
 fX
 fX
 fX
@@ -23739,7 +23739,7 @@ aa
 oC
 hI
 iM
-iO
+Zd
 nP
 Wz
 oC
@@ -23749,7 +23749,7 @@ Yc
 Yc
 zO
 xb
-DZ
+FZ
 fX
 xb
 xb
@@ -23976,7 +23976,7 @@ yE
 zL
 xb
 wv
-Mm
+NR
 Cf
 xb
 rl
@@ -24349,7 +24349,7 @@ xb
 qc
 nP
 nP
-iO
+Zd
 Ue
 fu
 nP
@@ -24561,7 +24561,7 @@ fX
 fX
 HK
 nP
-iO
+Zd
 Pv
 xb
 Be
@@ -24954,7 +24954,7 @@ xb
 xb
 Ll
 gt
-iO
+Zd
 nP
 HK
 Vw

@@ -40,7 +40,7 @@
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "ax" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "aF" = (
@@ -167,7 +167,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "cd" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/away/water_pool)
 "co" = (
@@ -649,7 +649,7 @@
 	req_access = list(12);
 	stat = 1
 	},
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/away/water_pool)
 "gO" = (
@@ -682,7 +682,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "gZ" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/away/water_pool)
 "ha" = (
@@ -1017,7 +1017,7 @@
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "kH" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/carpet,
 /area/away/water_pool)
 "kN" = (
@@ -1160,7 +1160,7 @@
 /area/away/water_pool)
 "mW" = (
 /obj/effect/decal/cleanable/blood/drip,
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "mZ" = (
@@ -1307,7 +1307,7 @@
 /area/away/water_pool)
 "oi" = (
 /obj/structure/table/bar_special,
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "ok" = (
@@ -1706,7 +1706,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "tX" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "ue" = (
@@ -1732,7 +1732,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/away/water_pool)
 "uz" = (
@@ -2745,7 +2745,7 @@
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "HZ" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/away/water_pool)
 "Id" = (
@@ -2906,7 +2906,7 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Kj" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/wood,
 /area/away/water_pool)
 "Ko" = (
@@ -2978,7 +2978,7 @@
 	amount = 9;
 	icon_state = "srifle_c_l-spent"
 	},
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Lp" = (
@@ -2995,7 +2995,7 @@
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/away/water_pool)
 "Lx" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "LC" = (
@@ -3051,7 +3051,7 @@
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "Ml" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "Mq" = (
@@ -3239,7 +3239,7 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "OJ" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/white/bluecorner,
 /area/away/water_pool)
 "ON" = (
@@ -3507,7 +3507,7 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/away/water_pool)
 "Rx" = (
-/obj/spawner/mob/roomba,
+/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Ry" = (
