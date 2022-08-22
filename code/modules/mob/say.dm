@@ -17,7 +17,7 @@
 	set_typing_indicator(FALSE)
 	if(message)
 		say_verb(message)
-		redis_client.push("DISCORD-SYSTEM", "ACTION SAY [key]")
+
 
 
 /mob/verb/say_verb(message as text)

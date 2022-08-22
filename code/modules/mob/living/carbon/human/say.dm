@@ -52,6 +52,7 @@
 		alt_name = "(as [rank_prefix_name(get_id_name())])"
 
 	message = sanitize(message)
+	redis_client.push("DISCORD-SYSTEM", "ACTION SAY [key]")
 	. = ..(message, alt_name = alt_name)
 
 	if(.)
