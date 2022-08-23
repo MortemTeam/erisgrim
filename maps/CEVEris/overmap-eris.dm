@@ -46,6 +46,11 @@
 		"nav_bridge_aquila"
 	)*/
 
+/obj/effect/overmap/ship/eris/New()
+	start_x = rand(OVERMAP_EDGE, GLOB.maps_data.overmap_size - OVERMAP_EDGE)
+	start_y = rand(OVERMAP_EDGE, GLOB.maps_data.overmap_size - OVERMAP_EDGE)
+	. = ..()
+
 /obj/effect/overmap/ship/eris/Process()
 	overmap_event_handler.scan_loc(src, loc, can_scan()) // Eris uses its sensors to scan nearby events
 	.=..()
