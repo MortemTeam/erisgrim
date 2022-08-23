@@ -41,6 +41,7 @@
 	set_typing_indicator(FALSE)
 	if(message)
 		me_verb(message)
+		redis_client.push("DISCORD-SYSTEM", "ACTION EMOTE [key]")
 
 
 /mob/verb/me_verb(message as text)

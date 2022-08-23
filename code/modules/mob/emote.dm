@@ -23,7 +23,6 @@
 	if (message)
 		log_emote("[name]/[key] : [message]")
 		send_emote(message, m_type)
-		redis_client.push("DISCORD-SYSTEM", "ACTION EMOTE [key]")
 
 /mob/proc/emote_dead(var/message)
 
