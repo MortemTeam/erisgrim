@@ -46,7 +46,7 @@
 		"nav_bridge_aquila"
 	)*/
 
-/obj/effect/overmap/ship/eris/New()
+/obj/effect/overmap/ship/eris/Initialize()
 	start_x = rand(OVERMAP_EDGE, GLOB.maps_data.overmap_size - OVERMAP_EDGE)
 	start_y = rand(OVERMAP_EDGE, GLOB.maps_data.overmap_size - OVERMAP_EDGE)
 	. = ..()
