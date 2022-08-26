@@ -69,7 +69,7 @@
 		if(option == selected_option)
 			dat += "<a class='white [img && "icon"]'>[img][option]</a><br>"
 		else
-			dat += "<a href='?src=\ref[src];option_select=[option]' class='[option == get_pref_option() && "linkOn"] [img && "icon"]'>[img][option]</a><br>"
+			dat += "<a href='?src=[REF(src)];option_select=[option]' class='[option == get_pref_option() && "linkOn"] [img && "icon"]'>[img][option]</a><br>"
 
 	dat += "</td><td>"
 
