@@ -261,7 +261,10 @@
 			M.change_mob_type( /mob/living/simple_animal/parrot , null, null, delmob )
 		if("polyparrot")
 			M.change_mob_type( /mob/living/simple_animal/parrot/Poly , null, null, delmob )
-
+		if("scaven")
+			var/mob/living/carbon/human/H = M
+			if(H)
+				H.scavenize()
 
 /datum/admin_topic/unbanf
 	keyword = "unbanf"
