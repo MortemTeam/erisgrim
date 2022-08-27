@@ -35,8 +35,9 @@
     poison_type = null
 
     darksight = 6
-    flags = NO_BLOOD | NO_BREATHE | NO_SCAN
+    flags = NO_BREATHE | NO_SCAN
     appearance_flags = HAS_SKIN_COLOR
+    blood_color = "#606060"
     hazard_high_pressure = 666666
 
     icobase = 'MORTEM/adding/scavengers/bodyparts.dmi'
