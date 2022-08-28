@@ -2944,7 +2944,6 @@
 #include "MORTEM\changing\jobs\spawnpoints.dm"
 #include "MORTEM\changing\jobs\vagabund_name.dm"
 #include "MORTEM\changing\junk_piles\cloth_pile.dm"
-#include "MORTEM\changing\junk_piles\machine_pile.dm"
 #include "MORTEM\changing\lobby_music\lobby_music.dm"
 #include "MORTEM\changing\loots\clothing.dm"
 #include "MORTEM\changing\loots\gun_part.dm"
