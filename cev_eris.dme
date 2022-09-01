@@ -2987,7 +2987,6 @@
 #include "MORTEM\disabling\restart_poll.dm"
 #include "MORTEM\disabling\TC_gain.dm"
 #include "MORTEM\disabling\contracts\buy.dm"
-#include "MORTEM\disabling\contracts\steal.dm"
 #include "MORTEM\disabling\economy\atm.dm"
 #include "MORTEM\disabling\events\maintshroom_spread.dm"
 #include "MORTEM\fixing\attach_organ.dm"
