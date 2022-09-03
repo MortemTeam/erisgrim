@@ -2961,6 +2961,7 @@
 #include "MORTEM\changing\planets\num_on_overmap.dm"
 #include "MORTEM\changing\programs\warez_contains.dm"
 #include "MORTEM\changing\projectiles\crossbow.dm"
+#include "MORTEM\changing\projectiles\damage.dm"
 #include "MORTEM\changing\projectiles\handmade_mods.dm"
 #include "MORTEM\changing\projectiles\rpg.dm"
 #include "MORTEM\changing\projectiles\speed.dm"
