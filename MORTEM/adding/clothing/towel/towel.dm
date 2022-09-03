@@ -12,7 +12,7 @@
 	slot_flags = SLOT_HEAD | SLOT_BELT | SLOT_OCLOTHING | SLOT_ICLOTHING
 
 	force = WEAPON_FORCE_HARMLESS
-	armor_penetration = ARMOR_PEN_GRAZING
+	armor_divisor = ARMOR_PEN_GRAZING
 	attack_verb = list("whipped")
 	hitsound = 'MORTEM/adding/clothing/towel/towelwhip.ogg'
 

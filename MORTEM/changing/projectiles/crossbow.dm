@@ -16,7 +16,7 @@
     icon_state = "metal-rod"
     force = WEAPON_FORCE_NORMAL
     throwforce = WEAPON_FORCE_LETHAL
-    armor_penetration = ARMOR_PEN_EXTREME
+    armor_divisor = ARMOR_PEN_EXTREME
 
 /obj/item/gun/launcher/crossbow
     name = "powered crossbow"
@@ -59,7 +59,7 @@
     to_chat(user, SPAN_NOTICE("[bolt] sparks and crackles as it gives off a red-hot glow."))
 
     bolt.throwforce *= 2
-    bolt.armor_penetration *= 2
+    bolt.armor_divisor *= 2
     bolt.icon_state = "blade_stun"
     cell.use(charge_cost)
 

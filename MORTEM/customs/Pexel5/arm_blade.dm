@@ -1,7 +1,7 @@
 /obj/item/tool/armblade/serbian
 	name = "L1.3ArmBlade"
 	force = WEAPON_FORCE_DANGEROUS
-	armor_penetration = ARMOR_PEN_DEEP
+	armor_divisor = ARMOR_PEN_DEEP
 
 	tool_qualities = list(QUALITY_CUTTING = 20, QUALITY_PRYING = 10)
 
