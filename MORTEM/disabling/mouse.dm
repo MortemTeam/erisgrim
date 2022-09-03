@@ -1,5 +1,5 @@
 /datum/event/infestation
-	var/possible_mobs_mundane = list(
+	possible_mobs_mundane = list(
 		//INFESTATION_MICE = 17,
 		INFESTATION_SPIDERLINGS = 8,
 	)
