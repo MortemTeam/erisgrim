@@ -786,7 +786,7 @@ var/global/list/default_medbay_channels = list(
 		5 = /datum/armament/item/disk/nt_lightfall,
 		1 = /obj/item/cell/small/hyper,
 		1 = /obj/item/cell/medium/hyper,
-		1 = /obj/item/bluespace_crystal
+		1 = /obj/item/bluespace_crystal,
 	)
 	w_class = ITEM_SIZE_BULKY
 
