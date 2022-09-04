@@ -1,30 +1,15 @@
 #ifndef ERIS_L
 // Default automatic ERIS_L detection.
 // On Windows, looks in the standard places for `erislight.dll`.
-// On Linux, looks in `.`, `$LD_LIBRARY_PATH`, and `~/.byond/bin` for either of
-// `liberislight.so`
-
-/* This comment bypasses grep checks */ /var/__eris_l
+// On Linux, looks in `.`, `$LD_LIBRARY_PATH` for either of `liberislight.so`
 
 /proc/__detect_eris_l()
-	if(world.system_type == UNIX)
-		if (fexists("./liberislight.so"))
-			// No need for LD_LIBRARY_PATH badness.
-			return __eris_l = "./liberislight.so"
-		else if (fexists("./erislight"))
-			// Old dumb filename.
-			return __eris_l = "./erislight"
-		else if (fexists("[world.GetConfig("env", "HOME")]/.byond/bin/erislight"))
-			// Old dumb filename in `~/.byond/bin`.
-			return __eris_l = "erislight"
-		else
-			// It's not in the current directory, so try others
-			return __eris_l = "liberislight.so"
-	else
-		return __eris_l = "erislight"
+	if(world.system_type == UNIX && fexists("./liberislight.so"))
+		return "./liberislight.so"
+	if(world.system_type == MS_WINDOWS && fexists("erislight.dll"))
+		return "erislight.dll"
 
-#define ERIS_L (__eris_l || __detect_eris_l())
-#endif
+#define ERIS_L __detect_eris_l()
 
 /proc/eris_l_init()
 	return call(ERIS_L, "auxtools_init")()
@@ -36,13 +21,17 @@
 	if(ERIS_L) world.log << "ERIS L INIT: [eris_l_init()]"
 	return TRUE
 
-/hook/shutdown/proc/auxtools_shutdown()
+/world/Del()
 	if(ERIS_L) world.log << "ERIS L SHUTDOWN: [eris_l_shutdown()]"
-	return TRUE
+	. = ..()
 
 /proc/make_new(path, arguments)
 	var/type = text2path(path)
 	return new type(arglist(arguments))
 
+/* Uncomment if not implemented DMM_SUITE
 /proc/auxtools_stack_trace(msg)
 	CRASH(msg)
+*/
+
+#endif
