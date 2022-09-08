@@ -41,8 +41,9 @@
 		new path(T)
 	if(prob(2))
 		new /obj/effect/decal/cleanable/blood/oil(T)
-	//if(prob(1))
-	//	new /mob/living/simple_animal/mouse(T)
+	if(prob(1))
+		new /obj/spawner/traps(T)
+		//new /mob/living/simple_animal/mouse(T)
 	if(prob(25))	// Keep in mind that only "corners" get any sort of web
 		attempt_web(T, cardinal_turfs)
 
