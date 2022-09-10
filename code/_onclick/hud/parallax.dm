@@ -1,4 +1,4 @@
-GLOBAL_VAR_INIT(random_parallax, pick("space0", "space1", "space2", "space3", "space4", "space5", "space6"))
+GLOBAL_VAR_INIT(random_parallax, pick("space0", "space1", "space2", "space3", "space4", "space5", "space6", "mortem2"))
 
 /obj/parallax_screen
 	icon = 'icons/parallax.dmi'
