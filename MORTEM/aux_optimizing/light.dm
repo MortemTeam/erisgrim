@@ -25,13 +25,4 @@
 	if(ERIS_L) world.log << "ERIS L SHUTDOWN: [eris_l_shutdown()]"
 	. = ..()
 
-/proc/make_new(path, arguments)
-	var/type = text2path(path)
-	return new type(arglist(arguments))
-
-/* Uncomment if not implemented DMM_SUITE
-/proc/auxtools_stack_trace(msg)
-	CRASH(msg)
-*/
-
 #endif
