@@ -3,24 +3,12 @@
 	var/hat_x_offset = 6
 	var/hat_y_offset = 6
 
-	var/hat_prob = 50
-	var/hats4roaches = /obj/item/clothing/head/armor
+	var/hat_prob = 77.7
+	var/hats4roaches = /obj/item/clothing/head
 	var/hats_blocked = list(
-		/obj/item/clothing/head,
 		/obj/item/clothing/head/armor,
 		/obj/item/clothing/head/armor/faceshield,
-		/obj/item/clothing/head/collectable,
-		/obj/item/clothing/head/collectable/hardhat,
 	)
-
-/mob/living/carbon/superior_animal/roach/hunter
-	hat_prob = 100
-
-/mob/living/carbon/superior_animal/roach/tank
-	hat_prob = 100
-
-/mob/living/carbon/superior_animal/roach/fuhrer
-	hats4roaches = /obj/item/clothing/head/armor
 
 
 /mob/living/carbon/superior_animal/roach/Move()
