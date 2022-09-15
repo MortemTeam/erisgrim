@@ -3,7 +3,10 @@
 	return new type(arglist(arguments))
 
 /proc/world_contents()
-    return world.contents
+    return world.contents.Copy()
+
+/proc/make_view(Dist, Center)
+	return view(Dist, Center)
 
 /proc/make_ispath(Val, Type)
 	return ispath(Val, Type)
