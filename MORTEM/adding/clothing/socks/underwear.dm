@@ -9,10 +9,22 @@
 	name = "fishnet"
 	has_color = TRUE
 
+/datum/category_item/underwear/socks/fishnet_short
+	underwear_name = "short fishnet"
+	icon_state = "short_fishnet"
+	name = "short fishnet"
+	has_color = TRUE
+
 /datum/category_item/underwear/socks/pantyhouse
 	underwear_name = "pantyhose"
 	icon_state = "pantyhose"
 	name = "pantyhose"
+	has_color = TRUE
+
+/datum/category_item/underwear/socks/pantyhouse
+	underwear_name = "short pantyhose"
+	icon_state = "short_pantyhose"
+	name = "short pantyhose"
 	has_color = TRUE
 
 /datum/category_item/underwear/socks/striped
