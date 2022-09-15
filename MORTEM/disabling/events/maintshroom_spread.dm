@@ -2,7 +2,7 @@
 	enabled = FALSE
 
 /obj/effect/spawner/maintshroom/Initialize()
-	qdel_self()
+	return QDEL_HINT_QUEUE
 
 /datum/controller/subsystem/migration/handle_plant_spreading()
 	return
