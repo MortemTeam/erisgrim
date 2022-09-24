@@ -14,11 +14,9 @@
 	sheet_reagents = list()
 	var/biomatter_counter = 0				// We don't want this to actually produce biomatter
 	var/list/accepted_reagents = list(
-		/datum/reagent/drink/milk = 0.13,				// Internet said milk is 13% solids, 87% water
-		/datum/reagent/organic/nutriment/protein = 1
+		/datum/reagent/organic/nutriment = 1
 	)
 	var/list/blacklisted_reagents = list(
-		/datum/reagent/drink/milk/soymilk
 	)
 	var/list/accepted_objects = list(
 		/obj/item/organ,
@@ -27,8 +25,9 @@
 	var/spit_target
 	var/spit_range = 2		// For var-edits
 	var/has_brain = FALSE
-	var/grind_rate = 8		// ticks
+	var/grind_rate = 8						// How many ticks between each processed item
 	var/current_tick = 0
+	var/substrate_conversion_factor = 1		// Multiplier for converting reagents/biomatter into substrate
 
 /obj/machinery/reagentgrinder/industrial/disgorger/Initialize()
 	. = ..()
@@ -82,7 +81,7 @@
 
 	if(blacklisted)
 		blacklisted = copytext(blacklisted, 1, length(blacklisted) - 1)
-		to_chat(user, SPAN_WARNING("Rejects [blacklisted]."))
+		to_chat(user, SPAN_WARNING("Rejects objects with the following reagents: [blacklisted]."))
 
 /obj/machinery/reagentgrinder/industrial/disgorger/proc/check_reagents(obj/item/I, mob/user)
 	if(!I.reagents || !I.reagents.total_volume)
@@ -93,7 +92,7 @@
 			. = TRUE		// If the container has any amount of an accepted reagent, the proc will return true
 		if(is_type_in_list(R, blacklisted_reagents))
 			return FALSE	// If the container has any amount of a blacklisted reagent, the proc will immediately return false
-	
+
 /obj/machinery/reagentgrinder/industrial/disgorger/insert(obj/item/I, mob/user)
 	if(!istype(I))
 		return
@@ -118,6 +117,17 @@
 	return FALSE
 
 /obj/machinery/reagentgrinder/industrial/disgorger/grind_item(obj/item/I)
+	// Check reagents first
+	if(I.reagents)
+		holdingitems -= I
+		for(var/reagent in I.reagents.reagent_list)
+			var/datum/reagent/R = reagent
+			if(!is_type_in_list(R, blacklisted_reagents))
+				for(var/reagent_type in accepted_reagents)
+					if(istype(R, reagent_type))
+						biomatter_counter += round(R.volume * accepted_reagents[reagent_type] * substrate_conversion_factor, 0.01)
+	
+	// Check biomatter content and contained objects (depth of 2, include self)
 	for(var/path in accepted_objects)
 		if(!istype(I, path))
 			continue
@@ -126,22 +136,17 @@
 
 		var/amount_to_take
 
-		for(var/object in I.GetAllContents(includeSelf = TRUE))
+		for(var/object in I.GetAllContents(2, TRUE))
 			var/obj/item/O = object
 			if(O.matter.Find(MATERIAL_BIOMATTER))
 				amount_to_take += max(0, O.matter[MATERIAL_BIOMATTER])
 			qdel(O)
 		if(amount_to_take)
-			biomatter_counter += amount_to_take
-			return
+			biomatter_counter += round(amount_to_take * substrate_conversion_factor, 0.01)
 		break
 
-	if(I.reagents)
-		holdingitems -= I
-		for(var/reagent in I.reagents.reagent_list)
-			var/datum/reagent/R = reagent
-			if(!is_type_in_list(R, blacklisted_reagents) && is_type_in_list(R, accepted_reagents))
-				biomatter_counter += round(R.volume * accepted_reagents[R.type], 0.01)
+	// Make sure the object is qdel'd
+	if(!QDELETED(I))
 		qdel(I)
 
 /obj/machinery/reagentgrinder/industrial/disgorger/grind()
@@ -174,7 +179,6 @@
 	flick("[initial(icon_state)]_spit", src)
 	var/obj/item/fleshcube/new_cube = new(get_turf(src))
 	new_cube.throw_at(spit_target, 3, 1)
-	
 
 /obj/machinery/reagentgrinder/industrial/disgorger/default_deconstruction(obj/item/I, mob/user)
 	var/qualities = list(QUALITY_RETRACTING)
@@ -208,14 +212,20 @@
 	var/liver_eff = 0
 	var/kidney_eff = 0
 	var/carrion_chem_eff = 0
-
-	var/muscle_eff = 0
-	var/tick_reduction = 0
-
 	var/stomach_eff = 0
+	var/muscle_eff = 0
+	var/carrion_maw_eff = 0
+
 	var/capacity_mod = 0
+	var/tick_reduction = 0
+	var/conversion_mod = 0
 
 	has_brain = FALSE
+
+	// Initial doesn't work right with lists. Not an issue at the moment since it must be deconstructed to be upgraded.
+	//accepted_reagents = initial(accepted_reagents)
+	//blacklisted_reagents = initial(blacklisted_reagents)
+	//accepted_objects = initial(accepted_objects)
 
 	for(var/component in component_parts)
 		if(!istype(component, /obj/item/organ/internal))
@@ -229,10 +239,12 @@
 					kidney_eff += O.organ_efficiency[eff]
 				if(OP_CHEMICALS)		// Carrion vessel
 					carrion_chem_eff += O.organ_efficiency[eff]
-				if(OP_MUSCLE)
-					muscle_eff += O.organ_efficiency[eff]
+				if(OP_MAW)				// Carrion maw
+					carrion_maw_eff += O.organ_efficiency[eff]
 				if(OP_STOMACH)
 					stomach_eff += O.organ_efficiency[eff]
+				if(OP_MUSCLE)
+					muscle_eff += O.organ_efficiency[eff]
 				if(BP_BRAIN)
 					has_brain = TRUE
 
@@ -248,14 +260,15 @@
 			/datum/reagent/toxin/blattedin = 0.5
 		)
 	if(liver_eff > 149)
-		accepted_reagents = list(
+		accepted_reagents |= list(
 			/datum/reagent/toxin/fuhrerole = 1,
 			/datum/reagent/toxin/kaiseraurum = 10
 		)
 
 	if(kidney_eff > 49)
 		accepted_reagents |= list(
-			/datum/reagent/organic/blood = 0.1		// Internet says blood plasma is 10% solids, 90% water
+			/datum/reagent/organic/blood = 0.1,		// Internet says blood plasma is 10% solids, 90% water
+			/datum/reagent/drink/milk = 0.13		// Internet says milk is 13% solids, 87% water
 		)
 
 	if(carrion_chem_eff > 99)
@@ -264,31 +277,24 @@
 			/datum/reagent/toxin/aranecolmin = 2
 		)
 
-	if(stomach_eff > 99)
-		capacity_mod += 5
-	if(stomach_eff > 124)
-		capacity_mod += 5
-
-	if(muscle_eff > 99)
-		tick_reduction += 1
-	if(muscle_eff > 124)
-		tick_reduction += 1
-	if(muscle_eff > 149)
-		tick_reduction += 2
+	capacity_mod = round(stomach_eff / 15, 1) 
+	tick_reduction = round(muscle_eff / 20, 1) 
+	conversion_mod = round((stomach_eff + (liver_eff * 0.25) + (kidney_eff * 0.25) + (carrion_maw_eff * 4)) / 100, 0.01)
 
 	limit = initial(limit) + capacity_mod
 	grind_rate = initial(grind_rate) - tick_reduction
+	substrate_conversion_factor = initial(substrate_conversion_factor) + conversion_mod
 
-/obj/machinery/reagentgrinder/industrial/disgorger/ui_data()
+/obj/machinery/reagentgrinder/industrial/disgorger/nano_ui_data()
 	. = ..()
 
 	.["biomatter_counter"] = biomatter_counter
 
-/obj/machinery/reagentgrinder/industrial/disgorger/ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = NANOUI_FOCUS)
+/obj/machinery/reagentgrinder/industrial/disgorger/nano_ui_interact(mob/user, ui_key = "main", datum/nanoui/ui = null, force_open = NANOUI_FOCUS)
 	if(!nano_template)
 		return
 
-	var/list/data = ui_data()
+	var/list/data = nano_ui_data()
 
 	ui = SSnano.try_update_ui(user, src, ui_key, ui, data, force_open)
 	if(!ui)
@@ -298,10 +304,10 @@
 
 /obj/item/electronics/circuitboard/disgorger
 	name = T_BOARD("disgorger")
+	spawn_blacklisted = TRUE
 	board_type = "machine"
 	build_path = /obj/machinery/reagentgrinder/industrial/disgorger
 	origin_tech = list(TECH_BIO = 3)
-	rarity_value = 20
 	req_components = list(
 		/obj/item/organ/internal = 4			// Build with any organ, but certain efficiencies will have different effects.
 	)
