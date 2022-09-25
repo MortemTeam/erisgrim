@@ -32,7 +32,7 @@
 	var/list/custom_default = list() // used to preserve changes to stats past refresh_upgrades proccing
 	var/damage_multiplier = 1 //Multiplies damage of projectiles fired from this gun
 	var/style_damage_multiplier = 1 // multiplies style damage of projectiles fired from this gun
-	var/penetration_multiplier = 1 //Multiplies armor penetration of projectiles fired from this gun
+	var/penetration_multiplier = 0 //Sum of armor penetration of projectiles fired from this gun
 	var/pierce_multiplier = 0 //Additing wall penetration to projectiles fired from this gun
 	var/ricochet_multiplier = 1 //multiplier for how much projectiles fired from this gun can ricochet, modified by the bullet blender weapon mod
 	var/burst = 1
@@ -850,7 +850,7 @@
 
 	toggle_carry_state(usr)
 
-/obj/item/gun/ui_data(mob/user)
+/obj/item/gun/nano_ui_data(mob/user)
 	var/list/data = list()
 	data["damage_multiplier"] = damage_multiplier
 	data["pierce_multiplier"] = pierce_multiplier
@@ -913,7 +913,7 @@
 
 	return data
 
-/obj/item/gun/Topic(href, href_list, datum/topic_state/state)
+/obj/item/gun/Topic(href, href_list, datum/nano_topic_state/state)
 	if(..(href, href_list, state))
 		return 1
 
@@ -931,7 +931,7 @@
 		return list()
 	var/list/data = list()
 	data["projectile_name"] = P.name
-	data["projectile_damage"] = (P.get_total_damage() * damage_multiplier) + get_total_damage_adjust()
+	data["projectile_damage"] = ((P.get_total_damage() * damage_multiplier) * P.wounding_mult) + get_total_damage_adjust()
 	data["projectile_AP"] = P.armor_divisor + penetration_multiplier
 	data["projectile_WOUND"] = P.wounding_mult
 	data["projectile_recoil"] = P.recoil

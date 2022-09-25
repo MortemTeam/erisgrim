@@ -46,7 +46,7 @@
 	name = "Kovacs frame"
 	desc = "A Kovacs battle rifle frame. To punch through armor with panache."
 	icon_state = "frame_kovacs"
-	result = /obj/item/gun/projectile/kovacs
-	grip = /obj/item/part/gun/grip/serb
-	mechanism = /obj/item/part/gun/mechanism/autorifle
-	barrel = /obj/item/part/gun/barrel/srifle
+	resultvars = list(/obj/item/gun/projectile/kovacs)
+	gripvars = list(/obj/item/part/gun/grip/serb)
+	mechanismvar = /obj/item/part/gun/mechanism/autorifle
+	barrelvars = list(/obj/item/part/gun/barrel/srifle)
