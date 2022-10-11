@@ -109,12 +109,12 @@ As an vagabund, you should strive to help out anyone you can. Or at least, anyon
 		if(H.job == "Vagabund") // As stowaways, Vagabond do not show up on the crew manifest.
 			GLOB.all_crew_records.Remove(src)
 			return
-		photo_front = getFlatIcon(H, SOUTH, always_use_defdir = 1)
-		photo_side = getFlatIcon(H, WEST, always_use_defdir = 1)
+		photo_front = getFlatIcon(H, SOUTH)
+		photo_side = getFlatIcon(H, WEST)
 	else
 		var/mob/living/carbon/human/dummy/mannequin/dummy = new()
-		photo_front = getFlatIcon(dummy, SOUTH, always_use_defdir = 1)
-		photo_side = getFlatIcon(dummy, WEST, always_use_defdir = 1)
+		photo_front = getFlatIcon(dummy, SOUTH)
+		photo_side = getFlatIcon(dummy, WEST)
 		qdel(dummy)
 
 	// Add education, honorifics, etc.
