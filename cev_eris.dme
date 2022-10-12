@@ -2958,6 +2958,7 @@
 #include "MORTEM\aux_optimizing\light.dm"
 #include "MORTEM\aux_optimizing\procs.dm"
 #include "MORTEM\changing\extend_photo_detail.dm"
+#include "MORTEM\changing\matter.dm"
 #include "MORTEM\changing\atmos\xgm_icons.dm"
 #include "MORTEM\changing\breakdowns\weight.dm"
 #include "MORTEM\changing\closet\airwalls_to_techcloset.dm"
