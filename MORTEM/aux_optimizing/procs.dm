@@ -17,6 +17,8 @@
 /proc/make_locate(x, y, z)
 	return locate(x, y, z)
 
+/proc/inspect_value(v)
+	return v // set debug breakpoint here
 
 /* Uncomment if not implemented DMM_SUITE
 /proc/auxtools_stack_trace(msg)
