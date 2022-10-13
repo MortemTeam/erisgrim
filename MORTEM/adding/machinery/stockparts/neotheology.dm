@@ -11,8 +11,12 @@
 
 /obj/machinery/autolathe/RefreshParts()
 	. = ..()
-	if(!(build_type in list(BIOPRINTER, ORGAN_GROWER)))
-		unsuitable_materials = list(MATERIAL_BIOMATTER)
-		for(var/obj/item/stock_parts/manipulator/nt/M in component_parts)
-			unsuitable_materials -= list(MATERIAL_BIOMATTER)
-			break
+
+	for(var/r in list(BIOPRINTER, ORGAN_GROWER))
+		if(build_type & r)
+			return
+
+	unsuitable_materials = list(MATERIAL_BIOMATTER)
+	for(var/obj/item/stock_parts/manipulator/nt/M in component_parts)
+		unsuitable_materials -= MATERIAL_BIOMATTER
+		break
