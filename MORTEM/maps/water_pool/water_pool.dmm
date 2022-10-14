@@ -40,7 +40,7 @@
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "ax" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "aF" = (
@@ -167,7 +167,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "cd" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/white/violetcorener,
 /area/away/water_pool)
 "co" = (
@@ -369,7 +369,7 @@
 	name = "Waterpool Bioprinter";
 	stored_material = list()
 	},
-/turf/simulated/floor/tiled/steel/bar_dance,
+/turf/simulated/floor/tiled/steel/gray_perforated,
 /area/away/water_pool)
 "ev" = (
 /obj/structure/bed/chair/comfy/beige{
@@ -649,7 +649,7 @@
 	req_access = list(12);
 	stat = 1
 	},
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/steel/techfloor,
 /area/away/water_pool)
 "gO" = (
@@ -682,7 +682,7 @@
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "gZ" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/steel/bar_flat,
 /area/away/water_pool)
 "ha" = (
@@ -1017,8 +1017,8 @@
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "kH" = (
-/obj/spawner/mob/roaches/cluster,
-/turf/simulated/floor/carpet,
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "kN" = (
 /obj/item/contraband/poster/placed{
@@ -1159,9 +1159,8 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "mW" = (
-/obj/effect/decal/cleanable/blood/drip,
-/obj/spawner/mob/roaches/cluster,
-/turf/simulated/floor/tiled/steel/bar_dance,
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/plating/under,
 /area/away/water_pool)
 "mZ" = (
 /obj/effect/decal/cleanable/blood/drip,
@@ -1307,7 +1306,7 @@
 /area/away/water_pool)
 "oi" = (
 /obj/structure/table/bar_special,
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/cafe,
 /area/away/water_pool)
 "ok" = (
@@ -1706,7 +1705,7 @@
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "tX" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/dark/brown_platform,
 /area/away/water_pool)
 "ue" = (
@@ -1732,7 +1731,7 @@
 	dir = 4
 	},
 /obj/effect/decal/cleanable/blood/drip,
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/dark/gray_perforated,
 /area/away/water_pool)
 "uz" = (
@@ -2745,7 +2744,7 @@
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "HZ" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/steel/gray_perforated,
 /area/away/water_pool)
 "Id" = (
@@ -2906,8 +2905,9 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Kj" = (
-/obj/spawner/mob/roaches/cluster,
-/turf/simulated/floor/wood,
+/obj/machinery/light,
+/obj/spawner/mob/roaches/cluster/low_chance,
+/turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Ko" = (
 /obj/machinery/door/airlock/external{
@@ -2978,7 +2978,6 @@
 	amount = 9;
 	icon_state = "srifle_c_l-spent"
 	},
-/obj/spawner/mob/roaches/cluster,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Lp" = (
@@ -2993,10 +2992,6 @@
 /obj/item/material/shard,
 /obj/item/ammo_magazine/hpistol/empty,
 /turf/simulated/floor/tiled/steel/gray_perforated,
-/area/away/water_pool)
-"Lx" = (
-/obj/spawner/mob/roaches/cluster,
-/turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "LC" = (
 /obj/structure/table/standard,
@@ -3051,7 +3046,7 @@
 /turf/simulated/floor/tiled/steel/bar_dance,
 /area/away/water_pool)
 "Ml" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/steel/gray_platform,
 /area/away/water_pool)
 "Mq" = (
@@ -3239,7 +3234,7 @@
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "OJ" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/white/bluecorner,
 /area/away/water_pool)
 "ON" = (
@@ -3507,7 +3502,7 @@
 /turf/simulated/floor/tiled/steel/cargo,
 /area/away/water_pool)
 "Rx" = (
-/obj/spawner/mob/roaches/cluster,
+/obj/spawner/mob/roaches/cluster/low_chance,
 /turf/simulated/floor/tiled/dark/brown_perforated,
 /area/away/water_pool)
 "Ry" = (
@@ -9009,7 +9004,7 @@ dV
 Er
 ZS
 pU
-el
+Kj
 ZS
 ZS
 ZS
@@ -9177,7 +9172,7 @@ MI
 Xs
 Xs
 Xs
-OJ
+Xs
 FH
 Xs
 Xs
@@ -9517,7 +9512,7 @@ cI
 cI
 cI
 ZS
-Rx
+PG
 pU
 el
 ZS
@@ -10105,7 +10100,7 @@ UQ
 em
 Fj
 Xu
-OJ
+Xs
 Xs
 cA
 ZS
@@ -10228,7 +10223,7 @@ bT
 bT
 OA
 bT
-Ml
+bT
 RU
 fm
 RU
@@ -10513,7 +10508,7 @@ XH
 Xu
 Xu
 Xu
-Xs
+OJ
 Xs
 Rs
 Rp
@@ -11012,16 +11007,16 @@ aX
 ZS
 Xs
 Xs
-OJ
-FH
-Xs
-Xs
-Xs
-Xs
-Xs
 Xs
 FH
-OJ
+Xs
+Xs
+Xs
+Xs
+Xs
+Xs
+FH
+Xs
 Xs
 Xs
 Xs
@@ -11236,7 +11231,7 @@ HO
 wB
 Ik
 RT
-mW
+fX
 NY
 CA
 MQ
@@ -11342,7 +11337,7 @@ PD
 vg
 wB
 ZS
-Kj
+Tk
 tn
 fy
 ZS
@@ -11410,13 +11405,13 @@ DM
 Yo
 gI
 ZS
-et
+em
 wB
 wB
 wB
 em
 ZS
-et
+em
 wB
 wB
 pM
@@ -11430,7 +11425,7 @@ bT
 bT
 JL
 ZS
-et
+em
 wB
 wB
 pM
@@ -11512,13 +11507,13 @@ DM
 Yo
 gI
 ZS
-em
+wB
 Xu
 Xu
 hw
 wB
 ZS
-em
+wB
 Xu
 Us
 Xu
@@ -11532,7 +11527,7 @@ bT
 xT
 JL
 ZS
-em
+wB
 Xu
 Xu
 Xu
@@ -11648,7 +11643,7 @@ rf
 uO
 CA
 Nm
-Nm
+mW
 ok
 ZS
 ZS
@@ -11744,7 +11739,7 @@ BD
 ZS
 QY
 wB
-wB
+kH
 MX
 wB
 fX
@@ -11952,7 +11947,7 @@ RT
 uO
 RT
 fX
-Lx
+wB
 sq
 SV
 SV
@@ -12057,7 +12052,7 @@ fX
 HQ
 ZS
 iJ
-kH
+SV
 SV
 oH
 ZS
@@ -13066,7 +13061,7 @@ ro
 Xu
 wB
 ZS
-oQ
+et
 Nz
 dg
 ZS
@@ -13144,25 +13139,25 @@ DM
 Yo
 gI
 ZS
-em
+wB
 Xu
 Xu
 Xu
 wB
 ZS
-em
+wB
 Xu
 Xu
 Xu
 wB
 ZS
-em
+wB
 Xu
 ro
 Xu
 wB
 ZS
-em
+wB
 Xu
 Xu
 Xu
@@ -13246,25 +13241,25 @@ DM
 Yo
 gI
 ZS
-et
+em
 wB
 wB
 pM
 em
 ZS
-et
+em
 wB
 pM
 wB
 em
 ZS
-et
+em
 wB
 wB
 wB
 em
 ZS
-et
+em
 wB
 pM
 wB

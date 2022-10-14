@@ -80,10 +80,6 @@ This proc will attempt to create a burrow against a wall, within view of the tar
 		if (locate(/obj/structure/burrow) in F)
 			continue
 
-		//No pipes
-		if (locate(/obj/machinery/atmospherics/pipe) in F)
-			continue
-
 		//No airlocks
 		if (locate(/obj/machinery/door) in F)
 			continue
