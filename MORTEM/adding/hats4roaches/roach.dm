@@ -1,3 +1,4 @@
+
 /mob/living/carbon/superior_animal/roach
 	var/obj/item/hat
 	var/hat_x_offset = 6
@@ -9,6 +10,9 @@
 		/obj/item/clothing/head/armor,
 		/obj/item/clothing/head/armor/faceshield,
 	)
+
+/mob/living/carbon/superior_animal/roach/kaiser
+	hats4roaches = null
 
 
 /mob/living/carbon/superior_animal/roach/Move()

@@ -46,8 +46,6 @@ Has ability of every roach.
 	var/health_marker_2 = 1000
 	var/health_marker_3 = 500
 
-	hats4roaches = null
-
 	// Armor related variables
 	armor = list(
 		melee = 10,
@@ -108,7 +106,7 @@ Has ability of every roach.
 	gas_sac.clear_reagents()
 	return TRUE
 
-/mob/living/carbon/superior_animal/roach/support/findTarget()
+/mob/living/carbon/superior_animal/roach/kaiser/findTarget()
 	. = ..()
 	if(. && gas_attack())
 		visible_emote("charges at [.] in clouds of poison!")
