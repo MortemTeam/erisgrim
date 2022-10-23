@@ -3020,7 +3020,6 @@
 #include "MORTEM\customs\Pexel5\arm_blade.dm"
 #include "MORTEM\disabling\excelsior_implant_kill.dm"
 #include "MORTEM\disabling\mouse.dm"
-#include "MORTEM\disabling\restart_poll.dm"
 #include "MORTEM\disabling\TC_gain.dm"
 #include "MORTEM\disabling\contracts\buy.dm"
 #include "MORTEM\disabling\economy\atm.dm"

@@ -16,4 +16,4 @@
 	if(ethernet) // Computer is connected via wired connection.
 		return 3
 
-	return 2
+	return 1
