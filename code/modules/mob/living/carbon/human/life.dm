@@ -849,11 +849,16 @@
 		else if(sleeping)
 			speech_problem_flag = 1
 			handle_dreams()
-			if (mind)
+			if(mind)
 				//Are they SSD? If so we'll keep them asleep but work off some of that sleep var in case of stoxin or similar.
 				if(client || sleeping > 3)
 					AdjustSleeping(-1)
-			if( prob(2) && health)
+					// Mortem core mark
+					if(nutrition > 150)
+						heal_organ_damage(0.2, 0.2)
+						adjustNutrition(0.5)
+
+			if(prob(2) && health)
 				spawn(0)
 					emote("snore")
 		//CONSCIOUS
