@@ -68,7 +68,8 @@
 	if(!client)
 		return
 
-	if(findtext(message, cop_code_last))
+	// Mortem core mark
+	if(cop_code_last && findtext(message, cop_code_last))
 		message = cop_code_last
 		language = null
 		if(isghost(src))
