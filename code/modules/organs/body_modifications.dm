@@ -63,6 +63,7 @@ var/global/list/modifications_types = list(
 			to_chat(usr, "[name] can't be attached to [parent.name]")
 			return FALSE
 
+	/* Mortem core mark
 	if(department_specific.len)
 		if(H && H.mind)
 			var/department = H.mind.assigned_job.department
@@ -80,6 +81,7 @@ var/global/list/modifications_types = list(
 			if(!J || !department_specific.Find(J.department))
 				to_chat(usr, "This body-mod does not match your highest-priority department.")
 				return FALSE
+	*/
 
 	if(!allow_nt && H?.get_core_implant(/obj/item/implant/core_implant/cruciform))
 		to_chat(usr, "Your cruciform prevents you from using this modification.")
