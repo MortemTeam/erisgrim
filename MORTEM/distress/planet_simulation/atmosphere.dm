@@ -42,6 +42,6 @@
 	temperature = T20C - 193
 
 /decl/xgm_gas/nitrogen
-	tile_icon = 'MORTEM/adding/planet_simulation/weather.dmi'
+	tile_icon = 'MORTEM/distress/planet_simulation/weather.dmi'
 	tile_overlay = "dustfall_heavy"
 	overlay_limit = 200
